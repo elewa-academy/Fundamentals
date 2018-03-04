@@ -8,7 +8,7 @@ For the precourse you completed 8+ projects from the JavaScript 30 and featured 
 
 ### Index
 * [Learning Objectives](#learning-objectives)
-* [Lesson Plan](#lesson-plan)
+* [Specifications](#specification)
 * [Resources](#resources)
 
 -------------
@@ -26,7 +26,7 @@ This project is a chance for you to get make something pretty cool, pretty quick
 
 ---
 
-## Study Plan
+## Specifications
 
 1. Take a look at the [Elewa Student portfolio](https://elewa-student.github.io/) and [GitHub account](https://github.com/elewa-student) to see how we've organized the JS 30 Landing Page.
 2. Install Mobirise & Build a Landing page that features the source and demo for each JS 30 challenge you completed. 

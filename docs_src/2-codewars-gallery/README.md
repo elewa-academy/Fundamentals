@@ -26,7 +26,12 @@ Don't forget to build a gallery page for your Kata Repos and to feature it on yo
 
 ## Learning Objectives
 
-
+* Problem solving strategies
+* Reading code
+* Understand testing
+* Using pseudocode
+* Handling repositories
+* Writing about code
 
 [TOP](#index)
 
