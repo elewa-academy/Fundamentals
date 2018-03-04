@@ -1,7 +1,7 @@
-# Consolidate Practical JavaScript
+# Consolidate JavaScript 30
 
 
-For the precourse you completed 8+ projects from the JavaScript 30 and featured each one on your portfolio.  This means your portfolio is already pretty crowded, and we haven't even started!  In this code along we will do two things.  
+For the precourse you completed 8+ projects from the JavaScript 30 and featured each one on your portfolio.  This means your portfolio is already pretty crowded, and we haven't even started!  This project has two main objectives:  
 1. Consolidate your separate JS 30 solutions into a single landing page
 2. Update your portfolio to feature only this consolidated project instead of 8 separate JS 30 Challenges.
 

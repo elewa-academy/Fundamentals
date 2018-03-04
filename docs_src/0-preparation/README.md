@@ -12,7 +12,11 @@ Before moving on to the first project, there are a few pre-requisites:
 Everything you need to get started can be found in the [Elewa Precourse](https://elewa-academy.github.io/April-Precourse).  So follow [this link](https://elewa-academy.github.io/April-Precourse) and complete all 3 projects in our precourse.
 
 You can find an example of the portfolio you'll be building [right here](https://elewa-student.github.io).
+---
 
+## Studying tips
+
+Before diving right in (and every other day of course!), you should check out [Thomas Frank's youtube channel](https://www.youtube.com/user/electrickeye91).  It's full of great tips about we learn and how to study effectively.
 
 ___
 ___

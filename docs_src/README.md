@@ -3,6 +3,7 @@
 In this series of structured projects you will learn many of the foundational skills of software development:
 * Logic vs. Framework
 * Testing
+* User stories
 * Development Schedules
 * Clean code
 * Building repositories
@@ -10,9 +11,9 @@ In this series of structured projects you will learn many of the foundational sk
 * Talking about code 
 * ...
 
-Suspiciously JavaScript isn't on this list, strange for a JavaScript curriculum.  But this isn't a JavaScript curriculum.  The fundamental skills any developer needs are the same no matter what language or environment they use.  These projects are designed to expose you to those skills.  We use JavaScript for the projects, but this is becuase it's ubiquitous and implements all the main paradigms.
+Suspiciously JavaScript isn't on this list, strange for a JavaScript curriculum.  But this isn't a JavaScript curriculum!  The fundamental skills any developer needs are the same no matter what language or environment they use.  These projects are designed to expose you to those skills.  We use JavaScript for the projects, but this is for convenience. It's the most ubiquitous language and it implements most [programming paradigms](https://elewa-academy.github.io/General-Resources/programming-resources/programming-paradigms.html).
 
-What's more, these skills don't even require great programming experience!  All you need is a beginner's familiarity with JavaScript.  These simple but carefully designed projects will expose you to the truly important skills _before_ you get lost or form any bad habits. 
+What's more, these skills don't even require great programming experience.  All you need is a beginner's familiarity with JavaScript.  These simple but carefully designed projects will expose you to the truly important skills _before_ you get lost or form any bad habits. 
 
 So go for it!  Don't be shy, [join us on Slack](https://join.slack.com/t/elewa-academy/shared_invite/enQtMjk4OTA3OTM1NjIwLTA2ZmQ0NDVhNjQxZWM2NjNhNmMyNmVhZGNhZmJmZTY1OWQ4Nzc0ZTkzZGE3NjdiYTYwYThlNzI3YTg2NGM5MGM) anytime for help or just to kick it.
 

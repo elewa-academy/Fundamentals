@@ -33,7 +33,15 @@ link to more detailed specifications in repo if necessary
 
 ## Resources
 
-overview
+Cleancalc video series:
+0. [Setting up](https://www.youtube.com/watch?v=KUWsuwSHsAc&index=5&list=UUXoU1BsLZqg7gVoH4_0VGDw)
+1. [First step](https://www.youtube.com/watch?v=e382FjIe6QQ&index=6&list=UUXoU1BsLZqg7gVoH4_0VGDw)
+2. [Second step](https://www.youtube.com/watch?v=q6-ivciutKk&index=7&list=UUXoU1BsLZqg7gVoH4_0VGDw)
+3. [Last step](https://www.youtube.com/watch?v=ragmWxRkLkA&index=8&list=UUXoU1BsLZqg7gVoH4_0VGDw)
+
+General Resources:
+* [Finished code]
+* [OOP](https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/02-oop-single-objects.md)
 
 ### References
 
