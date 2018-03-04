@@ -6,6 +6,7 @@ For the precourse you completed 8+ projects from the JavaScript 30 and featured 
 2. Update your portfolio to feature only this consolidated project instead of 8 separate JS 30 Challenges.
 
 
+
 ### Index
 * [Learning Objectives](#learning-objectives)
 * [Specifications](#specification)
