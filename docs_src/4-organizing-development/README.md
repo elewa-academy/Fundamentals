@@ -20,6 +20,7 @@ So take some time now while you're still building simple projects to practice pl
 * User focus
 * Project planning
 * Time estimation
+* Monkey Testing
 
 
 [TOP](#index)
@@ -47,6 +48,7 @@ Tools:
 * [Wireframe.cc](https://elewa-academy.github.io/General-Resources/developer-tools/wireframes.html)
 * [Using Sketchboard.io](https://m.sketchboard.io/introducing-sketchboard-69d142ea935).  
 * [Pushing to GH from Sketchboard](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html)
+* [Gremlins.js](https://elewa-academy.github.io/General-Resources/core-libraries/gremlins.html)
 
 Development Processes:
 * [Project Scoping](https://medium.freecodecamp.org/how-to-effectively-scope-your-software-projects-from-planning-to-execution-e96cbcac54b9)  
