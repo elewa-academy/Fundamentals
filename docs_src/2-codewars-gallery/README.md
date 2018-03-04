@@ -1,6 +1,6 @@
 # Codewars Gallery
 
-In this project you will go deep into problem solving with code.  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 8 exercises.  
+In this project you will go deep into problem solving with code.  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 8 exercises.  Pick katas that interest you, this will help you power through.  
 
 Along the way you'll learn about reading code, testing, using pseudocode, analyzing problem solving strategies, and much more.   
 

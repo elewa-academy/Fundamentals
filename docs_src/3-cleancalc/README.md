@@ -55,7 +55,7 @@ This project has several steps to it
     * /public
       * event-handlers.js
       * cleancalc.js
-4. Make a repo for this project, put it on your portfolio.
+4. Make a repo for this project, put it on your portfolio.  Here is a [demo repo](https://github.com/radovandelic/cleancalc) you can look through.
 5. Go to Slack and trade calcs. Witness _dependency injection_ first hand!
 
 
