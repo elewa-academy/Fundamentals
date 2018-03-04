@@ -50,11 +50,11 @@ This project has several steps to it
         // write 'result' into the DOM
         ...
     ```
-Your project should have this structure:
-  * index.html
-  * /public
-    * event-handlers.js
-    * cleancalc.js
+    Your project should have this structure:
+    * index.html
+    * /public
+      * event-handlers.js
+      * cleancalc.js
 4. Make a repo for this project, put it on your portfolio.
 5. Go to Slack and trade calcs. Witness _dependency injection_ first hand!
 
@@ -88,8 +88,8 @@ __Programming Paradigms__:
 __DOM__:
 * [FreeCodeCamp exercises](https://www.freecodecamp.org/map-aside)
 
-Closing Thoughts:
-![](http://deviq.com/wp-content/uploads/2014/11/Separation-of-Concerns-Feb-2013.png)
+Closing Thoughts:  
+    ![](http://deviq.com/wp-content/uploads/2014/11/Separation-of-Concerns-Feb-2013.png)
 
 
 [TOP](#index)
