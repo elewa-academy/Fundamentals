@@ -238,53 +238,94 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="project-title">Project Title</h1>
-<p>Description</p>
+                                <h1 id="cleancalc">Cleancalc</h1>
+<p>This project is designed to illustrate one of, if not <strong>the most</strong>, fundamental principle of software designs:</p>
+<blockquote>
+<p>SEPARATION OF CONCERNS</p>
+</blockquote>
+<p>&quot;Separation of concerns&quot; means that each file, each piece of code, has one simple and well defined purpose.  In this project you will be exploring the separation of UI framework, input handling, and application logic.  You will build a basic calculator object then use that same object to take arguments from the terminal and the browser.  The concerns are:</p>
+<ul>
+<li>Logic - the cleancalc object</li>
+<li>Handler - process.argv, event listeners</li>
+<li>UI - command line, HTML</li>
+</ul>
+<p>It is very important that you build your calc object with exactly the property names, arguments, and return values specified.  Doing this is called &quot;developing to an interface&quot;.  If you do this correctly you will be able to replace anyone&apos;s cleancalc object with yours and your application will continue working.  The magic of software design!</p>
+<p>Understanding this principle will help with testing, development scheduling, collaboration, maintenance, ... <em>everything</em>. In our experience, understanding separation of concerns is the most important thing a new programmer can learn.  More important than learning hip libraries, fly devtools, and even more important than being very good at solving programming challenges.  </p>
+<p>So if this project feels too easy and you find yourself wanting to make it more complicated, remember that the code isn&apos;t the point of this project.  The design is the point.  Pay attention to how we use specs to define and develop the calculator.</p>
+<p>To see how well you did, go to the &quot;cleancalc&quot; channel on Slack to share objects.  Try swapping out your object for someone else&apos;s, if your application still works you both did it right.  There is no other way to know.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
 <li><a href="#specifications">Specifications</a></li>
 <li><a href="#resources">Resources</a></li>
-<li><a href="#assessment">Assessment</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
-<p>overview</p>
-<p>list</p>
+<ul>
+<li>Separation of concerns</li>
+<li>Developing from specs</li>
+<li>Logic vs. Framework</li>
+<li>Basic collaboration (trading calc objects)</li>
+<li>Basic OOP</li>
+</ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
-<p>project specifications overview</p>
-<p>link to more detailed specifications in repo if necessary</p>
+<p>This project has several steps to it</p>
+<ol>
+<li>Build an object to match <a href="https://github.com/elewa-academy/Fundamentals/blob/master/docs_src/3-cleancalc/cleancalc-series/1-cleancalc.js" target="_blank">these specs</a>. </li>
+<li>Write a JS file to take command line arguments and pass them into your calculator. There is a link that explains &quot;process.argv&quot; <a href="https://github.com/elewa-academy/Fundamentals/blob/master/docs_src/3-cleancalc/cleancalc-series/1-cleancalc.js" target="_blank">at the bottom of this file</a>.</li>
+<li>Reuse your calc object in a basic browser app.  The event handlers will take the user&apos;s input, pass it through the calc object, and display the results to the users.  There should only be one line in each event handler that uses the calc object, it will look something like this:<pre><code class="lang-js">     ...
+     <span class="hljs-comment">// get user input from the DOM</span>
+     <span class="hljs-keyword">var</span> result = cleancalc.operate(selected_op, arg1, arg2);
+     <span class="hljs-comment">// write &apos;result&apos; into the DOM</span>
+     ...
+</code></pre>
+Your project should have this structure:<ul>
+<li>index.html</li>
+<li>/public<ul>
+<li>event-handlers.js</li>
+<li>cleancalc.js</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Make a repo for this project, put it on your portfolio.</li>
+<li>Go to Slack and trade calcs. Witness <em>dependency injection</em> first hand!</li>
+</ol>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Cleancalc video series:</p>
+<p><strong>Cleancalc video series</strong>:</p>
 <ol>
 <li><a href="https://www.youtube.com/watch?v=KUWsuwSHsAc&amp;index=5&amp;list=UUXoU1BsLZqg7gVoH4_0VGDw" target="_blank">Setting up</a></li>
 <li><a href="https://www.youtube.com/watch?v=e382FjIe6QQ&amp;index=6&amp;list=UUXoU1BsLZqg7gVoH4_0VGDw" target="_blank">First step</a></li>
 <li><a href="https://www.youtube.com/watch?v=q6-ivciutKk&amp;index=7&amp;list=UUXoU1BsLZqg7gVoH4_0VGDw" target="_blank">Second step</a></li>
 <li><a href="https://www.youtube.com/watch?v=ragmWxRkLkA&amp;index=8&amp;list=UUXoU1BsLZqg7gVoH4_0VGDw" target="_blank">Last step</a></li>
+<li><a href="https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-cleancalc/cleancalc-series" target="_blank">Code to study</a> </li>
 </ol>
-<p>General Resources:</p>
+<p><strong>Separation of Concerns</strong>:</p>
 <ul>
-<li>[Finished code]</li>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/02-oop-single-objects.md" target="_blank">OOP</a></li>
+<li><a href="https://www.youtube.com/watch?v=WDNvqxZBI_U" target="_blank">Outstanding video</a></li>
+<li><a href="http://deviq.com/separation-of-concerns/" target="_blank">DevIQ article</a></li>
+<li><a href="https://softwareengineering.stackexchange.com/questions/32581/how-do-you-explain-separation-of-concerns-to-others" target="_blank">Stackexchange Question</a></li>
 </ul>
-<h3 id="references">References</h3>
-<p>list of links to general-resources </p>
-<h3 id="exercises">Exercises</h3>
-<p>link to exercises that will practice new skills in this project, they will be stored in this project&apos;s folder in the repo</p>
-<h3 id="examples">Examples</h3>
-<p>link to example/s of this project in the repo.
-and to portfolios when they&apos;ve done the project</p>
-<h3 id="code-alongs">Code Alongs</h3>
-<p>link to code alongs that cover this project</p>
-<p><a href="#index">TOP</a></p>
-<hr>
-<h2 id="assessment">Assessment</h2>
-<p>links to google forms
-links to repo if there is a larger code-based assessment</p>
+<p><strong>JavaScript Objects</strong>:</p>
+<ul>
+<li><a href="https://github.com/elewa-academy/General-Resources/tree/master/docs_src/local-resources/using-js/objects" target="_blank">Progressive code samples</a></li>
+</ul>
+<p><strong>Programming Paradigms</strong>:</p>
+<ul>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/01-procedural-programming.md" target="_blank">Procedural Programming</a></li>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/02-oop-single-objects.md" target="_blank">Basic OOP in Js</a></li>
+<li><a href="https://www.youtube.com/watch?v=rlLuL3jYLvA" target="_blank">From procedural to OOP</a>.  An outstanding video that takes you from procedural to oop programming.</li>
+</ul>
+<p><strong>DOM</strong>:</p>
+<ul>
+<li><a href="https://www.freecodecamp.org/map-aside" target="_blank">FreeCodeCamp exercises</a></li>
+</ul>
+<p>Closing Thoughts:
+<img src="http://deviq.com/wp-content/uploads/2014/11/Separation-of-Concerns-Feb-2013.png" alt=""></p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <hr>
@@ -332,7 +373,7 @@ links to repo if there is a larger code-based assessment</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3. Cleancalc","level":"1.5","depth":1,"next":{"title":"4. User Centered Gallery","level":"1.6","depth":1,"path":"4-user-centered-gallery/README.md","ref":"./4-user-centered-gallery/README.md","articles":[]},"previous":{"title":"2. Codewars Gallery","level":"1.4","depth":1,"path":"2-codewars-gallery/README.md","ref":"./2-codewars-gallery/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"3-cleancalc/README.md","mtime":"2018-03-03T22:13:05.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-04T10:18:36.252Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. Cleancalc","level":"1.5","depth":1,"next":{"title":"4. User Centered Gallery","level":"1.6","depth":1,"path":"4-user-centered-gallery/README.md","ref":"./4-user-centered-gallery/README.md","articles":[]},"previous":{"title":"2. Codewars Gallery","level":"1.4","depth":1,"path":"2-codewars-gallery/README.md","ref":"./2-codewars-gallery/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"3-cleancalc/README.md","mtime":"2018-03-04T11:23:38.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-04T11:23:48.493Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
