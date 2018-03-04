@@ -88,11 +88,15 @@ __Programming Paradigms__:
 __DOM__:
 * [FreeCodeCamp exercises](https://www.freecodecamp.org/map-aside)
 
+
+[TOP](#index)
+
+---
+
 Closing Thoughts:  
     ![](http://deviq.com/wp-content/uploads/2014/11/Separation-of-Concerns-Feb-2013.png)
 
 
-[TOP](#index)
 
 
 ___
