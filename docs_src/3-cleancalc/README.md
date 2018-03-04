@@ -71,6 +71,7 @@ __Cleancalc video series__:
 2. [Second step](https://www.youtube.com/watch?v=q6-ivciutKk&index=7&list=UUXoU1BsLZqg7gVoH4_0VGDw)
 3. [Last step](https://www.youtube.com/watch?v=ragmWxRkLkA&index=8&list=UUXoU1BsLZqg7gVoH4_0VGDw)
 * [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-cleancalc/cleancalc-series) 
+* [Demo repo](https://github.com/radovandelic/cleancalc)
 
 __Separation of Concerns__:
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
