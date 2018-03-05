@@ -62,6 +62,7 @@ Design Thinking for Software Developers:
 * [Long Article](https://medium.com/d-principles/design-thinking-methods-practice-in-agile-software-development-3e6e59df0c9b)
 
 
+
 [TOP](#index)
 
 ___

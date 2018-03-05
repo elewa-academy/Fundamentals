@@ -1,6 +1,6 @@
 # Codewars Gallery
 
-In this project you will go deep into problem solving with code.  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 8 exercises.  Pick katas that interest you, this will help you power through.  
+In this project you will send you deep into [problem solving and thinking with code](http://elewa.education/2018/01/22/thinking-computer-thoughts/).  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 8 exercises.  Pick katas that interest you, this will help you power through.  
 
 Along the way you'll learn about reading code, testing, using pseudocode, analyzing problem solving strategies, and much more.   
 
