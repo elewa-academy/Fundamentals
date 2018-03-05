@@ -81,7 +81,8 @@ __Separation of Concerns__:
 __JavaScript Objects__:
 * [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/docs_src/local-resources/using-js/objects)
 
-__Programming Paradigms__:
+__Programming Concepts__:
+* [Abstraction](https://elewa-academy.github.io/General-Resources/programming-resources/abstractions.html)
 * [Procedural Programming](https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/01-procedural-programming.md)
 * [Basic OOP in Js](https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/02-oop-single-objects.md)
 * [From procedural to OOP](https://www.youtube.com/watch?v=rlLuL3jYLvA).  An outstanding video that takes you from procedural to oop programming.
