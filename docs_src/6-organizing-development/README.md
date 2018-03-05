@@ -33,6 +33,8 @@ Complete at least 5 User Centered [template repos](https://github.com/elewa-acad
 
 When you're building your pages remember that the purpose of these projects is to __plan__ and __organize__ your development.  Don't worry about making your websites super pretty, or about using fancy libraries. There'll be plenty of time for that once you're organized!
 
+Hint:  Code all of your your HTML without any CSS or JS.  Then for each user story -> Code the event listener, then code the JS logic.  We like to call this _Front to Back Development_.  
+
 
 [TOP](#index)
 
