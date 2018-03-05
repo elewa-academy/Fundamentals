@@ -1,7 +1,3 @@
-http://elewa.education/2018/01/25/carving-thoughts-code/
-
-
-
 # Coding is not About Code
 
 
