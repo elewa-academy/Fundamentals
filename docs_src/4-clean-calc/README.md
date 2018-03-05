@@ -1,6 +1,6 @@
-# Cleancalc
+# Clean Calc
 
-This project is designed to illustrate one of, if not __the most__, fundamental principle of software designs:
+This project is designed to illustrate one of, if not __the most__, fundamental principle of software design:
 
 > SEPARATION OF CONCERNS
 
@@ -11,9 +11,9 @@ This project is designed to illustrate one of, if not __the most__, fundamental 
 
 It is very important that you build your calc object with exactly the property names, arguments, and return values specified.  Doing this is called "developing to an interface".  If you do this correctly you will be able to replace anyone's cleancalc object with yours and your application will continue working.  The magic of software design!
 
-Understanding this principle will help with testing, development scheduling, collaboration, maintenance, ... _everything_. In our experience, understanding separation of concerns is the most important thing a new programmer can learn.  More important than learning hip libraries, fly devtools, and even more important than being very good at solving programming challenges.  
+Understanding this principle will help with testing, development scheduling, collaboration, maintenance, ... _everything_. In our experience, understanding separation of concerns is the most important thing a new programmer can learn.  Far more important than learning new libraries, powerful devtools, or even being good at solving programming challenges.  
 
-So if this project feels too easy and you find yourself wanting to make it more complicated, remember that the code isn't the point of this project.  The design is the point.  Pay attention to how we use specs to define and develop the calculator.
+So if this project feels too easy and you find yourself wanting to make it more complicated, remember that the code isn't the point of this project.  The design is the point.  Pay attention to how we use specs to define and develop the calculator, and how we integrate that object into the HTML.
 
 To see how well you did, go to the "cleancalc" channel on Slack to share objects.  Try swapping out your object for someone else's, if your application still works you both did it right.  There is no other way to know.
 

@@ -1,4 +1,4 @@
-# Coding is not About Code
+# Coding is Communication
 
 > “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live” - _John Woods_
 

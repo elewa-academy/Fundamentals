@@ -59,6 +59,11 @@ var calc = {
 
 // ---------------------------- v.1.2 ------------------------------ //
 
-// modify the calculator to take commandline arguments: https://blog.kevinchisholm.com/tag/process-argv/
+// write a new js file that:
+//   takes in terminal arguments
+//   passes them through your calc object
+//   console.logs the result
 
-// https://solidgeargroup.com/clean-architecture-in-nodejs
+// resource: https://blog.kevinchisholm.com/tag/process-argv
+
+
