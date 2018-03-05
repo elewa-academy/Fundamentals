@@ -57,6 +57,9 @@ Development Processes:
 * [Backlog](https://www.atlassian.com/agile/scrum/backlogs)
 * [Project Requirements](https://hubtechinsider.wordpress.com/2011/07/28/how-do-you-write-software-requirements-what-are-software-requirements-what-is-a-software-requirement/)
 
+Design Thinking for Software Developers:
+* [Short Article](https://medium.com/@tigranbs/design-thinking-for-software-developers-bbd2f863c6f7)
+* [Long Article](https://medium.com/d-principles/design-thinking-methods-practice-in-agile-software-development-3e6e59df0c9b)
 
 
 [TOP](#index)
