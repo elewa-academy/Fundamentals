@@ -1,21 +1,17 @@
 # Coding is not About Code
 
+> “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live” - _John Woods_
 
+Software developers, especially in small to medium sized companies, are responsible for more than just typing code.  You will sit in a key position between customers, marketers, designers, managers, deployment machines, and your fellow developers.  At the end of the day it is your responsibility to ensure that there is a working application which fits the end user's needs, deploys smoothly on the necessary platforms, and is scalable and maintainable. 
 
-Programmers write code, developers communicate.  We believe there are enough programmers in the world but there can never be enough developers. 
-
-Software developers, especially in small to medium sized companies, are responsible for far far more than finished code.  They sit in a key position between customers, marketers, designers, managers, deployment machines, and each other.  At the end of the day it is their responsibility to ensure that there is a working application which fits the end user's needs, deploys smoothly on the necessary platforms, and is scalable and maintainable.  Writing code and developing fly algorithms is only a small part of this job description.
-
-We believe one of the most important skill a developer can have is strong communication - in person, but also through their completed source code. 
-
-Source code is a developers final product.  After hours of planning, emailing, testing, coding, and getting stuck on bugs all that's left is the source code and there's no guarantee that you'll be the one to maintain your code.  This means it's crucial for developers to embed everything they know about the project directly into their finished source code. Completed source code is the most powerful tool available for developers to communicate the intention of their project. 
+Source code is your final product.  After hours of planning, emailing, testing, coding, and getting stuck on bugs, all that's left is the source code.  And there's no guarantee that you'll be the one to maintain your code.  This means it's crucial for you to embed everything you know about the project directly into your code. Completed source code is the most powerful tool you have for sharing your knowledge of the application. 
 
 Your finished code needs to be understandable to 3 very different, and equally important audiences:
 1. End Users must understand why they're using your software and how to use it
 2. Developers must understand how to test, maintain, expand, and re-use your code
 3. Deployment Environments must receive carefully tuned, compiled code or risk crashing
 
-We like to think about number 2 a lot.  There are many tools, libraries, and learning resources for UI and UX.  There is also an over abundance of tools, libraries and learning resources to learn how to develop for any platform or deployment environment.  We know of no other resources that provide a comprehensive method for beginner and intermediate developers to learn the crucial skill of communicating through their code.
+We like to think a lot about number 2, and hopefully you will too.
 
 ----
 
