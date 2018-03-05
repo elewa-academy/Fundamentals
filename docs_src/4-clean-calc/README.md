@@ -88,7 +88,7 @@ __Programming Concepts__:
 * [From procedural to OOP](https://www.youtube.com/watch?v=rlLuL3jYLvA).  An outstanding video that takes you from procedural to oop programming.
 
 __DOM__:
-* [FreeCodeCamp exercises](https://www.freecodecamp.org/map-aside)
+* [FreeCodeCamp](https://www.freecodecamp.org/).  Complete the jQuery exercises if you haven't yet.
 
 
 [TOP](#index)

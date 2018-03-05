@@ -2,27 +2,39 @@
 
 > “ First, solve the problem. Then, write the code. ”  - _John Johnson_
 
-In this project you will send you deep into [problem solving and thinking with code](http://elewa.education/2018/01/22/thinking-computer-thoughts/).  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 8 exercises.  Pick katas that interest you, this will help you power through.  
+In this project you will send you deep into [problem solving and thinking with code](http://elewa.education/2018/01/22/thinking-computer-thoughts/).  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 10 exercises.  Pick katas that interest you, this will help you power through.  
 
-Along the way you'll learn about reading code, testing, using pseudocode, analyzing problem solving strategies, and much more.   
+Along the way you'll learn about reading code, testing, using pseudocode, analyzing problem solving strategies, the JavaScript runtime execution, and much more.   
 
-To guid you through this process we've created a template repostory for you to fork - once for each exercise.  For each repo you fork and each Kata you complete, you will have to:
+To guid you through this process we've created a template repository for you to fork - once for each exercise.  For each repo you fork and each Kata you complete, you will have to:
 * Code you favorite solution
 * Explain your solution: strategy & language features
 * Write test cases, at least 10
-* Write 2 more solutions in pseudocde
-* Analyze the solution of 3 other Codewar Ninjas
+* Write 2+ more solutions in pseudocde
+* Analyze the solution of 3+ other Codewar Ninjas
 * Write specs for you function
-* Walk through your solution with 3 different inputs
+* Walk through your solution with 2+ different inputs
+  * Pay special attention to this task
 * Notes what you learned, what was hard, and what's next
+* (you can do these in whatever order works best for you)
+
 
 If this looks like a lot, that's because it is.  Studying fewer problems in greater depth (and from many different angles) will lead to better _skill transfer_, better self-knowledge, and more dexterity when dealing directly with sourcecode.  
 
 Don't forget to build a gallery page for your Kata Repos and to feature it on your portfolio!
 
 ### Index
+* [The Notional Machine](#the-notional-machine)
 * [Learning Objectives](#learning-objectives)
 * [Resources](#resources)
+
+---
+
+## Notional Machine
+
+This learning objective is __so important__ that it gets it's own section.
+
+[TOP](#index)
 
 ---
 
