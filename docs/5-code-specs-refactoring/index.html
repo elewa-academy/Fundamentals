@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>0. Preparation · GitBook</title>
+        <title>5. Code Specs & Refactoring · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../1-coding-is-communication/" />
+    <link rel="next" href="../6-organizing-development/" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="../4-cleancalc/" />
     
 
     </head>
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="../0-preparation/">
             
-                <a href="./">
+                <a href="../0-preparation/">
             
                     
                     0. Preparation
@@ -167,9 +167,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../5-code-specs-refactoring/">
+        <li class="chapter active" data-level="1.7" data-path="./">
             
-                <a href="../5-code-specs-refactoring/">
+                <a href="./">
             
                     
                     5. Code Specs & Refactoring
@@ -262,7 +262,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >0. Preparation</a>
+        <a href=".." >5. Code Specs & Refactoring</a>
     </h1>
 </div>
 
@@ -277,24 +277,48 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="preparation">Preparation</h1>
-<p>Before moving on to the first project, there are a few pre-requisites:</p>
+                                <h1 id="code-specs--refactoring">Code Specs &amp; Refactoring</h1>
+<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll be studying and replicating a project we already wrote.  There are two main reasons for doing this:</p>
+<ol>
+<li><em>Learning to effectively read source code, and to understand it at a high level</em>.<br>This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.</li>
+<li><em>To understand the practical relationship between implementation and behavior</em>.<br>Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called <strong>refactoring</strong>.</li>
+</ol>
+<p>Take your time on this project, the better you understand these two points the easier the next project will be.</p>
+<h3 id="index">Index</h3>
 <ul>
-<li>JavaScript fundamentals</li>
-<li>HTML/CSS fundamentals</li>
-<li>A portfolio hosted on Gh-Pages</li>
-<li>8 completed JS 30 challenges, each with:<ul>
-<li>A GitHub repo</li>
-<li>A good, descriptive readme</li>
-<li>A live Gh-Pages demo </li>
+<li><a href="#learning-objectives">Learning Objectives</a></li>
+<li><a href="#specifications">Specifications</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+<hr>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>Application = User Interactions + Data.  <ul>
+<li>&quot;Code&quot; isn&apos;t anywhere in that definition.</li>
 </ul>
 </li>
+<li>An application is it&apos;s behavior, not it&apos;s implementation</li>
+<li>Using specs to study and replicate an application</li>
+<li>Refactoring: Changing the source without breaking the behavior</li>
 </ul>
-<p>Everything you need to get started can be found in the <a href="https://elewa-academy.github.io/April-Precourse" target="_blank">Elewa Precourse</a>.  So if you haven&apos;t already, go back and complete the precourse.  You&apos;ll be using the projects from it in the rest of our curriculum.</p>
-<p>You can find an example of the portfolio you&apos;ll be building <a href="https://elewa-student.github.io" target="_blank">right here</a>.</p>
+<p><a href="#index">TOP</a></p>
 <hr>
-<h2 id="studying-tips">Studying tips</h2>
-<p>Before diving right in (and every other day of course!), you should check out this <a href="https://www.youtube.com/watch?v=bO__AN3reqU" target="_blank">video about learning to program</a>. Also take a look at <a href="https://www.youtube.com/user/electrickeye91" target="_blank">Thomas Frank&apos;s youtube channel</a>.  It&apos;s full of great tips about we learn and how to study effectively.</p>
+<h2 id="specifications">Specifications</h2>
+<ol>
+<li>Fork+clone <a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">this repository</a> and clear the README so you can use it for notes. </li>
+<li>Follow the instructions in the README on our account (since you cleared it on your clone).</li>
+<li>When you&apos;ve finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.</li>
+</ol>
+<p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="resources">Resources</h2>
+<ul>
+<li><a href="https://www.gcflearnfree.org/computerbasics/understanding-applications/1/" target="_blank">What is an App?</a></li>
+<li><a href="https://elewa-academy.github.io/General-Resources/programming-resources/reading-sourcecode.html" target="_blank">Navigating Codebase</a></li>
+<li><a href="https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code" target="_blank">What is Refactoring?</a>. This answer connects refactoring to testing.  We&apos;ll explore this relationship in the next series of projects.</li>
+<li><a href="https://blog.codinghorror.com/when-understanding-means-rewriting/" target="_blank">When Understanding Means Rewriting</a></li>
+</ul>
+<p><a href="#index">TOP</a></p>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -325,12 +349,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Welcome">
+                <a href="../4-cleancalc/" class="navigation navigation-prev " aria-label="Previous page: 4. Separation of Concerns">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../1-coding-is-communication/" class="navigation navigation-next " aria-label="Next page: 1. Coding is Communication">
+                <a href="../6-organizing-development/" class="navigation navigation-next " aria-label="Next page: 6. Organizing Development">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -341,7 +365,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"0. Preparation","level":"1.2","depth":1,"next":{"title":"1. Coding is Communication","level":"1.3","depth":1,"path":"1-coding-is-communication/README.md","ref":"./1-coding-is-communication/README.md","articles":[]},"previous":{"title":"Welcome","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0-preparation/README.md","mtime":"2018-03-04T15:49:46.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-05T12:28:16.576Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5. Code Specs & Refactoring","level":"1.7","depth":1,"next":{"title":"6. Organizing Development","level":"1.8","depth":1,"path":"6-organizing-development/README.md","ref":"./6-organizing-development/README.md","articles":[]},"previous":{"title":"4. Separation of Concerns","level":"1.6","depth":1,"path":"4-cleancalc/README.md","ref":"./4-cleancalc/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"5-code-specs-refactoring/README.md","mtime":"2018-03-05T10:57:57.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-05T12:28:16.576Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
