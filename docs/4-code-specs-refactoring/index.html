@@ -265,8 +265,12 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="code-specs--refactoring">Code Specs &amp; Refactoring</h1>
-<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll learn how to study and replicate someone else&apos;s source code.  </p>
-<p>In doing this, you will </p>
+<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll be studying and replicating a project we already wrote.  There are two main reasons for doing this:</p>
+<ol>
+<li><em>Learning to effectively read source code, and to understand it at a high level</em>.  This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.</li>
+<li><em>To understand the practical relationship between implementation and behavior</em>.  Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called <strong>refactoring</strong>.</li>
+</ol>
+<p>Take your time on this project, the better you understand these two points the easier the next project will be.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
@@ -276,18 +280,31 @@
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Using specs to study and replicate source code.</li>
-<li>Fu</li>
-<li>Refactor</li>
+<li>Application = User Interactions + Data.  <ul>
+<li>&quot;Code&quot; isn&apos;t anywhere in that definition.</li>
+</ul>
+</li>
+<li>An application is it&apos;s behavior, not it&apos;s implementation</li>
+<li>Using specs to study and replicate an application</li>
+<li>Refactoring: Changing the source without breaking the behavior</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
+<ol>
+<li>Fork+clone <a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">this repository</a> and clear the README so you can use it for notes. </li>
+<li>Follow the instructions in the README on our account (since you cleared it on your clone).</li>
+<li>When you&apos;ve finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.</li>
+</ol>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>reading sourcecode
-refactoring</p>
+<ul>
+<li><a href="https://www.gcflearnfree.org/computerbasics/understanding-applications/1/" target="_blank">What is an App?</a></li>
+<li><a href="https://elewa-academy.github.io/General-Resources/programming-resources/reading-sourcecode.html" target="_blank">Navigating Codebase</a></li>
+<li><a href="https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code" target="_blank">What is Refactoring?</a>. This answer connects refactoring to testing.  We&apos;ll explore this relationship in the next series of projects.</li>
+<li><a href="https://blog.codinghorror.com/when-understanding-means-rewriting/" target="_blank">When Understanding Means Rewriting</a></li>
+</ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <hr>
@@ -335,7 +352,7 @@ refactoring</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"4. Code Specs & Refactoring","level":"1.6","depth":1,"next":{"title":"5. Organizing Development","level":"1.7","depth":1,"path":"5-organizing-development/README.md","ref":"./5-organizing-development/README.md","articles":[]},"previous":{"title":"3. Separation of Concerns","level":"1.5","depth":1,"path":"3-cleancalc/README.md","ref":"./3-cleancalc/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4-code-specs-refactoring/README.md","mtime":"2018-03-05T10:19:17.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-05T10:19:53.699Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"4. Code Specs & Refactoring","level":"1.6","depth":1,"next":{"title":"5. Organizing Development","level":"1.7","depth":1,"path":"5-organizing-development/README.md","ref":"./5-organizing-development/README.md","articles":[]},"previous":{"title":"3. Separation of Concerns","level":"1.5","depth":1,"path":"3-cleancalc/README.md","ref":"./3-cleancalc/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4-code-specs-refactoring/README.md","mtime":"2018-03-05T10:56:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-05T10:56:49.459Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
