@@ -2,9 +2,9 @@
 
 With this project you won't be building anything new.  Instead you'll be studying and replicating a project we already wrote.  There are two main reasons for doing this:
 1. _Learning to effectively read source code, and to understand it at a high level_.  
-  * This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.
+  This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.
 2. _To understand the practical relationship between implementation and behavior_.  
-  * Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called __refactoring__.
+  Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called __refactoring__.
 
 Take your time on this project, the better you understand these two points the easier the next project will be.
 
