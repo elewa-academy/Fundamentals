@@ -42,6 +42,17 @@ Take your time on this project, the better you understand these two points the e
 
 ## Resources
 
+Tictactoe Videos:
+* [Part 1](https://www.youtube.com/watch?v=cElzTD_x1xw)
+* [Part 2](https://www.youtube.com/watch?v=U-4T7y_Hho4)
+* [Part 3](https://www.youtube.com/watch?v=rlWXR9-4Mo4)
+* [Part 4](https://www.youtube.com/watch?v=2mrhvwVi5iY)
+* [Part 5](https://www.youtube.com/watch?v=sX59uU9l0cs)
+* [Part 6](https://www.youtube.com/watch?v=yN52jB3XOBQ)
+
+
+Interacting with Code:
+* [Writing Clean Code](https://elewa-academy.github.io/General-Resources/programming-resources/clean-code.html)
 * [What is an App?](https://www.gcflearnfree.org/computerbasics/understanding-applications/1/)
 * [What is Refactoring?](https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code). This answer connects refactoring to testing.  We'll explore this relationship in the next series of projects.
 * [Navigating Codebase](https://elewa-academy.github.io/General-Resources/programming-resources/reading-sourcecode.html)

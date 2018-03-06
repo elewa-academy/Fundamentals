@@ -66,12 +66,13 @@ This project has several steps to it
 ## Resources
 
 __Cleancalc video series__:
-0. [Setting up](https://www.youtube.com/watch?v=KUWsuwSHsAc&index=5&list=UUXoU1BsLZqg7gVoH4_0VGDw)
+* [Part 1](https://www.youtube.com/watch?v=KUWsuwSHsAc&index=5&list=UUXoU1BsLZqg7gVoH4_0VGDw)
 1. [First step](https://www.youtube.com/watch?v=e382FjIe6QQ&index=6&list=UUXoU1BsLZqg7gVoH4_0VGDw)
 2. [Second step](https://www.youtube.com/watch?v=q6-ivciutKk&index=7&list=UUXoU1BsLZqg7gVoH4_0VGDw)
 3. [Last step](https://www.youtube.com/watch?v=ragmWxRkLkA&index=8&list=UUXoU1BsLZqg7gVoH4_0VGDw)
 * [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-cleancalc/cleancalc-series) 
 * [Demo repo](https://github.com/radovandelic/cleancalc)
+
 
 __Separation of Concerns__:
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
@@ -79,6 +80,7 @@ __Separation of Concerns__:
 * [Stackexchange Question](https://softwareengineering.stackexchange.com/questions/32581/how-do-you-explain-separation-of-concerns-to-others)
 
 __JavaScript Objects__:
+* [Video Walk-Through](https://www.youtube.com/watch?v=f-aKxXt8Y0A)
 * [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/docs_src/local-resources/using-js/objects)
 
 __Programming Concepts__:

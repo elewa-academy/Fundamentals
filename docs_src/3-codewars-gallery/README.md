@@ -59,10 +59,17 @@ Kata Repositories:
 * [Template Repo](https://github.com/elewa-academy/exercise-template-repo).  You will need to fork and complete this repo for every kata you do.  These repos & live tests are what you will feature in your Codewar Gallery.
 * [Demo Codewar Repo](https://github.com/elewa-student/String-Reverser).  You can use this as a reference for how to complete your repos.
 
+
 Problem Solving Resources:
-* [Learning From Code](https://elewa-academy.github.io/General-Resources/programming-resources/learning-from-code.html).  The resources in this page are very good, you should give them all a look-through.
-* [Writing Clean Code](https://elewa-academy.github.io/General-Resources/programming-resources/clean-code.html)
+* [JavaScript Pseudocode](http://dondi.lmu.build/share/intro/pseudocode2js-v02.pdf)  
+* [Tips for converting from words to code](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/english2js)
+* [Specs](https://elewa-academy.github.io/General-Resources/programming-resources/specs.html)
+* [Testing 101](https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html)
+* [Minimal passing functions](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/simplestPassingFuncs)  
+* [Tips for using conditional checks](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/conditionalChecks)
+* [Simpleprogrammer's tips](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 * [Constraint-Based Problem Solving](https://elewa-academy.github.io/General-Resources/key-resources/problem-solving.html).  What is it, and how to apply it to programming.
+
 
 Kata Recommendations:
 * 8 Kyu - 
