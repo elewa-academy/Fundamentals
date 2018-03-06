@@ -17,6 +17,7 @@ This project will be by far the largest project you have coded so far, but there
 
 You are free to work alone or in small groups.
 
+flowcharts
 
 ### Index
 * [Learning Objectives](#learning-objectives)

@@ -32,7 +32,7 @@ Don't forget to build a gallery page for your Kata Repos and to feature it on yo
 
 ## Notional Machine
 
-This learning objective is __so important__ that it gets it's own section.
+coming soon
 
 [TOP](#index)
 
@@ -46,6 +46,8 @@ This learning objective is __so important__ that it gets it's own section.
 * Using pseudocode
 * Handling repositories
 * Writing about code
+* Notional machine
+* Navigating GitHub & source code
 
 [TOP](#index)
 
@@ -62,6 +64,16 @@ Problem Solving Resources:
 * [Writing Clean Code](https://elewa-academy.github.io/General-Resources/programming-resources/clean-code.html)
 * [Constraint-Based Problem Solving](https://elewa-academy.github.io/General-Resources/key-resources/problem-solving.html).  What is it, and how to apply it to programming.
 
+Kata Recommendations:
+* 8 Kyu - 
+    * [Repeat String](https://www.codewars.com/kata/string-repeat/train/javascript)
+    * [Convert Number to String](https://www.codewars.com/kata/convert-a-number-to-a-string/train/javascript)
+    * [Class Average Comparison](https://www.codewars.com/kata/how-good-are-you-really/train/javascript)
+    * [Remove Number from String](https://www.codewars.com/kata/string-cleaning)
+* 7 Kyr - 
+    * [Is it an Isogram?](https://www.codewars.com/kata/54ba84be607a92aa900000f1)
+    * [The First Shall be Last](https://www.codewars.com/kata/scrolling-text)
+* Send us your favorites!
 
 [TOP](#index)
 

@@ -10,6 +10,7 @@ So take some time now while you're still building simple projects to practice pl
 
 ### Index
 * [Learning Objectives](#learning-objectives)
+* [Front -> Back Development](#front-to-back-development)
 * [Requirements](#requirements)
 * [Resources](#resources)
 
@@ -27,18 +28,25 @@ So take some time now while you're still building simple projects to practice pl
 
 ---
 
+## Front to Back Development
+
+diagram
+
+[TOP](#index)
+
+---
+
 ## Requirements
 
 Complete at least 5 User Centered [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md), build a gallery landing page to feature them all, and include this landing page on your portfolio.
 
 When you're building your pages remember that the purpose of these projects is to __plan__ and __organize__ your development.  Don't worry about making your websites super pretty, or about using fancy libraries. There'll be plenty of time for that once you're organized!
 
-Hint:  Code all of your your HTML without any CSS or JS.  Then for each user story -> Code the event listener, then code the JS logic.  We like to call this _Front to Back Development_.  
-
 
 [TOP](#index)
 
 ---
+
 
 ## Resources
 

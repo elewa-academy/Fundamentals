@@ -1,0 +1,16 @@
+licenses
+general resource pages
+	- migrate as much as possible to here
+	cleancalc 
+		ui/ux-handler-js markdown in general resources
+		separation of concerns . md
+	front-back - page in gitbook 
+	notional machine - page in gitbook
+		pythontutor.com/javascript
+fundamentals
+	make cleancalc sample with three layer architecutre
+fullstack
+	pjs into a repo
+	scripts src & terminal calc
+	tictactoe into mvclh
+	...
