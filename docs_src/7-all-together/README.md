@@ -1,23 +1,18 @@
 # Battle Ship: Human vs Machine
 
-you've made it!  almost.  but you have learned the fundamentals of software development.  Take this oportunity to look back over everything you've learned so far, tying it all together in a final Fundamentals Project:  BATTLE SHIP, MAN VS MACHINE
-
-You'll use everything you've learned so far to build this project:
+You've made it!  Almost.   Before moving on you will review everything you've learned so far in this monster of a project.  Finishing this Battle Ship game won't be easy, so do yourself a favor and keep it as simple as possible.  Everytime you have two choices, choose the simplest. The main objective of this project isn't to build the best game ever, it's to practice breaking down large projects and to review the main learning objectives covered so far:
 * User centered development 
-* Project management
+* Project planning
 * Algorithmic challenges
 * Testing
 * Reading and documenting code
 * Separation of Concerns
-* Organization and presentation of src code
+* Organization and presentation of source code
 
-For this project you will receive only a set of functional and behavioral specifications.  It is your job to use everything you've learned this far to turn those specs into a working project in the most organized and consistent way you can.  
 
-This project will be by far the largest project you have coded so far, but there is also nothing you have never seen before.  So long as you take it slow and keep organized, you should be able to find nearly everything you'll need in a project we've already built.
+This is by far the largest project you've made yet, but there is also nothing totally new.  As long as you take it slow, keep organized, and refer back to your old projects for guidance you will be fine.
 
-You are free to work alone or in small groups.
-
-flowcharts
+Feel free to work alone or in small groups.
 
 ### Index
 * [Learning Objectives](#learning-objectives)
@@ -52,8 +47,8 @@ Here's how it works:
 2. Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
     a. Make sure the HTML/CSS is in place to support this user story
     b. Write an event listener that gathers user input and updates the DOM
-    c. Write the logic needed to process the user input (like a kata)
-    d. Test the logic
+    c. Write specs and tests for this user story's logic
+    d. Write the logic to pass those tests  (like a kata)
     e. Connect the logic to it's event listener
     f. Test the user story in the browser (by hand is fine)
     g. Document your new code
@@ -97,9 +92,9 @@ We will provide you with puser stories and a finished repository structure.  A s
 
 ### Finished Repository
 
-When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The directory structure for each version (ie. each new user story's) will look like this:
+When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The finished directory structure will look like this:
 ```
-Battle Ship Version X
+Battle Ship Version Finished
 ├── README.md
 |    * Overview of your project
 |    * Link to live gh-pages demo
@@ -121,12 +116,14 @@ Battle Ship Version X
 |   |    └──/version-...
 |   |        ├── event-listeners.js
 |   |        └── logic.js
-|   └──/styles
+|   └── /styles
 |       └── styles.css
 ├──  specs.md
 |       * Complete specs for your JS, organized by version
-└──  dev-planning.md
-        * This wil be just like the README's from last project
+├── dev-planning.md
+|       * This wil be just like the README's from last project
+└── ux-flow-chart
+        * How a user interacts with your application over time
 ```
 
 (You can see two examples here of well-organized repositories here - [Cleancalc](https://github.com/radovandelic/cleancalc), [Tictactoe](https://github.com/elewa-student/tic-tac-toe/tree/master). Both are great, but neither is exactly like yours should be.)
@@ -137,10 +134,14 @@ Battle Ship Version X
 
 ## Resources
 
-Development Cycle:
-https://www.justinmind.com/blog/the-agile-management-project-cycle-for-wireframing/
+Agile Development:
+* [12 Points](https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/)
+* [Agile Manifesto](http://agilemanifesto.org)
 
 Flow Charting:
+* [Overview & Vocab](https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d)
+* [Guide](https://www.startuprocket.com/articles/how-to-create-a-user-experience-flow-chart-ux-flow-chart)
+
 
 Presenting your work:
 * [Semantic Versioning](https://semver.org)

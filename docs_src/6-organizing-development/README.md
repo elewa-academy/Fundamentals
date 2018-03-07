@@ -72,6 +72,7 @@ Development Processes:
 * [Development Planning](https://www.codeproject.com/Articles/674450/Agile-software-development-steps-to-work-with-Requ)
 * [Backlog](https://www.atlassian.com/agile/scrum/backlogs)
 * [Project Requirements](https://hubtechinsider.wordpress.com/2011/07/28/how-do-you-write-software-requirements-what-are-software-requirements-what-is-a-software-requirement/)
+* [Using Wireframes](https://www.dtelepathy.com/blog/design/learning-to-wireframe-10-best-practices)
 
 Design Thinking for Software Developers:
 * [Short Article](https://medium.com/@tigranbs/design-thinking-for-software-developers-bbd2f863c6f7)
