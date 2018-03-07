@@ -24,17 +24,10 @@ If this looks like a lot, that's because it is.  Studying fewer problems in grea
 Don't forget to build a gallery page for your Kata Repos and to feature it on your portfolio!
 
 ### Index
-* [The Notional Machine](#the-notional-machine)
 * [Learning Objectives](#learning-objectives)
+* [Specifications](#specifications)
 * [Resources](#resources)
 
----
-
-## Notional Machine
-
-coming soon
-
-[TOP](#index)
 
 ---
 
@@ -48,6 +41,38 @@ coming soon
 * Writing about code
 * Notional machine
 * Navigating GitHub & source code
+
+### [JS Notional Machine](http://www.computacional.com.br/arquivos/Artigos%20CS%20Unplugged%20-%20Desplugado/SORVA%20-%20Notional%20Machines%20and%20Introductory%20Programming%20Education.pdf)
+
+The __notional machine__ is a [mental model](https://www.youtube.com/watch?v=5K_sxBUGx8A) your brain builds to understand what JavaScript does during program execution.  These notional machines don't need to be precise down to the physical chips, instead they need to accurately describe what is relevant to the task at hand. At the beginning this list includes:
+* How JS steps through a file
+* Source code vs. runtime application
+* Variable initialization & reassignment
+* Functions: 
+  * Definition vs. Execution
+  * Are Objects _and_ executable procedures
+  * Scope vs. Context
+* Execution contexts ("Frames" in pythontutor)
+
+Your brain will construct an understanding of how JS works whether or not you intentionally guide it, it's what brains do.  As great as this sounds it is really very dangerous.  JavaScript is complicated and it is very easy to come up with explanations that work for simple Codewars but are not accurate.  You won't notice at first, but as soon as you try to move on you will find it nearly impossible to understand what's going on.  Unlearning and relearning how JavaScript executes is very difficult and will take a lot of time.
+
+To avoid this danger we provide you with the tools you need to intentionally build a correct N.M. from the beginning.  The two most important are:
+1. Using pseudocode to draft your solutions before coding them. (Solution Process in the README)
+2. Carefully stepping through your finished solutions with concrete examples. (/step-throughs)
+So stick to it!  These exercises aren't very glamorous but they will set you up for long-term success.
+
+
+[TOP](#index)
+
+---
+
+## Specifications
+
+This project never ends!  Set a goal to add 3+ Kata Repos to your gallery each week.
+
+Whether you're struggling with 7 Kyu challenges or writing 1 Kyu challenges, completing one of these template repos will help you up your game. So start a Codewars Gallery (like the JS 30 Gallery), put it on your portfolio, and keep it growing.
+
+
 
 [TOP](#index)
 
