@@ -90,7 +90,7 @@ __Cleancalc video series__:
 * [Part 3](https://www.youtube.com/watch?v=cjFEm_Drpnw)
 * [Part 4](https://www.youtube.com/watch?v=7VjtfihfwuE)
 * [Part 5](https://www.youtube.com/watch?v=XgUvVRj2Nao)
-* [Code to study]() 
+* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/4-clean-calc/clean-calc-series) 
 
 __Separation of Concerns__:
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
@@ -117,7 +117,7 @@ __DOM__:
 
 
 
-
+[Cleancalc Repo](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/4-clean-calc)
 
 
 [TOP](#index)

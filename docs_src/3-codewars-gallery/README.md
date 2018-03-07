@@ -109,6 +109,8 @@ Kata Recommendations:
     * [The First Shall be Last](https://www.codewars.com/kata/scrolling-text)
 * Send us your favorites!
 
+[Codewars Repo](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery)
+
 [TOP](#index)
 
 

@@ -4,44 +4,49 @@ The purpose of this project is to introduce you to the skills needed to plan and
 
 When you're just learning and still building smaller projects by yourself, it can feel like a lot of extra work to plan your projects.  Especially when you can get them done faster and better just by winging it.  But as soon as you start working with someone else or building larger projects you'll quickly find it harder to keep track of what's going on.
 
-Software and development are extremely complicated. It's humanly impossible to keep track of every corner of a large project, no matter how good you are.  Learning to plan and organize is incredibly hard if you can't visualize the whole project you're working on.
+Software and development can get extremely complicated. It won't be long before you can't possibly keep track of everything happening in your code, no matter how good you are.  Learning to plan and organize will be 10x harder if you wait until you can't keep all of your code in mind at once.
 
 So take some time now while you're still building simple projects to practice planning.  If you learn this now you will have the mental tools necessary to look at large projects and break them into little projects, or "sprints", in your mind.  This skill will carry you farther faster than you expect.
 
 ### Index
 * [Learning Objectives](#learning-objectives)
-* [Front -> Back Development](#front-to-back-development)
 * [Requirements](#requirements)
 * [Resources](#resources)
 
 ---
 
+
 ## Learning Objectives
 
-* User focus
-* Project planning
-* Time estimation
+The main challenge with this project is to finish one website per day.  Each site should be the most challenging site you could possibly finish in one single day's work.  Along the way you will learn about organizing your projects, estimating the scope of your project, and hopefully gain a good understanding of your level.  
+
+Primary Learning Objectives
+* Project planning & estimation
+* Self-knowledge
+* User-centered development
+
+Secondary Learning Objectives
+* Practice with devtools
+* Building frontend fundamentals
+* Git & GitHub familiarity
+* Programming maturity
 * Monkey Testing
 
 
-[TOP](#index)
-
----
-
-## Front to Back Development
-
-diagram
 
 [TOP](#index)
 
 ---
+
 
 ## Requirements
 
+
 Complete at least 5 User Centered [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md), build a gallery landing page to feature them all, and include this landing page on your portfolio.
 
-When you're building your pages remember that the purpose of these projects is to __plan__ and __organize__ your development.  Don't worry about making your websites super pretty, or about using fancy libraries. There'll be plenty of time for that once you're organized!
+When you're building your pages remember that the purpose of these projects is to __organize__ and __estimate__ their development cycle.   Don't worry about making your websites super pretty, about using cool libraries, or having awesome features. 
 
+For more detailed instructions on how to structure your development process you can read through the [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md).
 
 [TOP](#index)
 
@@ -72,6 +77,11 @@ Design Thinking for Software Developers:
 * [Long Article](https://medium.com/d-principles/design-thinking-methods-practice-in-agile-software-development-3e6e59df0c9b)
 
 
+CSS Libraries:
+You are free to experiment with these libraries in your landing pages, but don't lose sight of the prize!  If you find yourself spending too much time trying to figure out how to use these libraries go back to basic HTML/CSS.  The main objective of this project is to organize your development, not to learn these libraries.
+* [Materialize](http://materializecss.com/getting-started.html).  Simpler to use.
+* [Bootstrap](https://bootstrap.build/blog/tutorial.html). More powerful.
+* [Sematic UI](https://semantic-ui.com/introduction/getting-started.html). Most opinionated.
 
 [TOP](#index)
 

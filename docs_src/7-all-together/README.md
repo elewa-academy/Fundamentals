@@ -29,8 +29,41 @@ flowcharts
 ## Learning Objectives
 
 * Managing larger projects
+* Tracking your development process
 * User/Logic interactions
-* 
+* Front -> Back development
+* Flow charts
+
+### Front -> Back development
+
+Following this process will help you build what you intended to build, keep track of your progress, and reinforce 3 key skills:
+* User focus development
+* Feature-based development
+* 3 layered architecture
+
+Here's how it works:
+1. Plan your development process and get your HTML/CSS prepared. (There is more information on these steps in the template repo):
+    a. Select user stories
+    b. Analyze user story dependencies
+    c. Choose a development schedule
+    d. Build a wireframe
+    e. Code the wireframe with HTML/CSS
+
+2. Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
+    a. Make sure the HTML/CSS is in place to support this user story
+    b. Write an event listener that responds to this user input
+    c. Write the logic necessary to implement this user story
+    d. Test the logic
+    e. Call the logic in the event listener
+    f. Test the user story in the browser by hand
+    g. Save this version in a new folder
+    h. Continue on to the next user story 
+
+By the time you've finished every user story in your development schedule you should have a directory structure that looks something like this:
+* User-Centered-Website
+    * README
+    * Tests
+
 
 
 [TOP](#index)
@@ -76,10 +109,9 @@ A new thing: Git versions
 
 ## Resources
 
-DOM & Effects:
-* [You Don't Need jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
-* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
-* [You Might Not Need JS](http://youmightnotneedjs.com)
+Development Cycle:
+
+Flow Charting:
 
 Presenting your work:
 * [Semantic Versioning](https://semver.org)
@@ -87,6 +119,14 @@ Presenting your work:
 * [Versions on GitHub]
 * [A Perfect Cleancalc Repo](https://github.com/radovandelic/cleancalc)
 * [A Perfect Tictactoe Repo](https://github.com/elewa-student/tic-tac-toe/tree/master)
+
+
+DOM & Effects:
+* [You Don't Need jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
+* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+* [You Might Not Need JS](http://youmightnotneedjs.com)
+
+
 
 [TOP](#index)
 

@@ -60,6 +60,8 @@ Interacting with Code:
 * [Novice & Experts Reading Code](https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/)
 * [Reverse Engineering](http://blog.teamtreehouse.com/the-secret-to-learning-code)
 
+[Specs & Refactoring Repo](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/5-code-specs-refactoring)
+
 [TOP](#index)
 
 

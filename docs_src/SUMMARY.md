@@ -8,7 +8,7 @@
 * [4. Separation of Concerns](./4-clean-calc/README.md)
 * [5. Code Specs & Refactoring](./5-code-specs-refactoring/README.md)
 * [6. Organizing Development](./6-organizing-development/README.md)
-* [7. Wrapping Up](./7-wrapping-up/README.md)
+* [7. All Together](./7-all-together/README.md)
 * [Next Projects]()
 * [Fundamentals Repo](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src)
 * [Home](https://elewa-academy.github.io)
