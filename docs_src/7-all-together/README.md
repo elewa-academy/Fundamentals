@@ -52,15 +52,14 @@ Here's how it works:
 2. Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
     a. Make sure the HTML/CSS is in place to support this user story
     b. Write an event listener that gathers user input and updates the DOM
-    c. Write the logic needed to process the user input
+    c. Write the logic needed to process the user input (like a kata)
     d. Test the logic
     e. Connect the logic to it's event listener
     f. Test the user story in the browser (by hand is fine)
-    g. Update your README
-    h. Git tag, git push
-    i. Continue on to the next user story 
-
-When you are finished you should have a beautifully organized repository that communicates your development process to others.  You can see two examples here - [Cleancalc](https://github.com/radovandelic/cleancalc), [Tictactoe](https://github.com/elewa-student/tic-tac-toe/tree/master).
+    g. Document your new code
+    h. Update your README
+    i. Git tag, git push. (More on tags in Resources)
+    j. Continue on to the next user story 
 
 
 
@@ -70,36 +69,67 @@ When you are finished you should have a beautifully organized repository that co
 
 ## Requirements
 
-User stories (in no particular order)
-- scramble these
+We will provide you with puser stories and a finished repository structure.  A starting point and en ending point.  Your task is to go from point A to point B along the straightest and most organized path you can.
 
-A person can:
 
-The application can:
+### User stories (in no particular order):
+* A human can:
+    * know when the game is over
+    * see two empty boards
+    * know who won
+    * place a guess against the machine
+    * know if their guess was a hit or a miss
+    * place ships on their board
+    * know when a single ship is sunk
+    * hide ships and begin game
+* The machine can:
+    * place ships randomly on their board
+    * fire randomly against the human
+    * _challenges:_
+        * place ships strategically
+        * fire strategically
+        * know if it hit or missed
+        * mock the human
+        
 
-0. see an empty board and a header  
-1. place ships on board
-2. hide ships and begin game
-3. place guess on board
-4. know if their guess was a hit or a miss
-5. see their score after each guess
-6. know when all ships are hit
-7. know when a single ship is sunk
 
-Technical specifications
-- tests for your decision bots
-- specs for you final code
-- user instructions for how to play
-- live demo on gh pages
-- learning journal
-- your dependency tree & dev schedule
-- your wireframe
 
-This looks like a lot to do, but if you use the development processes you learned over the last projects you should be making each of these things anyway.
 
-A new thing: Git versions
-- after you have completely implemented and tested a new user story you will place a git tag with the version number before moving on to your next user story.  This way users can easily check out past versions of your application.
+### Finished Repository
 
+When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The directory structure for each version (ie. each new user story's) will look like this:
+```
+Battle Ship Version X
+├── README.md
+|    * Overview of your project
+|    * Link to live gh-pages demo
+|    * How to play the game
+|    * How to run the tests
+|    * How the project is structured
+├── index.html
+├── /tests
+|   ├── testing.html
+|   ├── tests-logic-1.js
+|   ├── tests-logic-...js
+|   ├── tests-logic-x.js
+|   └── tinytest.js
+├── /public
+|   ├── /js
+|   |    ├── /version-1
+|   |    |   ├── event-listeners.js
+|   |    |   └── logic.js
+|   |    └──/version-...
+|   |        ├── event-listeners.js
+|   |        └── logic.js
+|   └──/styles
+|       └── styles.css
+├──  specs.md
+|       * Complete specs for your JS, organized by version
+└──  dev-planning.md
+        * This wil be just like the README's from last project
+```
+
+(You can see two examples here of well-organized repositories here - [Cleancalc](https://github.com/radovandelic/cleancalc), [Tictactoe](https://github.com/elewa-student/tic-tac-toe/tree/master). Both are great, but neither is exactly like yours should be.)
 
 [TOP](#index)
 

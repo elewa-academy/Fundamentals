@@ -64,6 +64,7 @@ Tools:
 * [Using Sketchboard.io](https://m.sketchboard.io/introducing-sketchboard-69d142ea935).  
 * [Pushing to GH from Sketchboard](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html)
 * [Gremlins.js](https://elewa-academy.github.io/General-Resources/core-libraries/gremlins.html)
+* [Live Server](https://github.com/tapio/live-server)
 
 Development Processes:
 * [Project Scoping](https://medium.freecodecamp.org/how-to-effectively-scope-your-software-projects-from-planning-to-execution-e96cbcac54b9)  
