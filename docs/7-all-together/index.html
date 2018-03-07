@@ -289,21 +289,18 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="battle-ship-human-vs-machine">Battle Ship: Human vs Machine</h1>
-<p>you&apos;ve made it!  almost.  but you have learned the fundamentals of software development.  Take this oportunity to look back over everything you&apos;ve learned so far, tying it all together in a final Fundamentals Project:  BATTLE SHIP, MAN VS MACHINE</p>
-<p>You&apos;ll use everything you&apos;ve learned so far to build this project:</p>
+<p>You&apos;ve made it!  Almost.   Before moving on you will review everything you&apos;ve learned so far in this monster of a project.  Finishing this Battle Ship game won&apos;t be easy, so do yourself a favor and keep it as simple as possible.  Everytime you have two choices, choose the simplest. The main objective of this project isn&apos;t to build the best game ever, it&apos;s to practice breaking down large projects and to review the main learning objectives covered so far:</p>
 <ul>
 <li>User centered development </li>
-<li>Project management</li>
+<li>Project planning</li>
 <li>Algorithmic challenges</li>
 <li>Testing</li>
 <li>Reading and documenting code</li>
 <li>Separation of Concerns</li>
-<li>Organization and presentation of src code</li>
+<li>Organization and presentation of source code</li>
 </ul>
-<p>For this project you will receive only a set of functional and behavioral specifications.  It is your job to use everything you&apos;ve learned this far to turn those specs into a working project in the most organized and consistent way you can.  </p>
-<p>This project will be by far the largest project you have coded so far, but there is also nothing you have never seen before.  So long as you take it slow and keep organized, you should be able to find nearly everything you&apos;ll need in a project we&apos;ve already built.</p>
-<p>You are free to work alone or in small groups.</p>
-<p>flowcharts</p>
+<p>This is by far the largest project you&apos;ve made yet, but there is also nothing totally new.  As long as you take it slow, keep organized, and refer back to your old projects for guidance you will be fine.</p>
+<p>Feel free to work alone or in small groups.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
@@ -338,8 +335,8 @@
 <li><p>Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
  a. Make sure the HTML/CSS is in place to support this user story
  b. Write an event listener that gathers user input and updates the DOM
- c. Write the logic needed to process the user input (like a kata)
- d. Test the logic
+ c. Write specs and tests for this user story&apos;s logic
+ d. Write the logic to pass those tests  (like a kata)
  e. Connect the logic to it&apos;s event listener
  f. Test the user story in the browser (by hand is fine)
  g. Document your new code
@@ -379,8 +376,8 @@
 </li>
 </ul>
 <h3 id="finished-repository">Finished Repository</h3>
-<p>When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The directory structure for each version (ie. each new user story&apos;s) will look like this:</p>
-<pre><code>Battle Ship Version X
+<p>When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The finished directory structure will look like this:</p>
+<pre><code>Battle Ship Version Finished
 &#x251C;&#x2500;&#x2500; README.md
 |    * Overview of your project
 |    * Link to live gh-pages demo
@@ -402,19 +399,28 @@
 |   |    &#x2514;&#x2500;&#x2500;/version-...
 |   |        &#x251C;&#x2500;&#x2500; event-listeners.js
 |   |        &#x2514;&#x2500;&#x2500; logic.js
-|   &#x2514;&#x2500;&#x2500;/styles
+|   &#x2514;&#x2500;&#x2500; /styles
 |       &#x2514;&#x2500;&#x2500; styles.css
 &#x251C;&#x2500;&#x2500;  specs.md
 |       * Complete specs for your JS, organized by version
-&#x2514;&#x2500;&#x2500;  dev-planning.md
-        * This wil be just like the README&apos;s from last project
+&#x251C;&#x2500;&#x2500; dev-planning.md
+|       * This wil be just like the README&apos;s from last project
+&#x2514;&#x2500;&#x2500; ux-flow-chart
+        * How a user interacts with your application over time
 </code></pre><p>(You can see two examples here of well-organized repositories here - <a href="https://github.com/radovandelic/cleancalc" target="_blank">Cleancalc</a>, <a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">Tictactoe</a>. Both are great, but neither is exactly like yours should be.)</p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Development Cycle:
-<a href="https://www.justinmind.com/blog/the-agile-management-project-cycle-for-wireframing/" target="_blank">https://www.justinmind.com/blog/the-agile-management-project-cycle-for-wireframing/</a></p>
+<p>Agile Development:</p>
+<ul>
+<li><a href="https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/" target="_blank">12 Points</a></li>
+<li><a href="http://agilemanifesto.org" target="_blank">Agile Manifesto</a></li>
+</ul>
 <p>Flow Charting:</p>
+<ul>
+<li><a href="https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d" target="_blank">Overview &amp; Vocab</a></li>
+<li><a href="https://www.startuprocket.com/articles/how-to-create-a-user-experience-flow-chart-ux-flow-chart" target="_blank">Guide</a></li>
+</ul>
 <p>Presenting your work:</p>
 <ul>
 <li><a href="https://semver.org" target="_blank">Semantic Versioning</a></li>
@@ -466,7 +472,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"7. All Together","level":"1.9","depth":1,"next":{"title":"Next Projects","level":"1.10","depth":1,"ref":"","articles":[]},"previous":{"title":"6. Organizing Development","level":"1.8","depth":1,"path":"6-organizing-development/README.md","ref":"./6-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"7-all-together/README.md","mtime":"2018-03-07T17:36:14.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-07T17:37:24.452Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"7. All Together","level":"1.9","depth":1,"next":{"title":"Next Projects","level":"1.10","depth":1,"ref":"","articles":[]},"previous":{"title":"6. Organizing Development","level":"1.8","depth":1,"path":"6-organizing-development/README.md","ref":"./6-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"7-all-together/README.md","mtime":"2018-03-07T19:24:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-07T19:25:35.657Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
