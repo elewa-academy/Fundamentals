@@ -59,6 +59,7 @@ Your brain will construct an understanding of how JS works whether or not you in
 To avoid this danger we provide you with the tools you need to intentionally build a correct N.M. from the beginning.  The two most important are:
 1. Using pseudocode to draft your solutions before coding them. (Solution Process in the README)
 2. Carefully stepping through your finished solutions with concrete examples. (/step-throughs)
+
 So stick to it!  These exercises aren't very glamorous but they will set you up for long-term success.
 
 
@@ -93,6 +94,7 @@ Problem Solving Resources:
 * [Minimal passing functions](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/simplestPassingFuncs)  
 * [Tips for using conditional checks](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/conditionalChecks)
 * [Simpleprogrammer's tips](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
+* [List of Strategies](https://www.une.edu.au/about-une/academic-schools/bcss/news-and-events/psychology-community-activities/over-fifty-problem-solving-strategies-explained)
 * [Constraint-Based Problem Solving](https://elewa-academy.github.io/General-Resources/key-resources/problem-solving.html).  What is it, and how to apply it to programming.
 
 
