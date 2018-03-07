@@ -1,13 +1,13 @@
-# Battle Ship
+# Battle Ship: Human vs Machine
 
 you've made it!  almost.  but you have learned the fundamentals of software development.  Take this oportunity to look back over everything you've learned so far, tying it all together in a final Fundamentals Project:  BATTLE SHIP, MAN VS MACHINE
 
 You'll use everything you've learned so far to build this project:
-* Story-based user centered development
-* Story dependency and development scheduling
-* Solution design
-* Specs
+* User centered development 
+* Project management
+* Algorithmic challenges
 * Testing
+* Reading and documenting code
 * Separation of Concerns
 * Organization and presentation of src code
 
@@ -43,26 +43,24 @@ Following this process will help you build what you intended to build, keep trac
 
 Here's how it works:
 1. Plan your development process and get your HTML/CSS prepared. (There is more information on these steps in the template repo):
-    a. Select user stories
+    a. Select user stories (we've already done this for you)
     b. Analyze user story dependencies
     c. Choose a development schedule
     d. Build a wireframe
-    e. Code the wireframe with HTML/CSS
+    e. Code the wireframe with simple HTML/CSS
 
 2. Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
     a. Make sure the HTML/CSS is in place to support this user story
-    b. Write an event listener that responds to this user input
-    c. Write the logic necessary to implement this user story
+    b. Write an event listener that gathers user input and updates the DOM
+    c. Write the logic needed to process the user input
     d. Test the logic
-    e. Call the logic in the event listener
-    f. Test the user story in the browser by hand
-    g. Save this version in a new folder
-    h. Continue on to the next user story 
+    e. Connect the logic to it's event listener
+    f. Test the user story in the browser (by hand is fine)
+    g. Update your README
+    h. Git tag, git push
+    i. Continue on to the next user story 
 
-By the time you've finished every user story in your development schedule you should have a directory structure that looks something like this:
-* User-Centered-Website
-    * README
-    * Tests
+When you are finished you should have a beautifully organized repository that communicates your development process to others.  You can see two examples here - [Cleancalc](https://github.com/radovandelic/cleancalc), [Tictactoe](https://github.com/elewa-student/tic-tac-toe/tree/master).
 
 
 
@@ -110,6 +108,7 @@ A new thing: Git versions
 ## Resources
 
 Development Cycle:
+https://www.justinmind.com/blog/the-agile-management-project-cycle-for-wireframing/
 
 Flow Charting:
 
@@ -119,12 +118,6 @@ Presenting your work:
 * [Versions on GitHub]
 * [A Perfect Cleancalc Repo](https://github.com/radovandelic/cleancalc)
 * [A Perfect Tictactoe Repo](https://github.com/elewa-student/tic-tac-toe/tree/master)
-
-
-DOM & Effects:
-* [You Don't Need jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
-* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
-* [You Might Not Need JS](http://youmightnotneedjs.com)
 
 
 

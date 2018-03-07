@@ -44,7 +44,7 @@ Secondary Learning Objectives
 
 Complete at least 5 User Centered [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md), build a gallery landing page to feature them all, and include this landing page on your portfolio.
 
-When you're building your pages remember that the purpose of these projects is to __organize__ and __estimate__ their development cycle.   Don't worry about making your websites super pretty, about using cool libraries, or having awesome features. 
+When you're building your pages remember that the purpose of these projects is to __organize__ and __estimate__ their development cycle.   Don't worry about making your websites super pretty, about using cool libraries, or having awesome features.  You should even consider not using any JS or jQuery in your sites at all!  Always choose the simplest possible implementation.
 
 For more detailed instructions on how to structure your development process you can read through the [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md).
 
@@ -77,11 +77,12 @@ Design Thinking for Software Developers:
 * [Long Article](https://medium.com/d-principles/design-thinking-methods-practice-in-agile-software-development-3e6e59df0c9b)
 
 
-CSS Libraries:
-You are free to experiment with these libraries in your landing pages, but don't lose sight of the prize!  If you find yourself spending too much time trying to figure out how to use these libraries go back to basic HTML/CSS.  The main objective of this project is to organize your development, not to learn these libraries.
-* [Materialize](http://materializecss.com/getting-started.html).  Simpler to use.
-* [Bootstrap](https://bootstrap.build/blog/tutorial.html). More powerful.
-* [Sematic UI](https://semantic-ui.com/introduction/getting-started.html). Most opinionated.
+DOM & Effects:
+* [You Don't Need jQuery](https://github.com/nefe/You-Dont-Need-jQuery)
+* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+* [You Might Not Need JS](http://youmightnotneedjs.com)
+
+
 
 [TOP](#index)
 
