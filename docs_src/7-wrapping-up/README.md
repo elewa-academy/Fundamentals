@@ -81,6 +81,13 @@ DOM & Effects:
 * [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 * [You Might Not Need JS](http://youmightnotneedjs.com)
 
+Presenting your work:
+* [Semantic Versioning](https://semver.org)
+* [Git Tags]
+* [Versions on GitHub]
+* [A Perfect Cleancalc Repo](https://github.com/radovandelic/cleancalc)
+* [A Perfect Tictactoe Repo](https://github.com/elewa-student/tic-tac-toe/tree/master)
+
 [TOP](#index)
 
 ___
