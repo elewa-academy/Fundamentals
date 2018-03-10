@@ -13,6 +13,7 @@ Take your time on this project, the better you understand these two points the e
 * [Learning Objectives](#learning-objectives)
 * [Specifications](#specifications)
 * [Resources](#resources)
+* [Extra Practice](#extra-practice)
 
 ---
 
@@ -64,6 +65,11 @@ Interacting with Code:
 
 [TOP](#index)
 
+---
+
+## Extra Practice
+
+Explore the projects on [microjs.com](http://microjs.com/#).  Open the ones that interest you and try to replicate them using the method from this project.
 
 
 ___

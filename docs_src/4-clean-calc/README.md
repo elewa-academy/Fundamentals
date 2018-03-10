@@ -72,10 +72,15 @@ This project has several steps to it
           * cleancalc.js
 4. Make a repo for this project and put it on your portfolio. 
     * Gh-pages demo
-    * README describing the project and what you learned
+    * README 
+        * Description of app's behavior
+        * How to use the app
+        * Project structure
+        * Specs for your calc
+        * Link to a [Gist](https://gist.github.com) with your finished calc object
     * Tests for the calc object
-    * Source code for every step you completed
-5. Go to Slack and trade calcs. See what happens if you replace your cleancalc.js with someone else's.  Does it make your app crash?
+    * Source code for every step you completed in a separate folder
+5. Go to Slack and trade Gists. See what happens if you replace your cleancalc.js with someone else's.  Does it make your app crash?
 
 
 [TOP](#index)
@@ -106,6 +111,7 @@ __Programming Concepts__:
 
 __JavaScript Objects__:
 * [Video Walk-Through](https://www.youtube.com/watch?v=f-aKxXt8Y0A)
+* [Code from video](./object-video-code)
 * [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/docs_src/local-resources/using-js/objects)
 
 __Process.argv__:

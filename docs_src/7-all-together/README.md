@@ -154,6 +154,15 @@ Presenting your work:
 
 [TOP](#index)
 
+---
+
+## Challenge
+
+A user can save their game:
+* [cookie.js](https://github.com/florian/cookie.js)
+* [strg.js](https://github.com/fend25/strg.js)
+* [Local Storage](https://developer.chrome.com/apps/storage)
+
 ___
 ___
 ### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>

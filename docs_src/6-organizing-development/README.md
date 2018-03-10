@@ -88,6 +88,19 @@ DOM & Effects:
 
 [TOP](#index)
 
+---
+
+## Challenges
+
+Implement A/B testing in one of your websites to see what users really like best:
+* Basic:
+  * [ab.js](https://github.com/daniellmb/ab.js)
+* Advanced:  
+  * [Google Analytics](https://analytics.google.com/analytics/academy/course/6)
+  * [Google Experiments](https://support.google.com/analytics/answer/1745147?hl=en)
+  * [A/B with Google](https://www.youtube.com/watch?v=K1DngFKqfrQ)
+
+
 ___
 ___
 ### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
