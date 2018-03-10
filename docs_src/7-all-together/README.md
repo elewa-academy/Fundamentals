@@ -145,8 +145,8 @@ Flow Charting:
 
 Presenting your work:
 * [Semantic Versioning](https://semver.org)
-* [Git Tags]
-* [Versions on GitHub]
+* [Git Tags](https://githowto.com/tagging_versions)
+* [Releases on GitHub](https://help.github.com/articles/creating-releases/)
 * [A Perfect Cleancalc Repo](https://github.com/radovandelic/cleancalc)
 * [A Perfect Tictactoe Repo](https://github.com/elewa-student/tic-tac-toe/tree/master)
 
