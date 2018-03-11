@@ -25,6 +25,7 @@ Don't forget to build a gallery page for your Kata Repos and to feature it on yo
 
 ### Index
 * [Learning Objectives](#learning-objectives)
+* [JS Notional Machine](#js-notional-machine)
 * [Specifications](#specifications)
 * [Resources](#resources)
 
@@ -42,7 +43,11 @@ Don't forget to build a gallery page for your Kata Repos and to feature it on yo
 * Notional machine
 * Navigating GitHub & source code
 
-### [JS Notional Machine](http://www.computacional.com.br/arquivos/Artigos%20CS%20Unplugged%20-%20Desplugado/SORVA%20-%20Notional%20Machines%20and%20Introductory%20Programming%20Education.pdf)
+[TOP](#index)
+
+---
+
+## [JS Notional Machine](http://www.computacional.com.br/arquivos/Artigos%20CS%20Unplugged%20-%20Desplugado/SORVA%20-%20Notional%20Machines%20and%20Introductory%20Programming%20Education.pdf)
 
 The __notional machine__ is a [mental model](https://www.youtube.com/watch?v=5K_sxBUGx8A) your brain builds to understand what JavaScript does during program execution.  These notional machines don't need to be precise down to the physical chips, instead they need to accurately describe what is relevant to the task at hand. At the beginning this list includes:
 * How JS steps through a file
@@ -96,7 +101,7 @@ Problem Solving Resources:
 * [Simpleprogrammer's tips](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 * [List of Strategies](https://www.une.edu.au/about-une/academic-schools/bcss/news-and-events/psychology-community-activities/over-fifty-problem-solving-strategies-explained)
 * [Constraint-Based Problem Solving](https://elewa-academy.github.io/General-Resources/key-resources/problem-solving.html).  What is it, and how to apply it to programming.
-
+* [Unit Tests](https://www.youtube.com/watch?v=Eu35xM76kKY&list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
 
 Kata Recommendations:
 * 8 Kyu - 

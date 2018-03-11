@@ -56,7 +56,7 @@ For more detailed instructions on how to structure your development process you 
 ## Resources
 
 User Centered Project Repos:
-* [Template](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md)
+* [Template](https://github.com/elewa-academy/User-Centered-Template/)
 * [Example](https://github.com/elewa-student/User-Centered-Development)
 
 Tools:
