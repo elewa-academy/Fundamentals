@@ -13,7 +13,7 @@ Briefly describe this person, their current portfolio, and what you're about to 
 6. [Partner Feedback](#6-partner-feedback)
 7. [Final Plan](#7-final-plan)
 8. [Final Build](#8-final-build)
-9. [Final Feedback](#9-	final-feedback)
+9. [Final Feedback](#9-final-feedback)
 
 ___
 
