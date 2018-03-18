@@ -1,8 +1,10 @@
 # Human-Centered Design
 
-In this project you will take what you learned in __Organizing Development__ and bring it to the next level.
+Computers run your code, developers maintain it, and humans use it.  This project focuses on the humans who use it.
 
-in the project you will design a home page for one of your fellow classmates.  The goal is not to learn new tools, not to build an impressive site, the goal is to understand your partner and build a portfolio that represents them how they would like to be seen by employers.  
+You will learn about _Design Thinking_ & _User Empathy_ by designing a home page for one of your fellow classmates at a time.  The goal is not to learn new tools, not to build an impressive site, the goal is to understand your partner's needs.  The portfolio you build should represent them honestly and effectively to employers and other developers.
+
+
 
 ### Index
 * [Learning Objectives](#learning-objectives)
@@ -26,7 +28,7 @@ in the project you will design a home page for one of your fellow classmates.  T
 
 This project is a variation of the classic exercise in design thinking:  [The Wallet Challenge](https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752).  You will pair up with one other person and design a portfolio/cv to fit their needs.
 
-There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find a template here
+There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find [a template here](https://github.com/elewa-academy/Fundamentals/blob/master/docs_src/09-human-centered-design/design-cycle-template.md).
 
 
 
@@ -35,8 +37,8 @@ Final Repo Specs:
   * Full project description
   * Index linking to Portfolio Folder README's
   * Notes 
-* Portfolio Folders (2-3 of them)
-  * README - Fill out this template
+* Portfolio Folders (3+ of them)
+  * README - [From this template](https://github.com/elewa-academy/Fundamentals/blob/master/docs_src/09-human-centered-design/design-cycle-template.md)
   * Dev Schedule
   * Diagrams, wireframes, ...
   * /src
@@ -47,6 +49,8 @@ Final Repo Specs:
 ---
 
 ## Resources
+
+There are a lot of resources here.  You should watch/read a minimum of 3 from each section.
 
 Empathy for Developers:
 * [What is Empathy?](https://codingwithempathy.com/2016/05/03/empathy-an-essential-skill-in-software-development/)
