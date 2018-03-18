@@ -18,7 +18,7 @@ You can find an example of the portfolio you'll be building [right here](https:/
 
 ## Studying tips
 
-Before diving right in (and every other day of course!), you should check out this [video about learning to program](https://www.youtube.com/watch?v=bO__AN3reqU). Also take a look at [Thomas Frank's youtube channel](https://www.youtube.com/user/electrickeye91).  It's full of great tips about we learn and how to study effectively.
+Before diving right in (and every other day of course!), you should check out this [video about learning to program](https://www.youtube.com/watch?v=bO__AN3reqU). Also take a look at [Thomas Frank's youtube channel](https://www.youtube.com/user/electrickeye91) and this [TED Talk](https://www.youtube.com/watch?v=5MgBikgcWnY&feature=youtu.be).  It's full of great tips about we learn and how to study effectively.
 
 ___
 ___

@@ -26,6 +26,9 @@ More:
 * [Communicating with Code](http://elewa.education/2018/01/25/carving-thoughts-code/)
 * [13 Principles of Readable Code](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 * [Beautiful & Clean](https://hackernoon.com/how-to-make-your-code-clean-and-beautiful-5ff7aee03be6)
+* Linters & Style:
+  * [Code Style & Style Guides](https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa)
+  * [Linting](https://medium.com/@danielsternlicht/thoughts-about-javascript-linters-and-lint-driven-development-7c8f17e7e1a0)
 
 
 ---

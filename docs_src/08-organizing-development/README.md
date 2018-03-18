@@ -44,9 +44,9 @@ Secondary Learning Objectives
 
 Complete at least 5 User Centered [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md), build a gallery landing page to feature them all, and include this landing page on your portfolio.
 
-When you're building your pages remember that the purpose of these projects is to __organize__ and __estimate__ their development cycle.   Don't worry about making your websites super pretty, about using cool libraries, or having awesome features.  You should even consider not using any JS or jQuery in your sites at all!  Always choose the simplest possible implementation.
+When you're building your pages remember that the purpose of these projects is to __organize__ and __estimate__ their development cycle.   Don't worry about making your websites super pretty, about using cool libraries, or having awesome features.  You should even consider not using any JS or jQuery in your sites at all!  Always choose the simplest possible implementation so you can focus on the development _process_.
 
-For more detailed instructions on how to structure your development process you can read through the [template repos](https://github.com/elewa-academy/User-Centered-Template/blob/master/README.md).
+For more detailed instructions on how to structure your development process you can read through the [template repo](https://github.com/elewa-academy/User-Centered-Template/).
 
 [TOP](#index)
 
@@ -61,7 +61,7 @@ User Centered Project Repos:
 
 Tools:
 * [Wireframe.cc](https://elewa-academy.github.io/General-Resources/developer-tools/wireframes.html)
-* [Using Sketchboard.io](https://m.sketchboard.io/introducing-sketchboard-69d142ea935).  
+* [Using Sketchboard.io](https://m.sketchboard.io/introducing-sketchboard-69d142ea935)
 * [Pushing to GH from Sketchboard](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html)
 * [Gremlins.js](https://elewa-academy.github.io/General-Resources/core-libraries/gremlins.html)
 * [Live Server](https://github.com/tapio/live-server)
