@@ -1,7 +1,7 @@
 # Summary
 
 * [Welcome](README.md)   
-* [0. Preparation](./00-preparation/README.md)
+* [0. Modivation & Studying](./00-motivation-studying/README.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
 * [3. Pair Programming](./03-pair-programming/README.md)
