@@ -93,12 +93,12 @@ Kata Repositories:
 
 Problem Solving Resources:
 * [JavaScript Pseudocode](http://dondi.lmu.build/share/intro/pseudocode2js-v02.pdf)  
-* [Tips for converting from words to code](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/english2js)
+* [Tips for converting from words to code](https://github.com/elewa-academy/Fundamentals/tree/master/3-codewars-gallery/english2js)
 * [Specs](https://elewa-academy.github.io/General-Resources/programming-resources/specs.html)
 * [Testing 101](https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html)
 * [Using Unit Tests](https://www.youtube.com/watch?v=Eu35xM76kKY&list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
-* [Minimal passing functions](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/simplestPassingFuncs)  
-* [Tips for using conditional checks](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery/conditionalChecks)
+* [Minimal passing functions](https://github.com/elewa-academy/Fundamentals/tree/master/3-codewars-gallery/simplestPassingFuncs)  
+* [Tips for using conditional checks](https://github.com/elewa-academy/Fundamentals/tree/master/3-codewars-gallery/conditionalChecks)
 * [Simpleprogrammer's tips](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 * [List of Strategies](https://www.une.edu.au/about-une/academic-schools/bcss/news-and-events/psychology-community-activities/over-fifty-problem-solving-strategies-explained)
 * [Constraint-Based Problem Solving](https://elewa-academy.github.io/General-Resources/key-resources/problem-solving.html).  What is it, and how to apply it to programming.
@@ -114,7 +114,7 @@ Kata Recommendations:
     * [The First Shall be Last](https://www.codewars.com/kata/scrolling-text)
 * Send us your favorites!
 
-[Codewars Repo](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/3-codewars-gallery)
+[Codewars Repo](https://github.com/elewa-academy/Fundamentals/tree/master/3-codewars-gallery)
 
 [TOP](#index)
 

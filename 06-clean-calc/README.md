@@ -45,7 +45,7 @@ To see how well you did, go to the "cleancalc" channel on Slack to share objects
 
 This project has several steps to it
 
-1. Build an object to match [these specs](https://github.com/elewa-academy/Fundamentals/blob/master/docs_src/3-cleancalc/cleancalc-series/1-cleancalc.js). 
+1. Build an object to match [these specs](https://github.com/elewa-academy/Fundamentals/blob/master/3-cleancalc/cleancalc-series/1-cleancalc.js). 
 2. Write a JS file to take command line arguments and pass them into your calculator. 
     * Your three layers are:
         a. UI - the terminal
@@ -95,7 +95,7 @@ __Cleancalc video series__:
 * [Part 3](https://www.youtube.com/watch?v=cjFEm_Drpnw)
 * [Part 4](https://www.youtube.com/watch?v=7VjtfihfwuE)
 * [Part 5](https://www.youtube.com/watch?v=XgUvVRj2Nao)
-* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/4-clean-calc/clean-calc-series) 
+* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/4-clean-calc/clean-calc-series) 
 
 __Separation of Concerns__:
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
@@ -123,7 +123,7 @@ __DOM__:
 
 
 
-[Cleancalc Repo](https://github.com/elewa-academy/Fundamentals/tree/master/docs_src/4-clean-calc)
+[Cleancalc Repo](https://github.com/elewa-academy/Fundamentals/tree/master/4-clean-calc)
 
 
 [TOP](#index)
