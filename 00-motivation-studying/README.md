@@ -1,9 +1,8 @@
 # Motivation & Studying
 
+Quality learning relies on motivation and effective studying.  
 
-make this a personal hook, maybe a story, show the reader's situation to capture them.
-show desire to share/give
-
+Fortunately for us _both_ of those skills can be practiced and improved!
 
 
 ### Index
@@ -93,6 +92,8 @@ Motivation is a tricky thing, it can come and go seemingly without any reason.  
 * Take a break!
   * More often than not you can make everything better by calling it early and getting a good night's sleep.  The next day your code _and_ your motivation will be better than before.
 
+
+
 * [Great Tips](http://www.codeconquest.com/bored-programming/)
 * [Being Demotivated](https://www.youtube.com/watch?v=RQg_Q4HYYpg)
 * [Structure Your Studying](https://medium.com/@michaelhenderson/losing-motivation-when-learning-to-code-9ac672ac15b9)
@@ -132,6 +133,26 @@ TL;DR -
     * Let clear code, good habits, and careful planning do the hard work for you.
 2. Don't try solving anything you can't hold in your head all at once -
     * If you find yourself with too much going on for you to keep straight, you probably did a bad job with # 1.
+
+
+By asking the right questions:
+  Narrow the topics you need to study.
+  Often, in formulating a clear question you will find your answer.
+  Analyzing your list of questions, you can see:
+    Am I on topic?
+      Am I distracted in breadth or depth?
+    What seem to be recurring confusions? 
+      Can I trace those to a common source?
+  Automatically building up a study plan for the next days.
+    If you do a good job organizing your questions.
+
+Studying seems simple, you sit there and learn stuff.  But that’s far from true.
+  Good studying is teaching yourself. 
+  Good studying requires a good plan.
+  Good study plans look a lot like lesson plans.
+  Good lesson plans have a focus and end product
+  A focus is not only a topic and some skills, but specifies scope and levels of detail.
+
 
 
 * studying tips  
