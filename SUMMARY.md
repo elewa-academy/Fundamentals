@@ -1,10 +1,10 @@
 # Summary
 
-* [Welcome](README.md)   
+* [Fundamentals](README.md)   
 * [0. Modivation & Studying](./00-motivation-studying/README.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
-* [3. Pair Programming](./03-pair-programming/README.md)
+* [3. Buddy System](./03-buddy-system/README.md)
 * [4. Solutions & The Notional Machine](./04-codewars-gallery/README.md)
 * [5. TDD Katas](./05-tdd-katas/README.md)
 * [6. Separation of Concerns](./06-clean-calc/README.md)
@@ -12,5 +12,5 @@
 * [8. Organizing Development](./08-organizing-development/README.md)
 * [9. Human-Centered Design](./09-human-centered-design/README.md)
 * [10. All Together](./10-all-together/README.md)
-* [Fundamentals Repo](https://github.com/elewa-academy/Fundamentals/tree/master)
+* [Repo](https://github.com/elewa-academy/Fundamentals/tree/master)
 * [Home](https://elewa-academy.github.io)
