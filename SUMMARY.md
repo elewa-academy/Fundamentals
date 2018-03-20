@@ -1,7 +1,7 @@
 # Summary
 
 * [Fundamentals](README.md)   
-* [0. Modivation & Studying](./00-motivation-studying/README.md)
+* [0. Motivation & Studying](./00-motivation-studying/README.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
 * [3. Buddy System](./03-buddy-system/README.md)
