@@ -56,22 +56,19 @@ Given the right opportunities and environment, humans learn. [It's just what we 
 But it can be very easy to get in your own way.  Especially when you're learning something inherently challenging like software development.  To maximize your learning it helps to keep a healthy mindset.  
 
 From our experience we have identified three common traits across successful students:
-* Growth Mindset
-* Learning Orientation
-* Embracing Confusion
 
-Growth Mindset vs Fixed Mindset:
-* [Overview](https://www.youtube.com/watch?v=75GFzikmRY0)
-* [Programming & Growth Mindset](https://www.digitaladventures.com/news/2016/5/2/how-learning-to-code-can-help-develop-a-growth-mindset)
+1. Growth Mindset vs Fixed Mindset:
+  * [Overview](https://www.youtube.com/watch?v=75GFzikmRY0)
+  * [Programming & Growth Mindset](https://www.digitaladventures.com/news/2016/5/2/how-learning-to-code-can-help-develop-a-growth-mindset)
 
-Learning Zone vs Performance Zone:
-* [The Video](http://www.totalimmersion.net/blog/get-better-things-care-practice-learning-zone/)
-* [Balancing the Two](http://jonathanreeve.com.au/blog/2017/10/13/balancing-learning-and-performance)
+2. Learning Zone vs Performance Zone:
+  * [The Video](http://www.totalimmersion.net/blog/get-better-things-care-practice-learning-zone/)
+  * [Balancing the Two](http://jonathanreeve.com.au/blog/2017/10/13/balancing-learning-and-performance)
 
-Embracing Confusion:
-* [Good & Bad Confusion](https://theconversation.com/confused-dont-worry-because-that-can-be-a-good-thing-64421)
-* [Necessary to Learning](https://quantumprogress.wordpress.com/2011/04/22/embracing-confusion-as-a-necessary-part-of-learning-part-1/)
-* [Uncertainty is Inevitable](https://towardsmaturity.org/2017/04/12/learning-uncertainty-cope/)
+3. Embracing Confusion:
+  * [Good & Bad Confusion](https://theconversation.com/confused-dont-worry-because-that-can-be-a-good-thing-64421)
+  * [Necessary to Learning](https://quantumprogress.wordpress.com/2011/04/22/embracing-confusion-as-a-necessary-part-of-learning-part-1/)
+  * [Uncertainty is Inevitable](https://towardsmaturity.org/2017/04/12/learning-uncertainty-cope/)
  
 
 
