@@ -10,8 +10,8 @@ Fortunately for us _both_ of those skills can be practiced and improved!
 * [Manage Your Mindset](#manage-your-mindset)
 * [Manage Your Expectations](#manage-your-expectations)
 * [Stay Motivated](#stay-motivated)
+* [Cognitive Resources](#cognitive-resources)
 * [Study Effectively](#study-effectively)
-* [And a Little Science](#a-little-science)
 * [Productive Procrastination](#productive-procrastination)
 
 ___
@@ -125,14 +125,53 @@ No matter how smart you are, or how well you can learn other tasks, this inheren
 
 ___
 
+# Cognitive Resources
+
+Effective learning is composed (_very_ roughly) of these main components:
+* Concentrated and intentional effort
+* Accurate meta-cognition (being aware of your own mental processes)
+* Cognitive Load management
+* Formation of useful mental models
+
+If this weren't already a lot, each of these components has a conscious and an unconscious side.  
+
+* a little science
+  * memory - working, longterm, schemas/mental models
+  * cognitive load - pull from english to js
+  * mental models
+  * metacognition - it sucks. teach people
+  * some cognitive falacies & shortcomings
+    * the two named one yanss talks about
+
+[TOP](#index)
+
+___
+
 # Study Effectively
+
+now you're motivated. now how to get the most out of your time studying.
+
+let's tackle effective studying from a few perspectives:
+* Management of limited resources
+* Teaching yourself something you don't know
+* Asking the right questions
+
+Good studying is effectively managing your resources:
+* time
+* motivation
+* mental
+  1. Keep your working memory clear - 
+    * Let clear code, good habits, and careful planning do the hard work for you.
+  2. Don't try working on anything you can't hold in your head all at once -
+    * If you find there's too much going on for you to keep straight, you probably did a bad job with # 1.
+
+The key skill ties this all together is self-knowledge.
+
+
 
 TL;DR - 
 0. Keep it light and fun.
-1. Keep your working memory clear - 
-    * Let clear code, good habits, and careful planning do the hard work for you.
-2. Don't try solving anything you can't hold in your head all at once -
-    * If you find yourself with too much going on for you to keep straight, you probably did a bad job with # 1.
+
 
 
 By asking the right questions:
@@ -176,19 +215,6 @@ self-reflection, metacognition
 
 ___
 
-# A Little Science
-
-* a little science
-  * memory - working, longterm, schemas/mental models
-  * cognitive load - pull from english to js
-  * mental models
-  * metacognition - it sucks. teach people
-  * some cognitive falacies & shortcomings
-    * the two named one yanss talks about
-
-[TOP](#index)
-
-___
 
 ## Productive Procrastination
 
@@ -199,6 +225,7 @@ Below is a list of channels, blogs, and websites that will never waste your time
 * [Thomas Frank (YouTube)](https://www.youtube.com/user/electrickeye91)
 * [FunFunFunction (Youtube)](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [SimpleProgrammer (Blog)](https://simpleprogrammer.com)
+* [Rising Stack](https://blog.risingstack.com)
 * [Being a Developer (Links)](https://github.com/elewa-academy/April-Precourse/blob/master/docs_src/0-being-a-developer.md)
 * [FreeCodeCamp (YouTube)](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 * [FreeCodeCammp (Blog)](https://medium.freecodecamp.org)
