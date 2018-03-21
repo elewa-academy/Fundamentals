@@ -4,7 +4,7 @@
 * [0. Motivation & Studying](./00-motivation-studying/README.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
-* [3. Buddy System](./03-buddy-system/README.md)
+* [3. The Buddy System](./03-the-buddy-system/README.md)
 * [4. Solutions & The Notional Machine](./04-codewars-gallery/README.md)
 * [5. TDD Katas](./05-tdd-katas/README.md)
 * [6. Separation of Concerns](./06-clean-calc/README.md)

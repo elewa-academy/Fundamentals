@@ -1,8 +1,8 @@
 # Motivation & Studying
 
-Quality learning relies on motivation and effective studying.  
+Sometimes the hardest part of learning to code is keeping at it.  There will be times when it feels like no matter what you try, you stay stuck.  It's at these worst-of-times that it's most important to keep your spirits up, and make the most of every minute you spend studying.
 
-Fortunately for us _both_ of those skills can be practiced and improved!
+Fortunately both motivation _and_ studying are skills you can improve!  
 
 
 ### Index
@@ -10,8 +10,9 @@ Fortunately for us _both_ of those skills can be practiced and improved!
 * [Manage Your Mindset](#manage-your-mindset)
 * [Manage Your Expectations](#manage-your-expectations)
 * [Stay Motivated](#stay-motivated)
+* [Being Wrong](#being-wrong)
 * [Cognitive Resources](#cognitive-resources)
-* [Study Effectively](#study-effectively)
+* [Studying Effectively](#study-effectively)
 * [Productive Procrastination](#productive-procrastination)
 
 ___
@@ -125,23 +126,57 @@ No matter how smart you are, or how well you can learn other tasks, this inheren
 
 ___
 
+## Being Wrong
+
+You will be wrong every day you write code.  There are several great reasons for this and none of them have to do with you personally:
+* __Software Development is incredibly complicated.__  There's basically no one out there that can hold every detail of a production application in their minds.
+* __You are working collaboratively.__ You may know what _should_ be happening, but that's no guarantee it _does_ work that way! Errors and miscommunications will happen. 
+* __Every language feature, tool, and library you use was designed by another human.__ There is often no way to guess how something works, you need to read their documentation.  And documentation isn't always clear or correct perfect.
+* __You are never doing the same task twice.__  Every time you sit down to write some code, you are approaching a brand new problem with tools that are always changing.  No one can be right every time about something they've never seen before!
+
+You should seek out being wrong, always look for how you are wrong not how you are right. This is how you will break your knowledge and reconstruct it stronger than before.  Embrace it.
+
+If you are cruising along building projects with no problems, being right all the time, you're missing the point.  Studying and learning isn't about repeating what you understand, it's about finding the weaknesses in your understanding and correcting them.   
+
+* [TED talk on being wrong](https://www.ted.com/talks/kathryn_schulz_on_being_wrong)
+* [learning and being wrong](https://www.scientificamerican.com/article/getting-it-wrong/)
+* [Age-depednet](https://theconversation.com/how-tests-and-wrong-answers-help-us-remember-what-we-learn-33437)
+
+
+[TOP](#index)
+___
+
 # Cognitive Resources
 
 Effective learning is composed (_very_ roughly) of these main components:
 * Concentrated and intentional effort
 * Accurate meta-cognition (being aware of your own mental processes)
-* Cognitive Load management
-* Formation of useful mental models
+* Cognitive Load management (more on this in a moment)
+* Forming & maintaining useful mental models
 
-If this weren't already a lot, each of these components has a conscious and an unconscious side.  
+Some of this you have direct control over and some you don't.  Effective learning will happen once you've learned how to improve what you can control and manage what you can't.  
 
-* a little science
-  * memory - working, longterm, schemas/mental models
-  * cognitive load - pull from english to js
-  * mental models
-  * metacognition - it sucks. teach people
-  * some cognitive falacies & shortcomings
-    * the two named one yanss talks about
+
+* __Accurate Meta-Cognition__:
+  * This is possibly the most important of all 4 points.  Self-learning is also self-teaching, to be able to teach someone you need to know their strengths and weaknesses. Accurately assessing your your abilities (positive and negative) will make all the difference. This dies apply to practical coding skills - knowing what to practice and what to learn next. 
+  Even more importantly it applies to knowing your own state of mind: When are you unsure vs lost? Are you losing focus? Is your confidence warranted? 
+  * [Tips for Improving](http://www.learningscientists.org/blog/2017/3/30-1).  This article is about understanding texts, but everything they say applies just as much to understanding source code.
+
+* __Concentrated and Intentional Effort__:
+  * You will learn most effectively when you are deliberate about every action you take and avoid any distractions.  "Going through the motions" for the sake of repetition is not an efficient way to improve in the long-run.  Every little distraction will also hurt your learning efforts, each time you are distracted you need to expend effort remembering what you were just thinking about.
+
+* __Cognitive Load Management__:
+  * _Cognitive Load_ is the amount of incoming information your brain has to handle at once.  Managing this is so important for learning because you most effectively learn information that has been fully processed by your working memory. If your brain is attempting to process more than it can handle, none of the incoming information can be handled correctly.  
+  Your goal shouldn't be to completely remove cognitive load, but rather to make sure you are experiencing the right type:
+    * _Intrinsic Load_:  This refers to the inherent complexity of what you are trying to learn.  Programming is a very complex skill.  The best way to limit intrinsic load is to study projects that introduce only one new concept at a time, building on what you have already completed. We have done our best to build this principle into our curriculum.
+    * _Extraneous Load_:  This is anything unrelated the concept you are trying to learn.   There are certain things that will always fall into this category - background noise, phones, this weekend's plans.  Then there are some things that can be extraneous _or_ intrinsic - new language features, dev tools, frameworks, ... It is up to you to decide what you're focusing on and to learn the rest later.
+    * _Germane Load_:  This is the good one, you want this one.  Germane load is the work your brain does that translates directly into meaningful learning.  After you've cleared away distractions, set your concentration, and decided on narrow learning objectives, this is the work your brain has left to do: convert new information into usable mental models.  You can think of it a bit like switching to a more fuel-efficient car - you burn the same amount of gas but move further and faster.
+  * [Great Overview](https://www.mindtools.com/pages/article/cognitive-load-theory.htm)
+
+
+* __Forming & Maintaining Useful Mental Models__:
+  * 
+
 
 [TOP](#index)
 
@@ -165,14 +200,17 @@ Good studying is effectively managing your resources:
   2. Don't try working on anything you can't hold in your head all at once -
     * If you find there's too much going on for you to keep straight, you probably did a bad job with # 1.
 
-The key skill ties this all together is self-knowledge.
+multi-tasking vs task-switching
 
+"learning styles" is over-rated. You will generally get better _skill transfer_ if you learn a new concept in it's real-life context.  ie. codepen vs browser/terminal/editor.  It may feel less effective at first, but the long-term rewards are greater.  Transition over as soon as you can.
 
 
 TL;DR - 
 0. Keep it light and fun.
 
-
+* http://www.metalearn.net/articles/learning-mistakes
+* https://www.fastcompany.com/40420472/five-popular-myths-about-learning-that-are-completely-wrong
+  learning style be damned.  learn in the real context
 
 By asking the right questions:
   Narrow the topics you need to study.
@@ -225,6 +263,7 @@ Below is a list of channels, blogs, and websites that will never waste your time
 * [Thomas Frank (YouTube)](https://www.youtube.com/user/electrickeye91)
 * [FunFunFunction (Youtube)](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [SimpleProgrammer (Blog)](https://simpleprogrammer.com)
+* [Awesome JS Learning (GitHub)](https://github.com/micromata/awesome-javascript-learning)
 * [Rising Stack](https://blog.risingstack.com)
 * [Being a Developer (Links)](https://github.com/elewa-academy/April-Precourse/blob/master/docs_src/0-being-a-developer.md)
 * [FreeCodeCamp (YouTube)](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)

@@ -57,7 +57,7 @@ This project focuses entirely on TDD, we will discuss BDD later on in the Testin
     4. Learning Notes
   * Live gh-pages tests as in the CodeWars Repos.
   * Completed, Refactored, Beautiful Solution.
-  * REQUIREMENT.md - one per test in your kata
+  * REQUIREMENT.md - one per requirement in your kata
     1. Describe this requirement.  Explain how it builds on the last one.
     2. List each test case and what you did to pass it
     3. Include your passing code as a snippet
@@ -76,9 +76,13 @@ Challenge:
 
 
 Lists of Katas:
-* [Michael Whelan's](http://www.michael-whelan.net/code-katas-for-practicing-tdd/)
-* [With Accompanying Videos](http://www.codekatas.org)
-* [CodeKata](http://codekata.com)
+* Easier:
+  * [CodeWars](https://www.codewars.com/)
+  * [Exercism](https://github.com/exercism/javascript)
+* Harder:
+  * [Michael Whelan's](http://www.michael-whelan.net/code-katas-for-practicing-tdd/)
+  * [With Accompanying Videos](http://www.codekatas.org)
+  * [CodeKata](http://codekata.com)
 
 
 TDD:

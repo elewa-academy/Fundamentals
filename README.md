@@ -28,9 +28,9 @@ Before moving on to the first project, there are a few pre-requisites:
   * A good, descriptive readme
   * A live Gh-Pages demo 
 
-Everything you need to get started can be found in the [Elewa Precourse](https://elewa-academy.github.io/April-Precourse).  So if you haven't already, go back and complete the precourse.  You'll be using the projects from it in the rest of our curriculum.
+Everything you need to get started can be found in the [Elewa Precourse](https://elewa-academy.github.io/April-Precourse).  So if you haven't already, go back and complete the precourse.  It'll make your life easier.
 
-You can find an example of the portfolio you'll be building [right here](https://elewa-student.github.io).
+You can find an example of the portfolio you'll build in the precourse [right here](https://elewa-student.github.io).
 
 
 

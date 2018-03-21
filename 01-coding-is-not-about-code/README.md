@@ -35,6 +35,7 @@ More:
 
 ## Assignment
 
+0. [Set up ESLint](https://eslint.org/docs/user-guide/getting-started)
 1. Every time you read or write a line of code ask yourself three questions:
     * How does this help the user?
     * How does this help the maintainer?
