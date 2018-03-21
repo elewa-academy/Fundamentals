@@ -175,7 +175,7 @@ Some of this you have direct control over and some you don't.  Effective learnin
   * [Great Overview of Cognitive Load](https://www.mindtools.com/pages/article/cognitive-load-theory.htm)
 
 
-* __Forming & Maintaining Useful Mental Models__:
+* __Forming & Maintaining Quality Mental Models__:
   * A sign of effective learning is __automatization__ - that lovely moment where you no longer need to _think_ to complete a task.  You can talk or eat without thinking about the muscles in your mouth, and if you do try to think about them it gets harder!  This is automatization in action.  Your brain has built a network of Mental Models that it can fall back on to carry out these routine tasks without increasing your cognitive load.
   Your brain automatically builds these models as you interact with the world.  This means you don't have to _try_ to learn.  But it also means you have to be very careful about what how you study. Because programming is so complex, it is possible to understand it in many different ways.  An incorrect model might work for a while, but will ultimately stop you in your tracks when you reach something that works differently from what you understand. Unlearning these automated through process is much more difficult than learning them correctly from the beginning.
   Fortunately there are some very simple steps you can take to overcome this challenge: 
@@ -186,29 +186,50 @@ Some of this you have direct control over and some you don't.  Effective learnin
   * [Make a Concept Map](https://www.wikihow.com/Make-a-Concept-Map)
 
 
+In short, your brain wants to learn.  Give it a chance by working with it not against it.
+
 [TOP](#index)
 
 ___
 
 # Study Effectively
 
-now you're motivated. now how to get the most out of your time studying.
 
-let's tackle effective studying from a few perspectives:
-* Management of limited resources
-* Teaching yourself something you don't know
-* Asking the right questions
+"Studying".  Such a common word that it can be hard to know what it really means.  At Elewa we use a very simple and actionable definition.
 
-Good studying is effectively managing your resources:
-* time
-* motivation
-* mental
+> __Studying__: Managing your limited resources to maximize learning.
+
+* "There is only so much time in a day."
+* "I can't focus today."
+* "I'm burnt out."
+* "I just don't care anymore."
+* "Figure it out yourself this time."
+* "It's too hard."
+* "I can't stay awake."
+
+Each of these common complaints hint that some resource has run out.  Time, motivation, concentration, social support, thinking power, energy, all of these are necessary to maximize learning and all of them can be used up.
+
+There is no single best way to study, everyone has their own unique limitations they need to balance.  A busy parent will have a very different balancing act than a full-time student, or a single lawyer.  The first step to effective studying is to know your own situation.  Do you run out time before motivation?  Do you stay motivated well after you can't think straight anymore?  Do you have perfect discipline, but still learn slower than your peers? Each of these cases will require a different strategy, and only you can figure out your own strategy.  It can be tricky but with enough reflection, trial, and error you can make it.
+
+Here are some tips to get the most out of your available resources:
+* __Time__:
+* __Motivation__:
+  * Keep it light and fun.
+* __[Working Memory](https://www.scientificamerican.com/article/working-memory-how-you-keep-things-ldquo-in-mind-rdquo-over-the-short-term/)__:
+  * multi-tasking vs task-switching
+* __Social Support__:
+* __
+
+use "external memory": mneumonics, diagrams, good habits, 
+
+
+
+
   1. Keep your working memory clear - 
     * Let clear code, good habits, and careful planning do the hard work for you.
   2. Don't try working on anything you can't hold in your head all at once -
     * If you find there's too much going on for you to keep straight, you probably did a bad job with # 1.
 
-multi-tasking vs task-switching
 
 "learning styles" is over-rated. You will generally get better _skill transfer_ if you learn a new concept in it's real-life context.  ie. codepen vs browser/terminal/editor.  It may feel less effective at first, but the long-term rewards are greater.  Transition over as soon as you can.
 
@@ -231,19 +252,10 @@ By asking the right questions:
   Automatically building up a study plan for the next days.
     If you do a good job organizing your questions.
 
-Studying seems simple, you sit there and learn stuff.  But that’s far from true.
-  Good studying is teaching yourself. 
-  Good studying requires a good plan.
-  Good study plans look a lot like lesson plans.
-  Good lesson plans have a focus and end product
-  A focus is not only a topic and some skills, but specifies scope and levels of detail.
-
 
 
 * studying tips  
   * rmc
-  * funfunfunciton videos
-  * every flit of attention
   * teach
   * time management
   * focus & diffuse
