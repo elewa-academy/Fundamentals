@@ -1,6 +1,6 @@
 # Motivation & Studying
 
-Sometimes the hardest part of learning to code is keeping at it.  There will be times when it feels like no matter what you try, you stay stuck.  It's at these worst-of-times that it's most important to keep your spirits up, and make the most of every minute you spend studying.
+Often the hardest part of learning to code is keeping at it.  It will feel like no matter what you try, you stay stuck.  This is totally normal.  It's at these most de-motivating moments that it's important to keep your spirits up, keep your eye on the prize, and remind yourself why you love to code.
 
 Fortunately both motivation _and_ studying are skills you can improve!  
 

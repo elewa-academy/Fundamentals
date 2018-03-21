@@ -1,0 +1,619 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>5. TDD Katas · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../06-clean-calc/" />
+    
+    
+    <link rel="prev" href="../04-codewars-gallery/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Fundamentals
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../00-motivation-studying/">
+            
+                <a href="../00-motivation-studying/">
+            
+                    
+                    Motivation & Studying
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../00-motivation-studying/0-find-your-why.html">
+            
+                <a href="../00-motivation-studying/0-find-your-why.html">
+            
+                    
+                    Find Your Why
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../00-motivation-studying/1-manage-your-mindset.html">
+            
+                <a href="../00-motivation-studying/1-manage-your-mindset.html">
+            
+                    
+                    Manage Your Mindset
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../00-motivation-studying/2-stay-motivated.html">
+            
+                <a href="../00-motivation-studying/2-stay-motivated.html">
+            
+                    
+                    Stay Motivated
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../00-motivation-studying/3-manage-your-expectations.html">
+            
+                <a href="../00-motivation-studying/3-manage-your-expectations.html">
+            
+                    
+                    Manage Your Expectations
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../00-motivation-studying/4-being-wrong.html">
+            
+                <a href="../00-motivation-studying/4-being-wrong.html">
+            
+                    
+                    Being Wrong
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../00-motivation-studying/5-help-your-brain.html">
+            
+                <a href="../00-motivation-studying/5-help-your-brain.html">
+            
+                    
+                    Help Your Brain
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../00-motivation-studying/6-study-effectively.html">
+            
+                <a href="../00-motivation-studying/6-study-effectively.html">
+            
+                    
+                    Study Effectively
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../01-coding-is-not-about-code/">
+            
+                <a href="../01-coding-is-not-about-code/">
+            
+                    
+                    1. Coding is Not About Code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../02-js-30-gallery/">
+            
+                <a href="../02-js-30-gallery/">
+            
+                    
+                    2. Showcasing Your Work
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../03-the-buddy-system/">
+            
+                <a href="../03-the-buddy-system/">
+            
+                    
+                    3. The Buddy System
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../04-codewars-gallery/">
+            
+                <a href="../04-codewars-gallery/">
+            
+                    
+                    4. Solutions & The Notional Machine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    5. TDD Katas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../06-clean-calc/">
+            
+                <a href="../06-clean-calc/">
+            
+                    
+                    6. Separation of Concerns
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../07-code-specs-refactoring/">
+            
+                <a href="../07-code-specs-refactoring/">
+            
+                    
+                    7. Code Specs & Refactoring
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../08-organizing-development/">
+            
+                <a href="../08-organizing-development/">
+            
+                    
+                    8. Organizing Development
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../09-human-centered-design/">
+            
+                <a href="../09-human-centered-design/">
+            
+                    
+                    9. Human-Centered Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../10-all-together/">
+            
+                <a href="../10-all-together/">
+            
+                    
+                    10. All Together
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <a target="_blank" href="https://github.com/elewa-academy/Fundamentals/tree/master">
+            
+                    
+                    Repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <a target="_blank" href="https://elewa-academy.github.io">
+            
+                    
+                    Home
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >5. TDD Katas</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="tdd-katas">TDD Katas</h1>
+<p>Test Driven Development is a philosophy that says you should write tests first, then write the code to pass them.  </p>
+<p>In theory this will make it easier to avoid bugs and even easier to track down. This is certainly true if you are an experienced developer working on the a project who&apos;s architecture, team, and requirements will allow TDD.  But not all projects are conducive to TDD, and it can take some time before you understand development well enough to integrate TDD into your work-flow.</p>
+<p>What is undeniable is that learning TDD early on in your programming life will teach you strong habits like organized refactoring, thinking of code in terms of behavior not implementation, checking yourself early &amp; often, and explaining your thought process.</p>
+<p>In this project you will learn how to use TDD as an effective learning tool by completing and analyzing a minimum of 5 TDD Katas and organizing them into a gallery landing page as you did with JS 30 and CodeWars.</p>
+<h3 id="index">Index</h3>
+<ul>
+<li><a href="#learning-objectives">Learning Objectives</a></li>
+<li><a href="#specifications">Specifications</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+<hr>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>TDD</li>
+<li>Basic Functional Programming</li>
+</ul>
+<h3 id="tdd">TDD</h3>
+<p><img src="https://www.allaboutcircuits.com/uploads/articles/red-green-refactor.png" alt=""></p>
+<h3 id="functional-programming">Functional Programming</h3>
+<p>This is a highly complex subject, you will learn more about it when we begin to study Statefull Frontend Applications.  For now a basic understanding will be more than enough.  Functional Programming is when you build your applications completely out of <em>pure functions</em>:</p>
+<blockquote>
+<p><em>Pure Function</em>: It&apos;s return value is determined exclusively by it&apos;s arguments.</p>
+</blockquote>
+<p>Building applications entirely from pure functions is a good habit, but requires a high level of programming experience.  You are encouraged to apply this paradigm as often as you can without over-complicating your projects.</p>
+<h3 id="tdd-vs-bdd">TDD vs BDD</h3>
+<p>A quick &amp; dirty analogy might go like this:</p>
+<blockquote>
+<p>TDD ensures the walls won&apos;t crumble, BDD ensures the building matches the blueprints.</p>
+</blockquote>
+<p>This project focuses entirely on TDD, we will discuss BDD later on in the Testing unit.</p>
+<p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="specifications">Specifications</h2>
+<ol>
+<li>Follow these guides to TDD &amp; Functional Programming:<ul>
+<li><a href="http://www.kaidez.com/learn-javascript-unit-testing/#review-james-code" target="_blank">TDD</a></li>
+<li><a href="https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/" target="_blank">Functional Programming</a></li>
+<li><a href="https://github.com/kaidez/functional-programming-unit-testing" target="_blank">Accompanying GitHub Repo</a></li>
+</ul>
+</li>
+<li>Complete a minimum of 5 TDD Kata Repos.  Each repo will have:<ul>
+<li>README<ol>
+<li>Introduction to the problem</li>
+<li>Kata requirements explained in order, each linking to their markdowns</li>
+<li>Learning Notes</li>
+</ol>
+</li>
+<li>Live gh-pages tests as in the CodeWars Repos.</li>
+<li>Completed, Refactored, Beautiful Solution.</li>
+<li>REQUIREMENT.md - one per requirement in your kata<ol>
+<li>Describe this requirement.  Explain how it builds on the last one.</li>
+<li>List each test case and what you did to pass it</li>
+<li>Include your passing code as a snippet</li>
+<li>Describe &amp; include your refactored code as a snippet</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Build a gallery page to feature your Katas and put it up on your portfolio.</li>
+</ol>
+<p>Challenge:</p>
+<ul>
+<li><a href="http://www.tddfellow.com/blog/2016/07/15/build-your-own-testing-framework/" target="_blank">Build Your own Testing Framework</a>.</li>
+</ul>
+<p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="resources">Resources</h2>
+<p>Lists of Katas:</p>
+<ul>
+<li>Easier:<ul>
+<li><a href="https://www.codewars.com/" target="_blank">CodeWars</a></li>
+<li><a href="https://github.com/exercism/javascript" target="_blank">Exercism</a></li>
+</ul>
+</li>
+<li>Harder:<ul>
+<li><a href="http://www.michael-whelan.net/code-katas-for-practicing-tdd/" target="_blank">Michael Whelan&apos;s</a></li>
+<li><a href="http://www.codekatas.org" target="_blank">With Accompanying Videos</a></li>
+<li><a href="http://codekata.com" target="_blank">CodeKata</a></li>
+</ul>
+</li>
+</ul>
+<p>TDD:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Eu35xM76kKY" target="_blank">Why Unit Tests?</a></li>
+<li><a href="http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/" target="_blank">Three Rules of TDD</a>* <a href="https://www.youtube.com/watch?v=ib2Pt9_zciA" target="_blank">This Takes Perseverance</a></li>
+<li><a href="https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html" target="_blank">Testing Overview</a></li>
+<li><a href="https://github.com/mawrkus/js-unit-testing-guide" target="_blank">Comprehensive Guide</a></li>
+<li><a href="https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3" target="_blank">The R.I.T.E. Way</a></li>
+<li><a href="https://www.quora.com/What-are-the-pros-and-cons-of-test-driven-development" target="_blank">Pros &amp; Cons</a></li>
+<li><a href="https://hackhands.com/dont-code-katas/" target="_blank">Anti-TDD</a></li>
+<li><a href="https://www.youtube.com/watch?v=GvAzrC6-spQ" target="_blank">Uncle Bob Speaks</a></li>
+</ul>
+<p>Live, Online TDD:</p>
+<ul>
+<li><a href="http://tddbin.com" target="_blank">TDDBin</a></li>
+</ul>
+<p>Pure Functions:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=AHbRVJzpB54" target="_blank">Very Clear Video</a></li>
+<li><a href="https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c" target="_blank">Article</a></li>
+<li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976" target="_blank">Article &amp; Video</a>, more advanced.</li>
+</ul>
+<p>Challenges:</p>
+<ul>
+<li>Automated, Continuous Testing with Wallaby.js: <ul>
+<li><a href="https://www.youtube.com/watch?v=P4UQ-jTTJJ4" target="_blank">Video</a>, </li>
+<li><a href="https://github.com/wix/tdd-katas" target="_blank">Repo</a></li>
+</ul>
+</li>
+<li><a href="https://istanbul.js.org" target="_blank">Code Coverage with Istanbul</a></li>
+</ul>
+<p><a href="#index">TOP</a></p>
+<hr>
+<hr>
+<h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../04-codewars-gallery/" class="navigation navigation-prev " aria-label="Previous page: 4. Solutions & The Notional Machine">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../06-clean-calc/" class="navigation navigation-next " aria-label="Next page: 6. Separation of Concerns">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5. TDD Katas","level":"1.7","depth":1,"next":{"title":"6. Separation of Concerns","level":"1.8","depth":1,"path":"06-clean-calc/README.md","ref":"./06-clean-calc/README.md","articles":[]},"previous":{"title":"4. Solutions & The Notional Machine","level":"1.6","depth":1,"path":"04-codewars-gallery/README.md","ref":"./04-codewars-gallery/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"05-tdd-katas/README.md","mtime":"2018-03-21T08:04:35.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-21T17:56:10.507Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
