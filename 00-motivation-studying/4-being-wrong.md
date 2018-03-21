@@ -11,8 +11,8 @@ You should seek out being wrong, always look for how you are wrong not how you a
 If you are cruising along building projects with no problems, being right all the time, you're missing the point.  Studying and learning isn't about repeating what you understand, it's about finding the weaknesses in your understanding and correcting them.   
 
 * [TED talk on being wrong](https://www.ted.com/talks/kathryn_schulz_on_being_wrong)
-* [learning and being wrong](https://www.scientificamerican.com/article/getting-it-wrong/)
-* [Age-depednet](https://theconversation.com/how-tests-and-wrong-answers-help-us-remember-what-we-learn-33437)
+* [Learning and being wrong](https://www.scientificamerican.com/article/getting-it-wrong/)
+* [Wrong answers teach more than right ones](https://theconversation.com/how-tests-and-wrong-answers-help-us-remember-what-we-learn-33437)
 
 ___
 ___
