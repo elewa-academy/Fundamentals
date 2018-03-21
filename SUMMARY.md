@@ -1,7 +1,14 @@
 # Summary
 
 * [Fundamentals](README.md)   
-* [0. Motivation & Studying](./00-motivation-studying/README.md)
+* [Motivation & Studying](./00-motivation-studying/README.md)
+  * [Find Your Why](./00-motivation-studying/0-find-your-why.md)
+  * [Manage Your Mindset](./00-motivation-studying/1-manage-your-mindset.md)
+  * [Stay Motivated](./00-motivation-studying/2-stay-motivated.md)
+  * [Manage Your Expectations](./00-motivation-studying/3-manage-your-expectations.md)
+  * [Being Wrong](./00-motivation-studying/4-being-wrong.md)
+  * [Help Your Brain](./00-motivation-studying/5-help-your-brain.md)
+  * [Study Effectively](./00-motivation-studying/6-study-effectively.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
 * [3. The Buddy System](./03-the-buddy-system/README.md)
