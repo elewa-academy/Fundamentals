@@ -11,7 +11,7 @@ Fortunately both motivation _and_ studying are skills you can improve!
 * [Manage Your Expectations](#manage-your-expectations)
 * [Stay Motivated](#stay-motivated)
 * [Being Wrong](#being-wrong)
-* [Cognitive Resources](#cognitive-resources)
+* [Help Your Brain](#help-your-brain)
 * [Studying Effectively](#study-effectively)
 * [Productive Procrastination](#productive-procrastination)
 
@@ -128,13 +128,13 @@ ___
 
 ## Being Wrong
 
-You will be wrong every day you write code.  There are several great reasons for this and none of them have to do with you personally:
+You will be wrong every day you write code.  There are many great reasons for this and none of them have to do with you personally, here's a few:
 * __Software Development is incredibly complicated.__  There's basically no one out there that can hold every detail of a production application in their minds.
 * __You are working collaboratively.__ You may know what _should_ be happening, but that's no guarantee it _does_ work that way! Errors and miscommunications will happen. 
 * __Every language feature, tool, and library you use was designed by another human.__ There is often no way to guess how something works, you need to read their documentation.  And documentation isn't always clear or correct perfect.
-* __You are never doing the same task twice.__  Every time you sit down to write some code, you are approaching a brand new problem with tools that are always changing.  No one can be right every time about something they've never seen before!
+* __You are never doing the same task twice.__  Every time you sit down to write some code, you are approaching a brand new problem with tools that are always changing.  No one can be right every time about something they've never seen before.
 
-You should seek out being wrong, always look for how you are wrong not how you are right. This is how you will break your knowledge and reconstruct it stronger than before.  Embrace it.
+You should seek out being wrong, always look for how you are wrong not how you are right. This is how you will break your knowledge and reconstruct it stronger than before.  Embrace the fails!
 
 If you are cruising along building projects with no problems, being right all the time, you're missing the point.  Studying and learning isn't about repeating what you understand, it's about finding the weaknesses in your understanding and correcting them.   
 
@@ -146,9 +146,9 @@ If you are cruising along building projects with no problems, being right all th
 [TOP](#index)
 ___
 
-# Cognitive Resources
+# Help Your Brain
 
-Effective learning is composed (_very_ roughly) of these main components:
+Effective learning is (_very_ roughly) built of these main pieces:
 * Concentrated and intentional effort
 * Accurate meta-cognition (being aware of your own mental processes)
 * Cognitive Load management (more on this in a moment)
@@ -158,12 +158,13 @@ Some of this you have direct control over and some you don't.  Effective learnin
 
 
 * __Accurate Meta-Cognition__:
-  * This is possibly the most important of all 4 points.  Self-learning is also self-teaching, to be able to teach someone you need to know their strengths and weaknesses. Accurately assessing your your abilities (positive and negative) will make all the difference. This dies apply to practical coding skills - knowing what to practice and what to learn next. 
-  Even more importantly it applies to knowing your own state of mind: When are you unsure vs lost? Are you losing focus? Is your confidence warranted? 
+  * This is possibly the most important of all 4 points.  Self-learning is also self-teaching, to be able to teach someone you need to know their strengths and weaknesses. Accurately assessing your your abilities (positive and negative) will make all the difference. This applies to practical coding skills - knowing what to practice and what to learn next. 
+  And even more importantly it applies to knowing your own state of mind: When are you unsure vs. lost? Are you losing focus? Does your confidence match your abilities? 
   * [Tips for Improving](http://www.learningscientists.org/blog/2017/3/30-1).  This article is about understanding texts, but everything they say applies just as much to understanding source code.
 
 * __Concentrated and Intentional Effort__:
-  * You will learn most effectively when you are deliberate about every action you take and avoid any distractions.  "Going through the motions" for the sake of repetition is not an efficient way to improve in the long-run.  Every little distraction will also hurt your learning efforts, each time you are distracted you need to expend effort remembering what you were just thinking about.
+  * You will learn most effectively when you are deliberate about every action you take - have a reason and a success measure for everything you study.  "Going through the motions" for the sake of repetition is not an efficient way to improve in the long-run.  
+  * [Practicing Deliberate Practice](https://medium.com/the-crossover-cast/get-better-at-anything-6-steps-of-deliberate-practice-19830bfc9460)
 
 * __Cognitive Load Management__:
   * _Cognitive Load_ is the amount of incoming information your brain has to handle at once.  Managing this is so important for learning because you most effectively learn information that has been fully processed by your working memory. If your brain is attempting to process more than it can handle, none of the incoming information can be handled correctly.  
@@ -171,11 +172,18 @@ Some of this you have direct control over and some you don't.  Effective learnin
     * _Intrinsic Load_:  This refers to the inherent complexity of what you are trying to learn.  Programming is a very complex skill.  The best way to limit intrinsic load is to study projects that introduce only one new concept at a time, building on what you have already completed. We have done our best to build this principle into our curriculum.
     * _Extraneous Load_:  This is anything unrelated the concept you are trying to learn.   There are certain things that will always fall into this category - background noise, phones, this weekend's plans.  Then there are some things that can be extraneous _or_ intrinsic - new language features, dev tools, frameworks, ... It is up to you to decide what you're focusing on and to learn the rest later.
     * _Germane Load_:  This is the good one, you want this one.  Germane load is the work your brain does that translates directly into meaningful learning.  After you've cleared away distractions, set your concentration, and decided on narrow learning objectives, this is the work your brain has left to do: convert new information into usable mental models.  You can think of it a bit like switching to a more fuel-efficient car - you burn the same amount of gas but move further and faster.
-  * [Great Overview](https://www.mindtools.com/pages/article/cognitive-load-theory.htm)
+  * [Great Overview of Cognitive Load](https://www.mindtools.com/pages/article/cognitive-load-theory.htm)
 
 
 * __Forming & Maintaining Useful Mental Models__:
-  * 
+  * A sign of effective learning is __automatization__ - that lovely moment where you no longer need to _think_ to complete a task.  You can talk or eat without thinking about the muscles in your mouth, and if you do try to think about them it gets harder!  This is automatization in action.  Your brain has built a network of Mental Models that it can fall back on to carry out these routine tasks without increasing your cognitive load.
+  Your brain automatically builds these models as you interact with the world.  This means you don't have to _try_ to learn.  But it also means you have to be very careful about what how you study. Because programming is so complex, it is possible to understand it in many different ways.  An incorrect model might work for a while, but will ultimately stop you in your tracks when you reach something that works differently from what you understand. Unlearning these automated through process is much more difficult than learning them correctly from the beginning.
+  Fortunately there are some very simple steps you can take to overcome this challenge: 
+    * Explain everything back to yourself.
+    * Draw diagrams of how you think things work, and try to apply them to real-life scenarios.
+    * Ask for help early and often, even when you think you understand something.  Catch mistakes before they settle in.
+  * [What are Mental Models?](https://www.youtube.com/watch?v=5K_sxBUGx8A)
+  * [Make a Concept Map](https://www.wikihow.com/Make-a-Concept-Map)
 
 
 [TOP](#index)
@@ -249,6 +257,8 @@ self-reflection, metacognition
 
 * http://www.programmingforbeginnersbook.com/blog/when_you_know_the_basics_but_you_still_cant_code/
 
+https://www.youtube.com/watch?v=qfH2pL0yP3A  - slow down
+
 [TOP](#index)
 
 ___
@@ -264,7 +274,7 @@ Below is a list of channels, blogs, and websites that will never waste your time
 * [FunFunFunction (Youtube)](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [SimpleProgrammer (Blog)](https://simpleprogrammer.com)
 * [Awesome JS Learning (GitHub)](https://github.com/micromata/awesome-javascript-learning)
-* [Rising Stack](https://blog.risingstack.com)
+* [Rising Stack (Blog)](https://blog.risingstack.com)
 * [Being a Developer (Links)](https://github.com/elewa-academy/April-Precourse/blob/master/docs_src/0-being-a-developer.md)
 * [FreeCodeCamp (YouTube)](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ)
 * [FreeCodeCammp (Blog)](https://medium.freecodecamp.org)
