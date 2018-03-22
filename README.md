@@ -11,7 +11,7 @@ In this series of structured projects you will learn many of the foundational sk
 * Talking about code 
 * ...
 
-Suspiciously JavaScript isn't on this list, strange for a JavaScript curriculum.  But this isn't a JavaScript curriculum!  The fundamental skills any developer needs are the same no matter what language or environment they use.  These projects are designed to expose you to those skills.  We use JavaScript for the projects, but this is for convenience. It's the most ubiquitous language and it implements most [programming paradigms](https://elewa-academy.github.io/General-Resources/programming-resources/programming-paradigms.html).
+Suspiciously JavaScript isn't on this list!  The fundamental skills any developer needs are the same no matter what language or environment they use.  These projects are designed to expose you to those skills.  We teach with JavaScript because it's as universal as the Fundamentals of Development. 
 
 What's more, these skills don't even require great programming experience.  All you need is a beginner's familiarity with JavaScript.  These simple but carefully designed projects will expose you to the truly important skills _before_ you get lost or form any bad habits. 
 

@@ -87,7 +87,8 @@ Lists of Katas:
 
 TDD:
 * [Why Unit Tests?](https://www.youtube.com/watch?v=Eu35xM76kKY)
-* [Three Rules of TDD](http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/)* [This Takes Perseverance](https://www.youtube.com/watch?v=ib2Pt9_zciA)
+* [Three Rules of TDD](http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/)
+* [This Takes Perseverance](https://www.youtube.com/watch?v=ib2Pt9_zciA)
 * [Testing Overview](https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html)
 * [Comprehensive Guide](https://github.com/mawrkus/js-unit-testing-guide)
 * [The R.I.T.E. Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
