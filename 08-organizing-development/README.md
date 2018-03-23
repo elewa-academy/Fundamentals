@@ -60,10 +60,10 @@ User Centered Project Repos:
 * [Example](https://github.com/elewa-student/User-Centered-Development)
 
 Tools:
-* [Wireframe.cc](https://elewa-academy.github.io/General-Resources/developer-tools/wireframes.html)
+* [Wireframe.cc](https://github.com/elewa-academy/General-Resources/blob/master/developer-tools/wireframes.md)
 * [Using Sketchboard.io](https://m.sketchboard.io/introducing-sketchboard-69d142ea935)
 * [Pushing to GH from Sketchboard](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html)
-* [Gremlins.js](https://elewa-academy.github.io/General-Resources/core-libraries/gremlins.html)
+* [Gremlins.js](https://github.com/elewa-academy/General-Resources/blob/master/testing-tools/gremlins.md)
 * [Live Server](https://github.com/tapio/live-server)
 
 Development Processes:

@@ -41,7 +41,7 @@ More:
     * How does this help the maintainer?
     * How does this help runtime execution?
 2. Read A LOT of code.  Print it out on paper if you have to.
-3. Start building up a class Vocabulary List on the [course wiki](https://github.com/elewa-academy/elewa-academy.github.io/wiki/Vocabulary).
+3. Start building up a class Vocabulary List on the [course wiki](https://github.com/elewa-academy/General-Resources/wiki/Vocabulary).
 
 ---
 

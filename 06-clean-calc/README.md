@@ -95,7 +95,7 @@ __Cleancalc video series__:
 * [Part 3](https://www.youtube.com/watch?v=cjFEm_Drpnw)
 * [Part 4](https://www.youtube.com/watch?v=7VjtfihfwuE)
 * [Part 5](https://www.youtube.com/watch?v=XgUvVRj2Nao)
-* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/4-clean-calc/clean-calc-series) 
+* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/06-clean-calc/clean-calc-series) 
 
 __Separation of Concerns__:
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
@@ -104,15 +104,15 @@ __Separation of Concerns__:
 
 
 __Programming Concepts__:
-* [Abstraction](https://elewa-academy.github.io/General-Resources/programming-resources/abstractions.html)
-* [Procedural Programming](https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/01-procedural-programming.md)
-* [Basic OOP in Js](https://github.com/elewa-academy/General-Resources/blob/master/docs_src/local-resources/programming-and-paradigms/02-oop-single-objects.md)
+* [Abstractions](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/abstractions.md)
+* [Procedural Programming](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/01-procedural-programming.md)
+* [Basic OOP in Js](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/02-oop-single-objects.md)
 * [From procedural to OOP](https://www.youtube.com/watch?v=rlLuL3jYLvA).  An outstanding video.
 
 __JavaScript Objects__:
 * [Video Walk-Through](https://www.youtube.com/watch?v=f-aKxXt8Y0A)
-* [Code from video](./object-video-code)
-* [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/docs_src/local-resources/using-js/objects)
+* [Code from video](https://github.com/elewa-academy/Fundamentals/tree/master/06-clean-calc/object-video-code)
+* [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/javascript/using-js/objects)
 
 __Process.argv__:
 * [Stackabuse Article](http://stackabuse.com/command-line-arguments-in-node-js/)

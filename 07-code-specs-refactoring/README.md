@@ -50,13 +50,14 @@ Tictactoe Videos:
 * [Part 4](https://www.youtube.com/watch?v=2mrhvwVi5iY)
 * [Part 5](https://www.youtube.com/watch?v=sX59uU9l0cs)
 * [Part 6](https://www.youtube.com/watch?v=yN52jB3XOBQ)
+* [winner.js](https://github.com/elewa-academy/Fundamentals/blob/master/07-code-specs-refactoring/winner.js)
 
 
 Interacting with Code:
-* [Writing Clean Code](https://elewa-academy.github.io/General-Resources/programming-resources/clean-code.html)
+* [Writing Clean Code](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md)
 * [What is an App?](https://www.gcflearnfree.org/computerbasics/understanding-applications/1/)
 * [What is Refactoring?](https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code). This answer connects refactoring to testing.  We'll explore this relationship in the next series of projects.
-* [Navigating Codebase](https://elewa-academy.github.io/General-Resources/programming-resources/reading-sourcecode.html)
+* [Navigating Codebase](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/navigating-codebase.md)
 * [When Understanding Means Rewriting](https://blog.codinghorror.com/when-understanding-means-rewriting/)
 * [Novice & Experts Reading Code](https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/)
 * [Reverse Engineering](http://blog.teamtreehouse.com/the-secret-to-learning-code)
