@@ -103,6 +103,10 @@ Problem Solving Resources:
 * [List of Strategies](https://www.une.edu.au/about-une/academic-schools/bcss/news-and-events/psychology-community-activities/over-fifty-problem-solving-strategies-explained)
 * [Constraint-Based Problem Solving](https://elewa-academy.github.io/General-Resources/key-resources/problem-solving.html).  What is it, and how to apply it to programming.
 
+Visualizing JavaScript Execution:
+* [JavaScript Tutor](http://pythontutor.com/javascript)
+* [Chrome Debugger](https://developer.dynamsoft.com/dwt/kb/2873)
+
 Kata Recommendations:
 * 8 Kyu - 
     * [Repeat String](https://www.codewars.com/kata/string-repeat/train/javascript)
