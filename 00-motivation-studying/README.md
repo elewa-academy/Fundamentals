@@ -57,7 +57,8 @@ Markdown:
 * [Reference](https://guides.github.com/features/mastering-markdown/)
 
 
-And a paper notebook.  Nothing beats a pencil and paper for sketching diagrams or taking down a quick note.
+A paper notebook:  
+* Nothing beats a pencil and paper for sketching diagrams or taking down a quick note.
 
 
 ___
