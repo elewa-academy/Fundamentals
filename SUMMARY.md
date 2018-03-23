@@ -9,7 +9,7 @@
   * [Being Wrong](./00-motivation-studying/4-being-wrong.md)
   * [Help Your Brain](./00-motivation-studying/5-help-your-brain.md)
   * [Study Effectively](./00-motivation-studying/6-study-effectively.md)
-  * [0. Project Specs](./00-motivation-studying/7-project-specs.md)
+  * [Productive Procrastination](./00-motivation-studying/7-productive-procrastination.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
 * [3. The Buddy System](./03-the-buddy-system/README.md)
