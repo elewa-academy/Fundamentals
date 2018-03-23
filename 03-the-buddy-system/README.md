@@ -50,6 +50,10 @@ Pair Programming:
 * [6 Variations](https://stackify.com/pair-programming-styles/)
 * [Pros & Cons](https://medium.freecodecamp.org/the-benefits-and-pitfalls-of-pair-programming-in-the-workplace-e68c3ed3c81f)
 
+Living Study Buddies:
+* [Finding A Match](https://gradeslam.org/blog/what-to-look-for-in-a-study-partner)
+* [Working Together](http://www.eduinreview.com/blog/2010/01/study-with-a-partner-to-succeed/)
+
 Inanimate Study Buddies:
 * [Rubber Ducky!](https://rubberduckdebugging.com)
 * [Study-Buddy.js](https://github.com/teesloane/Study-Buddy)
