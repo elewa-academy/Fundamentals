@@ -18,9 +18,9 @@ Fortunately both motivation _and_ studying are skills you can improve!
 ## Learning Objectives
 
 * Mindful Learning
+* Categorizing New Concepts
 * Git & Github
-* Categorizing Programming Concepts
-* 
+* Coding Every Day
 
 [TOP](#index)
 
