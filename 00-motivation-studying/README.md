@@ -12,8 +12,8 @@ ___
 Below is a list of channels, blogs, and websites that will never waste your time:
 
 
-* [CodingHorror (Blog)](https://blog.codinghorror.com)
 * [Thomas Frank (YouTube)](https://www.youtube.com/user/electrickeye91)
+* [CodingHorror (Blog)](https://blog.codinghorror.com)
 * [FunFunFunction (Youtube)](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [SimpleProgrammer (Blog)](https://simpleprogrammer.com)
 * [Awesome JS Learning (GitHub)](https://github.com/micromata/awesome-javascript-learning)
