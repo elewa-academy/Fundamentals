@@ -88,6 +88,7 @@ Lists of Katas:
 TDD:
 * [Why Unit Tests?](https://www.youtube.com/watch?v=Eu35xM76kKY)
 * [Three Rules of TDD](http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/) 
+* [Pure Functions, Easy Testing](https://github.com/foundersandcoders/ws-pure-functions-easy-testing)
 * [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
 * [This Takes Perseverance](https://www.youtube.com/watch?v=ib2Pt9_zciA)
 * [Testing Overview](https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html)
