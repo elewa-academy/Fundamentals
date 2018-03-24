@@ -36,6 +36,9 @@ Main Repository:
 Gh-pages & Gitbook:
 * Categorize what you learn as you go, having a chapter for each main concept you encounter. Each chapter will contain a link to the notes from each day you encountered that topic.  This will help you review & practice finding links across different topics as you learn to program.  
 
+A Strong Suggestion:
+Try writing and editing your notes from command line instead of your text editor using [Nano](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). The work-flow is very smooth and you'll be forcing yourself to practice using the command line on a daily basis.  (Nano comes pre-installed on Linux & Macs).
+
 
 [TOP](#index)
 
@@ -52,7 +55,13 @@ Tracking Your Progress:
 * [Weekly Review Day](https://www.youtube.com/watch?v=PlTrxpNaZI8)
 
 
-Markdown:
+Nano:
+* [One Article](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
+* [Another Article](http://www.tuxradar.com/content/text-editing-nano-made-easy)
+* [The Docs](https://www.nano-editor.org/dist/v2.9/nano.html)
+
+
+Markdown (if you like pretty notes):
 * [Tutorial](https://www.markdowntutorial.com)
 * [Reference](https://guides.github.com/features/mastering-markdown/)
 
