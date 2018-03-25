@@ -1,7 +1,7 @@
 
 # [Find Your Why](http://elewa.education/2018/02/08/setting-your-goals/)
 
-learning to code is hard, takes a lot of time, and will continually challenge you.  If you ever feel like you've got it all under control, you're not doing it right!  To push through this you need to really know why.
+Learning to code is hard, takes a lot of time, and will continually challenge you.  If you ever feel like you've got it all under control, you're not doing it right!  To push through this you need to really know why.
 
 It's not important where your motivation comes from.  Maybe you have a natural aptitude you want to explore, or your friends all develop and you want to be part of that, or it's your best shot at a better life. Or maybe you just love to program.  No matter what your _why_ is, you need to feel it and remind yourself when the going gets tough.
 
@@ -26,7 +26,7 @@ Other people's _why_:
 * [Derick Bailey](https://lostechies.com/derickbailey/2011/05/10/whats-your-favorite-part-of-software-development-and-why/)
 * [Quora](https://www.quora.com/In-your-own-words-why-is-software-engineering-exciting)
 
-Coutnerpoints:
+Counter Points:
 * [Please Don't Learn to Code 1](https://blog.codinghorror.com/please-dont-learn-to-code/)
 * [Please Don't Learn to Code 2](https://techcrunch.com/2016/05/10/please-dont-learn-to-code/)
 * [Love it or Leave it](https://blog.codinghorror.com/programming-love-it-or-leave-it/)

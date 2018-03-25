@@ -27,7 +27,7 @@ ___
 
 There is no single best way to study, everyone has their own unique limitations they need to balance.  A busy parent will have a very different balancing act than a full-time student, or a single lawyer.  
 
-The first step to effective studying is to know your own situation.  Do you run out time before motivation?  Do you stay motivated well after you can't think straight anymore?  Do you have perfect discipline, but still learn slower than your peers? Each of these cases will require a different strategy, and only you can figure out your own strategy.  It can be tricky but with enough reflection, trial, and error you can make it.  
+The first step to effective studying is to know your own situation.  Do you run out of time before motivation?  Do you stay motivated well after you can't think straight anymore?  Do you have perfect discipline, but still learn slower than your peers? Each of these cases will require a different strategy, and only you can figure out your own strategy.  It can be tricky but with enough reflection, trial, and error you can make it.  
 
 You're not in this alone!  Don't hesitate to ask others for study tips, or to share your own.
 
@@ -42,7 +42,7 @@ TL;DR -
 * Have a clear vision of the skills you want to gain.
 * Keep your study sessions short, fun, and regular.
 * Organize your studying around a carefully constructed set of questions.
-* Focus one new concept at a time, and learn it in it's real-world context.
+* Focus on one new concept at a time, and learn it in it's real-world context.
 * Mix it up. Alternate regularly between different tasks.
 * Help your friends whenever they ask.  You'll both learn more this way.
 * Ask friends for help when you need it, but do respect their time. 
@@ -66,16 +66,16 @@ Study strategies in more depth, organized by the resource they help to manage:
   * When something is discouraging, work on it in little pieces mixed in with something you like.
   * Keep a daily learning journal.  When you think you aren't getting anywhere you can look back on all the progress you've made.
 * __[Working Memory](https://www.scientificamerican.com/article/working-memory-how-you-keep-things-ldquo-in-mind-rdquo-over-the-short-term/)__:
-  1. Keep your working memory clear - 
+  1. Keep your working memory clear: 
      * Use cognitive tools like clear code, good habits, useful diagrams, and careful planning to lighten the load on your working memory.
-  2. Don't try working on anything you can't hold in your head all at once -
+  2. Don't try working on anything you can't hold in your head all at once:
      * If you find there's too much going on for you to keep straight, you probably did a bad job with # 1.
-  *  Don't mulit-task. "Multi-Tasking" is really just very fast task switching. Every time you change your focus you lose context ("what was I thinking?", "What line was that?", "Which method threw an error?"). Rebuilding context adds extraneous cognitive load.
+  *  Don't multi-task. "Multi-Tasking" is just very fast task switching. Every time you change your focus you lose context ("what was I thinking?", "What line was that?", "Which method threw an error?", "How did those two methods interact?"). It can take over 20 minutes to get fully back into the game after even a tiny distraction.
   * (Working Memory and Cognitive Load are very closely related)
 * __Cognitive Load__:
   * Keep your study space consistent and distraction-free, whatever that means for you.
   * _Read, Diagram, Modify, Create_.  Don't dive right into applying new concepts from scratch.  Start by reading & diagramming projects that feature your target concept.  Then create predictions about how a change will effect the application and implement that change, does it behave how you think it does?  Finally, try applying this concept in a new project you build from scratch.
-  * Recognize when you are overloaded and take some time to find a new project or isolate the concept you are studying with clear examples.  The best way to do this is to ask a fellow student or teacher for help.  You're only just learning to recognize the concept, you can't expect yourself to build quality examples just yet.
+  * Recognize when you are overloaded and take some time to find a new project, or isolate the concept you are studying with clear examples.  The best way to do this is to ask a fellow student or teacher for help.  You're only just learning to recognize the concept, you can't expect yourself to build quality examples just yet.
   * Take a break and get some sleep.
 * __Social Support__:
   * Teach others - it will help you learn and earn you some good will for when you really get stuck.

@@ -1,10 +1,10 @@
 # Study Journal
 
-Of all the skills you will need as a developer, effective learning is __the most important__.  There is no library, no framework, no buzzword you can master that will serve you better than strong study and learning habits.  Journaling about your studies is an outstanding way to develop those skills.
+Of all the skills you will need as a developer, __effective learning is the most important__.  There is no library, no framework, no buzzword you can master that will serve you better than strong study and learning habits.  Journaling about your studies is an outstanding way to develop those skills.
 
-Often the hardest part of learning to code is keeping at it.  It will feel like no matter what you try, you stay stuck.  This is totally normal.  It's at these most de-motivating moments that it's important to keep your spirits up, keep your eye on the prize, and remind yourself why you love to code.
+Often the hardest part of learning to code is keeping at it.  It will feel like no matter what you try, you stay stuck.   It's at these most de-motivating moments that it's important to keep your spirits up, keep your eye on the prize, and remind yourself how much progress you have made. 
 
-Fortunately both motivation _and_ studying are skills you can improve!  
+Fortunately both motivation _and_ studying are skills you can improve, and a regular journal will help learn them both.  
 
 
 

@@ -1,6 +1,3 @@
-
-
-
 # Manage Your Expectations
 
 A key to staying motivated is having realistic expectations.  The first expectation you should set is that you will not be able to predict how fast or well you will learn anything.  The skills necessary to be a great programmer are incredibly diverse, some will come naturally and others will not.  It's simply not possible for you to predict how this will play out in your particular experience.
