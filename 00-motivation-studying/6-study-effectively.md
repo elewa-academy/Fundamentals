@@ -60,6 +60,7 @@ Study strategies in more depth, organized by the resource they help to manage:
          * Can I trace those to a common source?
     4. If you do a good job organizing your questions you are also building up a study plan for the coming days or even weeks.
   * Learn to cut your losses.  The goal of studying isn't to make a working application, it's to learn. Becoming fixated on finding a bug or tweaking the UI can waste time you should be spending on your primary learning objectives.
+  * Collect and familiarize yourself good learning resources ahead of time. A few comprehensive resources will serve you better than an ad-hoc collection of smaller ones and take less time to sort through. The style & messages will be more consistent, and complete resources will make an effort to tie old concepts back into new ones.
 * __Motivation__:
   * Don't loose sight of why you are learning to code.
   * Keep your studying light and fun.
@@ -76,6 +77,7 @@ Study strategies in more depth, organized by the resource they help to manage:
   * Keep your study space consistent and distraction-free, whatever that means for you.
   * _Read, Diagram, Modify, Create_.  Don't dive right into applying new concepts from scratch.  Start by reading & diagramming projects that feature your target concept.  Then create predictions about how a change will effect the application and implement that change, does it behave how you think it does?  Finally, try applying this concept in a new project you build from scratch.
   * Recognize when you are overloaded and take some time to find a new project, or isolate the concept you are studying with clear examples.  The best way to do this is to ask a fellow student or teacher for help.  You're only just learning to recognize the concept, you can't expect yourself to build quality examples just yet.
+  * Make frequent connections to concepts you already understand. It's easier and more effective to build on existing knowledge than to learn new concepts from scratch.  You will learn faster and have better skill transfer in the long run.
   * Take a break and get some sleep.
 * __Social Support__:
   * Teach others - it will help you learn and earn you some good will for when you really get stuck.
