@@ -114,9 +114,9 @@ ___
 
 Create a mock-up of the "finished portfolio".  This will be a more detailed mock-up than you used for wireframes or your first round of ideation.  It will include color, images, and finished text.
 
-While you do not need to code the portfolio, there should be enough detail that you or your partner would be able build the portfolio without needing to ask each other any questions.
+You are encouraged to use Mobirise to build the portfolio.  The focus of this project is your partner, not programming. 
 
-If you did a good job, your partner will want you to finish building it!
+If you did a good job, your partner will want you to replace theirs for this new one!
 
 
 [TOP](#steps)
