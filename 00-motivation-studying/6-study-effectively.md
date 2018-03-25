@@ -98,10 +98,9 @@ ___
 Study Practices:
 * [Advice for Learning to Program](http://www.programmingforbeginnersbook.com/blog/when_you_know_the_basics_but_you_still_cant_code/)
 * [Study Smarter, not Harder](https://www.youtube.com/watch?v=Xt5qpbiqw2g&feature=youtu.be&t=297)
-* [3 Urban Legends](https://laurenmarg.com/2015/10/07/article-summary-kirschner-van-merrienboer-2014-urban-legends/)
-* [6 More Urban Legends](https://www.fastcompany.com/40420472/five-popular-myths-about-learning-that-are-completely-wrong)
-* [Pomodoro Technique](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c)
-* [Pomodoro Timer](https://tomato-timer.com/#)
+* Urban Legends: [3 of them](https://laurenmarg.com/2015/10/07/article-summary-kirschner-van-merrienboer-2014-urban-legends/), [6 more](https://www.fastcompany.com/40420472/five-popular-myths-about-learning-that-are-completely-wrong)
+* Concept Maps: [Thinker Academy](https://thinkeracademy.com/3-ways-concept-maps-help-you-learn/), [WikiHow](http://www.wikihow.com/Make-a-Concept-Map)
+* Pomodoro: [Technique](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c), [Timer](https://tomato-timer.com/#)
 * Crondose:
   * [Mental Models](https://www.youtube.com/watch?v=5K_sxBUGx8A)
   * [Slow Down](https://www.youtube.com/watch?v=qfH2pL0yP3A) 

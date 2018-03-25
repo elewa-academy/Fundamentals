@@ -37,6 +37,7 @@ Some of this you have direct control over and some you don't.  Effective learnin
     * Ask for help early and often, even when you think you understand something.  Catch mistakes before they settle in.
   * [What are Mental Models?](https://www.youtube.com/watch?v=5K_sxBUGx8A)
   * [Make a Concept Map](https://www.wikihow.com/Make-a-Concept-Map)
+  * [In-Depth](https://www.fs.blog/mental-models/)
 
 
 In short, your brain wants to learn.  Give it a chance by working with it not against it.
