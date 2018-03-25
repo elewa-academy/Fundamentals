@@ -42,7 +42,7 @@ Final Repo Specs:
   * Dev Schedule
   * Diagrams, wireframes, ...
   * /src
-    * Any finished or partially finished code
+    * The finished code for their portfolio
 
 [TOP](#index)
 

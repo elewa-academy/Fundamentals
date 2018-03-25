@@ -34,14 +34,16 @@ Don't forget to build a gallery page for your Kata Repos and to feature it on yo
 
 ## Learning Objectives
 
-* Problem solving strategies
-* Reading code
+* [Threshold Concepts](http://blogs.lse.ac.uk/education/2012/10/11/threshold-concepts/)
+  * Notional machine
+  * Problem solving strategies
+  * Reading code
 * Understand testing
 * Using pseudocode
 * Handling repositories
 * Writing about code
-* Notional machine
 * Navigating GitHub & source code
+
 
 [TOP](#index)
 

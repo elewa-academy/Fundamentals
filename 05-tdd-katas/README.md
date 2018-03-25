@@ -84,11 +84,10 @@ Lists of Katas:
   * [With Accompanying Videos](http://www.codekatas.org)
   * [CodeKata](http://codekata.com)
 
-
 TDD:
-* [Why Unit Tests?](https://www.youtube.com/watch?v=Eu35xM76kKY)
 * [Three Rules of TDD](http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/) 
 * [Pure Functions, Easy Testing](https://github.com/foundersandcoders/ws-pure-functions-easy-testing)
+* [Why Unit Tests?](https://www.youtube.com/watch?v=Eu35xM76kKY)
 * [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
 * [This Takes Perseverance](https://www.youtube.com/watch?v=ib2Pt9_zciA)
 * [Testing Overview](https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html)
@@ -107,10 +106,7 @@ Pure Functions:
 * [Article](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
 * [Article & Video](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976), more advanced.
 
-Challenges:
-* Automated, Continuous Testing with Wallaby.js: 
-  * [Video](https://www.youtube.com/watch?v=P4UQ-jTTJJ4), 
-  * [Repo](https://github.com/wix/tdd-katas)
+Challenge:
 * [Code Coverage with Istanbul](https://istanbul.js.org)
 
 

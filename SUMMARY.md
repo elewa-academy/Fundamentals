@@ -20,6 +20,6 @@
 * [8. Organizing Development](./08-organizing-development/README.md)
 * [9. Human-Centered Design](./09-human-centered-design/README.md)
 * [10. All Together](./10-all-together/README.md)
-* [General Resources](https://github.com/elewa-academy/General-Resources/wiki)
+* [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
 * [Repo](https://github.com/elewa-academy/Fundamentals/tree/master)
 * [Home](https://elewa-academy.github.io)
