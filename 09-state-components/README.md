@@ -57,10 +57,12 @@ Your new portfolio's architecture is designed to protect the State, and to make 
 Three simple but _sooper_ important aspect of this design are:
 1. Only the JS logic can modify the State, triggered by user events
 2. DOM methods have "Read-Only Access" to the State
-3. There will be only one DOM method that renders from state, and it will re-render the entire "projects" div every time it is called. 
+3. There will be only one DOM method that renders from state, and it will re-render the entire "projects" div every time it is called.  
+
 These three features together will ensure that the State is only modified when & how it's supposed to be, that everything in state makes it to the DOM, and that there is never any out-of-date information hanging around in the DOM.
 
 
+<br>
 ![](./state-based-architecture.png)
 
 [TOP](#index)
