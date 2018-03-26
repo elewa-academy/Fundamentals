@@ -457,7 +457,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="portfolio-facelift-state--components">Portfolio Facelift: State &amp; Components</h1>
-<p>In this project </p>
+<p>Show the world everything you&apos;ve learned! In this project you will rebuild your portfolio</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
@@ -467,13 +467,13 @@
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
+<li>DOM Manipulations</li>
+<li>jQuery</li>
 <li>UI Components</li>
 <li>App = Data + User Interactions</li>
 <li>State = Truth</li>
 <li>CRUD</li>
-<li>DOM Manipulations</li>
-<li>jQuery</li>
-<li></li>
+<li>State-Based Architecture</li>
 </ul>
 <h3 id="ui-components">UI Components</h3>
 <p>Components are &quot;chunks&quot; of your website that are structurally the same, but with different information connected to them. Your project boxes are a perfect example: they have identical html/css configuration but a different title, image, and hyperlinks.</p>
@@ -495,19 +495,21 @@
 <li>Update the image for a featured project</li>
 <li>Delete a featured project from the DOM</li>
 </ul>
+<h3 id="state-based-architecture">State-Based Architecture</h3>
+<p><a href="https://sketchboard.me/PAXBbs2SZlZu#/" target="_blank"><img src="state-based-architecture.png" alt=""></a></p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="requirements">Requirements</h2>
 <ol>
-<li>Learn some jQuery with freecodecamp&apos;s exercises and w3schools as a reference</li>
-<li>Refactor 2-3 of your Organizing Development projects to have a little more interactivity<ul>
+<li>Learn some jQuery on FreeCodeCamp, using W3 Schools as a reference.</li>
+<li>Refactor 2-3 of your Organizing Development projects to have a little more interactivity:<ul>
 <li>Develop on a new branch</li>
 <li>Update the README</li>
 <li>Update the gh-pages demo</li>
 </ul>
 </li>
-<li>Plan and develop a new portfolio for your home page
- a. Repo Specs<ul>
+<li>Plan and develop a new portfolio for your home page:<ul>
+<li>Repo Specs:<ul>
 <li>Develop on a new branch</li>
 <li>README<ul>
 <li>About this project</li>
@@ -516,8 +518,8 @@
 </ul>
 </li>
 <li>Document your code and functionality</li>
-<li>Tests for any pure JS, don&apos;t worry about the jQuery
-b. Behavioral Specs. A user can ...</li>
+<li>Tests for any pure JS, don&apos;t worry about the jQuery</li>
+<li>Behavioral Specs. A user can ...<ul>
 <li>Change the image for any given project box</li>
 <li>Choose between a couple style options for the whole site</li>
 <li>Add new project components to the portfolio by providing:<ul>
@@ -527,8 +529,12 @@ b. Behavioral Specs. A user can ...</li>
 </li>
 <li>Delete a project component</li>
 <li>See a pre-selected set of projects on window.onload</li>
-<li>Change the image for an existing project component
-c. Your source code will have ...<ul>
+<li>Change the image for an existing project component</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Your source code will have ...<ul>
 <li>A state object containing the info for each project you want displayed on load -&gt; {0: {repo: name, image: url}}. This will have only properties, no methods.</li>
 <li>A file for all user input handlers</li>
 <li>A file for all pure JS logic</li>
@@ -617,7 +623,7 @@ c. Your source code will have ...<ul>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T20:10:46.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T20:11:00.209Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T20:49:51.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T20:49:59.925Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
