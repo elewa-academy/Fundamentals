@@ -52,7 +52,16 @@ These are the elementary operations for accessing and using data.  Your portfoli
 
 ### State-Based Architecture
 
-[![](./state-based-architecture.png)](https://sketchboard.me/PAXBbs2SZlZu#/)
+Your new portfolio's architecture is designed to protect the State, and to make sure that the user is always seeing on the screen an accurate representation of what's stored in State.
+
+Three simple but _sooper_ important aspect of this design are:
+1. Only the JS logic can modify the State, triggered by user events
+2. DOM methods have "Read-Only Access" to the State
+3. There will be only one DOM method that renders from state, and it will re-render the entire "projects" div every time it is called. 
+These three features together will ensure that the State is only modified when & how it's supposed to be, that everything in state makes it to the DOM, and that there is never any out-of-date information hanging around in the DOM.
+
+
+![](./state-based-architecture.png)
 
 [TOP](#index)
 
@@ -117,6 +126,8 @@ jQuery:
   * [Learn jQuery](https://learn.jquery.com)
   * [The Docs](http://api.jquery.com)
 
+Programming Paradigm:
+* [Event-Driven Programming](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/04-event-driven-programming.md)
 
 GitHub API Challenge:
 * [Tutorial & Example](http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax)

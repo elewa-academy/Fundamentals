@@ -35,8 +35,7 @@ To see how well you did, go to the "cleancalc" channel on Slack to share objects
 
 ### 3 Layered Architecture
 
-[![](./three-layered-architecture.png)](https://sketchboard.me/pAVLWrD6ssaR#/)
-
+![](./three-layered-architecture.png)
 [TOP](#index)
 
 ---
@@ -108,6 +107,7 @@ __Programming Concepts__:
 * [Procedural Programming](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/01-procedural-programming.md)
 * [Basic OOP in Js](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/02-oop-single-objects.md)
 * [From procedural to OOP](https://www.youtube.com/watch?v=rlLuL3jYLvA).  An outstanding video.
+* [Event-Driven Programming](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/04-event-driven-programming.md)
 
 __JavaScript Objects__:
 * [Video Walk-Through](https://www.youtube.com/watch?v=f-aKxXt8Y0A)
