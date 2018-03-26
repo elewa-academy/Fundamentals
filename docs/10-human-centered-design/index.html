@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>6. Separation of Concerns · GitBook</title>
+        <title>10. Human-Centered Design · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../07-code-specs-refactoring/" />
+    <link rel="next" href="../11-all-together/" />
     
     
-    <link rel="prev" href="../05-tdd-katas/" />
+    <link rel="prev" href="../09-state-components/" />
     
 
     </head>
@@ -294,9 +294,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.8" data-path="./">
+        <li class="chapter " data-level="1.8" data-path="../06-clean-calc/">
             
-                <a href="./">
+                <a href="../06-clean-calc/">
             
                     
                     6. Separation of Concerns
@@ -346,9 +346,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.12" data-path="../10-human-centered-design/">
+        <li class="chapter active" data-level="1.12" data-path="./">
             
-                <a href="../10-human-centered-design/">
+                <a href="./">
             
                     
                     10. Human-Centered Design
@@ -441,7 +441,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >6. Separation of Concerns</a>
+        <a href=".." >10. Human-Centered Design</a>
     </h1>
 </div>
 
@@ -456,21 +456,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="clean-calc">Clean Calc</h1>
-<p>This project is designed to illustrate one of, if not <strong>the most</strong>, fundamental principle of software design:</p>
-<blockquote>
-<p>SEPARATION OF CONCERNS</p>
-</blockquote>
-<p>&quot;Separation of concerns&quot; means that each file, each piece of code, has one simple and well defined purpose.  In this project you will be exploring the separation of UI framework, input handling, and application logic.  You will build a basic calculator object then use that same object to take arguments from the terminal and the browser.  The concerns are:</p>
-<ul>
-<li>UI - command line, HTML</li>
-<li>Middleware - process.argv, event listeners</li>
-<li>Logic - the cleancalc object</li>
-</ul>
-<p>It is very important that you build your calc object with exactly the property names, arguments, and return values specified.  Doing this is called &quot;developing to an interface&quot;.  If you do this correctly you will be able to replace anyone&apos;s cleancalc object with yours and your application will continue working.  The magic of software design!</p>
-<p>Understanding this principle will help with testing, development scheduling, collaboration, maintenance, ... <em>everything</em>. In our experience, understanding separation of concerns is the most important thing a new programmer can learn.  Far more important than learning new libraries, powerful devtools, or even being good at solving programming challenges.  </p>
-<p>So if this project feels too easy and you find yourself wanting to make it more complicated, remember that the code isn&apos;t the point of this project.  The design is the point.  Pay attention to how we use specs to define and develop the calculator, and how we integrate that object into the HTML.</p>
-<p>To see how well you did, go to the &quot;cleancalc&quot; channel on Slack to share objects.  Try swapping out your object for someone else&apos;s, if your application still works you both did it right.  There is no other way to know.</p>
+                                <h1 id="human-centered-design">Human-Centered Design</h1>
+<p>Computers run your code, developers maintain it, and humans use it.  This project focuses on the humans who use it.</p>
+<p>You will learn about <em>Design Thinking</em> &amp; <em>User Empathy</em> by designing a home page for one of your fellow classmates at a time.  The goal is not to learn new tools, not to build an impressive site, the goal is to understand your partner&apos;s needs.  The portfolio you build should represent them honestly and effectively to employers and other developers.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
@@ -480,112 +468,87 @@
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Separation of concerns</li>
-<li>3 layer app architecture</li>
-<li>Developing from specs</li>
-<li>Logic vs. Framework</li>
-<li>Basic collaboration (trading calc objects)</li>
-<li>Basic OOP</li>
+<li>User Empathy (end users &amp; future developers)</li>
+<li>Design Process</li>
+<li>Conceptual Integrity</li>
 </ul>
-<h3 id="3-layered-architecture">3 Layered Architecture</h3>
-<p><img src="three-layered-architecture.png" alt=""></p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
-<p>This project has several steps to it</p>
-<ol>
-<li>Build an object to match <a href="https://github.com/elewa-academy/Fundamentals/blob/master/3-cleancalc/cleancalc-series/1-cleancalc.js" target="_blank">these specs</a>. </li>
-<li>Write a JS file to take command line arguments and pass them into your calculator. <ul>
-<li>Your three layers are:
-  a. UI - the terminal
-  b. Middleware - process.argsv &amp; console.log
-  c. Logic - Cleancalc Object</li>
-<li>You will write a single JS file that takes in command line args, passes them through the calc Object, and prints the result to the console.</li>
+<p>This project is a variation of the classic exercise in design thinking:  <a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a>.  You will pair up with one other person and design a portfolio/cv to fit their needs.</p>
+<p>There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find <a href="https://github.com/elewa-academy/Fundamentals/blob/master/09-human-centered-design/design-cycle-template.md" target="_blank">a template here</a>.</p>
+<p>Final Repo Specs:  </p>
+<ul>
+<li>README<ul>
+<li>Full project description</li>
+<li>Index linking to Portfolio Folder README&apos;s</li>
+<li>Notes </li>
 </ul>
 </li>
-<li>Reuse your calc object in a basic browser app.  The event handlers will take the user&apos;s input, pass it through the calc object, and write the results to the DOM.  <ul>
-<li>Your three layers:
-a. UI - the browser
-b. Middleware - event listeners &amp; DOM methods
-c. Logic - Cleancalc Object</li>
-<li>Each event listener will only call the calc object once, and will only ever call the operate() method:<pre><code class="lang-js">      ...
-      <span class="hljs-comment">// get user input from the DOM</span>
-      <span class="hljs-keyword">let</span> result = cleancalc.operate(user_operation, arg1, arg2);
-      <span class="hljs-comment">// write &apos;result&apos; into the DOM</span>
-      ...
-</code></pre>
-</li>
-<li>Your project should have this structure:<ul>
-<li>index.html</li>
-<li>/public<ul>
-<li>middleware.js</li>
-<li>cleancalc.js</li>
+<li>Portfolio Folders (3+ of them)<ul>
+<li>README - <a href="https://github.com/elewa-academy/Fundamentals/blob/master/09-human-centered-design/design-cycle-template.md" target="_blank">From this template</a></li>
+<li>Dev Schedule</li>
+<li>Diagrams, wireframes, ...</li>
+<li>/src<ul>
+<li>The finished code for their portfolio</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-</li>
-<li>Make a repo for this project and put it on your portfolio. <ul>
-<li>Gh-pages demo</li>
-<li>README <ul>
-<li>Description of app&apos;s behavior</li>
-<li>How to use the app</li>
-<li>Project structure</li>
-<li>Specs for your calc</li>
-<li>Link to a <a href="https://gist.github.com" target="_blank">Gist</a> with your finished calc object</li>
-</ul>
-</li>
-<li>Tests for the calc object</li>
-<li>Source code for every step you completed in a separate folder</li>
-</ul>
-</li>
-<li>Go to Slack and trade Gists. See what happens if you replace your cleancalc.js with someone else&apos;s.  Does it make your app crash?</li>
-</ol>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p><strong>Cleancalc video series</strong>:</p>
+<p>There are a lot of resources here.  You should watch/read a minimum of 3 from each section.</p>
+<p>Empathy for Developers:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=RXTTYVPPHNo&amp;t=24s" target="_blank">Part 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=WjbQZZpKdd4" target="_blank">Part 2</a></li>
-<li><a href="https://www.youtube.com/watch?v=cjFEm_Drpnw" target="_blank">Part 3</a></li>
-<li><a href="https://www.youtube.com/watch?v=7VjtfihfwuE" target="_blank">Part 4</a></li>
-<li><a href="https://www.youtube.com/watch?v=XgUvVRj2Nao" target="_blank">Part 5</a></li>
-<li><a href="https://github.com/elewa-academy/Fundamentals/tree/master/06-clean-calc/clean-calc-series" target="_blank">Code to study</a> </li>
+<li><a href="https://codingwithempathy.com/2016/05/03/empathy-an-essential-skill-in-software-development/" target="_blank">What is Empathy?</a></li>
+<li><a href="https://medium.com/old-code-new-tricks/software-development-on-the-empathy-spectrum-f77596faeabc" target="_blank">Empathy can be Learned</a></li>
+<li><a href="http://danielwestheide.com/blog/2017/01/16/the-empathic-programmer.html" target="_blank">Inclusion</a></li>
+<li><a href="http://www.ustream.tv/recorded/86154111" target="_blank">Applying Empathy to Software</a>. Longish video, but very worth while.</li>
+<li><a href="https://blog.fogcreek.com/soft-skills-for-hardcore-developers-interview-with-ed-finkler/" target="_blank">Become 10x (interview)</a></li>
+<li><a href="https://www.infoq.com/news/2015/06/empathy-development" target="_blank">EDD - Empathy Driven Development</a></li>
+<li><a href="https://thenewstack.io/empathy-secret-sauce-good-software-development/" target="_blank">Integrating Empathy 1</a></li>
+<li><a href="https://simpleprogrammer.com/empathy-software-developers/" target="_blank">Integrating Empathy 2</a></li>
+<li><a href="https://truefit.io/blog/how-to-instill-empathy-in-the-software-development-process" target="_blank">Some Practical Tips</a></li>
 </ul>
-<p><strong>Separation of Concerns</strong>:</p>
+<p>Design Thinking:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=WDNvqxZBI_U" target="_blank">Outstanding video</a></li>
-<li><a href="http://deviq.com/separation-of-concerns/" target="_blank">DevIQ article</a></li>
-<li><a href="https://softwareengineering.stackexchange.com/questions/32581/how-do-you-explain-separation-of-concerns-to-others" target="_blank">Stackexchange Question</a></li>
+<li><a href="https://www.ted.com/talks/david_kelley_how_to_build_your_creative_confidence" target="_blank">Creative Confidence (TED)</a></li>
+<li><a href="https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing" target="_blank">First Step: Noticing (TED)</a></li>
+<li><a href="https://www.youtube.com/watch?v=Q80wUnju5YA" target="_blank">Design Thinking (TED)</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZBxZC9I6xyk" target="_blank">Collaboration &amp; Innovation (TED)</a></li>
+<li><a href="https://www.youtube.com/watch?v=TPXrheqhTCs" target="_blank">Visualize It (TED)</a></li>
+<li><a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a></li>
+<li><a href="https://www.tedxvenlo.com/news/guido-stompff-design-thinking/" target="_blank">The Coffee Filter Challenge</a></li>
+<li>Process Guides:<ul>
+<li><a href="https://dschool-old.stanford.edu/sandbox/groups/k12/wiki/c739e/attachments/ade8c/An_Intro_to_DT_Slides_07_10_09.pdf?sessionID=8cbdfc6129ceb041dbad2247ffc9d0112fd0ebce" target="_blank">Design is a Process</a></li>
+<li><a href="https://dschool-old.stanford.edu/sandbox/groups/designresources/wiki/36873/attachments/74b3d/ModeGuideBOOTCAMP2010L.pdf" target="_blank">Explanatory</a></li>
 </ul>
-<p><strong>Programming Concepts</strong>:</p>
+</li>
+</ul>
+<p>Design Thinking for Software Development:</p>
 <ul>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/abstractions.md" target="_blank">Abstractions</a></li>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/01-procedural-programming.md" target="_blank">Procedural Programming</a></li>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/02-oop-single-objects.md" target="_blank">Basic OOP in Js</a></li>
-<li><a href="https://www.youtube.com/watch?v=rlLuL3jYLvA" target="_blank">From procedural to OOP</a>.  An outstanding video.</li>
+<li><a href="https://www.khomp.com/en/design-thinking-in-software-development/" target="_blank">Design Thinking Process</a></li>
+<li><a href="https://techeries.com/9-software-development-tips-successfully-incorporate-design-thinking-projects/" target="_blank">9 Tips</a></li>
+<li><a href="http://blogs.infor.com/insights/2017/11/outside-the-code-development-with-design-thinking.html" target="_blank">Design Thinking vs. Agile</a></li>
+<li><a href="https://www.artefactgroup.com/articles/post-agile-a-design-thinking-approach-to-software-development/" target="_blank">Waterfall vs Agile vs DT</a></li>
+<li><a href="http://ptgmedia.pearsoncmg.com/images/9780321965516/samplepages/0321965515.pdf" target="_blank">Ultimate Guide to UI/UX Design</a></li>
+<li><a href="http://www.ibmbigdatahub.com/blog/dynamic-duo-big-data-and-design-thinking" target="_blank">Big Data &amp; DT</a></li>
+<li><a href="https://www.youtube.com/watch?v=FtUS1W3HymA" target="_blank">Longer, Detailed Talk</a></li>
+<li><a href="https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775" target="_blank">Beware the User!</a></li>
 </ul>
-<p><strong>JavaScript Objects</strong>:</p>
+<p>Conceptual Integrity:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=f-aKxXt8Y0A" target="_blank">Video Walk-Through</a></li>
-<li><a href="https://github.com/elewa-academy/Fundamentals/tree/master/06-clean-calc/object-video-code" target="_blank">Code from video</a></li>
-<li><a href="https://github.com/elewa-academy/General-Resources/tree/master/javascript/using-js/objects" target="_blank">Progressive code samples</a></li>
+<li>Three Definitions: <a href="http://www.safnet.com/writing/tech/2011/11/mythical-man-month-conceptual-integrity.html" target="_blank">OG</a>, <a href="http://cseweb.ucsd.edu/~wgg/CSE131B/Design/node6.html" target="_blank">CSEWeb</a>, <a href="https://dzone.com/articles/lean-tools-conceptual-0" target="_blank">DZone</a></li>
+<li><a href="http://ceng.cankaya.edu.tr/~myilmaz/2013/11/124/" target="_blank">The Summarians Got It</a></li>
+<li><a href="http://www.dcs.warwick.ac.uk/oldmodelling/hi/theses/allan/chapter5.pdf" target="_blank">Chapter in a Book</a></li>
 </ul>
-<p><strong>Process.argv</strong>:</p>
+<p>One Step Further:</p>
 <ul>
-<li><a href="http://stackabuse.com/command-line-arguments-in-node-js/" target="_blank">Stackabuse Article</a></li>
-<li><a href="https://www.youtube.com/watch?v=PG0_eGxrCAk" target="_blank">CC Videos</a></li>
+<li><a href="https://www.fastcompany.com/3019082/coding-is-an-art-software-people-should-learn-art-thinking" target="_blank">Art Thinking &amp; Software</a></li>
 </ul>
-<p><strong>DOM</strong>:</p>
-<ul>
-<li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>.  Complete the jQuery exercises if you haven&apos;t yet.</li>
-</ul>
-<p><a href="https://github.com/elewa-academy/Fundamentals/tree/master/4-clean-calc" target="_blank">Cleancalc Repo</a></p>
 <p><a href="#index">TOP</a></p>
-<hr>
-<p>Closing Thoughts:<br>    <img src="http://deviq.com/wp-content/uploads/2014/11/Separation-of-Concerns-Feb-2013.png" alt=""></p>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -616,12 +579,12 @@ c. Logic - Cleancalc Object</li>
 
             
                 
-                <a href="../05-tdd-katas/" class="navigation navigation-prev " aria-label="Previous page: 5. TDD Katas">
+                <a href="../09-state-components/" class="navigation navigation-prev " aria-label="Previous page: 9. State & Components">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../07-code-specs-refactoring/" class="navigation navigation-next " aria-label="Next page: 7. Code Specs & Refactoring">
+                <a href="../11-all-together/" class="navigation navigation-next " aria-label="Next page: 11. All Together">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -632,7 +595,7 @@ c. Logic - Cleancalc Object</li>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"6. Separation of Concerns","level":"1.8","depth":1,"next":{"title":"7. Code Specs & Refactoring","level":"1.9","depth":1,"path":"07-code-specs-refactoring/README.md","ref":"./07-code-specs-refactoring/README.md","articles":[]},"previous":{"title":"5. TDD Katas","level":"1.7","depth":1,"path":"05-tdd-katas/README.md","ref":"./05-tdd-katas/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"06-clean-calc/README.md","mtime":"2018-03-23T19:59:59.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T14:42:58.349Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"next":{"title":"11. All Together","level":"1.13","depth":1,"path":"11-all-together/README.md","ref":"./11-all-together/README.md","articles":[]},"previous":{"title":"9. State & Components","level":"1.11","depth":1,"path":"09-state-components/README.md","ref":"./09-state-components/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"10-human-centered-design/README.md","mtime":"2018-03-25T14:18:45.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T14:42:58.349Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

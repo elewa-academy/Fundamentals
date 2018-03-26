@@ -114,7 +114,7 @@ ___
 
 Create a mock-up of the "finished portfolio".  This will be a more detailed mock-up than you used for wireframes or your first round of ideation.  It will include color, images, and finished text.
 
-You are encouraged to use Mobirise to build the portfolio.  The focus of this project is your partner, not programming. 
+Feel free to use your portfolio as a template, or even to build with Mobirise.  The focus of this project is your partner, not programming. 
 
 If you did a good job, your partner will want you to replace theirs for this new one!
 
