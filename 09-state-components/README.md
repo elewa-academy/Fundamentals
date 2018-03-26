@@ -1,7 +1,7 @@
 # Portfolio Facelift: State & Components
 
 
-In this project 
+Show the world everything you've learned! In this project you will rebuild your portfolio
 
 ### Index
 * [Learning Objectives](#learning-objectives)
@@ -13,13 +13,13 @@ In this project
 
 ## Learning Objectives
 
+* DOM Manipulations
+* jQuery
 * UI Components
 * App = Data + User Interactions
 * State = Truth
 * CRUD
-* DOM Manipulations
-* jQuery
-* 
+* State-Based Architecture
 
 ### UI Components
 
@@ -49,19 +49,24 @@ These are the elementary operations for accessing and using data.  Your portfoli
   * Update the image for a featured project
   * Delete a featured project from the DOM
 
+
+### State-Based Architecture
+
+[![](./state-based-architecture.png)](https://sketchboard.me/PAXBbs2SZlZu#/)
+
 [TOP](#index)
 
 ---
 
 ## Requirements
 
-1. Learn some jQuery with freecodecamp's exercises and w3schools as a reference
-2. Refactor 2-3 of your Organizing Development projects to have a little more interactivity
+1. Learn some jQuery on FreeCodeCamp, using W3 Schools as a reference.
+2. Refactor 2-3 of your Organizing Development projects to have a little more interactivity:
   * Develop on a new branch
   * Update the README
   * Update the gh-pages demo
-3. Plan and develop a new portfolio for your home page
-    a. Repo Specs
+3. Plan and develop a new portfolio for your home page:
+    * Repo Specs:
       * Develop on a new branch
       * README
         * About this project
@@ -69,16 +74,16 @@ These are the elementary operations for accessing and using data.  Your portfoli
         * Learning notes
       * Document your code and functionality
       * Tests for any pure JS, don't worry about the jQuery
-    b. Behavioral Specs. A user can ...
-      * Change the image for any given project box
-      * Choose between a couple style options for the whole site
-      * Add new project components to the portfolio by providing:
-        * A valid repo name (ie. one you actually have)
-        * A valid image url
-      * Delete a project component
-      * See a pre-selected set of projects on window.onload
-      * Change the image for an existing project component
-    c. Your source code will have ...
+     * Behavioral Specs. A user can ...
+        * Change the image for any given project box
+        * Choose between a couple style options for the whole site
+        * Add new project components to the portfolio by providing:
+          * A valid repo name (ie. one you actually have)
+          * A valid image url
+        * Delete a project component
+        * See a pre-selected set of projects on window.onload
+        * Change the image for an existing project component
+    * Your source code will have ...
         * A state object containing the info for each project you want displayed on load -> {0: {repo: name, image: url}}. This will have only properties, no methods.
         * A file for all user input handlers
         * A file for all pure JS logic

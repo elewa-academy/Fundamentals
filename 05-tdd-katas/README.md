@@ -50,7 +50,7 @@ This project focuses entirely on TDD, we will discuss BDD later on in the Testin
   * [TDD](http://www.kaidez.com/learn-javascript-unit-testing/#review-james-code)
   * [Functional Programming](https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/)
   * [Accompanying GitHub Repo](https://github.com/kaidez/functional-programming-unit-testing)
-2. Complete a minimum of 5 TDD Kata Repos.  Each repo will have:
+2. Start building TDD Kata Repos.  Just like with the Codewars project, you're never truly finished.  This exercise will grow with you. Try to complete 3-4 per week.  Each repo will have:
   * README
     1. Introduction to the problem
     3. Kata requirements explained in order, each linking to their markdowns

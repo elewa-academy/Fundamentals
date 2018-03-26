@@ -35,7 +35,7 @@ To see how well you did, go to the "cleancalc" channel on Slack to share objects
 
 ### 3 Layered Architecture
 
-![](./three-layered-architecture.png)
+[![](./three-layered-architecture.png)](https://sketchboard.me/pAVLWrD6ssaR#/)
 
 [TOP](#index)
 
