@@ -1,7 +1,6 @@
-# Portfolio Facelift: State & Components
+# Portfolio FaceLift: State & Components
 
-
-Show the world everything you've learned! In this project you will rebuild your portfolio
+Don't waste your time working on two projects at once - learning from one, and maintaining your portfolio with the other.  In Portfolio FaceLift you'll kill two birds with one stone by rebuilding your portfolio from scratch using an omega-clean State-Based Architecture.
 
 ### Index
 * [Learning Objectives](#learning-objectives)
@@ -63,6 +62,7 @@ These three features together will ensure that the State is only modified when &
 
 
 <br>
+
 ![](./state-based-architecture.png)
 
 [TOP](#index)
@@ -78,7 +78,10 @@ These three features together will ensure that the State is only modified when &
   * Update the gh-pages demo
 3. Plan and develop a new portfolio for your home page:
     * Repo Specs:
-      * Develop on a new branch
+      * Branches:
+        1. Move your old portfolio to a new branch
+        2. Develop your new portfolio on a new branch
+        3. Merge your new portfolio to Master when it's finished
       * README
         * About this project
         * Present your development planning like before
