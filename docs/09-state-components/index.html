@@ -496,7 +496,15 @@
 <li>Delete a featured project from the DOM</li>
 </ul>
 <h3 id="state-based-architecture">State-Based Architecture</h3>
-<p><a href="https://sketchboard.me/PAXBbs2SZlZu#/" target="_blank"><img src="state-based-architecture.png" alt=""></a></p>
+<p>Your new portfolio&apos;s architecture is designed to protect the State, and to make sure that the user is always seeing on the screen an accurate representation of what&apos;s stored in State.</p>
+<p>Three simple but <em>sooper</em> important aspect of this design are:</p>
+<ol>
+<li>Only the JS logic can modify the State, triggered by user events</li>
+<li>DOM methods have &quot;Read-Only Access&quot; to the State</li>
+<li>There will be only one DOM method that renders from state, and it will re-render the entire &quot;projects&quot; div every time it is called. 
+These three features together will ensure that the State is only modified when &amp; how it&apos;s supposed to be, that everything in state makes it to the DOM, and that there is never any out-of-date information hanging around in the DOM.</li>
+</ol>
+<p><img src="state-based-architecture.png" alt=""></p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="requirements">Requirements</h2>
@@ -569,6 +577,10 @@
 </ul>
 </li>
 </ul>
+<p>Programming Paradigm:</p>
+<ul>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/04-event-driven-programming.md" target="_blank">Event-Driven Programming</a></li>
+</ul>
 <p>GitHub API Challenge:</p>
 <ul>
 <li><a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">Tutorial &amp; Example</a></li>
@@ -623,7 +635,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T20:49:51.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T20:49:59.925Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T21:01:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T21:01:47.860Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
