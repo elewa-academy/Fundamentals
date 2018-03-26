@@ -1,7 +1,7 @@
-# Portfolio Face Lift Pt. 1: State & Components
+# Portfolio Facelift: State & Components
 
 
-
+In this project 
 
 ### Index
 * [Learning Objectives](#learning-objectives)
@@ -19,6 +19,7 @@
 * CRUD
 * DOM Manipulations
 * jQuery
+* 
 
 ### UI Components
 
@@ -28,14 +29,15 @@ We will take this concept to the next level by writing a jQuery method that take
 
 ### App = Data + User Interactions
 
-Here's a good working definition for "application":
+
+An _application_ is (roughly):
 > Code that defines & enables user interactions with stored data. 
 
-Pretty straight forward after all!  
+Pretty straight forward after all!  In this project you will be exploring how to build your application to implement clean behavior-flow & protect your data's integrity using the 
 
 ### State = Truth
 
-Your new portfolio will have _state_.  This is either an object or an array that keeps track of what is currently displayed on your portfolio (ie. the repo name & image url for each featured project).  
+Your new portfolio will have _state_ (data).  This will be either an object that keeps track of what is currently displayed on your portfolio (ie. the repo name & image url for each featured project).  
 
 The state should be the final source of truth in your application. There should never be a mismatch between what's displayed on the screen and what's stored in your portfolio's _state_.  
 
@@ -55,36 +57,41 @@ These are the elementary operations for accessing and using data.  Your portfoli
 
 1. Learn some jQuery with freecodecamp's exercises and w3schools as a reference
 2. Refactor 2-3 of your Organizing Development projects to have a little more interactivity
-  * do it on a new branch of that repo
-  * update the readme
-  * update the gh-pages demo
+  * Develop on a new branch
+  * Update the README
+  * Update the gh-pages demo
 3. Plan and develop a new portfolio for your home page
-    * on a new branch
-    * the whole Organized Development thing
-    * a user can ...
-      * (this list is required, but feel free to add to it)
-      * see a pre-selected list of projects on window load
-      * change the image for any given project box
-      * change the color theme on any given project box
-      * add new components to the portfolio via an input
-        * repo name
-        * image
-      * remove components from the portfolio
-      * change the image for an existing project
-    * technical specs:
-      * in the source cod
-        * an (object or array) containing info for each project you want displayed on load ("state"):
-          * (will always be same on load)
-          * (will change as a user interacts with the site) 
-          * repo name
-          * image url 
-        * a method that uses jquery to append a single component into a pre-defined div
-        * a method to iterate through the state and draw a component for each
+    a. Repo Specs
+      * Develop on a new branch
+      * README
+        * About this project
+        * Present your development planning like before
+        * Learning notes
+      * Document your code and functionality
+      * Tests for any pure JS, don't worry about the jQuery
+    b. Behavioral Specs. A user can ...
+      * Change the image for any given project box
+      * Choose between a couple style options for the whole site
+      * Add new project components to the portfolio by providing:
+        * A valid repo name (ie. one you actually have)
+        * A valid image url
+      * Delete a project component
+      * See a pre-selected set of projects on window.onload
+      * Change the image for an existing project component
+    c. Your source code will have ...
+        * A state object containing the info for each project you want displayed on load -> {0: {repo: name, image: url}}. This will have only properties, no methods.
+        * A file for all user input handlers
+        * A file for all pure JS logic
+        * A file for all jQuery that writes to the DOM
+        * A folder for test cases and test library
 
-Challenge:
-  * A User Can ..
-    * View a complete list of your repositories
-    * Click on a listed repo to build a 
+
+
+Challenges: A user can ...
+  * See your existing repositories via the GitHub API
+  * Filter that list by API-supported criteria
+  * Star, fork, clone, or watch a project from your portfolio
+  * Validate repo names when a user tries to create a new component
 
 
 
@@ -104,9 +111,6 @@ jQuery:
 * From jQuery:
   * [Learn jQuery](https://learn.jquery.com)
   * [The Docs](http://api.jquery.com)
-
-code to study
-  tictactoe
 
 
 GitHub API Challenge:

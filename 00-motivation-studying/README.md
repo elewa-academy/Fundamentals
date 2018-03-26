@@ -4,6 +4,9 @@ Of all the skills you will need as a developer, __effective learning__ is the mo
 
 Fortunately studying and learning are skills you can improve.  Keeping an organized study journal is the first step.
 
+In this project you will learn a way of organizing and hosting your notes that will allow you to easily access them by date or by topic.  Along the way you will learn how to work on git/GitHub, how to build and deploy A project, and the difference between source code & runtime execution. Committing yourself to maintaining your notes repository will enable you learn how to manage a growing code-base without the added complexity of dealing with real code.  
+
+So teach yourself how to learn, how to code, and how to manage source code. It'll be a little tedious right now but your future self will thank you.
 
 ### Index
 * [Learning Objectives](#learning-objectives)
