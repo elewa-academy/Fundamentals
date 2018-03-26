@@ -456,7 +456,8 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="portfolio-face-lift-pt-1-state--components">Portfolio Face Lift Pt. 1: State &amp; Components</h1>
+                                <h1 id="portfolio-facelift-state--components">Portfolio Facelift: State &amp; Components</h1>
+<p>In this project </p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
@@ -472,18 +473,19 @@
 <li>CRUD</li>
 <li>DOM Manipulations</li>
 <li>jQuery</li>
+<li></li>
 </ul>
 <h3 id="ui-components">UI Components</h3>
 <p>Components are &quot;chunks&quot; of your website that are structurally the same, but with different information connected to them. Your project boxes are a perfect example: they have identical html/css configuration but a different title, image, and hyperlinks.</p>
 <p>We will take this concept to the next level by writing a jQuery method that takes a repo name &amp; image url as arguments and appends a new project component to the end of a &quot;projects&quot; div.</p>
 <h3 id="app--data--user-interactions">App = Data + User Interactions</h3>
-<p>Here&apos;s a good working definition for &quot;application&quot;:</p>
+<p>An <em>application</em> is (roughly):</p>
 <blockquote>
 <p>Code that defines &amp; enables user interactions with stored data. </p>
 </blockquote>
-<p>Pretty straight forward after all!  </p>
+<p>Pretty straight forward after all!  In this project you will be exploring how to build your application to implement clean behavior-flow &amp; protect your data&apos;s integrity using the </p>
 <h3 id="state--truth">State = Truth</h3>
-<p>Your new portfolio will have <em>state</em>.  This is either an object or an array that keeps track of what is currently displayed on your portfolio (ie. the repo name &amp; image url for each featured project).  </p>
+<p>Your new portfolio will have <em>state</em> (data).  This will be either an object that keeps track of what is currently displayed on your portfolio (ie. the repo name &amp; image url for each featured project).  </p>
 <p>The state should be the final source of truth in your application. There should never be a mismatch between what&apos;s displayed on the screen and what&apos;s stored in your portfolio&apos;s <em>state</em>.  </p>
 <h3 id="create-read-update-delete">Create, Read, Update, Delete</h3>
 <p>These are the elementary operations for accessing and using data.  Your portfolio will allow a user to:</p>
@@ -499,53 +501,50 @@
 <ol>
 <li>Learn some jQuery with freecodecamp&apos;s exercises and w3schools as a reference</li>
 <li>Refactor 2-3 of your Organizing Development projects to have a little more interactivity<ul>
-<li>do it on a new branch of that repo</li>
-<li>update the readme</li>
-<li>update the gh-pages demo</li>
+<li>Develop on a new branch</li>
+<li>Update the README</li>
+<li>Update the gh-pages demo</li>
 </ul>
 </li>
-<li>Plan and develop a new portfolio for your home page<ul>
-<li>on a new branch</li>
-<li>the whole Organized Development thing</li>
-<li>a user can ...<ul>
-<li>(this list is required, but feel free to add to it)</li>
-<li>see a pre-selected list of projects on window load</li>
-<li>change the image for any given project box</li>
-<li>change the color theme on any given project box</li>
-<li>add new components to the portfolio via an input<ul>
-<li>repo name</li>
-<li>image</li>
+<li>Plan and develop a new portfolio for your home page
+ a. Repo Specs<ul>
+<li>Develop on a new branch</li>
+<li>README<ul>
+<li>About this project</li>
+<li>Present your development planning like before</li>
+<li>Learning notes</li>
 </ul>
 </li>
-<li>remove components from the portfolio</li>
-<li>change the image for an existing project</li>
+<li>Document your code and functionality</li>
+<li>Tests for any pure JS, don&apos;t worry about the jQuery
+b. Behavioral Specs. A user can ...</li>
+<li>Change the image for any given project box</li>
+<li>Choose between a couple style options for the whole site</li>
+<li>Add new project components to the portfolio by providing:<ul>
+<li>A valid repo name (ie. one you actually have)</li>
+<li>A valid image url</li>
 </ul>
 </li>
-<li>technical specs:<ul>
-<li>in the source cod<ul>
-<li>an (object or array) containing info for each project you want displayed on load (&quot;state&quot;):<ul>
-<li>(will always be same on load)</li>
-<li>(will change as a user interacts with the site) </li>
-<li>repo name</li>
-<li>image url </li>
-</ul>
-</li>
-<li>a method that uses jquery to append a single component into a pre-defined div</li>
-<li>a method to iterate through the state and draw a component for each</li>
-</ul>
-</li>
+<li>Delete a project component</li>
+<li>See a pre-selected set of projects on window.onload</li>
+<li>Change the image for an existing project component
+c. Your source code will have ...<ul>
+<li>A state object containing the info for each project you want displayed on load -&gt; {0: {repo: name, image: url}}. This will have only properties, no methods.</li>
+<li>A file for all user input handlers</li>
+<li>A file for all pure JS logic</li>
+<li>A file for all jQuery that writes to the DOM</li>
+<li>A folder for test cases and test library</li>
 </ul>
 </li>
 </ul>
 </li>
 </ol>
-<p>Challenge:</p>
+<p>Challenges: A user can ...</p>
 <ul>
-<li>A User Can ..<ul>
-<li>View a complete list of your repositories</li>
-<li>Click on a listed repo to build a </li>
-</ul>
-</li>
+<li>See your existing repositories via the GitHub API</li>
+<li>Filter that list by API-supported criteria</li>
+<li>Star, fork, clone, or watch a project from your portfolio</li>
+<li>Validate repo names when a user tries to create a new component</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
@@ -564,8 +563,6 @@
 </ul>
 </li>
 </ul>
-<p>code to study
-  tictactoe</p>
 <p>GitHub API Challenge:</p>
 <ul>
 <li><a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">Tutorial &amp; Example</a></li>
@@ -620,7 +617,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T14:17:23.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T14:42:58.349Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T20:10:46.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-26T20:11:00.209Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
