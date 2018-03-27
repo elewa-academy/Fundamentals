@@ -18,6 +18,7 @@ Time, motivation, concentration, social support, thinking power, energy, all of 
 
 #### Index
 * [Know Yourself](#know-yourself)
+* [Using Questions](#using-questions)
 * [Some Strategies](#some-strategies)
 * [Study Links](#study-links)
 
@@ -50,15 +51,7 @@ TL;DR -
 
 Study strategies in more depth, organized by the resource they help to manage:
 * __Time__:
-  * Focus your study sessions by asking the right questions:
-    1. Narrow & break down the topics you need to study.
-    2. Often in formulating a clear question you will find your answer.
-    3. By analyzing your list of questions, you can see:
-       * Am I on topic?
-         * If not am I distracted in breadth or depth?
-       * What seem to be recurring questions? 
-         * Can I trace those to a common source?
-    4. If you do a good job organizing your questions you are also building up a study plan for the coming days or even weeks.
+  * Organize your study sessions around a well-formulated set of questions.
   * Learn to cut your losses.  The goal of studying isn't to make a working application, it's to learn. Becoming fixated on finding a bug or tweaking the UI can waste time you should be spending on your primary learning objectives.
   * Collect and familiarize yourself good learning resources ahead of time. A few comprehensive resources will serve you better than an ad-hoc collection of smaller ones and take less time to sort through. The style & messages will be more consistent, and complete resources will make an effort to tie old concepts back into new ones.
 * __Motivation__:

@@ -7,9 +7,10 @@
   * [Stay Motivated](./00-motivation-studying/2-stay-motivated.md)
   * [Manage Your Expectations](./00-motivation-studying/3-manage-your-expectations.md)
   * [Being Wrong](./00-motivation-studying/4-being-wrong.md)
-  * [Help Your Brain](./00-motivation-studying/5-help-your-brain.md)
-  * [Study Effectively](./00-motivation-studying/6-study-effectively.md)
-  * [Productive Procrastination](./00-motivation-studying/7-productive-procrastination.md)
+  * [Inquiry Based Learning](./00-motivation-studying/5-inquiry-based-learning.md)
+  * [Help Your Brain](./00-motivation-studying/6-help-your-brain.md)
+  * [Study Effectively](./00-motivation-studying/7-study-effectively.md)
+  * [Productive Procrastination](./00-motivation-studying/8-productive-procrastination.md)
 * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
 * [2. Showcasing Your Work](./02-js-30-gallery/README.md)
 * [3. The Buddy System](./03-the-buddy-system/README.md)
@@ -24,3 +25,8 @@
 * [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
 * [Repo](https://github.com/elewa-academy/Fundamentals/tree/master)
 * [Home](https://elewa-academy.github.io)
+
+
+___
+___
+### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>

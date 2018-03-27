@@ -33,9 +33,8 @@ Required:
 * The Programmer's Oath:  [Videos](https://www.youtube.com/watch?v=36NgPu9OyRM), [Text](https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html)
 
 More:
-* [Solution Design](http://elewa.education/2018/01/20/solution-design/)
-* Code Quality: [one](https://xkcd.com/1513/), [two](https://xkcd.com/1695/), [three](https://m.xkcd.com/1833/), [counterpoint](http://xkcdisntfunny.blogspot.be/2015/04/xkcd-isnt-funny-1513-code-quality.html)
 * [Communicating with Code](http://elewa.education/2018/01/25/carving-thoughts-code/)
+* Code Quality: [one](https://xkcd.com/1513/), [two](https://xkcd.com/1695/), [three](https://m.xkcd.com/1833/), [counterpoint](http://xkcdisntfunny.blogspot.be/2015/04/xkcd-isnt-funny-1513-code-quality.html)
 * [13 Principles of Readable Code](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 * [Beautiful & Clean](https://hackernoon.com/how-to-make-your-code-clean-and-beautiful-5ff7aee03be6)
 * Linters & Style:

@@ -4,7 +4,9 @@ Of all the skills you will need as a developer, __effective learning__ is the mo
 
 Fortunately studying and learning are skills you can improve.  Keeping an organized study journal is the first step.
 
-In this project you will learn a way of organizing and hosting your notes that will allow you to easily access them by date or by topic.  Along the way you will learn how to work on git/GitHub, how to build and deploy A project, and the difference between source code & runtime execution. Committing yourself to maintaining your notes repository will enable you learn how to manage a growing code-base without the added complexity of dealing with real code.  
+In this project you will learn a way of organizing and hosting your notes that will allow you to easily access them by date or by topic.  Along the way you will learn how to work on git/GitHub, how to build and deploy a project, create a complete GitHub repository, and the difference between source code & runtime. Committing yourself to maintaining your notes repository will enable you learn how to manage a growing code-base without the added complexity of dealing with real code.  
+
+As your notes grow, and as your understanding changes, you will find yourself having to do more frequent and more challenging _refactors_.  This is the exact same growing pains you will experience with a real software development project. 
 
 So teach yourself how to learn, how to code, and how to manage source code. It'll be a little tedious right now but your future self will thank you.
 
@@ -33,8 +35,8 @@ Fork this [Template Notes Repository](https://github.com/elewa-academy/study-jou
 Main Repository:
 * Keeps track of your progress over time.  We recommend you have a folder for each week, a files for each day that week, and one week summary README.md in each week's folder.
 
-Gh-pages & Gitbook:
-* Categorize what you learn as you go, having a chapter for each main concept you encounter. Each chapter will contain a link to the notes from each day you encountered that topic.  This will help you review & practice finding links across different topics as you learn to program.  
+Gh-Pages & Gitbook:
+* Categorize & re-categorize what you learn as you learn it. Write one markdown for each important concept you encounter, this file will links to the relevant days' notes. Every time you add to a concept's markdown, you will also modify or add to that concept's quiz.  Revise and re-analyze your notes like this on a daily basis.
 
 A Strong Suggestion:
 Try writing and editing your notes from command line instead of your text editor using [Nano](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). The work-flow is very smooth and you'll be forcing yourself to practice using the command line on a daily basis.  (Nano comes pre-installed on Linux & Macs).
@@ -48,6 +50,7 @@ Try writing and editing your notes from command line instead of your text editor
 
 
 [Template Notes Repository](https://github.com/elewa-academy/study-journal-template)
+[Demo Notes GitBook](https://elewa-academy.github.io/study-journal-template)
 
 Tracking Your Progress:
 * [Write Code Every Day](https://johnresig.com/blog/write-code-every-day/)

@@ -29,12 +29,16 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 
 ## Specifications
 
+1. competetive peer assessments
+	turn your notes into a quiz.
+		ask questions who's answers should be what you wrote in your learning journal that day
+		find a partner or two
 
-> 1. Work on each project with a buddy or two.
 
-That's it.
+2. Work on each project with a buddy or two.
 
 How you work together or split up the project is your choice.  There is no single best way to do this, it will depend on your strengths and personalities.  What's important is that you are continuously engaging with another person while building these projects.  
+
 
 [TOP](#index)
 
