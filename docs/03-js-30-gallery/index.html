@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>9. State & Components · GitBook</title>
+        <title>3. Showcasing Your Work · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../10-human-centered-design/" />
+    <link rel="next" href="../04-codewars-gallery/" />
     
     
-    <link rel="prev" href="../08-organizing-development/" />
+    <link rel="prev" href="../02-the-buddy-system/" />
     
 
     </head>
@@ -268,9 +268,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="../03-js-30-gallery/">
+        <li class="chapter active" data-level="1.5" data-path="./">
             
-                <a href="../03-js-30-gallery/">
+                <a href="./">
             
                     
                     3. Showcasing Your Work
@@ -346,9 +346,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.11" data-path="./">
+        <li class="chapter " data-level="1.11" data-path="../09-state-components/">
             
-                <a href="./">
+                <a href="../09-state-components/">
             
                     
                     9. State & Components
@@ -461,7 +461,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >9. State & Components</a>
+        <a href=".." >3. Showcasing Your Work</a>
     </h1>
 </div>
 
@@ -476,143 +476,42 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="portfolio-facelift-state--components">Portfolio FaceLift: State &amp; Components</h1>
-<p>Don&apos;t waste your time working on two projects at once - learning from one, and maintaining your portfolio with the other.  In Portfolio FaceLift you&apos;ll kill two birds with one stone by rebuilding your portfolio from scratch using an omega-clean State-Based Architecture.</p>
+                                <h1 id="consolidate-javascript-30">Consolidate JavaScript 30</h1>
+<p>For the precourse you completed 8+ projects from the JavaScript 30 and featured each one on your portfolio.  This means your portfolio is already pretty crowded, and we haven&apos;t even started!  This project has two main objectives:  </p>
+<ol>
+<li>Consolidate your separate JS 30 solutions into a single landing page</li>
+<li>Update your portfolio to feature only this consolidated project instead of 8 separate JS 30 Challenges.</li>
+</ol>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
-<li><a href="#requirements">Requirements</a></li>
+<li><a href="#specification">Specifications</a></li>
 <li><a href="#resources">Resources</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
+<p>This project is a chance for you to get make something pretty cool, pretty quickly.  You won&apos;t be learning anything life changing:</p>
 <ul>
-<li>DOM Manipulations</li>
-<li>jQuery</li>
-<li>UI Components</li>
-<li>App = Data + User Interactions</li>
-<li>State = Truth</li>
-<li>CRUD</li>
-<li>State-Based Architecture</li>
+<li>HTML/CSS + JS</li>
+<li>Git &amp; GitHub </li>
+<li><a href="https://mobirise.com" target="_blank">Mobirise</a></li>
 </ul>
-<h3 id="ui-components">UI Components</h3>
-<p>Components are &quot;chunks&quot; of your website that are structurally the same, but with different information connected to them. Your project boxes are a perfect example: they have identical html/css configuration but a different title, image, and hyperlinks.</p>
-<p>We will take this concept to the next level by writing a jQuery method that takes a repo name &amp; image url as arguments and appends a new project component to the end of a &quot;projects&quot; div.</p>
-<h3 id="app--data--user-interactions">App = Data + User Interactions</h3>
-<p>An <em>application</em> is (roughly):</p>
-<blockquote>
-<p>Code that defines &amp; enables user interactions with stored data. </p>
-</blockquote>
-<p>Pretty straight forward after all!  In this project you will be exploring how to build your application to implement clean behavior-flow &amp; protect your data&apos;s integrity using the </p>
-<h3 id="state--truth">State = Truth</h3>
-<p>Your new portfolio will have <em>state</em> (data).  This will be either an object that keeps track of what is currently displayed on your portfolio (ie. the repo name &amp; image url for each featured project).  </p>
-<p>The state should be the final source of truth in your application. There should never be a mismatch between what&apos;s displayed on the screen and what&apos;s stored in your portfolio&apos;s <em>state</em>.  </p>
-<h3 id="create-read-update-delete">Create, Read, Update, Delete</h3>
-<p>These are the elementary operations for accessing and using data.  Your portfolio will allow a user to:</p>
-<ul>
-<li>Create new featured projects</li>
-<li>View all featured projects</li>
-<li>Update the image for a featured project</li>
-<li>Delete a featured project from the DOM</li>
-</ul>
-<h3 id="state-based-architecture">State-Based Architecture</h3>
-<p>Your new portfolio&apos;s architecture is designed to protect the State, and to make sure that the user is always seeing on the screen an accurate representation of what&apos;s stored in State.</p>
-<p>Three simple but <em>sooper</em> important aspect of this design are:</p>
-<ol>
-<li>Only the JS logic can modify the State, triggered by user events</li>
-<li>DOM methods have &quot;Read-Only Access&quot; to the State</li>
-<li>There will be only one DOM method that renders from state, and it will re-render the entire &quot;projects&quot; div every time it is called.  </li>
-</ol>
-<p>These three features together will ensure that the State is only modified when &amp; how it&apos;s supposed to be, that everything in state makes it to the DOM, and that there is never any out-of-date information hanging around in the DOM.</p>
-<p><br></p>
-<p><img src="state-based-architecture.png" alt=""></p>
 <p><a href="#index">TOP</a></p>
 <hr>
-<h2 id="requirements">Requirements</h2>
+<h2 id="specifications">Specifications</h2>
 <ol>
-<li>Learn some jQuery on FreeCodeCamp, using W3 Schools as a reference.</li>
-<li>Refactor 2-3 of your Organizing Development projects to have a little more interactivity:<ul>
-<li>Develop on a new branch</li>
-<li>Update the README</li>
-<li>Update the gh-pages demo</li>
-</ul>
-</li>
-<li>Plan and develop a new portfolio for your home page:<ul>
-<li>Repo Specs:<ul>
-<li>Branches:<ol>
-<li>Move your old portfolio to a new branch</li>
-<li>Develop your new portfolio on a new branch</li>
-<li>Merge your new portfolio to Master when it&apos;s finished</li>
+<li>Take a look at the <a href="https://elewa-student.github.io/" target="_blank">Elewa Student portfolio</a> and <a href="https://github.com/elewa-student" target="_blank">GitHub account</a> to see how we&apos;ve organized the JS 30 Landing Page.</li>
+<li>Install Mobirise &amp; Build a Landing page that features the source and demo for each JS 30 challenge you completed. </li>
+<li>Save the code, write a README, push it to a new repo on your GitHub account.</li>
+<li>Update your portfolio to include only this project and not each individual challenge.</li>
 </ol>
-</li>
-<li>README<ul>
-<li>About this project</li>
-<li>Present your development planning like before</li>
-<li>Learning notes</li>
-</ul>
-</li>
-<li>Document your code and functionality</li>
-<li>Tests for any pure JS, don&apos;t worry about the jQuery</li>
-<li>Behavioral Specs. A user can ...<ul>
-<li>Change the image for any given project box</li>
-<li>Choose between a couple style options for the whole site</li>
-<li>Add new project components to the portfolio by providing:<ul>
-<li>A valid repo name (ie. one you actually have)</li>
-<li>A valid image url</li>
-</ul>
-</li>
-<li>Delete a project component</li>
-<li>See a pre-selected set of projects on window.onload</li>
-<li>Change the image for an existing project component</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Your source code will have ...<ul>
-<li>A state object containing the info for each project you want displayed on load -&gt; {0: {repo: name, image: url}}. This will have only properties, no methods.</li>
-<li>A file for all user input handlers</li>
-<li>A file for all pure JS logic</li>
-<li>A file for all jQuery that writes to the DOM</li>
-<li>A folder for test cases and test library</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<p>Challenges: A user can ...</p>
-<ul>
-<li>See your existing repositories via the GitHub API</li>
-<li>Filter that list by API-supported criteria</li>
-<li>Star, fork, clone, or watch a project from your portfolio</li>
-<li>Validate repo names when a user tries to create a new component</li>
-</ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>The DOM:</p>
 <ul>
-<li><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">W3 Schools</a></li>
-</ul>
-<p>jQuery:</p>
-<ul>
-<li><a href="https://www.w3schools.com/jquery/default.asp" target="_blank">W3 Schools</a></li>
-<li><a href="https://www.freecodecamp.org/challenges/learn-how-script-tags-and-document-ready-work" target="_blank">FreeCodeCamp</a></li>
-<li>From jQuery:<ul>
-<li><a href="https://learn.jquery.com" target="_blank">Learn jQuery</a></li>
-<li><a href="http://api.jquery.com" target="_blank">The Docs</a></li>
-</ul>
-</li>
-</ul>
-<p>Programming Paradigm:</p>
-<ul>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/04-event-driven-programming.md" target="_blank">Event-Driven Programming</a></li>
-</ul>
-<p>GitHub API Challenge:</p>
-<ul>
-<li><a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">Tutorial &amp; Example</a></li>
-<li><a href="http://yonaba.github.io/2012/08/14/List-your-GitHub-projects-using-JavaScript-and-jQuery.md.html" target="_blank">Short Tutorial</a></li>
-<li><a href="https://codepen.io/bvasko/pen/gJxKk" target="_blank">Another Example</a></li>
-<li><a href="https://nihal111.github.io/2017/07/05/github-jquery.html" target="_blank">Make it Prettier </a></li>
+<li>Example:  <a href="https://elewa-student.github.io/JS-30-Landing-Page" target="_blank">Landing Page</a>, <a href="https://github.com/elewa-student/JS-30-Landing-Page" target="_blank">Repository</a>, <a href="https://elewa-student.github.io" target="_blank">Updated Portfolio</a></li>
+<li><a href="https://mobirise.com/help/easy-website-builder-mobirise-beginner-guide-163.html" target="_blank">Mobirise Beginner&apos;s Guide</a>.  They say you can push your project directly to Gh-Pages, but don&apos;t bother with that.  It&apos;s glitchy.  And you&apos;ll need to save your code to your computer to write a README anyway.</li>
+<li><a href="https://pingendo.com" target="_blank">Pigendo</a> - for Linux. </li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
@@ -645,12 +544,12 @@
 
             
                 
-                <a href="../08-organizing-development/" class="navigation navigation-prev " aria-label="Previous page: 8. Organizing Development">
+                <a href="../02-the-buddy-system/" class="navigation navigation-prev " aria-label="Previous page: 2. The Buddy System">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../10-human-centered-design/" class="navigation navigation-next " aria-label="Next page: 10. Human-Centered Design">
+                <a href="../04-codewars-gallery/" class="navigation navigation-next " aria-label="Next page: 4. Solutions & The Notional Machine">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -661,7 +560,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"9. State & Components","level":"1.11","depth":1,"next":{"title":"10. Human-Centered Design","level":"1.12","depth":1,"path":"10-human-centered-design/README.md","ref":"./10-human-centered-design/README.md","articles":[]},"previous":{"title":"8. Organizing Development","level":"1.10","depth":1,"path":"08-organizing-development/README.md","ref":"./08-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-state-components/README.md","mtime":"2018-03-26T21:09:01.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-27T21:38:29.862Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. Showcasing Your Work","level":"1.5","depth":1,"next":{"title":"4. Solutions & The Notional Machine","level":"1.6","depth":1,"path":"04-codewars-gallery/README.md","ref":"./04-codewars-gallery/README.md","articles":[]},"previous":{"title":"2. The Buddy System","level":"1.4","depth":1,"path":"02-the-buddy-system/README.md","ref":"./02-the-buddy-system/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"03-js-30-gallery/README.md","mtime":"2018-03-27T05:34:56.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-27T21:38:29.862Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
