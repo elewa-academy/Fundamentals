@@ -48,9 +48,9 @@ Try writing and editing your notes from command line instead of your text editor
 
 ## Resources
 
-
-[Template Notes Repository](https://github.com/elewa-academy/study-journal-template)
-[Demo Notes GitBook](https://elewa-academy.github.io/study-journal-template)
+Templates:
+* [Notes Repository](https://github.com/elewa-academy/study-journal-template)
+* [Demo Notes GitBook](https://elewa-academy.github.io/study-journal-template)
 
 Tracking Your Progress:
 * [Write Code Every Day](https://johnresig.com/blog/write-code-every-day/)
