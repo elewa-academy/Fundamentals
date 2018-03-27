@@ -32,7 +32,7 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 
 1. __Work on each project with a buddy or two__:
 * How you work together or split up the project is your choice.  There is no single best way to do this, it will depend on your strengths and personalities.  What's important is that you are continuously engaging with another person while building these projects.  
-2. __Peer assessments__:
+2. __Do peer assessments__:
 * Take some time each day to answer each other's Study Journal quizzes.  Check your own knowledge & learn from your classmates.  But also give feedback (in person, as an issue, or as a pull request).  If a classmate made a mistake or didn't understand a topic let them know and explain how to improve.  If they wrote a very good quiz you can't figure out, ask them to help you work through it.
 
 
