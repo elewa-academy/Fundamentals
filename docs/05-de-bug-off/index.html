@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>1. Coding is Not About Code · GitBook</title>
+        <title>5. (De)bug-off · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../02-the-buddy-system/" />
+    <link rel="next" href="../06-tdd-katas/" />
     
     
-    <link rel="prev" href="../00-motivation-studying/8-productive-procrastination.html" />
+    <link rel="prev" href="../04-codewars-gallery/" />
     
 
     </head>
@@ -242,9 +242,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../01-coding-is-not-about-code/">
             
-                <a href="./">
+                <a href="../01-coding-is-not-about-code/">
             
                     
                     1. Coding is Not About Code
@@ -294,9 +294,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../05-de-bug-off/">
+        <li class="chapter active" data-level="1.7" data-path="./">
             
-                <a href="../05-de-bug-off/">
+                <a href="./">
             
                     
                     5. (De)bug-off
@@ -474,7 +474,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >1. Coding is Not About Code</a>
+        <a href=".." >5. (De)bug-off</a>
     </h1>
 </div>
 
@@ -489,53 +489,167 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="coding-is-communication">Coding is Communication</h1>
-<blockquote>
-<p>&#x201C;Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live&#x201D; - <em>John Woods</em></p>
-</blockquote>
-<p>Software developers, especially in small to medium sized companies, are responsible for more than just typing code.  You will sit in a key position between customers, marketers, designers, managers, deployment machines, and your fellow developers.  At the end of the day it is your responsibility to ensure that there is a working application which fits the end user&apos;s needs, deploys smoothly on the necessary platforms, and is scalable and maintainable. </p>
-<p>Source code is your final product.  After hours of planning, emailing, testing, coding, and getting stuck on bugs, all that&apos;s left is the source code.  And there&apos;s no guarantee that you&apos;ll be the one to maintain your code.  This means it&apos;s crucial for you to embed everything you know about the project directly into your code. Completed source code is the most powerful tool you have for sharing your knowledge of the application. </p>
-<p>Your finished code needs to be understandable to 3 very different, and equally important audiences:</p>
-<ol>
-<li>End Users must understand why they&apos;re using your software and how to use it</li>
-<li>Developers must understand how to test, maintain, expand, and re-use your code</li>
-<li>Deployment Environments must receive carefully tuned, compiled code or risk crashing</li>
-</ol>
-<p>We like to think a lot about number 2, and hopefully you will too.</p>
-<hr>
-<h2 id="your-tasks">Your Tasks</h2>
-<ol>
-<li><a href="https://eslint.org/docs/user-guide/getting-started" target="_blank">Set up ESLint</a></li>
-<li>Every time you read or write a line of code ask yourself three questions:<ul>
-<li>How does this help the user?</li>
-<li>How does this help the maintainer?</li>
-<li>How does this help runtime execution?</li>
+                                <h1 id="debug-off">(De)bug-off</h1>
+<p>Yet another never-ending project.  Only this one is a game. </p>
+<p>A Player can ...</p>
+<ul>
+<li>On their repo:<ul>
+<li>Post a new debug challenge</li>
+<li>Assign a challenge to another player(s)</li>
+<li>Accept, reject, or ask for changes to proposed fixes</li>
 </ul>
 </li>
-<li>Read A LOT of code.  Print it out on paper if you have to.</li>
-<li>Start building your Developer Vocabulary with <a href="https://github.com/elewa-academy/General-Resources/wiki/Vocabulary" target="_blank">General Resources / Vocabulary</a>.</li>
+<li>On another player&apos;s repo:<ul>
+<li>Accept a challenge (Fork it)</li>
+<li>Create a bug fix</li>
+<li>Categorize the bug fix</li>
+<li>Submit their solution (Pull Request)</li>
+<li>Be notified if their fix was selected or not</li>
+</ul>
+</li>
+</ul>
+<p>There are no winners or losers in this game because it never ends.  You should continue to send each other harder and harder debug challenges as the course goes on.  (If the game did end there would be winners and losers.)  </p>
+<p>Not only is this game fun, but it&apos;s educational! By the time you&apos;ve been playing for a week or two you will have a reference filled with useful information on debugging.</p>
+<h3 id="index">Index</h3>
+<ul>
+<li><a href="#learning-objectives">Learning Objectives</a></li>
+<li><a href="#specifications">Specifications</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+<hr>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>De-Bugging</li>
+<li>Categorizing Bugs</li>
+<li>De-Bugging Tools</li>
+<li>Issues</li>
+<li>Branching</li>
+<li>Pull Requests</li>
+<li>GitHub Projects</li>
+<li>GitHub Notifications</li>
+</ul>
+<p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="specifications">Specifications</h2>
+<h3 id="set-up"><strong>Set-Up:</strong></h3>
+<pre><code>A (De)bug-off repo:
+|-- /zzz-challenges
+|    |-- challenge.js
+|    * place your challenges here
+|
+|-- /category-x
+|    |-- challenge-fix.js
+|    |    * other players send &quot;fix&quot; files in their pull requests
+|    * other players will either place a &quot;fix&quot; in an existing category
+|         or propose a new category of bug along with their &quot;fix&quot;
+|    * you can accept, reject, or ask for changes to pull requests
+|
+|-- README.md
+</code></pre><pre><code>A (De)bug-off gallery:
+* Repo boxes:
+  * Link to repo code
+  * Link to repo project
+  * The user&apos;s github image
+  * Who challenged who (for others&apos; repos)
+* Link to gallery repo&apos;s project for keeping score:
+  * A column per user who challenged you &amp; accepted your fix:
+    * A note linking to their project
+    * An issue linking to each merged PR &amp; it&apos;s issue
+</code></pre><ol>
+<li>Create an empty (De)bug-off repo</li>
+<li>Create a new project in that repo</li>
+<li>Create 4 columns in the project<ul>
+<li>Challenges</li>
+<li>Submitted Submissions<ul>
+<li>Automation: <em>new pulls &amp; issues</em></li>
+</ul>
+</li>
+<li>Accepted Submissions<ul>
+<li>Automation:  <em>merged pull requests</em></li>
+</ul>
+</li>
+<li>Rejected Submissions<ul>
+<li>Automation: <em>unmerged pull requests</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Create a (De)bug-off Gallery</li>
+<li>Set up your score board</li>
 </ol>
+<h3 id="game-play"><strong>Game Play:</strong></h3>
+<p><strong>Posting a Challenge:</strong></p>
+<ol>
+<li>Place a new JS file with buggy code in your challenges folder</li>
+<li>Open an issue named after that file</li>
+<li>Link to the file in the description <ul>
+<li>Don&apos;t give any hints about the bug!</li>
+</ul>
+</li>
+<li>Challenge other players by assigning the issue to them</li>
+<li>Place the issue in the &quot;challenges&quot; column of your project</li>
+</ol>
+<p><strong>Accepting a Challenge:</strong></p>
+<ol>
+<li>Pull the challenger&apos;s master branch to avoid conflicts</li>
+<li>Create a new branch named after the challenge </li>
+<li>Write and categorize your fix:<ul>
+<li>xyz-fix.js:<ol>
+<li>Link to the challenge issue</li>
+<li>Buggy code, commented out</li>
+<li>Your fix</li>
+<li>Test cases you used</li>
+<li>Description of the bug and how you fixed it</li>
+</ol>
+</li>
+<li>Place the fix in an existing or new category directory</li>
+</ul>
+</li>
+<li>Send a pull request:<ul>
+<li>Name it after the challenge you accepted</li>
+<li>Provide a nice helpful comment</li>
+<li>Mention the issue number in your comment (ie. #4)</li>
+</ul>
+</li>
+<li>Cross your fingers and wait</li>
+</ol>
+<p><strong>Selecting a winner(s):</strong></p>
+<ol>
+<li>Check incoming pull requests, move them to the project</li>
+<li>Find all pull requests related to your challenge:<ul>
+<li>Either by their title</li>
+<li>Or by opening the challenge issue and selecting them there</li>
+</ul>
+</li>
+<li>Read through them all and pass judement:<ul>
+<li>Merge them if you like the fix &amp; the categorization</li>
+<li>Close them if you really don&apos;t like it</li>
+<li>Leave them a note if you have a question or want something changed</li>
+</ul>
+</li>
+</ol>
+<p><strong>Updating Your Score:</strong></p>
+<ul>
+<li>You will recieve a notification telling you if your fix was merged or not</li>
+<li>If your fix was merged, update your scoreboard (Gallery project):<ul>
+<li>Create a new issue in that user&apos;s column</li>
+<li>Provide a link to the challenge &amp; your pull request</li>
+</ul>
+</li>
+</ul>
+<p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Required:</p>
+<p>GitHub:</p>
 <ul>
-<li>The Programmer&apos;s Oath:  <a href="https://www.youtube.com/watch?v=36NgPu9OyRM" target="_blank">Videos</a>, <a href="https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html" target="_blank">Text</a></li>
+<li><a href="https://stackoverflow.com/questions/18773598/creating-folders-inside-github-com-repo-without-using-git" target="_blank">Creating Folders from GitHub</a></li>
 </ul>
-<p>More:</p>
+<p>Debugging:</p>
 <ul>
-<li><a href="http://elewa.education/2018/01/25/carving-thoughts-code/" target="_blank">Communicating with Code</a></li>
-<li>Code Quality: <a href="https://xkcd.com/1513/" target="_blank">one</a>, <a href="https://xkcd.com/1695/" target="_blank">two</a>, <a href="https://m.xkcd.com/1833/" target="_blank">three</a>, <a href="http://xkcdisntfunny.blogspot.be/2015/04/xkcd-isnt-funny-1513-code-quality.html" target="_blank">counterpoint</a></li>
-<li><a href="https://gist.github.com/peterhurford/3ad9f48071bd2665a8af" target="_blank">13 Principles of Readable Code</a></li>
-<li><a href="https://hackernoon.com/how-to-make-your-code-clean-and-beautiful-5ff7aee03be6" target="_blank">Beautiful &amp; Clean</a></li>
-<li>Linters &amp; Style:<ul>
-<li><a href="https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa" target="_blank">Code Style &amp; Style Guides</a></li>
-<li><a href="https://medium.com/@danielsternlicht/thoughts-about-javascript-linters-and-lint-driven-development-7c8f17e7e1a0" target="_blank">Linting</a></li>
+<li><a href="https://www.rithmschool.com/courses/intermediate-javascript/javascript-debugging-exercises" target="_blank">Rithmschool Exercises</a></li>
+<li><a href="https://github.com/DevMountain/debugging-exercises" target="_blank">DevMountain Exercises</a></li>
 </ul>
-</li>
-</ul>
-<hr>
-<h2 id="closing-thoughts">Closing Thoughts</h2>
-<p><img src="http://i.imgur.com/J1svNp7.jpg" alt=""></p>
+<p><a href="#index">TOP</a></p>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -566,12 +680,12 @@
 
             
                 
-                <a href="../00-motivation-studying/8-productive-procrastination.html" class="navigation navigation-prev " aria-label="Previous page: Productive Procrastination">
+                <a href="../04-codewars-gallery/" class="navigation navigation-prev " aria-label="Previous page: 4. Solutions & The Notional Machine">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../02-the-buddy-system/" class="navigation navigation-next " aria-label="Next page: 2. The Buddy System">
+                <a href="../06-tdd-katas/" class="navigation navigation-next " aria-label="Next page: 6. TDD Katas">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -582,7 +696,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1. Coding is Not About Code","level":"1.3","depth":1,"next":{"title":"2. The Buddy System","level":"1.4","depth":1,"path":"02-the-buddy-system/README.md","ref":"./02-the-buddy-system/README.md","articles":[]},"previous":{"title":"Productive Procrastination","level":"1.2.9","depth":2,"path":"00-motivation-studying/8-productive-procrastination.md","ref":"./00-motivation-studying/8-productive-procrastination.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"01-coding-is-not-about-code/README.md","mtime":"2018-03-27T16:39:37.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-28T21:31:30.803Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5. (De)bug-off","level":"1.7","depth":1,"next":{"title":"6. TDD Katas","level":"1.8","depth":1,"path":"06-tdd-katas/README.md","ref":"./06-tdd-katas/README.md","articles":[]},"previous":{"title":"4. Solutions & The Notional Machine","level":"1.6","depth":1,"path":"04-codewars-gallery/README.md","ref":"./04-codewars-gallery/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"05-de-bug-off/README.md","mtime":"2018-03-28T21:28:17.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-28T21:31:30.803Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
