@@ -15,7 +15,7 @@
 * [2. The Buddy System](./02-the-buddy-system/README.md)
 * [3. Showcasing Your Work](./03-js-30-gallery/README.md)
 * [4. Solutions & The Notional Machine](./04-codewars-gallery/README.md)
-* [5. (De)bug-off](./5-de-bug-off/README.md)
+* [5. (De)bug-off](./05-de-bug-off/README.md)
 * [6. TDD Katas](./06-tdd-katas/README.md)
 * [7. Separation of Concerns](./07-clean-calc/README.md)
 * [8. Code Specs & Refactoring](./08-code-specs-refactoring/README.md)
