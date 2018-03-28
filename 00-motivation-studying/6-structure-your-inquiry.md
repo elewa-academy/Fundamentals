@@ -89,7 +89,8 @@ Not all questions are created equal.  Whenever something pops into your head, ta
 * Conversational
 * Could teach it
 * Could reconstruct it
-* ...
+* A mix?
+
 
 ### __Ask Meta-Questions__:
 * Why did I like this question better?
