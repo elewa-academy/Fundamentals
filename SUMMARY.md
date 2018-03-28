@@ -6,7 +6,7 @@
   * [Manage Your Mindset](./00-motivation-studying/1-manage-your-mindset.md)
   * [Stay Motivated](./00-motivation-studying/2-stay-motivated.md)
   * [Manage Your Expectations](./00-motivation-studying/3-manage-your-expectations.md)
-  * [Being Wrong](./00-motivation-studying/4-being-wrong.md)
+  * [Be Wrong](./00-motivation-studying/4-be-wrong.md)
   * [Help Your Brain](./00-motivation-studying/5-help-your-brain.md)
   * [Structure Your Inquiry](./00-motivation-studying/6-structure-your-inquiry.md)
   * [Study Effectively](./00-motivation-studying/7-study-effectively.md)

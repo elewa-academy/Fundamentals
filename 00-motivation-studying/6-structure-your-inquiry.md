@@ -65,7 +65,7 @@ ___
 
 Not all questions are created equal.  Whenever something pops into your head, take a moment to refactor it into something meaningful before diving in head first.
 
-### Find the best way to phrase your question:
+### __Find the best way to phrase your question__:
 * Predictive & Falsifiable?
   * It will print {name: "Kelly"}.
   * This variable will change 4 times.
@@ -74,31 +74,41 @@ Not all questions are created equal.  Whenever something pops into your head, ta
 * True/False?
 
 
-### Constrain your exploration:
+### __Constrain your exploration__:
 * "If I come across hoisting I'll back off"
 * "After 5 minutes I'm moving on"
 * "I don't need to understand this concept yet, just use it"
 * "I'll only read code to find my answer, not words"
 
-### Identify the level of understanding you're dealing with:
-* 
+### __Identify the level of understanding you have or want__:
+* Facts
+* Vocabulary
+* Explicit procedures
+* Abstract procedures
+* Conversational
+* Could teach it
+* Could reconstruct it
+* ...
 
-### Ask Meta-Questions:
-* Why do I 
+__Ask Meta-Questions__:
+* Why did I like this question better?
+* Do I choose this type of question more often?
+* Why?
+* Can this question be answered definitively?
+* Will I be able to recognize a right answer?
+* Do I need a right answer?
+* Is this question like any others?
+* Are these questions secretly asking the same thing?
+* Can I find a common confusion behind these different-looking questions?
+* What level of abstraction am I working in?
+* Can this be addressed with memorization?
 
 
-metaquestions:
-  why did i privilige x question?
-  Does this question have a definitive answer? Will I know I have the right answer when I find it?
-  Is this question in a reference class with other questions that led to important or significant answers?
 
-
-
-levels of questions
-  knowledge, comprehension, application, analysis, synthesis, evaluation
-
+* [Methods of Inquiry](https://elearningindustry.com/inquiry-based-learning-model)
 * [Asking the Right Questions](https://thinkeracademy.com/questioning-improves-your-learning/)
 * [Being Good at Questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
+* [Questioning Strategies](https://www.teachthought.com/critical-thinking/8-strategies-to-help-students-ask-great-questions/)
 
 [TOP](#structured-inquiry)
 
@@ -107,26 +117,40 @@ ___
 
 ## Be Strategic
 
-Organize your questions into a 
-
-What do I plan on doing with an answer to this question?
-
-diversify your questions:
-  100 chemists vs 10 + 90
-    all working on one path
-    or having 90 pounding away and 10 doing who knows what
+Isolated questions will lead to isolated learning.  Connect your questions into a larger and coherent story, one you can use to build short & long term study plans. If you do a good job of constructing, relating, and coordinating your study questions you will at the same time be constructing a concrete study plan and a self-assessment tool.
 
 
-* Focus your study sessions by asking the right questions:
-  1. Narrow & break down the topics you need to study.
-    * Often in formulating a clear question you will find your answer.
-  The best study questions are predictive and falsifiable
-  3. By analyzing your list of questions, you can see:
-     * Am I on topic?
-       * If not am I distracted in breadth or depth?
-     * What seem to be recurring questions? 
-       * Can I trace those to a common source?
-  4. If you do a good job organizing your questions you are also building up a study plan for the coming days or even weeks.
+
+
+__Diversify your questions__:
+* Ask different types of questions
+* Explore a couple oddball questions
+* Don't put all of your eggs in one conceptual basket
+* See if you can get multiple topics into one question
+
+__Find relationships between your questions__:
+* What can I do with a good answer to this question?
+* Which questions is this similar too?
+* Should I answer this one or that one first?
+* Are these questions really the same?
+* Would asking both of these be confusing?
+* When should I go from theoretical answers to practical ones?
+* When should I go from practical answers to theoretical ones?
+
+
+__Coordinate your questions__:
+1. Narrow & break down the topics you want to study
+  * Often in formulating a clear question you will find your answer
+2. Rephrase your study goals as questions
+3. By analyzing your list of questions, you can see:
+   * Am I on topic?
+     * If not am I distracted in breadth or depth?
+   * What are common themes in my questions? 
+     * Can I trace those to a common misunderstanding?
+
+
+* [Create a Study Plan](https://www.intelligent.com/create-a-study-plan/)
+
 
 
 [TOP](#structured-inquiry)
