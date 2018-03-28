@@ -40,7 +40,7 @@ Some of this you have direct control over and some you don't.  Effective learnin
   * [In-Depth](https://www.fs.blog/mental-models/)
 
 
-In short, your brain wants to learn.  Give it a chance by working with it not against it.
+In short, your brain wants to learn.  Give it a fighting chance!
 
 ___
 ___

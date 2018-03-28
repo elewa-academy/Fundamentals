@@ -28,7 +28,7 @@ You will learn about _Design Thinking_ & _User Empathy_ by designing a home page
 
 This project is a variation of the classic exercise in design thinking:  [The Wallet Challenge](https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752).  You will pair up with one other person and design a portfolio/cv to fit their needs.
 
-There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find [a template here](https://github.com/elewa-academy/Fundamentals/blob/master/09-human-centered-design/design-cycle-template.md).
+There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find [a template here](https://github.com/elewa-academy/design-cycle-template).
 
 
 
@@ -38,7 +38,7 @@ Final Repo Specs:
   * Index linking to Portfolio Folder README's
   * Notes 
 * Portfolio Folders (3+ of them)
-  * README - [From this template](https://github.com/elewa-academy/Fundamentals/blob/master/09-human-centered-design/design-cycle-template.md)
+  * README - [From this template](https://github.com/elewa-academy/design-cycle-template)
   * Dev Schedule
   * Diagrams, wireframes, ...
   * /src

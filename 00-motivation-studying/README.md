@@ -30,7 +30,7 @@ So teach yourself how to learn, how to code, and how to manage source code. It'l
 
 ## Specifications
 
-Fork this [Template Notes Repository](https://github.com/elewa-academy/study-journal-template), clone it, and study away!
+Fork this [Template Notes Repository](https://github.com/elewa-academy/study-journal-template), clone it, feature it on your portfolio, and study away!  
 
 Main Repository:
 * Keeps track of your progress over time.  We recommend you have a folder for each week, a files for each day that week, and one week summary README.md in each week's folder.
@@ -47,6 +47,9 @@ Try writing and editing your notes from command line instead of your text editor
 ---
 
 ## Resources
+
+Studying Studying:
+* Carefully read through the pages collapsed under this project, they will form the foundation of your success in this bootcamp.
 
 Templates:
 * [Notes Repository](https://github.com/elewa-academy/study-journal-template)

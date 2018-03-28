@@ -65,6 +65,7 @@ Study strategies in more depth, organized by the resource they help to manage:
   2. Don't try working on anything you can't hold in your head all at once:
      * If you find there's too much going on for you to keep straight, you probably did a bad job with # 1.
   *  Don't multi-task. "Multi-Tasking" is just very fast task switching. Every time you change your focus you lose context ("what was I thinking?", "What line was that?", "Which method threw an error?", "How did those two methods interact?"). It can take over 20 minutes to get fully back into the game after even a tiny distraction.
+  * Practice intentional thinking.  Whenever an thought, idea, or question pops into your mind take a moment to figure out if it's helpful for what you're doing _right now_. If it is, follow through with it. If it isn't, write it down somewhere and forget about it.  You'll get back to it later if it matters.  Over time this will become a habit and you'll notice your thoughts become less and less distracting.
   * (Working Memory and Cognitive Load are very closely related)
 * __Cognitive Load__:
   * Keep your study space consistent and distraction-free, whatever that means for you.
@@ -91,6 +92,7 @@ ___
 ### Study Links
 
 Study Practices:
+* [Must-Read, Study 101](https://learningcenter.unc.edu/tips-and-tools/studying-101-study-smarter-not-harder/)
 * [Advice for Learning to Program](http://www.programmingforbeginnersbook.com/blog/when_you_know_the_basics_but_you_still_cant_code/)
 * [Study Smarter, not Harder](https://www.youtube.com/watch?v=Xt5qpbiqw2g&feature=youtu.be&t=297)
 * Urban Legends: [3 of them](https://laurenmarg.com/2015/10/07/article-summary-kirschner-van-merrienboer-2014-urban-legends/), [6 more](https://www.fastcompany.com/40420472/five-popular-myths-about-learning-that-are-completely-wrong)
