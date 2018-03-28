@@ -54,6 +54,7 @@ Any of these mistakes will doubly waste your efforts. First when you learned the
 
 To get the most form our curriculum we highly recommend you carefully follow every project spec, and completely fill out every project template - even when it feels slow or un-important.  They are carefully designed to guide you through the _processes_ of being a good developer,  it's more important _how_ you complete these projects than what they look like at the end.
 
+More on Inquiry-Based Learning:
 * ["Flow" is Not the Same as Learning](https://eic.rsc.org/opinion/the-case-against-inquiry-based-learning/2010103.article)
 * [Teaching CS Through Inquiry](https://computinged.wordpress.com/2010/12/27/teaching-computer-science-through-inquiry/)
 
@@ -90,7 +91,7 @@ Not all questions are created equal.  Whenever something pops into your head, ta
 * Could reconstruct it
 * ...
 
-__Ask Meta-Questions__:
+### __Ask Meta-Questions__:
 * Why did I like this question better?
 * Do I choose this type of question more often?
 * Why?
@@ -104,7 +105,7 @@ __Ask Meta-Questions__:
 * Can this be addressed with memorization?
 
 
-
+More on Forming Questions:
 * [Methods of Inquiry](https://elearningindustry.com/inquiry-based-learning-model)
 * [Asking the Right Questions](https://thinkeracademy.com/questioning-improves-your-learning/)
 * [Being Good at Questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603)
@@ -122,13 +123,13 @@ Isolated questions will lead to isolated learning.  Connect your questions into 
 
 
 
-__Diversify your questions__:
+### __Diversify your questions__:
 * Ask different types of questions
 * Explore a couple oddball questions
 * Don't put all of your eggs in one conceptual basket
 * See if you can get multiple topics into one question
 
-__Find relationships between your questions__:
+### __Find relationships between your questions__:
 * What can I do with a good answer to this question?
 * Which questions is this similar too?
 * Should I answer this one or that one first?
@@ -138,18 +139,20 @@ __Find relationships between your questions__:
 * When should I go from practical answers to theoretical ones?
 
 
-__Coordinate your questions__:
+### __Coordinate your questions__:
 1. Narrow & break down the topics you want to study
-  * Often in formulating a clear question you will find your answer
 2. Rephrase your study goals as questions
+  * Often in formulating a clear question you will find your answer
 3. By analyzing your list of questions, you can see:
    * Am I on topic?
      * If not am I distracted in breadth or depth?
    * What are common themes in my questions? 
      * Can I trace those to a common misunderstanding?
+4. Organize your questions by theme/concept/interestingness, building them into a study plan
+5. Start tackling them one at a time!
 
 
-* [Create a Study Plan](https://www.intelligent.com/create-a-study-plan/)
+* [Creating a Study Plan](https://www.intelligent.com/create-a-study-plan/)
 
 
 
