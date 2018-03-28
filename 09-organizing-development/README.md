@@ -31,6 +31,7 @@ Secondary Learning Objectives
 * Git & GitHub familiarity
 * Programming maturity
 * Monkey Testing
+* Git Feature Releases
 
 
 
@@ -73,6 +74,7 @@ Development Processes:
 * [Backlog](https://www.atlassian.com/agile/scrum/backlogs)
 * [Project Requirements](https://hubtechinsider.wordpress.com/2011/07/28/how-do-you-write-software-requirements-what-are-software-requirements-what-is-a-software-requirement/)
 * [Using Wireframes](https://www.dtelepathy.com/blog/design/learning-to-wireframe-10-best-practices)
+* [Version Releases](https://help.github.com/articles/creating-releases/) - create one for each feature
 The Process in Action:
   * [Code Project](https://www.codeproject.com/Articles/14297/Planning-Your-Project)
   * [Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/good-practices/a/planning-a-programming-project)

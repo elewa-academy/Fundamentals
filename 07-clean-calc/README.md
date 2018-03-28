@@ -36,6 +36,8 @@ To see how well you did, go to the "cleancalc" channel on Slack to share objects
 ### 3 Layered Architecture
 
 ![](./three-layered-architecture.png)
+
+
 [TOP](#index)
 
 ---
@@ -123,7 +125,6 @@ __DOM__:
 
 
 
-[Cleancalc Repo](https://github.com/elewa-academy/Fundamentals/tree/master/4-clean-calc)
 
 
 [TOP](#index)
