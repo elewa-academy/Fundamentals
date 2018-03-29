@@ -66,7 +66,7 @@ A (De)bug-off gallery:
   * Link to repo project
   * The user's github image
   * Who challenged who (if it's not your repo)
-* Link to Gallery repo's project for keeping score:
+* Link to your Gallery repo's project for keeping score:
   * A column per user who challenged you & accepted your fix:
     * A note linking to their repo's project
     * An issue linking to each merged PR & it's issue
@@ -119,14 +119,14 @@ __Selecting a winner(s):__
     * Either by their title
     * Or by opening the challenge issue and selecting them there
 3. Read through them all and pass judement:
-    * Merge them if you like the fix & the categorization
-    * Close them if you really don't like it
-    * Leave them a note if you have a question or want something changed
+    * Merge one if you like the fix & the categorization
+    * Close one if you don't like it at all
+    * Leave the author a note if you have a question or want something changed
 
 __Updating Your Score:__
-* You will recieve a notification telling you if your fix was merged or not
+* You will receive a notification telling you if your fix was merged or not
 * If your fix was merged, update your scoreboard (Gallery project):
-    * Create a new issue in that user's column
+    * Create a new issue in that user's column (or create their column)
     * Provide a link to the challenge & your pull request
 
 
