@@ -36,6 +36,8 @@ Take your time on this project, the better you understand these two points the e
 1. Follow the instructions in the README on our account (since you cleared it on your clone).
 2. When you've finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.
 
+Challenge:
+* Refactor you tictactoe steps into a production-style repo. Take a look a [this demo repo](https://github.com/elewa-student/tic-tac-toe/tree/master) for inspiration.
 
 [TOP](#index)
 

@@ -16,7 +16,7 @@ A Player can ...
 
 There are no winners or losers in this game because it never ends.  You should continue to send each other harder and harder debug challenges as the course goes on.  (If the game did end there would be winners and losers.)  
 
-Not only is this game fun, but it's educational! By the time you've been playing for a week or two you will have a reference filled with useful information on debugging.
+Not only is this game fun, but it's educational! By the time you've been playing for a week or two you will have a reference filled with so many useful debugging tips.
 
 ### Index
 * [Learning Objectives](#learning-objectives)
@@ -65,10 +65,10 @@ A (De)bug-off gallery:
   * Link to repo code
   * Link to repo project
   * The user's github image
-  * Who challenged who (for others' repos)
-* Link to gallery repo's project for keeping score:
+  * Who challenged who (if it's not your repo)
+* Link to Gallery repo's project for keeping score:
   * A column per user who challenged you & accepted your fix:
-    * A note linking to their project
+    * A note linking to their repo's project
     * An issue linking to each merged PR & it's issue
 ```
 1. Create an empty (De)bug-off repo

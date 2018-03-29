@@ -47,7 +47,12 @@ Complete at least 5 User Centered [template repos](https://github.com/elewa-acad
 
 When you're building your pages remember that the purpose of these projects is to __organize__ and __estimate__ their development cycle.   Don't worry about making your websites super pretty, about using cool libraries, or having awesome features.  You should even consider not using any JS or jQuery in your sites at all!  Always choose the simplest possible implementation so you can focus on the development _process_.
 
+After you've planned your development cycle, you'll end up with an ordered list of features that you will implement one at a time.  You will only start the next feature _after_ the previous one is entirely functional.  Each feature is a __release__.  Releases allow you to provide a stable product as frequently as possible, even before every functionality is present.  Each time you complete a feature, you will mark it with a Version tag.  This makes it easy for you to access old working versions of the website if something goes wrong.
+
 For more detailed instructions on how to structure your development process you can read through the [template repo](https://github.com/elewa-academy/User-Centered-Template/).
+
+Challenge:
+* Don't just tag versions, [develop on branches](https://guides.github.com/introduction/flow/)!
 
 [TOP](#index)
 
@@ -59,6 +64,12 @@ For more detailed instructions on how to structure your development process you 
 User Centered Project Repos:
 * [Template](https://github.com/elewa-academy/User-Centered-Template/)
 * [Example](https://github.com/elewa-student/User-Centered-Development)
+
+Versions & Releases:
+* [Example Repo](https://github.com/elewa-student/tic-tac-toe/tree/master)
+* [Versions in Terminal](https://githowto.com/tagging_versions)
+* [Releases on GitHub](https://help.github.com/articles/creating-releases/)
+* [Branching Workflow](https://guides.github.com/introduction/flow/)
 
 Tools:
 * [Wireframe.cc](https://github.com/elewa-academy/General-Resources/blob/master/developer-tools/wireframes.md)
@@ -74,7 +85,6 @@ Development Processes:
 * [Backlog](https://www.atlassian.com/agile/scrum/backlogs)
 * [Project Requirements](https://hubtechinsider.wordpress.com/2011/07/28/how-do-you-write-software-requirements-what-are-software-requirements-what-is-a-software-requirement/)
 * [Using Wireframes](https://www.dtelepathy.com/blog/design/learning-to-wireframe-10-best-practices)
-* [Version Releases](https://help.github.com/articles/creating-releases/) - create one for each feature
 The Process in Action:
   * [Code Project](https://www.codeproject.com/Articles/14297/Planning-Your-Project)
   * [Khan Academy](https://www.khanacademy.org/computing/computer-programming/programming/good-practices/a/planning-a-programming-project)
