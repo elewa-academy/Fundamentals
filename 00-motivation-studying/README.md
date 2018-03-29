@@ -38,8 +38,8 @@ Main Repository:
 Gh-Pages & Gitbook:
 * Categorize & re-categorize what you learn as you learn it. Write one markdown for each important concept you encounter, this file will links to the relevant days' notes. Every time you add to a concept's markdown, you will also modify or add to that concept's quiz.  Revise and re-analyze your notes like this on a daily basis.
 
-A Strong Suggestion:
-Try writing and editing your notes from command line instead of your text editor using [Nano](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). The work-flow is very smooth and you'll be forcing yourself to practice using the command line on a daily basis.  (Nano comes pre-installed on Linux & Macs).
+Challenge:
+* Try writing and editing your notes from command line instead of your text editor using [Nano](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/). The work-flow is very smooth and you'll be forcing yourself to practice using the command line on a daily basis.  (Nano comes pre-installed on Linux & Macs).
 
 
 [TOP](#index)
