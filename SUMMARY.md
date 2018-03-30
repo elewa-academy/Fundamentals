@@ -11,17 +11,17 @@
   * [Structure Your Inquiry](./00-motivation-studying/6-structure-your-inquiry.md)
   * [Study Effectively](./00-motivation-studying/7-study-effectively.md)
   * [Productive Procrastination](./00-motivation-studying/8-productive-procrastination.md)
-* A. The Big Picture
+* [A. The Big Picture](./sections/a-the-big-picture.md)
   * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
   * [2. Tracking Your Progress](./02-github-projects/README.md)
   * [3. The Buddy System](./03-the-buddy-system/README.md)
   * [4. Showcasing Your Work](./04-js-30-gallery/README.md)
-* B. Using Code
+* [B. Using Code](./sections/b-using-code.md)
   * [5. Solutions & The Notional Machine](./05-codewars-gallery/README.md)
   * [6. (De)bug-off](./06-de-bug-off/README.md)
   * [7. TDD Katas](./07-tdd-katas/README.md)
   * [8. Code Specs & Refactoring](./08-code-specs-refactoring/README.md)
-* C. Development 101
+* [C. Development 101](./c-development-101.md)
   * [9. Separation of Concerns](./09-clean-calc/README.md)
   * [10. Organizing Development](./10-organizing-development/README.md)
   * [11. State & Components](./11-state-components/README.md)
