@@ -1,15 +1,15 @@
 # Welcome to Fundamentals!
 
 
-The fundamental skills any developer needs are the same no matter what language, framework, or environment they use.  These projects are carefully designed to introduce you to these fundamental skills without burying you in complex frameworks or applications.  
+The fundamental skills any developer needs are the same no matter what language, framework, or environment they use.  These projects are carefully designed to introduce you to the fundamentals without burying you in complex frameworks or applications.  
 
-What's more, these skills don't even require great programming experience!  All you need is a beginner's familiarity with JavaScript.  If you apply yourself to this curriculum you will be able to learn all the important stuff _without_ getting lost on the internet or forming any bad habits. 
+What's more, these skills don't even require much programming experience!  All you need is a beginner's familiarity with JavaScript.  If you apply yourself to this curriculum you will be able to learn all the important stuff right away _without_ getting lost on the internet or forming any bad habits. 
 
-So give it a shot!  Don't be shy, [join us on Slack](https://join.slack.com/t/elewa-academy/shared_invite/enQtMjk4OTA3OTM1NjIwLTA2ZmQ0NDVhNjQxZWM2NjNhNmMyNmVhZGNhZmJmZTY1OWQ4Nzc0ZTkzZGE3NjdiYTYwYThlNzI3YTg2NGM5MGM) anytime for help or just to kick it.
+So don't be shy, give it a shot! [Join us on Slack](https://join.slack.com/t/elewa-academy/shared_invite/enQtMjk4OTA3OTM1NjIwLTA2ZmQ0NDVhNjQxZWM2NjNhNmMyNmVhZGNhZmJmZTY1OWQ4Nzc0ZTkzZGE3NjdiYTYwYThlNzI3YTg2NGM5MGM) anytime for help or just to kick it.
 
 ___
 
-Before moving on to the first project, there are a few pre-requisites:
+Before moving on to the zero'th project, there are a few pre-requisites:
 * JavaScript basics
 * HTML/CSS basics
 * A [gh-pages Portfolio](https://elewa-student.github.io)
@@ -18,7 +18,7 @@ Before moving on to the first project, there are a few pre-requisites:
   * A good, descriptive readme
   * A live Gh-Pages demo 
 
-You can find everything you'll need [in the Elewa Precourse](https://elewa-academy.github.io/Precourse), so work your way through that first if you haven't already.  
+You can find everything you'll need [in the Elewa Precourse](https://elewa-academy.github.io/Precourse).  
 
 
 ___
