@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>8. Code Specs & Refactoring · GitBook</title>
+        <title>8. TDD Katas · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -64,7 +64,7 @@
     <link rel="next" href="../sections/c-development-101.html" />
     
     
-    <link rel="prev" href="../07-tdd-katas/" />
+    <link rel="prev" href="../07-code-specs-refactoring/" />
     
 
     </head>
@@ -353,12 +353,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="../07-tdd-katas/">
+        <li class="chapter " data-level="1.4.3" data-path="../07-code-specs-refactoring/">
             
-                <a href="../07-tdd-katas/">
+                <a href="../07-code-specs-refactoring/">
             
                     
-                    7. TDD Katas
+                    7. Code Specs & Refactoring
             
                 </a>
             
@@ -371,7 +371,7 @@
                 <a href="./">
             
                     
-                    8. Code Specs & Refactoring
+                    8. TDD Katas
             
                 </a>
             
@@ -544,7 +544,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >8. Code Specs & Refactoring</a>
+        <a href=".." >8. TDD Katas</a>
     </h1>
 </div>
 
@@ -559,71 +559,117 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="code-specs--refactoring">Code Specs &amp; Refactoring</h1>
-<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll be studying and replicating a project we already wrote.  There are two main reasons for doing this:</p>
-<ol>
-<li><em>Learning to effectively read source code, and to understand it at a high level</em>.<br>This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.</li>
-<li><em>To understand the practical relationship between implementation and behavior</em>.<br>Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called <strong>refactoring</strong>.</li>
-</ol>
-<p>Take your time on this project, the better you understand these two points the easier the next project will be.</p>
+                                <h1 id="tdd-katas">TDD Katas</h1>
+<p>Test Driven Development is a philosophy that says you should write tests first, then write the code to pass them.  </p>
+<p>In theory this will make it easier to avoid bugs and even easier to track down. This is certainly true if you are an experienced developer working on the a project who&apos;s architecture, team, and requirements will allow TDD.  But not all projects are conducive to TDD, and it can take some time before you understand development well enough to integrate TDD into your work-flow.</p>
+<p>What is undeniable is that learning TDD early on in your programming life will teach you strong habits like organized refactoring, thinking of code in terms of behavior not implementation, checking yourself early &amp; often, and explaining your thought process.</p>
+<p>In this project you will learn how to use TDD as an effective learning tool by completing and analyzing a minimum of 5 TDD Katas and organizing them into a gallery landing page as you did with JS 30 and CodeWars.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
 <li><a href="#specifications">Specifications</a></li>
 <li><a href="#resources">Resources</a></li>
-<li><a href="#extra-practice">Extra Practice</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Application = User Interactions + Data.  <ul>
-<li>&quot;Code&quot; isn&apos;t anywhere in that definition.</li>
+<li>TDD</li>
+<li>Basic Functional Programming</li>
 </ul>
-</li>
-<li>An application is it&apos;s behavior, not it&apos;s implementation</li>
-<li>Using specs to study and replicate an application</li>
-<li>Refactoring: Changing the source without breaking the behavior</li>
-</ul>
+<h3 id="tdd">TDD</h3>
+<p><img src="https://www.allaboutcircuits.com/uploads/articles/red-green-refactor.png" alt=""></p>
+<h3 id="functional-programming">Functional Programming</h3>
+<p>This is a highly complex subject, you will learn more about it when we begin to study Statefull Frontend Applications.  For now a basic understanding will be more than enough.  Functional Programming is when you build your applications completely out of <em>pure functions</em>:</p>
+<blockquote>
+<p><em>Pure Function</em>: It&apos;s return value is determined exclusively by it&apos;s arguments.</p>
+</blockquote>
+<p>Building applications entirely from pure functions is a good habit, but requires a high level of programming experience.  You are encouraged to apply this paradigm as often as you can without over-complicating your projects.</p>
+<h3 id="tdd-vs-bdd">TDD vs BDD</h3>
+<p>A quick &amp; dirty analogy might go like this:</p>
+<blockquote>
+<p>TDD ensures the walls won&apos;t crumble, BDD ensures the building matches the blueprints.</p>
+</blockquote>
+<p>This project focuses entirely on TDD, we will discuss BDD later on in the Testing unit.</p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
 <ol>
-<li>Fork+clone <a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">this repository</a> and clear the README so you can use it for notes. </li>
-<li>Follow the instructions in the README on our account (since you cleared it on your clone).</li>
-<li>When you&apos;ve finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.</li>
+<li>Follow these guides to TDD &amp; Functional Programming:<ul>
+<li><a href="http://www.kaidez.com/learn-javascript-unit-testing/#review-james-code" target="_blank">TDD</a></li>
+<li><a href="https://jrsinclair.com/articles/2016/gentle-introduction-to-functional-javascript-intro/" target="_blank">Functional Programming</a></li>
+<li><a href="https://github.com/kaidez/functional-programming-unit-testing" target="_blank">Accompanying GitHub Repo</a></li>
+</ul>
+</li>
+<li>Start building TDD Kata Repos.  Just like with the Codewars project, you&apos;re never truly finished.  This exercise will grow with you. Try to complete 3-4 per week.  Each repo will have:<ul>
+<li>README<ol>
+<li>Introduction to the problem</li>
+<li>Kata requirements explained in order, each linking to their markdowns</li>
+<li>Learning Notes</li>
+</ol>
+</li>
+<li>Live gh-pages tests as in the CodeWars Repos.</li>
+<li>Completed, Refactored, Beautiful Solution.</li>
+<li>REQUIREMENT.md - one per requirement in your kata<ol>
+<li>Describe this requirement.  Explain how it builds on the last one.</li>
+<li>List each test case and what you did to pass it</li>
+<li>Include your passing code as a snippet</li>
+<li>Describe &amp; include your refactored code as a snippet</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Build a gallery page to feature your Katas and put it up on your portfolio.</li>
 </ol>
 <p>Challenge:</p>
 <ul>
-<li>Refactor you tictactoe steps into a production-style repo. Take a look a <a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">this demo repo</a> for inspiration.</li>
+<li><a href="http://www.tddfellow.com/blog/2016/07/15/build-your-own-testing-framework/" target="_blank">Build Your own Testing Framework</a>.</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Tictactoe Videos:</p>
+<p>Lists of Katas:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=cElzTD_x1xw" target="_blank">Part 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=U-4T7y_Hho4" target="_blank">Part 2</a></li>
-<li><a href="https://www.youtube.com/watch?v=rlWXR9-4Mo4" target="_blank">Part 3</a></li>
-<li><a href="https://www.youtube.com/watch?v=2mrhvwVi5iY" target="_blank">Part 4</a></li>
-<li><a href="https://www.youtube.com/watch?v=sX59uU9l0cs" target="_blank">Part 5</a></li>
-<li><a href="https://www.youtube.com/watch?v=yN52jB3XOBQ" target="_blank">Part 6</a></li>
-<li><a href="https://github.com/elewa-academy/Fundamentals/blob/master/07-code-specs-refactoring/winner.js" target="_blank">winner.js</a></li>
+<li>Easier:<ul>
+<li><a href="https://www.codewars.com/" target="_blank">CodeWars</a></li>
+<li><a href="https://github.com/exercism/javascript" target="_blank">Exercism</a></li>
 </ul>
-<p>Interacting with Code:</p>
+</li>
+<li>Harder:<ul>
+<li><a href="http://www.michael-whelan.net/code-katas-for-practicing-tdd/" target="_blank">Michael Whelan&apos;s</a></li>
+<li><a href="http://www.codekatas.org" target="_blank">With Accompanying Videos</a></li>
+<li><a href="http://codekata.com" target="_blank">CodeKata</a></li>
+</ul>
+</li>
+</ul>
+<p>TDD:</p>
 <ul>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md" target="_blank">Writing Clean Code</a></li>
-<li><a href="https://www.gcflearnfree.org/computerbasics/understanding-applications/1/" target="_blank">What is an App?</a></li>
-<li><a href="https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code" target="_blank">What is Refactoring?</a>. This answer connects refactoring to testing.  We&apos;ll explore this relationship in the next series of projects.</li>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/navigating-codebase.md" target="_blank">Navigating Codebase</a></li>
-<li><a href="https://blog.codinghorror.com/when-understanding-means-rewriting/" target="_blank">When Understanding Means Rewriting</a></li>
-<li><a href="https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/" target="_blank">Novice &amp; Experts Reading Code</a></li>
-<li><a href="http://blog.teamtreehouse.com/the-secret-to-learning-code" target="_blank">Reverse Engineering</a></li>
+<li><a href="http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/" target="_blank">Three Rules of TDD</a> </li>
+<li><a href="https://github.com/foundersandcoders/ws-pure-functions-easy-testing" target="_blank">Pure Functions, Easy Testing</a></li>
+<li><a href="https://www.youtube.com/watch?v=Eu35xM76kKY" target="_blank">Why Unit Tests?</a></li>
+<li><a href="https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs" target="_blank">Simplest Passing Functions</a></li>
+<li><a href="https://www.youtube.com/watch?v=ib2Pt9_zciA" target="_blank">This Takes Perseverance</a></li>
+<li><a href="https://elewa-academy.github.io/General-Resources/programming-resources/testing-101.html" target="_blank">Testing Overview</a></li>
+<li><a href="https://github.com/mawrkus/js-unit-testing-guide" target="_blank">Comprehensive Guide</a></li>
+<li><a href="https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3" target="_blank">The R.I.T.E. Way</a></li>
+<li><a href="https://www.quora.com/What-are-the-pros-and-cons-of-test-driven-development" target="_blank">Pros &amp; Cons</a></li>
+<li><a href="https://hackhands.com/dont-code-katas/" target="_blank">Anti-TDD</a></li>
+<li><a href="https://www.youtube.com/watch?v=GvAzrC6-spQ" target="_blank">Uncle Bob Speaks</a></li>
 </ul>
-<p><a href="https://github.com/elewa-academy/Fundamentals/tree/master/5-code-specs-refactoring" target="_blank">Specs &amp; Refactoring Repo</a></p>
+<p>Live, Online TDD:</p>
+<ul>
+<li><a href="http://tddbin.com" target="_blank">TDDBin</a></li>
+</ul>
+<p>Pure Functions:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=AHbRVJzpB54" target="_blank">Very Clear Video</a></li>
+<li><a href="https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c" target="_blank">Article</a></li>
+<li><a href="https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976" target="_blank">Article &amp; Video</a>, more advanced.</li>
+</ul>
+<p>Challenge:</p>
+<ul>
+<li><a href="https://istanbul.js.org" target="_blank">Code Coverage with Istanbul</a></li>
+</ul>
 <p><a href="#index">TOP</a></p>
-<hr>
-<h2 id="extra-practice">Extra Practice</h2>
-<p>Explore the projects on <a href="http://microjs.com/#" target="_blank">microjs.com</a>.  Open the ones that interest you and try to replicate them using the method from this project.</p>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -654,7 +700,7 @@
 
             
                 
-                <a href="../07-tdd-katas/" class="navigation navigation-prev " aria-label="Previous page: 7. TDD Katas">
+                <a href="../07-code-specs-refactoring/" class="navigation navigation-prev " aria-label="Previous page: 7. Code Specs & Refactoring">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -670,7 +716,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"8. Code Specs & Refactoring","level":"1.4.4","depth":2,"next":{"title":"C. Development 101","level":"1.5","depth":1,"path":"sections/c-development-101.md","ref":"./sections/c-development-101.md","articles":[{"title":"9. Separation of Concerns","level":"1.5.1","depth":2,"path":"09-clean-calc/README.md","ref":"./09-clean-calc/README.md","articles":[]},{"title":"10. Organizing Development","level":"1.5.2","depth":2,"path":"10-organizing-development/README.md","ref":"./10-organizing-development/README.md","articles":[]},{"title":"11. State & Components","level":"1.5.3","depth":2,"path":"11-state-components/README.md","ref":"./11-state-components/README.md","articles":[]},{"title":"12. Human-Centered Design","level":"1.5.4","depth":2,"path":"12-human-centered-design/README.md","ref":"./12-human-centered-design/README.md","articles":[]}]},"previous":{"title":"7. TDD Katas","level":"1.4.3","depth":2,"path":"07-tdd-katas/README.md","ref":"./07-tdd-katas/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08-code-specs-refactoring/README.md","mtime":"2018-03-29T06:33:05.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-30T18:18:23.918Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"8. TDD Katas","level":"1.4.4","depth":2,"next":{"title":"C. Development 101","level":"1.5","depth":1,"path":"sections/c-development-101.md","ref":"./sections/c-development-101.md","articles":[{"title":"9. Separation of Concerns","level":"1.5.1","depth":2,"path":"09-clean-calc/README.md","ref":"./09-clean-calc/README.md","articles":[]},{"title":"10. Organizing Development","level":"1.5.2","depth":2,"path":"10-organizing-development/README.md","ref":"./10-organizing-development/README.md","articles":[]},{"title":"11. State & Components","level":"1.5.3","depth":2,"path":"11-state-components/README.md","ref":"./11-state-components/README.md","articles":[]},{"title":"12. Human-Centered Design","level":"1.5.4","depth":2,"path":"12-human-centered-design/README.md","ref":"./12-human-centered-design/README.md","articles":[]}]},"previous":{"title":"7. Code Specs & Refactoring","level":"1.4.3","depth":2,"path":"07-code-specs-refactoring/README.md","ref":"./07-code-specs-refactoring/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08-tdd-katas/README.md","mtime":"2018-03-27T07:02:50.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-30T18:32:09.913Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
