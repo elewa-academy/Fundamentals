@@ -42,13 +42,13 @@ Right Now:
 
 Forever:
 1. __Work on each project with a buddy or two__:
-* How you work together or split up the project is your choice.  There is no single best way to do this, it will depend on your strengths and personalities.  What's important is that you are continuously engaging with another person while building these projects.  
+  * How you work together or split up the project is your choice.  There is no single best way to do this, it will depend on your strengths and personalities.  What's important is that you are continuously engaging with another person while building these projects.  
 2. __Code Reviews__:
-* Requesting a code review:
+  * Requesting a code review:
     1. Create an issue in the repo you want reviewed
     2. Specify if you have any specific concerns with the code
     3. Mention whoever you'd like to take a look through your code (ie. @elewa-student)
-* Giving a code review:
+  * Giving a code review:
     1. Fork the repo you will be reviewing
     2. Create a new branch for your code review
     3. Read over their project, keeping an eye out for their specific concerns

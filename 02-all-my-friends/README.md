@@ -23,6 +23,7 @@ Think of this page in the GitBook as just an introduction (for now) and a refere
 * Accountability
 * GitHub PM Features
 * PM Methodologies
+* Meet your buddies
 
 [TOP](#index)
 
