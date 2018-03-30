@@ -1,36 +1,25 @@
 # Welcome to Fundamentals!
 
-In this series of structured projects you will learn many of the foundational skills of software development:
-* Logic vs. Framework
-* Testing
-* User stories
-* Development Schedules
-* Clean code
-* Building repositories
-* Organizing your code
-* Talking about code 
-* ...
 
-Suspiciously JavaScript isn't on this list!  The fundamental skills any developer needs are the same no matter what language or environment they use.  These projects are designed to expose you to those skills.  We teach with JavaScript because it's as universal as the Fundamentals of Development. 
+The fundamental skills any developer needs are the same no matter what language, framework, or environment they use.  These projects are carefully designed to introduce you to these fundamental skills without burying you in complex frameworks or applications.  
 
-What's more, these skills don't even require great programming experience.  All you need is a beginner's familiarity with JavaScript.  These simple but carefully designed projects will expose you to the truly important skills _before_ you get lost or form any bad habits. 
+What's more, these skills don't even require great programming experience!  All you need is a beginner's familiarity with JavaScript.  If you apply yourself to this curriculum you will be able to learn all the important stuff _without_ getting lost on the internet or forming any bad habits. 
 
-So go for it!  Don't be shy, [join us on Slack](https://join.slack.com/t/elewa-academy/shared_invite/enQtMjk4OTA3OTM1NjIwLTA2ZmQ0NDVhNjQxZWM2NjNhNmMyNmVhZGNhZmJmZTY1OWQ4Nzc0ZTkzZGE3NjdiYTYwYThlNzI3YTg2NGM5MGM) anytime for help or just to kick it.
+So give it a shot!  Don't be shy, [join us on Slack](https://join.slack.com/t/elewa-academy/shared_invite/enQtMjk4OTA3OTM1NjIwLTA2ZmQ0NDVhNjQxZWM2NjNhNmMyNmVhZGNhZmJmZTY1OWQ4Nzc0ZTkzZGE3NjdiYTYwYThlNzI3YTg2NGM5MGM) anytime for help or just to kick it.
 
 ___
 
 Before moving on to the first project, there are a few pre-requisites:
-* JavaScript fundamentals
-* HTML/CSS fundamentals
-* A portfolio hosted on Gh-Pages
-* 8 completed JS 30 challenges, each with:
+* JavaScript basics
+* HTML/CSS basics
+* A [gh-pages Portfolio](https://elewa-student.github.io)
+* 8+ completed JS 30 challenges, each with:
   * A GitHub repo
   * A good, descriptive readme
   * A live Gh-Pages demo 
 
-Everything you need to get started can be found [in the precourse](https://elewa-academy.github.io/April-Precourse).  So if you haven't already, go back and complete the precourse.  It'll make your life easier.
+You can find everything you'll need [in the Elewa Precourse](https://elewa-academy.github.io/Precourse), so work your way through that first if you haven't already.  
 
-You can find an example of the portfolio you'll build in the precourse [right here](https://elewa-student.github.io).
 
 ___
 ___
