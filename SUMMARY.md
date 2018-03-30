@@ -21,7 +21,7 @@
   * [6. (De)bug-off](./06-de-bug-off/README.md)
   * [7. TDD Katas](./07-tdd-katas/README.md)
   * [8. Code Specs & Refactoring](./08-code-specs-refactoring/README.md)
-* [C. Development 101](./c-development-101.md)
+* [C. Development 101](./sections/c-development-101.md)
   * [9. Separation of Concerns](./09-clean-calc/README.md)
   * [10. Organizing Development](./10-organizing-development/README.md)
   * [11. State & Components](./11-state-components/README.md)
