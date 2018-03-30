@@ -32,9 +32,6 @@ Everything you need to get started can be found [in the precourse](https://elewa
 
 You can find an example of the portfolio you'll build in the precourse [right here](https://elewa-student.github.io).
 
-
-
-
 ___
 ___
 ### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>

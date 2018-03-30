@@ -1,6 +1,7 @@
 # The Buddy System
 
-We advocate a less sever form of Pair Programming we like to call the Buddy System.  In the Buddy System you will pair up with at least one other person to complete each of the course projects.  
+
+We advocate a less sever form of Pair Programming: the Buddy System.  In the Buddy System you will pair up with at least one other person to complete each of the course projects.  Try buddying up with someone different every couple projects, especially if they're at a different level than you or have different strengths than you.  When you've finished the project you were working on together, give each other a code review and your contract has ended.
 
 Pair Programming is a well-defined dynamic with set roles and procedures.  These roles work for some people, and can be very productive if both developers are more experienced.  But we've found that in the initial phases of learning it can be a lot to follow these rules __and__ figure out how everything works at the same time.  
 
@@ -22,6 +23,8 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 * Compromise
 * Communication
 * Planning & Coordination
+* Code Reviews
+* Static Code Analysis
 
 [TOP](#index)
 
@@ -32,8 +35,18 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 
 1. __Work on each project with a buddy or two__:
 * How you work together or split up the project is your choice.  There is no single best way to do this, it will depend on your strengths and personalities.  What's important is that you are continuously engaging with another person while building these projects.  
-2. __Daily peer assessments__:
-* Take some time each day to answer each other's Study Journal quizzes.  Check your own knowledge & learn from your classmates.  But also give feedback (in person, as an issue, or as a pull request).  If a classmate made a mistake or didn't understand a topic let them know and explain how to improve.  If they wrote a very good quiz you can't figure out, ask them to help you work through it.
+2. __Code Reviews__:
+* Requesting a code review:
+    1. Create an issue in the repo you want reviewed
+    2. Specify if you have any specific concerns with the code
+    3. Mention whoever you'd like to take a look through your code (ie. @elewa-student)
+* Giving a code review:
+    1. Fork the repo you will be reviewing
+    2. Create a new branch for your code review
+    3. Read over their project, keeping an eye out for their specific concerns
+    4. Complete a [Code Review Template]() and include it in your fork
+    5. Send a pull request to let them know you've finished
+
 
 
 [TOP](#index)
@@ -42,6 +55,17 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 
 ## Resources
 
+* [code review template]()
+
+Code Reviews:
+* [Why Code Review?](https://www.atlassian.com/agile/software-development/code-reviews)
+* [Review Smarter, Not Harder](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+* [Leveling Up](https://blog.asana.com/2016/12/7-ways-to-uplevel-your-code-review-skills/)
+* [Code Reviews with GitHub](https://github.com/features/code-review)
+
+
+Code Analyzers:
+* [DeepScan.io](https://deepscan.io/home/) - brand new, seems neat
 
 
 Pair Programming:

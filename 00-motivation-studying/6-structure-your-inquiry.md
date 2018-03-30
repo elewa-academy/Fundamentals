@@ -20,7 +20,7 @@ ___
 
 Questions only matter if you try to find the answer. Writing them down isn't enough.  To get the most out of Inquiry-Based Learning you'll have to ask questions you care about, trying to find answers that interest you. 
 
-Staying curious ties in very closely with motivation.  Remember why you're learning to program, tweak your projects so they interest you, don't stick stubbornly to a project that's going nowhere, ... there's an endless list of reasons to stop stop being intrigued by what you're working on.  
+Staying curious ties in very closely with motivation.  Remember why you're learning to program, tweak your projects so they interest you, don't stick stubbornly to a project that's going nowhere, ... there's an endless list of reasons to lose interest in what you're working on.  
 
 At the end of the day, staying curious is a personal thing.  You'll have to experiment and figure out what works for you.
 
@@ -35,7 +35,7 @@ ___
 
 Your mindset makes all the difference.  Even with the best study questions (and unlimited curiosity) you will have a hard time moving forward if studying feels like work.  Of course studying will be hard, will take dedication, and won't always feel productive, but that doesn't mean you can't have fun with it!  
 
-Turn everything you do into a little bit of a game, puzzle, or work of art. See how many times you can make yourself smile, even if means you have to laugh at yourself for trying.
+Turn everything you do into a little bit of a game, puzzle, or work of art. See how many times you can make yourself smile, even if it means you have to laugh at yourself for trying.
 
 * [The Play-vantage](http://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=2662)
 
@@ -45,14 +45,14 @@ ___
 
 ## Be Cautious
 
-Unguided inquiry is dangerous to meaningful learning. It's very easy to ...
+Unstructured learning is dangerous to meaningful learning. It's very easy to ...
 * ... learn incorrect habits and processes.  What sets apart expert from novice programmers isn't an encyclopedic list of facts, it's the good habits and intuitions they have accumulated through years of quality experience.  Learning with no guidance can either delay or actively work against building efficient habits & processes.
 * ... learn plausible but incorrect mental models.  You won't notice when the challenges are simple, but you will crash and burn later when the challenges become harder and your incorrect understanding is no longer enough.
 * ... completely miss the point.  Learning wonderful, correct, new concepts that have nothing to do with what you're supposed to learn will set you back for a long time as you struggle to catch back up.
 
 Any of these mistakes will doubly waste your efforts. First when you learned the wrong thing, and again when you have to get yourself back on track.
 
-To get the most form our curriculum we highly recommend you carefully follow every project spec, and completely fill out every project template - even when it feels slow or un-important.  They are carefully designed to guide you through the _processes_ of being a good developer,  it's more important _how_ you complete these projects than what they look like at the end.
+To get the most from our curriculum we highly recommend you carefully follow every project spec, and completely fill out every project template - even when it feels slow or un-important.  They are carefully designed to guide you through the _processes_ of being a good developer,  it's more important _how_ you complete these projects than what they look like at the end.
 
 More on Inquiry-Based Learning:
 * ["Flow" is Not the Same as Learning](https://eic.rsc.org/opinion/the-case-against-inquiry-based-learning/2010103.article)
@@ -124,13 +124,13 @@ Isolated questions will lead to isolated learning.  Connect your questions into 
 
 
 
-### __Diversify your questions__:
+#### __Diversify your questions__:
 * Ask different types of questions
 * Explore a couple oddball questions
 * Don't put all of your eggs in one conceptual basket
 * See if you can get multiple topics into one question
 
-### __Find relationships between your questions__:
+#### __Find relationships between your questions__:
 * What can I do with a good answer to this question?
 * Which questions is this similar too?
 * Should I answer this one or that one first?
@@ -140,7 +140,7 @@ Isolated questions will lead to isolated learning.  Connect your questions into 
 * When should I go from practical answers to theoretical ones?
 
 
-### __Coordinate your questions__:
+#### __Coordinate your questions__:
 1. Narrow & break down the topics you want to study
 2. Rephrase your study goals as questions
   * Often in formulating a clear question you will find your answer

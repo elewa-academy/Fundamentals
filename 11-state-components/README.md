@@ -139,6 +139,7 @@ GitHub API Challenge:
 * [Short Tutorial](http://yonaba.github.io/2012/08/14/List-your-GitHub-projects-using-JavaScript-and-jQuery.md.html)
 * [Another Example](https://codepen.io/bvasko/pen/gJxKk)
 * [Make it Prettier ](https://nihal111.github.io/2017/07/05/github-jquery.html)
+* [Neat API Searches](https://gist.github.com/jasonrudolph/6065289)
 
 
 [TOP](#index)
