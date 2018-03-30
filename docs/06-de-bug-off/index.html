@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>8. Code Specs & Refactoring · GitBook</title>
+        <title>6. (De)bug-off · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,8 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="../07-tdd-katas/" />
     
-    <link rel="prev" href="../07-tdd-katas/" />
+    
+    <link rel="prev" href="../05-codewars-gallery/" />
     
 
     </head>
@@ -338,9 +340,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" data-path="../06-de-bug-off/">
+        <li class="chapter active" data-level="1.4.2" data-path="./">
             
-                <a href="../06-de-bug-off/">
+                <a href="./">
             
                     
                     6. (De)bug-off
@@ -364,9 +366,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4.4" data-path="./">
+        <li class="chapter " data-level="1.4.4" data-path="../08-code-specs-refactoring/">
             
-                <a href="./">
+                <a href="../08-code-specs-refactoring/">
             
                     
                     8. Code Specs & Refactoring
@@ -542,7 +544,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >8. Code Specs & Refactoring</a>
+        <a href=".." >6. (De)bug-off</a>
     </h1>
 </div>
 
@@ -557,71 +559,190 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="code-specs--refactoring">Code Specs &amp; Refactoring</h1>
-<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll be studying and replicating a project we already wrote.  There are two main reasons for doing this:</p>
-<ol>
-<li><em>Learning to effectively read source code, and to understand it at a high level</em>.<br>This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.</li>
-<li><em>To understand the practical relationship between implementation and behavior</em>.<br>Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called <strong>refactoring</strong>.</li>
-</ol>
-<p>Take your time on this project, the better you understand these two points the easier the next project will be.</p>
+                                <h1 id="debug-off">(De)bug-off</h1>
+<p>Yet another never-ending project.  Only this one is a game. </p>
+<p>A Player can ...</p>
+<ul>
+<li>On their repo:<ul>
+<li>Post a new debug challenge</li>
+<li>Assign a challenge to another player(s)</li>
+<li>Accept, reject, or ask for changes to proposed fixes</li>
+</ul>
+</li>
+<li>On another player&apos;s repo:<ul>
+<li>Accept a challenge (Fork it)</li>
+<li>Create a bug fix</li>
+<li>Categorize the bug fix</li>
+<li>Submit their solution (Pull Request)</li>
+<li>Be notified if their fix was selected or not</li>
+</ul>
+</li>
+</ul>
+<p>There are no winners or losers in this game because it never ends.  You should continue to send each other harder and harder debug challenges as the course goes on.  (If the game did end there would be winners and losers.)  </p>
+<p>Not only is this game fun, but it&apos;s educational! By the time you&apos;ve been playing for a week or two you will have a reference filled with so many useful debugging tips.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
 <li><a href="#specifications">Specifications</a></li>
 <li><a href="#resources">Resources</a></li>
-<li><a href="#extra-practice">Extra Practice</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Application = User Interactions + Data.  <ul>
-<li>&quot;Code&quot; isn&apos;t anywhere in that definition.</li>
-</ul>
-</li>
-<li>An application is it&apos;s behavior, not it&apos;s implementation</li>
-<li>Using specs to study and replicate an application</li>
-<li>Refactoring: Changing the source without breaking the behavior</li>
+<li>De-Bugging</li>
+<li>Categorizing Bugs</li>
+<li>De-Bugging Tools</li>
+<li>Issues</li>
+<li>Branching</li>
+<li>Pull Requests</li>
+<li>GitHub Projects</li>
+<li>GitHub Notifications</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
-<ol>
-<li>Fork+clone <a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">this repository</a> and clear the README so you can use it for notes. </li>
-<li>Follow the instructions in the README on our account (since you cleared it on your clone).</li>
-<li>When you&apos;ve finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.</li>
+<h3 id="set-up"><strong>Set-Up:</strong></h3>
+<pre><code>A (De)bug-off repo:
+|-- /zzz-challenges
+|    |-- challenge.js
+|    * place your challenges here
+|
+|-- /category-x
+|    |-- challenge-fix.js
+|    |    * other players send &quot;fix&quot; files in their pull requests
+|    * other players will either place a &quot;fix&quot; in an existing category
+|         or propose a new category of bug along with their &quot;fix&quot;
+|    * you can accept, reject, or ask for changes to pull requests
+|
+|-- README.md
+</code></pre><pre><code>A (De)bug-off gallery:
+* Repo boxes:
+  * Link to repo code
+  * Link to repo project
+  * The user&apos;s github image
+  * Who challenged who (if it&apos;s not your repo)
+* Link to your Gallery repo&apos;s project for keeping score:
+  * A column per user who challenged you &amp; accepted your fix:
+    * A note linking to their repo&apos;s project
+    * An issue linking to each merged PR &amp; it&apos;s issue
+</code></pre><ol>
+<li>Create an empty (De)bug-off repo</li>
+<li>Create a new project in that repo</li>
+<li>Create 4 columns in the project<ul>
+<li>Challenges</li>
+<li>Submitted Submissions<ul>
+<li>Automation: <em>new pulls &amp; issues</em></li>
+</ul>
+</li>
+<li>Accepted Submissions<ul>
+<li>Automation:  <em>merged pull requests</em></li>
+</ul>
+</li>
+<li>Rejected Submissions<ul>
+<li>Automation: <em>unmerged pull requests</em></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Create a (De)bug-off Gallery</li>
+<li>Set up your score board</li>
 </ol>
-<p>Challenge:</p>
+<h3 id="game-play"><strong>Game Play:</strong></h3>
+<p><strong>Posting a Challenge:</strong></p>
+<ol>
+<li>Place a new JS file with buggy code in your challenges folder</li>
+<li>Open an issue named after that file</li>
+<li>Link to the file in the description <ul>
+<li>Don&apos;t give any hints about the bug!</li>
+</ul>
+</li>
+<li>Challenge other players by assigning the issue to them</li>
+<li>Place the issue in the &quot;challenges&quot; column of your project</li>
+</ol>
+<p><strong>Accepting a Challenge:</strong></p>
+<ol>
+<li>Pull the challenger&apos;s master branch to avoid conflicts</li>
+<li>Create a new branch named after the challenge </li>
+<li>Write and categorize your fix:<ul>
+<li>xyz-fix.js:<ol>
+<li>Link to the challenge issue</li>
+<li>Buggy code, commented out</li>
+<li>Your fix</li>
+<li>Test cases you used</li>
+<li>Description of the bug and how you fixed it</li>
+</ol>
+</li>
+<li>Place the fix in an existing or new category directory</li>
+</ul>
+</li>
+<li>Send a pull request:<ul>
+<li>Name it after the challenge you accepted</li>
+<li>Provide a nice helpful comment</li>
+<li>Mention the issue number in your comment (ie. #4)</li>
+</ul>
+</li>
+<li>Cross your fingers and wait</li>
+</ol>
+<p><strong>Selecting a winner(s):</strong></p>
+<ol>
+<li>Check incoming pull requests, move them to the project</li>
+<li>Find all pull requests related to your challenge:<ul>
+<li>Either by their title</li>
+<li>Or by opening the challenge issue and selecting them there</li>
+</ul>
+</li>
+<li>Read through them all and pass judement:<ul>
+<li>Merge one if you like the fix &amp; the categorization</li>
+<li>Close one if you don&apos;t like it at all</li>
+<li>Leave the author a note if you have a question or want something changed</li>
+</ul>
+</li>
+</ol>
+<p><strong>Updating Your Score:</strong></p>
 <ul>
-<li>Refactor you tictactoe steps into a production-style repo. Take a look a <a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">this demo repo</a> for inspiration.</li>
+<li>You will receive a notification telling you if your fix was merged or not</li>
+<li>If your fix was merged, update your scoreboard (Gallery project):<ul>
+<li>Create a new issue in that user&apos;s column (or create their column)</li>
+<li>Provide a link to the challenge &amp; your pull request</li>
+</ul>
+</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Tictactoe Videos:</p>
+<p>(De)bug-off Repo:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=cElzTD_x1xw" target="_blank">Part 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=U-4T7y_Hho4" target="_blank">Part 2</a></li>
-<li><a href="https://www.youtube.com/watch?v=rlWXR9-4Mo4" target="_blank">Part 3</a></li>
-<li><a href="https://www.youtube.com/watch?v=2mrhvwVi5iY" target="_blank">Part 4</a></li>
-<li><a href="https://www.youtube.com/watch?v=sX59uU9l0cs" target="_blank">Part 5</a></li>
-<li><a href="https://www.youtube.com/watch?v=yN52jB3XOBQ" target="_blank">Part 6</a></li>
-<li><a href="https://github.com/elewa-academy/Fundamentals/blob/master/07-code-specs-refactoring/winner.js" target="_blank">winner.js</a></li>
+<li><a href="https://github.com/elewa-academy/de-bug-off-template" target="_blank">Template</a></li>
+<li><a href="https://github.com/azu/gitbook-plugin-include-codeblock" target="_blank">GitBook Code Blocks</a></li>
 </ul>
-<p>Interacting with Code:</p>
+<p>GitHub:</p>
 <ul>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md" target="_blank">Writing Clean Code</a></li>
-<li><a href="https://www.gcflearnfree.org/computerbasics/understanding-applications/1/" target="_blank">What is an App?</a></li>
-<li><a href="https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code" target="_blank">What is Refactoring?</a>. This answer connects refactoring to testing.  We&apos;ll explore this relationship in the next series of projects.</li>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/navigating-codebase.md" target="_blank">Navigating Codebase</a></li>
-<li><a href="https://blog.codinghorror.com/when-understanding-means-rewriting/" target="_blank">When Understanding Means Rewriting</a></li>
-<li><a href="https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/" target="_blank">Novice &amp; Experts Reading Code</a></li>
-<li><a href="http://blog.teamtreehouse.com/the-secret-to-learning-code" target="_blank">Reverse Engineering</a></li>
+<li><a href="https://help.github.com/articles/about-project-boards/" target="_blank">Project Boards</a></li>
+<li><a href="https://guides.github.com/introduction/flow/" target="_blank">Branching Workflow</a></li>
+<li><a href="https://yangsu.github.io/pull-request-tutorial/" target="_blank">Pull Requests</a></li>
+<li><a href="https://guides.github.com/features/issues/" target="_blank">GitHub Issues</a></li>
+<li><a href="https://stackoverflow.com/questions/18773598/creating-folders-inside-github-com-repo-without-using-git" target="_blank">Creating Folders from GitHub</a></li>
+<li><a href="https://www.git-tower.com/learn/git/faq/restore-repo-to-previous-revision" target="_blank">Rewinding in Git</a></li>
 </ul>
-<p><a href="https://github.com/elewa-academy/Fundamentals/tree/master/5-code-specs-refactoring" target="_blank">Specs &amp; Refactoring Repo</a></p>
+<p>Debugging:</p>
+<ul>
+<li><a href="https://medium.com/northcoders/understanding-bugs-and-errors-in-javascript-675ebb0a109a" target="_blank">What is a Bug?</a></li>
+<li><a href="https://www.creativebloq.com/javascript/javascript-debugging-beginners-3122820" target="_blank">Debugging for Beginners</a></li>
+<li><a href="http://www.dummies.com/web-design-development/javascript/10-common-javascript-bugs-and-how-to-avoid-them/" target="_blank">Common Bugs - Dummies</a></li>
+<li><a href="https://www.w3schools.com/js/js_mistakes.asp" target="_blank">Common Bugs - W3Schools</a></li>
+<li><a href="https://www.rithmschool.com/courses/intermediate-javascript/javascript-debugging-exercises" target="_blank">Rithmschool Exercises</a></li>
+<li><a href="https://github.com/DevMountain/debugging-exercises" target="_blank">DevMountain Exercises</a></li>
+</ul>
+<ul>
+<li>Searching with Regex:<ul>
+<li><a href="https://github.com/dwyl/learn-regex" target="_blank">Hands-On JS Regex</a></li>
+<li><a href="https://github.com/fbeline/kaki" target="_blank">Kaki</a> - a <em>Command Line Application</em> for searching directories with regex.</li>
+<li><a href="https://msdn.microsoft.com/en-us/library/2k3te2cs.aspx" target="_blank">Regex in VSCode</a></li>
+<li><a href="http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace_overview.html" target="_blank">Regex in Sublime</a></li>
+</ul>
+</li>
+</ul>
 <p><a href="#index">TOP</a></p>
-<hr>
-<h2 id="extra-practice">Extra Practice</h2>
-<p>Explore the projects on <a href="http://microjs.com/#" target="_blank">microjs.com</a>.  Open the ones that interest you and try to replicate them using the method from this project.</p>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -652,10 +773,14 @@
 
             
                 
-                <a href="../07-tdd-katas/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 7. TDD Katas">
+                <a href="../05-codewars-gallery/" class="navigation navigation-prev " aria-label="Previous page: 5. Solutions & The Notional Machine">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="../07-tdd-katas/" class="navigation navigation-next " aria-label="Next page: 7. TDD Katas">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -664,7 +789,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"8. Code Specs & Refactoring","level":"1.4.4","depth":2,"next":{"title":"Development 101","level":"1.5","depth":1,"ref":"","articles":[{"title":"9. Separation of Concerns","level":"1.5.1","depth":2,"path":"09-clean-calc/README.md","ref":"./09-clean-calc/README.md","articles":[]},{"title":"10. Organizing Development","level":"1.5.2","depth":2,"path":"10-organizing-development/README.md","ref":"./10-organizing-development/README.md","articles":[]},{"title":"11. State & Components","level":"1.5.3","depth":2,"path":"11-state-components/README.md","ref":"./11-state-components/README.md","articles":[]},{"title":"12. Human-Centered Design","level":"1.5.4","depth":2,"path":"12-human-centered-design/README.md","ref":"./12-human-centered-design/README.md","articles":[]}]},"previous":{"title":"7. TDD Katas","level":"1.4.3","depth":2,"path":"07-tdd-katas/README.md","ref":"./07-tdd-katas/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08-code-specs-refactoring/README.md","mtime":"2018-03-29T06:33:05.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-30T17:30:41.209Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"6. (De)bug-off","level":"1.4.2","depth":2,"next":{"title":"7. TDD Katas","level":"1.4.3","depth":2,"path":"07-tdd-katas/README.md","ref":"./07-tdd-katas/README.md","articles":[]},"previous":{"title":"5. Solutions & The Notional Machine","level":"1.4.1","depth":2,"path":"05-codewars-gallery/README.md","ref":"./05-codewars-gallery/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"06-de-bug-off/README.md","mtime":"2018-03-30T13:31:22.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-30T17:30:41.209Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
