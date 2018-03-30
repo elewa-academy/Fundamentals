@@ -50,6 +50,8 @@ Final Repo Specs:
 
 ## Resources
 
+[Interview Template](https://github.com/elewa-academy/design-cycle-template)
+
 There are a lot of resources here.  You should watch/read a minimum of 3 from each section.
 
 Empathy for Developers:
