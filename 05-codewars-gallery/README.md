@@ -76,6 +76,12 @@ So stick to it!  These exercises aren't very glamorous but they will set you up 
 
 ## Specifications
 
+The Process:
+1. Choose an interesting code wars challenge
+2. Fork the template repo
+3. Add it to your portfolio
+4. Fill out every blank in the template
+
 This project never ends!  Set a goal to add 3+ Kata Repos to your gallery each week.
 
 Whether you're struggling with 7 Kyu challenges or writing 1 Kyu challenges, completing these kata repos will help you up your game. So start a Codewars Gallery (like the JS 30 Gallery), put it on your portfolio, and keep it growing.

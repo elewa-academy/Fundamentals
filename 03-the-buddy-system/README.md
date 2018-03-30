@@ -32,7 +32,14 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 
 ## Specifications
 
+Right Now:
+* Pair up with a buddy or two and read/discuss through the code review articles.
+* Create a new repository and call it something like "code-review-template"
+* Turn the README into a generalized code review template you will use from now on
+* If you have a few different ideas, make a few branches! 
 
+
+Forever:
 1. __Work on each project with a buddy or two__:
 * How you work together or split up the project is your choice.  There is no single best way to do this, it will depend on your strengths and personalities.  What's important is that you are continuously engaging with another person while building these projects.  
 2. __Code Reviews__:
@@ -44,7 +51,10 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
     1. Fork the repo you will be reviewing
     2. Create a new branch for your code review
     3. Read over their project, keeping an eye out for their specific concerns
-    4. Complete a [Code Review Template]() and include it in your fork
+    4. Complete a code review template and include it in your fork
+      * Don't hesitate to make new branches in your c-r-t repo
+      * Every project is unique and your code reading is always improving
+      * Having a large library of code smells to look out for will be handy later
     5. Send a pull request to let them know you've finished
 
 
@@ -55,16 +65,19 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 
 ## Resources
 
-* [code review template]()
 
 Code Reviews:
 * [Why Code Review?](https://www.atlassian.com/agile/software-development/code-reviews)
 * [Review Smarter, Not Harder](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+* [Tips](https://tailordev.fr/blog/2017/02/03/on-code-reviews/)
+* [Thorough Guidelines](https://www.codeproject.com/Articles/524235/Codeplusreviewplusguidelines)
 * [Leveling Up](https://blog.asana.com/2016/12/7-ways-to-uplevel-your-code-review-skills/)
 * [Code Reviews with GitHub](https://github.com/features/code-review)
 
 
-Code Analyzers:
+Static Code Analyzers:
+* [What Are They?](https://stackoverflow.com/questions/49716/what-is-static-code-analysis)
+* [A Comparison](https://www.sitepoint.com/comparison-javascript-linting-tools/)
 * [DeepScan.io](https://deepscan.io/home/) - brand new, seems neat
 
 

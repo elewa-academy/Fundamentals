@@ -13,7 +13,7 @@
   * [Productive Procrastination](./00-motivation-studying/8-productive-procrastination.md)
 * [A. The Big Picture](./sections/a-the-big-picture.md)
   * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
-  * [2. Tracking Your Progress](./02-github-projects/README.md)
+  * [2. Tracking Your Progress](./02-all-my-friends/README.md)
   * [3. The Buddy System](./03-the-buddy-system/README.md)
   * [4. Showcasing Your Work](./04-js-30-gallery/README.md)
 * [B. Using Code](./sections/b-using-code.md)
