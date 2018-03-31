@@ -7,7 +7,7 @@
   * [Stay Motivated](./00-motivation-studying/02-stay-motivated.md)
   * [Manage Your Expectations](./00-motivation-studying/03-manage-your-expectations.md)
   * [Be Wrong](./00-motivation-studying/04-be-wrong.md)
-  * [Transform Your Thinking](./00-motivation-studying/05-being-in-between.md)
+  * [Be Uncertain](./00-motivation-studying/05-being-in-between.md)
   * [Help Your Brain](./00-motivation-studying/06-help-your-brain.md)
   * [Structure Your Inquiry](./00-motivation-studying/07-structure-your-inquiry.md)
   * [Study Effectively](./00-motivation-studying/08-study-effectively.md)
