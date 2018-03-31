@@ -19,11 +19,11 @@ We like to think a lot about number 2, and hopefully you will too.
 
 0. [Set up ESLint](https://eslint.org/docs/user-guide/getting-started)
 1. Every time you read or write a line of code ask yourself three questions:
-    * How does this help the user?
-    * How does this help the maintainer?
-    * How does this help runtime execution?
+    * Does this help the user?
+    * Does this help the maintainer?
+    * Does this help runtime execution?
 2. Read A LOT of code.  Print it out on paper if you have to.
-3. Start building your Developer Vocabulary with [General Resources / Vocabulary](https://github.com/elewa-academy/General-Resources/wiki/Vocabulary).
+3. Start building your Developer Vocabulary by contributing to [General Resources / Vocabulary](https://github.com/elewa-academy/General-Resources/wiki/Vocabulary).
 
 ---
 
