@@ -52,11 +52,15 @@ Forever:
     1. Fork the repo you will be reviewing
     2. Create a new branch for your code review
     3. Read over their project, keeping an eye out for their specific concerns
-    4. Complete a code review template and include it in your fork
+    4. Read over their project, keeping an eye out for the three audiences:
+      * End Users
+      * Future Developers
+      * Runtime Environment
+    5. Complete a code review template and include it in your fork
       * Don't hesitate to make new branches in your c-r-t repo
       * Every project is unique and your code reading is always improving
       * Having a large library of code smells to look out for will be handy later
-    5. Send a pull request to let them know you've finished
+    6. Send a pull request to let them know you've finished
 
 
 

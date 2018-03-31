@@ -34,6 +34,7 @@ Required:
 
 More:
 * [Communicating with Code](http://elewa.education/2018/01/25/carving-thoughts-code/)
+* [Is Coding Literacy?](http://d-scholarship.pitt.edu/21695/1/24-33-1-PB.pdf)
 * Code Quality: [one](https://xkcd.com/1513/), [two](https://xkcd.com/1695/), [three](https://m.xkcd.com/1833/), [counterpoint](http://xkcdisntfunny.blogspot.be/2015/04/xkcd-isnt-funny-1513-code-quality.html)
 * [13 Principles of Readable Code](https://gist.github.com/peterhurford/3ad9f48071bd2665a8af)
 * [Beautiful & Clean](https://hackernoon.com/how-to-make-your-code-clean-and-beautiful-5ff7aee03be6)
