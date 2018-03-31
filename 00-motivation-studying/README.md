@@ -81,6 +81,7 @@ Challenges:
     * [The Docs](https://www.nano-editor.org/dist/v2.9/nano.html)
 * Searching with Regex:
     * [Hands-On JS Regex](https://github.com/dwyl/learn-regex)
+    * [Grep](https://linode.com/docs/tools-reference/tools/how-to-grep-for-text-in-files/)
     * [Kaki](https://github.com/fbeline/kaki) - a _Command Line Application_ for searching directories with regex.
     * [Regex in VSCode](https://msdn.microsoft.com/en-us/library/2k3te2cs.aspx)
     * [Regex in Sublime](http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace_overview.html)

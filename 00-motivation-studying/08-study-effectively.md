@@ -94,9 +94,11 @@ ___
 * [Must-Read, Study 101](https://learningcenter.unc.edu/tips-and-tools/studying-101-study-smarter-not-harder/)
 * [Advice for Learning to Program](http://www.programmingforbeginnersbook.com/blog/when_you_know_the_basics_but_you_still_cant_code/)
 * [Effective Study Strategies](http://www2.open.ac.uk/students/_data/documents/helpcentre/develop-effective-study-strategies.pdf)
+* [Space Repetition](https://www.youtube.com/watch?v=eVajQPuRmk8)
 * [Study Smarter, not Harder](https://www.youtube.com/watch?v=Xt5qpbiqw2g&feature=youtu.be&t=297)
 * Urban Legends: [3 of them](https://laurenmarg.com/2015/10/07/article-summary-kirschner-van-merrienboer-2014-urban-legends/), [6 more](https://www.fastcompany.com/40420472/five-popular-myths-about-learning-that-are-completely-wrong)
 * Thinker Academy: [101](https://thinkeracademy.com/study-skills-101/), [Take Charge](https://thinkeracademy.com/take-charge-learning-strategies/), [5 Tips](https://thinkeracademy.com/5-study-skills-to-accelerate-your-learning/)
+* [10 Good Tips](https://www.goconqr.com/en/examtime/blog/study-hacks/)
 * Concept Maps: [Thinker Academy](https://thinkeracademy.com/3-ways-concept-maps-help-you-learn/), [WikiHow](http://www.wikihow.com/Make-a-Concept-Map)
 * Pomodoro: [Technique](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c), [Timer](https://tomato-timer.com/#)
 * Crondose:

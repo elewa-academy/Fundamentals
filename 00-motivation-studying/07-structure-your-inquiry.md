@@ -154,7 +154,7 @@ Isolated questions will lead to isolated learning.  Connect your questions into 
 
 
 * [Creating a Study Plan](https://www.intelligent.com/create-a-study-plan/)
-
+* [Keeping on Track](https://www.youtube.com/watch?v=XgH3b-LY1uc)
 
 
 [TOP](#structured-inquiry)

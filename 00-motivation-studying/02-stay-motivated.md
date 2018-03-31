@@ -1,5 +1,3 @@
-
-
 # Stay Motivated
 
 Motivation is a tricky thing, it can come and go seemingly without any reason.  You can't _always_ control this - life happens. But there are certain steps you can take to loose motivation less frequently and to bounce back faster.

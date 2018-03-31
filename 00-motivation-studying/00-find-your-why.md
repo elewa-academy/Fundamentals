@@ -19,6 +19,7 @@ We recommend writing a personal mission statement for learning to code and putti
 
 ---
 
+
 Other people's _why_:
 * [Pragtob](https://pragtob.wordpress.com/2012/10/19/i-love-software-development-because-its-very-collaborative-and-communicative/)
 * [Brian Emory](https://medium.com/learn-love-code/why-i-decided-to-learn-software-development-987375f2af7b)

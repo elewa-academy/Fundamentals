@@ -34,6 +34,7 @@ Some of this you have direct control over and some you don't.  Effective learnin
   Fortunately there are some very simple steps you can take to overcome this challenge: 
     * Explain everything back to yourself.
     * Draw diagrams of how you think things work, and try to apply them to real-life scenarios.
+    * Find connections between what you're learning and what you already know.
     * Ask for help early and often, even when you think you understand something.  Catch mistakes before they settle in.
   * [What are Mental Models?](https://www.youtube.com/watch?v=5K_sxBUGx8A)
   * [Make a Concept Map](https://www.wikihow.com/Make-a-Concept-Map)
