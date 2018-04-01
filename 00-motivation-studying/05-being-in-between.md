@@ -9,8 +9,8 @@ Mastering new concepts and skills isn't just a matter of adding on to your exist
 
 
 * [Threshold Concepts](#threshold-concepts)
-* [TC's in Programming](#tc-s-in-programming)
-* [Embracing Liminality](#mastering-liminality)
+* [Learning to Code](#learning-to-code)
+* [Embracing Liminality](#embracing-liminality)
 * [Resources](#resources)
 
 ___
@@ -19,17 +19,22 @@ ___
 
 To understand why programming is so difficult to learn, and to understand our approach to teaching development, you should first understand what a threshold concept is.  
 
-* __Transformative:__ After mastering a threshold concept, you will perceive the world in a completely new way. [This audio illusion](https://www.theatlantic.com/technology/archive/2014/06/sounds-you-cant-unhear/373036/) makes the point better than words ever could.
-* __Integrative:__  They aren't the fabric, they aren't the thread.  They are the pattern used to weave thread into fabric. Threshold concepts are the unique ways experts in different disciplines assess and integrate new information. An artist and a programmer can be given the same instructions, the same materials, and the same grading criteria but will produce very different products.  
-* __Irreversible:__ Facts can be forgotten, skills can fade, but threshold concepts are forever - they represent changes in the very way your mind process information. Listen again to the audio illusion and try to hear it as garbled noise, it's almost impossible. 
-* __Bounded:__  These different approaches to understanding the world are what define different types of careers or vocations.  You could read every textbook on psychology, but if you approach patients like a coding challenge to be solved you're still not practicing psychology.
-* __Troublesome:__  Threshold concepts are particularly difficult to learn because they can't explained directly.  They are a way of doing things, not the thing that you do. For this reason, to master new TC's you have to focus on _how_ you work not what you produce.  To help you learn the TC's of development, we have designed projects & process templates that you can apply to any programming domain, language, or framework.  
+* __Transformative:__ 
+  * After mastering a threshold concept, you will perceive the world in a completely new way. [This audio illusion](https://www.theatlantic.com/technology/archive/2014/06/sounds-you-cant-unhear/373036/) makes the point better than words ever could.
+* __Integrative:__  
+  * They aren't the fabric, they aren't the thread.  They are the pattern used to weave thread into fabric. Threshold concepts are the unique ways experts in different disciplines assess and integrate new information. An artist and a programmer can be given the same instructions, the same materials, and the same grading criteria but will produce very different products.  
+* __Irreversible:__ 
+  * Facts can be forgotten, skills can fade, but threshold concepts are forever - they represent changes in the very way your mind process information. Listen again to the audio illusion and try to hear it as garbled noise, it's almost impossible. 
+* __Bounded:__  
+  * These different approaches to understanding the world are what define different types of careers or vocations.  You could read every textbook on psychology, but if you approach patients like a coding challenge to be solved you're still not practicing psychology.
+* __Troublesome:__  
+  * Threshold concepts are particularly difficult to learn because they can't explained directly.  They are a way of doing things, not the thing that you do. For this reason, to master new TC's you have to focus on _how_ you work not what you produce.  To help you learn the TC's of development, we have designed projects & process templates that you can apply to any programming domain, language, or framework.  
 
 [TOP](#being-in-between)
 
 ___
 
-## TC's in Programming
+## Learning To Code
 
 Learning to program means mastering the fundamental thought process of an expert programmer.  But what are those ways of thinking?   Below is a short list of concepts to be aware of, if you find yourself getting stuck on them don't panic. They're tricky and absolutely worth spending more time on.
 

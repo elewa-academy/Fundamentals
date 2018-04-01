@@ -129,6 +129,7 @@ Isolated questions will lead to isolated learning.  Connect your questions into 
 * Explore a couple oddball questions
 * Don't put all of your eggs in one conceptual basket
 * See if you can get multiple topics into one question
+* Balance [Convergent & Divergent questions](https://www.youtube.com/watch?v=zBx4TM8niG8)
 
 #### __Find relationships between your questions__:
 * What can I do with a good answer to this question?
