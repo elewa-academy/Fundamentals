@@ -13,6 +13,11 @@ Your finished code needs to be understandable to 3 very different, and equally i
 
 We like to think a lot about number 2, and hopefully you will too.
 
+
+### Index
+* [Learning Objectives](#learning-objectives)
+* [Specifications](#specifications)
+* [Resources](#resources)  
 ___
 
 ## Learning Objectives

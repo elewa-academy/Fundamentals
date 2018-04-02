@@ -64,6 +64,7 @@ Tracking Your Progress:
 * [Keep a Study Journal](https://www.instatrick.com/writing-programming-journal/)
 * [Weekly Review Day](https://www.youtube.com/watch?v=PlTrxpNaZI8)
 
+[Git & GitHub](https://github.com/elewa-academy/General-Resources/blob/master/developer-tools/git-github/git-hub-concise.md)
 
 Markdown (if you like pretty notes):
 * [Tutorial](https://www.markdowntutorial.com)

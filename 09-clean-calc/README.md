@@ -113,7 +113,7 @@ __Programming Concepts__:
 
 __JavaScript Objects__:
 * [Video Walk-Through](https://www.youtube.com/watch?v=f-aKxXt8Y0A)
-* [Code from video](https://github.com/elewa-academy/Fundamentals/tree/master/06-clean-calc/object-video-code)
+* [Code from video](https://github.com/elewa-academy/Fundamentals/tree/master/09-clean-calc/object-video-code)
 * [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/javascript/using-js/objects)
 
 __Process.argv__:
