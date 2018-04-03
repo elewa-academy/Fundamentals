@@ -21,6 +21,7 @@ So teach yourself how to learn, how to code, and how to manage source code. It'l
 
 * Mindful Learning
 * Categorizing New Concepts
+* Source vs Runtime
 * Git & Github
 * Coding Every Day
 
@@ -31,7 +32,7 @@ So teach yourself how to learn, how to code, and how to manage source code. It'l
 ## Specifications
 
 1. __GitHub Study Jounral:__
-    * Fork this [Template Notes Repository](https://github.com/elewa-academy/study-journal-template), clone it, feature it on your portfolio. 
+    * Fork this [Template Notes Repository](https://github.com/elewa-academy/study-journal-template), clone it, feature it on your portfolio. Use a GitHub supported theme to make it super cool.
     * Main Repository:
 	    * Keeps track of your progress over time.  We recommend you have a folder for each week, a files for each day that week, and one week summary README.md in each week's folder.
     * Gh-Pages & Gitbook:
