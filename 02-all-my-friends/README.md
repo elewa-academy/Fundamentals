@@ -34,6 +34,7 @@ Think of this page in the GitBook as just an introduction (for now) and a refere
 
 Right Now:
 * On your portfolio, include a link to the Projects page of your portfolio repository.  Your peers and your mentor can use this link to check up on you.
+  * You will open a new gh-project in your portfolio repository for each class project.
 * Complete this mini-project:
   * On your GitHub account:
     1. Open a new repository and call it something like "study-buddies".

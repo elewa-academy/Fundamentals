@@ -33,11 +33,14 @@ If you prefer to work more freely with your Buddy, go for it!  Find a dynamic th
 ## Specifications
 
 Right Now:
-* Pair up with a buddy or two and read/discuss through the code review articles.
-* Create a new repository and call it something like "code-review-template"
-  * (Put it on your portfolio, like always)
-* Turn the README into a generalized code review template you will use from now on
-* If you have a few different ideas, make a few branches! 
+1. Create a code review template
+  * Pair up with a buddy or two and read/discuss through the code review articles.
+  * Create a new repository and call it something like "code-review-template"
+    * (Put it on your portfolio, like always)
+  * Turn the README into a generalized code review template you will use from now on
+  * If you have a few different ideas, make a few branches! 
+2. Code Review:
+  * Code review each others' code review template repos using the process below.
 
 
 Forever:
