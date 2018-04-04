@@ -43,7 +43,7 @@ Right Now:
     4. Make 3 new columns using the available presets:
       1. _To Do_: Move all newly added issues ...
       2. _In Progress_: Move all reopened issues ...
-      3. _Done_: closed issues & merged pull requests 
+      3. _Done_: closed issues & unmerged pull requests 
     5. Open & assign one new issue for each person in your study group. 
     6. Accept your study buddies' PRs as they come in, see what the board does
   * On your group mates' accounts:
