@@ -33,29 +33,36 @@ Think of this page in the GitBook as just an introduction (for now) and a refere
 
 
 Right Now:
-* On your portfolio, include a link to the Projects page of your portfolio repository.  Your peers and your mentor can use this link to check up on you.
+* On your portfolio repository: 
+  * Include a link to the Projects page of your portfolio repository.  
   * You will open a new gh-project in your portfolio repository for each class project.
 * Complete this mini-project:
-  * On your GitHub account:
+  1. Setup - On your GitHub account:
     1. Open a new repository and call it something like "study-buddies".
-    2. Create a project board in this repository.
-    3. Invite everyone in your study group to join your project.
+    2. Make a simple README (so your repo can be forked)
+    3. Create a project board in this repository.
     4. Make 3 new columns using the available presets:
       1. _To Do_: Move all newly added issues ...
       2. _In Progress_: Move all reopened issues ...
       3. _Done_: closed issues & merged pull requests 
-    5. Open & assign one new issue for each person in your study group. 
-    6. Accept your study buddies' PRs as they come in, see what the board does
-  * On your group mates' accounts:
-    1. Be notified that you were assigned to an issue in their project.
-    2. Fork their repository.
-    3. Add a new markdown file to their repo
-      * Named after you (name.md).
-      * A short introduction to you.
-      * A link to your repository.
-    4. Make a pull request that links back to that issue.
-      * ie. Put "#5" in your PR message.
-    
+  2. Project - take turns assigning issues and making pull requests:
+    * Go around the circle taking turns as "project manager".
+    1. The PM will ask questions:
+      1. Create on issue in their repo for each person in the group
+        * Use the issues to ask each person a question
+        * Mention the person you're asking in the body of the issue (ie. @username)
+      2. Associate the issue with your project (on the right hand side of the issue)
+    2. Each person will answer their PM's question:
+      1. Find your mentioned issued in issues / mentioned
+      2. Find the issue in it's home repo
+      3. Create a fork of the PM's repo
+      4. In the fork, create a new file and answer their question
+      5. Send them a pull request, mention your issue in the body (ie. #3)
+    3. The PM will accept or reject each answer:
+      1. Check pull requests
+      2. Review the answer
+      3. Either merge, or ask for modifications
+      4. Close the linked issue
 
 
 
