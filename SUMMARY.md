@@ -20,7 +20,7 @@
   * [4. Showcasing Your Work](./04-pr-repo-gallery/README.md)
 * [B. Using Code](./sections/b-using-code.md)
   * [5. The Notional Machine](./05-codewars-gallery/README.md)
-    * [Constraint-Based Problem Solving](https://github.com/elewa-academy/General-Resources/blob/master/key-resources/problem-solving.md)
+    * [Problem Solving](https://github.com/elewa-academy/General-Resources/blob/master/key-resources/problem-solving.md)
     * [English to JS](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/english2js)
     * [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
     * [JavaScript Pseudocode](http://dondi.lmu.build/share/intro/pseudocode2js-v02.pdf)   
