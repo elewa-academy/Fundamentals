@@ -34,16 +34,16 @@ Take your time on this project, the better you understand these two points the e
 
 0. Fork+clone [this repository](https://github.com/elewa-academy/studying-with-specs/tree/master) and clear the README so you can use it for notes. 
 1. Follow the instructions in the README on our account (since you cleared it on your clone).
-2. When you've finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.
-
-Challenge:
-* Refactor you tictactoe steps into a production-style repo. Take a look a [this demo repo](https://github.com/elewa-student/tic-tac-toe/tree/master) for inspiration.
+2. The code provided does not have proper separation of concerns like you learned about in CleanCalc (handler/logic division).  Refactor TicTacToe6 into handler/logic architecture. 
+3. Create a CleanCalc repo with 7+ version releases (6 for the versions provided, and 1+ for your refactors into logic/handler architecture). Be sure to have a full & polished repository with documentation, tests, and a live demo.  
 
 [TOP](#index)
 
 ---
 
 ## Resources
+
+[Template Repository](https://github.com/elewa-academy/studying-with-specs/tree/master)
 
 Tictactoe Videos:
 * [Part 1](https://www.youtube.com/watch?v=cElzTD_x1xw)
@@ -54,6 +54,10 @@ Tictactoe Videos:
 * [Part 6](https://www.youtube.com/watch?v=yN52jB3XOBQ)
 * [winner.js](https://github.com/elewa-academy/Fundamentals/blob/master/07-code-specs-refactoring/winner.js)
 
+Demo Repositories:
+* (Not exactly the same project, but good examples of clean repos)
+* [TicTacToe Repo](https://github.com/elewa-student/tic-tac-toe/tree/master)
+* [CleanCalc Repo](https://github.com/radovandelic/cleancalc)
 
 Interacting with Code:
 * [Writing Clean Code](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md)
@@ -64,7 +68,7 @@ Interacting with Code:
 * [Novice & Experts Reading Code](https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/)
 * [Reverse Engineering](http://blog.teamtreehouse.com/the-secret-to-learning-code)
 
-[Specs & Refactoring Repo](https://github.com/elewa-academy/Fundamentals/tree/master/5-code-specs-refactoring)
+
 
 [TOP](#index)
 
