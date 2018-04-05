@@ -1,4 +1,4 @@
-# Consolidate JavaScript 30
+# PR Repo Gallery
 
 
 For the precourse you completed 8+ projects from the JavaScript 30 and featured each one on your portfolio.  This means your portfolio is already pretty crowded, and we haven't even started!  This project has two main objectives:  

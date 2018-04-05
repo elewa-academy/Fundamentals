@@ -100,14 +100,11 @@ Kata Repositories:
 * [Demo Codewar Repo](https://github.com/elewa-student/String-Reverser).  You can use this as a reference for how to complete your repos.
 
 
-Problem Solving Resources:
-* [JavaScript Pseudocode](http://dondi.lmu.build/share/intro/pseudocode2js-v02.pdf)  
+More Problem Solving Resources: 
 * [Writing Clean Code](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md)
-* [From English to JS](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/english2js)
 * [Code Specs](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/specs.md)
 * [Testing 101](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/testing-101.md)
 * [Using Unit Tests](https://www.youtube.com/watch?v=Eu35xM76kKY&list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
-* [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
 * [Using Conditional Checks](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/conditionalChecks)
 * [Simpleprogrammer's tips](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 * [List of Strategies](https://www.une.edu.au/about-une/academic-schools/bcss/news-and-events/psychology-community-activities/over-fifty-problem-solving-strategies-explained)
