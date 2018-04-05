@@ -82,6 +82,7 @@ The Process:
 2. Fork the template repo
 3. Add it to your portfolio
 4. Fill out every blank in the template
+5. Request a code review for your newly complete repository
 
 This project never ends!  Set a goal to add 3+ Kata Repos to your gallery each week.
 
