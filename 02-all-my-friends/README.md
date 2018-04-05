@@ -64,6 +64,7 @@ Right Now:
       3. Either merge, or ask for modifications
       4. Close the linked issue
 
+![](./gh-chat-board.png)
 
 
 Forever:
