@@ -86,7 +86,7 @@ The Process:
 
 This project never ends!  Set a goal to add 3+ Kata Repos to your gallery each week.
 
-Whether you're struggling with 7 Kyu challenges or writing 1 Kyu challenges, completing these kata repos will help you up your game. So start a Codewars Gallery (like the JS 30 Gallery), put it on your portfolio, and keep it growing.
+Whether you're struggling with 7 Kyu challenges or writing 1 Kyu challenges, completing these kata repos will help you up your game. So start a Codewars Gallery, put it on your portfolio, and keep it growing.
 
 
 
