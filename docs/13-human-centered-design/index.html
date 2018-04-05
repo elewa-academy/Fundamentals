@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>13. All Together · GitBook</title>
+        <title>13. Human-Centered Design · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,8 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="../14-all-together/" />
     
-    <link rel="prev" href="../12-human-centered-design/" />
+    
+    <link rel="prev" href="../12-state-components/" />
     
 
     </head>
@@ -448,12 +450,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../11-state-components/">
+        <li class="chapter " data-level="1.5.3" data-path="../11-javascript-30/">
             
-                <a href="../11-state-components/">
+                <a href="../11-javascript-30/">
             
                     
-                    11. State & Components
+                    11. JavaScript 30
             
                 </a>
             
@@ -461,12 +463,25 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../12-human-centered-design/">
+        <li class="chapter " data-level="1.5.4" data-path="../12-state-components/">
             
-                <a href="../12-human-centered-design/">
+                <a href="../12-state-components/">
             
                     
-                    12. Human-Centered Design
+                    12. State & Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    13. Human-Centered Design
             
                 </a>
             
@@ -479,12 +494,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6" data-path="./">
+        <li class="chapter " data-level="1.6" data-path="../14-all-together/">
             
-                <a href="./">
+                <a href="../14-all-together/">
             
                     
-                    13. All Together
+                    14. All Together
             
                 </a>
             
@@ -568,7 +583,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >13. All Together</a>
+        <a href=".." >13. Human-Centered Design</a>
     </h1>
 </div>
 
@@ -583,156 +598,100 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="battle-ship-human-vs-machine">Battle Ship: Human vs Machine</h1>
-<p>You&apos;ve made it!  Almost.   Before moving on you will review everything you&apos;ve learned so far in this monster of a project.  Finishing this Battle Ship game won&apos;t be easy, so do yourself a favor and keep it as simple as possible.  Everytime you have two choices, choose the simplest. The main objective of this project isn&apos;t to build the best game ever, it&apos;s to practice breaking down large projects and to review the main learning objectives covered so far:</p>
-<ul>
-<li>User centered development </li>
-<li>Project planning</li>
-<li>Algorithmic challenges</li>
-<li>Testing</li>
-<li>Reading and documenting code</li>
-<li>Separation of Concerns</li>
-<li>Organization and presentation of source code</li>
-</ul>
-<p>This is by far the largest project you&apos;ve made yet, but there is also nothing totally new.  As long as you take it slow, keep organized, and refer back to your old projects for guidance you will be fine.</p>
-<p>Feel free to work alone or in small groups.</p>
+                                <h1 id="human-centered-design">Human-Centered Design</h1>
+<p>Computers run your code, developers maintain it, and humans use it.  This project focuses on the humans who use it.</p>
+<p>You will learn about <em>Design Thinking</em> &amp; <em>User Empathy</em> by designing a home page for one of your fellow classmates at a time.  The goal is not to learn new tools, not to build an impressive site, the goal is to understand your partner&apos;s needs.  The portfolio you build should represent them honestly and effectively to employers and other developers.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
-<li><a href="#requirements">Requirements</a></li>
+<li><a href="#specifications">Specifications</a></li>
 <li><a href="#resources">Resources</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Managing larger projects</li>
-<li>Tracking your development process</li>
-<li>User/Logic interactions</li>
-<li>Front -&gt; Back development</li>
-<li>Flow charts</li>
+<li>User Empathy (end users &amp; future developers)</li>
+<li>Design Process</li>
+<li>Conceptual Integrity</li>
 </ul>
-<h3 id="front---back-development">Front -&gt; Back development</h3>
-<p>Following this process will help you build what you intended to build, keep track of your progress, and reinforce 3 key skills:</p>
-<ul>
-<li>User focus development</li>
-<li>Feature-based development</li>
-<li>3 layered architecture</li>
-</ul>
-<p>Here&apos;s how it works:</p>
-<ol>
-<li><p>Plan your development process and get your HTML/CSS prepared. (There is more information on these steps in the template repo):
- a. Select user stories (we&apos;ve already done this for you)
- b. Analyze user story dependencies
- c. Choose a development schedule
- d. Build a wireframe
- e. Code the wireframe with simple HTML/CSS</p>
-</li>
-<li><p>Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
- a. Make sure the HTML/CSS is in place to support this user story
- b. Write an event listener that gathers user input and updates the DOM
- c. Write specs and tests for this user story&apos;s logic
- d. Write the logic to pass those tests  (like a kata)
- e. Connect the logic to it&apos;s event listener
- f. Test the user story in the browser (by hand is fine)
- g. Document your new code
- h. Update your README
- i. Git tag, git push. (More on tags in Resources)
- j. Continue on to the next user story </p>
-</li>
-</ol>
 <p><a href="#index">TOP</a></p>
 <hr>
-<h2 id="requirements">Requirements</h2>
-<p>We will provide you with puser stories and a finished repository structure.  A starting point and en ending point.  Your task is to go from point A to point B along the straightest and most organized path you can.</p>
-<h3 id="user-stories-in-no-particular-order">User stories (in no particular order):</h3>
+<h2 id="specifications">Specifications</h2>
+<p>This project is a variation of the classic exercise in design thinking:  <a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a>.  You will pair up with one other person and design a portfolio/cv to fit their needs.</p>
+<p>There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find <a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">a template here</a>.</p>
+<p>Final Repo Specs:  </p>
 <ul>
-<li>A human can:<ul>
-<li>know when the game is over</li>
-<li>see two empty boards</li>
-<li>know who won</li>
-<li>place a guess against the machine</li>
-<li>know if their guess was a hit or a miss</li>
-<li>place ships on their board</li>
-<li>know when a single ship is sunk</li>
-<li>hide ships and begin game</li>
+<li>README<ul>
+<li>Full project description</li>
+<li>Index linking to Portfolio Folder README&apos;s</li>
+<li>Notes </li>
 </ul>
 </li>
-<li>The machine can:<ul>
-<li>place ships randomly on their board</li>
-<li>fire randomly against the human</li>
-<li><em>challenges:</em><ul>
-<li>place ships strategically</li>
-<li>fire strategically</li>
-<li>know if it hit or missed</li>
-<li>mock the human</li>
+<li>Portfolio Folders (3+ of them)<ul>
+<li>README - <a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">From this template</a></li>
+<li>Dev Schedule</li>
+<li>Diagrams, wireframes, ...</li>
+<li>/src<ul>
+<li>The finished code for their portfolio</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<h3 id="finished-repository">Finished Repository</h3>
-<p>When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The finished directory structure will look like this:</p>
-<pre><code>Battle Ship Version Finished
-&#x251C;&#x2500;&#x2500; README.md
-|    * Overview of your project
-|    * Link to live gh-pages demo
-|    * How to play the game
-|    * How to run the tests
-|    * How the project is structured
-&#x251C;&#x2500;&#x2500; index.html
-&#x251C;&#x2500;&#x2500; /tests
-|   &#x251C;&#x2500;&#x2500; testing.html
-|   &#x251C;&#x2500;&#x2500; tests-logic-1.js
-|   &#x251C;&#x2500;&#x2500; tests-logic-...js
-|   &#x251C;&#x2500;&#x2500; tests-logic-x.js
-|   &#x2514;&#x2500;&#x2500; tinytest.js
-&#x251C;&#x2500;&#x2500; /public
-|   &#x251C;&#x2500;&#x2500; /js
-|   |    &#x251C;&#x2500;&#x2500; /version-1
-|   |    |   &#x251C;&#x2500;&#x2500; event-listeners.js
-|   |    |   &#x2514;&#x2500;&#x2500; logic.js
-|   |    &#x2514;&#x2500;&#x2500;/version-...
-|   |        &#x251C;&#x2500;&#x2500; event-listeners.js
-|   |        &#x2514;&#x2500;&#x2500; logic.js
-|   &#x2514;&#x2500;&#x2500; /styles
-|       &#x2514;&#x2500;&#x2500; styles.css
-&#x251C;&#x2500;&#x2500;  specs.md
-|       * Complete specs for your JS, organized by version
-&#x251C;&#x2500;&#x2500; dev-planning.md
-|       * This wil be just like the README&apos;s from last project
-&#x2514;&#x2500;&#x2500; ux-flow-chart
-        * How a user interacts with your application over time
-</code></pre><p>(You can see two examples here of well-organized repositories here - <a href="https://github.com/radovandelic/cleancalc" target="_blank">Cleancalc</a>, <a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">Tictactoe</a>. Both are great, but neither is exactly like yours should be.)</p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Agile Development:</p>
+<p><a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">Interview Template</a></p>
+<p>There are a lot of resources here.  You should watch/read a minimum of 3 from each section.</p>
+<p>Empathy for Developers:</p>
 <ul>
-<li><a href="https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/" target="_blank">12 Points</a></li>
-<li><a href="http://agilemanifesto.org" target="_blank">Agile Manifesto</a></li>
+<li><a href="https://codingwithempathy.com/2016/05/03/empathy-an-essential-skill-in-software-development/" target="_blank">What is Empathy?</a></li>
+<li><a href="https://medium.com/old-code-new-tricks/software-development-on-the-empathy-spectrum-f77596faeabc" target="_blank">Empathy can be Learned</a></li>
+<li><a href="http://danielwestheide.com/blog/2017/01/16/the-empathic-programmer.html" target="_blank">Inclusion</a></li>
+<li><a href="http://www.ustream.tv/recorded/86154111" target="_blank">Applying Empathy to Software</a>. Longish video, but very worth while.</li>
+<li><a href="https://blog.fogcreek.com/soft-skills-for-hardcore-developers-interview-with-ed-finkler/" target="_blank">Become 10x (interview)</a></li>
+<li><a href="https://www.infoq.com/news/2015/06/empathy-development" target="_blank">EDD - Empathy Driven Development</a></li>
+<li><a href="https://thenewstack.io/empathy-secret-sauce-good-software-development/" target="_blank">Integrating Empathy 1</a></li>
+<li><a href="https://simpleprogrammer.com/empathy-software-developers/" target="_blank">Integrating Empathy 2</a></li>
+<li><a href="https://truefit.io/blog/how-to-instill-empathy-in-the-software-development-process" target="_blank">Some Practical Tips</a></li>
 </ul>
-<p>Flow Charting:</p>
+<p>Design Thinking:</p>
 <ul>
-<li><a href="https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d" target="_blank">Overview &amp; Vocab</a></li>
-<li><a href="https://www.startuprocket.com/articles/how-to-create-a-user-experience-flow-chart-ux-flow-chart" target="_blank">Guide</a></li>
+<li><a href="https://www.ted.com/talks/david_kelley_how_to_build_your_creative_confidence" target="_blank">Creative Confidence (TED)</a></li>
+<li><a href="https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing" target="_blank">First Step: Noticing (TED)</a></li>
+<li><a href="https://www.youtube.com/watch?v=Q80wUnju5YA" target="_blank">Design Thinking (TED)</a></li>
+<li><a href="https://www.youtube.com/watch?v=ZBxZC9I6xyk" target="_blank">Collaboration &amp; Innovation (TED)</a></li>
+<li><a href="https://www.youtube.com/watch?v=TPXrheqhTCs" target="_blank">Visualize It (TED)</a></li>
+<li><a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a></li>
+<li><a href="https://www.tedxvenlo.com/news/guido-stompff-design-thinking/" target="_blank">The Coffee Filter Challenge</a></li>
+<li>Process Guides:<ul>
+<li><a href="https://dschool-old.stanford.edu/sandbox/groups/k12/wiki/c739e/attachments/ade8c/An_Intro_to_DT_Slides_07_10_09.pdf?sessionID=8cbdfc6129ceb041dbad2247ffc9d0112fd0ebce" target="_blank">Design is a Process</a></li>
+<li><a href="https://dschool-old.stanford.edu/sandbox/groups/designresources/wiki/36873/attachments/74b3d/ModeGuideBOOTCAMP2010L.pdf" target="_blank">Explanatory</a></li>
 </ul>
-<p>Presenting your work:</p>
+</li>
+</ul>
+<p>Design Thinking for Software Development:</p>
 <ul>
-<li><a href="https://semver.org" target="_blank">Semantic Versioning</a></li>
-<li><a href="https://githowto.com/tagging_versions" target="_blank">Git Tags</a></li>
-<li><a href="https://help.github.com/articles/creating-releases/" target="_blank">Releases on GitHub</a></li>
-<li><a href="https://github.com/radovandelic/cleancalc" target="_blank">A Perfect Cleancalc Repo</a></li>
-<li><a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">A Perfect Tictactoe Repo</a></li>
+<li><a href="https://www.khomp.com/en/design-thinking-in-software-development/" target="_blank">Design Thinking Process</a></li>
+<li><a href="https://techeries.com/9-software-development-tips-successfully-incorporate-design-thinking-projects/" target="_blank">9 Tips</a></li>
+<li><a href="http://blogs.infor.com/insights/2017/11/outside-the-code-development-with-design-thinking.html" target="_blank">Design Thinking vs. Agile</a></li>
+<li><a href="https://www.artefactgroup.com/articles/post-agile-a-design-thinking-approach-to-software-development/" target="_blank">Waterfall vs Agile vs DT</a></li>
+<li><a href="http://ptgmedia.pearsoncmg.com/images/9780321965516/samplepages/0321965515.pdf" target="_blank">Ultimate Guide to UI/UX Design</a></li>
+<li><a href="http://www.ibmbigdatahub.com/blog/dynamic-duo-big-data-and-design-thinking" target="_blank">Big Data &amp; DT</a></li>
+<li><a href="https://www.youtube.com/watch?v=FtUS1W3HymA" target="_blank">Longer, Detailed Talk</a></li>
+<li><a href="https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775" target="_blank">Beware the User!</a></li>
+</ul>
+<p>Conceptual Integrity:</p>
+<ul>
+<li>Three Definitions: <a href="http://www.safnet.com/writing/tech/2011/11/mythical-man-month-conceptual-integrity.html" target="_blank">OG</a>, <a href="http://cseweb.ucsd.edu/~wgg/CSE131B/Design/node6.html" target="_blank">CSEWeb</a>, <a href="https://dzone.com/articles/lean-tools-conceptual-0" target="_blank">DZone</a></li>
+<li><a href="http://ceng.cankaya.edu.tr/~myilmaz/2013/11/124/" target="_blank">The Summarians Got It</a></li>
+<li><a href="http://www.dcs.warwick.ac.uk/oldmodelling/hi/theses/allan/chapter5.pdf" target="_blank">Chapter in a Book</a></li>
+</ul>
+<p>One Step Further:</p>
+<ul>
+<li><a href="https://www.fastcompany.com/3019082/coding-is-an-art-software-people-should-learn-art-thinking" target="_blank">Art Thinking &amp; Software</a></li>
 </ul>
 <p><a href="#index">TOP</a></p>
-<hr>
-<h2 id="challenge">Challenge</h2>
-<p>A user can save their game:</p>
-<ul>
-<li><a href="https://github.com/florian/cookie.js" target="_blank">cookie.js</a></li>
-<li><a href="https://github.com/fend25/strg.js" target="_blank">strg.js</a></li>
-<li><a href="https://developer.chrome.com/apps/storage" target="_blank">Local Storage</a></li>
-</ul>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -763,10 +722,14 @@
 
             
                 
-                <a href="../12-human-centered-design/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 12. Human-Centered Design">
+                <a href="../12-state-components/" class="navigation navigation-prev " aria-label="Previous page: 12. State & Components">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="../14-all-together/" class="navigation navigation-next " aria-label="Next page: 14. All Together">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -775,7 +738,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"13. All Together","level":"1.6","depth":1,"next":{"title":"Wiki","level":"1.7","depth":1,"url":"https://github.com/elewa-academy/General-Resources/wiki","ref":"https://github.com/elewa-academy/General-Resources/wiki","articles":[]},"previous":{"title":"12. Human-Centered Design","level":"1.5.4","depth":2,"path":"12-human-centered-design/README.md","ref":"./12-human-centered-design/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"13-all-together/README.md","mtime":"2018-03-10T09:57:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-05T10:28:32.522Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"13. Human-Centered Design","level":"1.5.5","depth":2,"next":{"title":"14. All Together","level":"1.6","depth":1,"path":"14-all-together/README.md","ref":"./14-all-together/README.md","articles":[]},"previous":{"title":"12. State & Components","level":"1.5.4","depth":2,"path":"12-state-components/README.md","ref":"./12-state-components/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"13-human-centered-design/README.md","mtime":"2018-03-30T20:10:19.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-05T10:33:13.969Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

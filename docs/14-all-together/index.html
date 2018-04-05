@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>6. Code Specs & Refactoring · GitBook</title>
+        <title>14. All Together · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../07-de-bug-off/" />
     
-    
-    <link rel="prev" href="../05-codewars-gallery/" />
+    <link rel="prev" href="../13-human-centered-design/" />
     
 
     </head>
@@ -366,9 +364,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.4.2" data-path="./">
+        <li class="chapter " data-level="1.4.2" data-path="../06-code-specs-refactoring/">
             
-                <a href="./">
+                <a href="../06-code-specs-refactoring/">
             
                     
                     6. Code Specs & Refactoring
@@ -494,9 +492,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../14-all-together/">
+        <li class="chapter active" data-level="1.6" data-path="./">
             
-                <a href="../14-all-together/">
+                <a href="./">
             
                     
                     14. All Together
@@ -583,7 +581,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >6. Code Specs & Refactoring</a>
+        <a href=".." >14. All Together</a>
     </h1>
 </div>
 
@@ -598,71 +596,156 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="code-specs--refactoring">Code Specs &amp; Refactoring</h1>
-<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll be studying and replicating a project we already wrote.  There are two main reasons for doing this:</p>
-<ol>
-<li><em>Learning to effectively read source code, and to understand it at a high level</em>.<br>This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.</li>
-<li><em>To understand the practical relationship between implementation and behavior</em>.<br>Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called <strong>refactoring</strong>.</li>
-</ol>
-<p>Take your time on this project, the better you understand these two points the easier the next project will be.</p>
+                                <h1 id="battle-ship-human-vs-machine">Battle Ship: Human vs Machine</h1>
+<p>You&apos;ve made it!  Almost.   Before moving on you will review everything you&apos;ve learned so far in this monster of a project.  Finishing this Battle Ship game won&apos;t be easy, so do yourself a favor and keep it as simple as possible.  Everytime you have two choices, choose the simplest. The main objective of this project isn&apos;t to build the best game ever, it&apos;s to practice breaking down large projects and to review the main learning objectives covered so far:</p>
+<ul>
+<li>User centered development </li>
+<li>Project planning</li>
+<li>Algorithmic challenges</li>
+<li>Testing</li>
+<li>Reading and documenting code</li>
+<li>Separation of Concerns</li>
+<li>Organization and presentation of source code</li>
+</ul>
+<p>This is by far the largest project you&apos;ve made yet, but there is also nothing totally new.  As long as you take it slow, keep organized, and refer back to your old projects for guidance you will be fine.</p>
+<p>Feel free to work alone or in small groups.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
-<li><a href="#specifications">Specifications</a></li>
+<li><a href="#requirements">Requirements</a></li>
 <li><a href="#resources">Resources</a></li>
-<li><a href="#extra-practice">Extra Practice</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>Application = User Interactions + Data.  <ul>
-<li>&quot;Code&quot; isn&apos;t anywhere in that definition.</li>
+<li>Managing larger projects</li>
+<li>Tracking your development process</li>
+<li>User/Logic interactions</li>
+<li>Front -&gt; Back development</li>
+<li>Flow charts</li>
 </ul>
+<h3 id="front---back-development">Front -&gt; Back development</h3>
+<p>Following this process will help you build what you intended to build, keep track of your progress, and reinforce 3 key skills:</p>
+<ul>
+<li>User focus development</li>
+<li>Feature-based development</li>
+<li>3 layered architecture</li>
+</ul>
+<p>Here&apos;s how it works:</p>
+<ol>
+<li><p>Plan your development process and get your HTML/CSS prepared. (There is more information on these steps in the template repo):
+ a. Select user stories (we&apos;ve already done this for you)
+ b. Analyze user story dependencies
+ c. Choose a development schedule
+ d. Build a wireframe
+ e. Code the wireframe with simple HTML/CSS</p>
 </li>
-<li>An application is it&apos;s behavior, not it&apos;s implementation</li>
-<li>Using specs to study and replicate an application</li>
-<li>Refactoring: Changing the source without breaking the behavior</li>
-</ul>
+<li><p>Go through your development schedule one feature at a time.  For each feature you will complete these steps in this order:
+ a. Make sure the HTML/CSS is in place to support this user story
+ b. Write an event listener that gathers user input and updates the DOM
+ c. Write specs and tests for this user story&apos;s logic
+ d. Write the logic to pass those tests  (like a kata)
+ e. Connect the logic to it&apos;s event listener
+ f. Test the user story in the browser (by hand is fine)
+ g. Document your new code
+ h. Update your README
+ i. Git tag, git push. (More on tags in Resources)
+ j. Continue on to the next user story </p>
+</li>
+</ol>
 <p><a href="#index">TOP</a></p>
 <hr>
-<h2 id="specifications">Specifications</h2>
-<ol>
-<li>Fork+clone <a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">this repository</a> and clear the README so you can use it for notes. </li>
-<li>Follow the instructions in the README on our account (since you cleared it on your clone).</li>
-<li>When you&apos;ve finished replicating each step write your project notes in the README, push it to your GitHub, and feature this project on your portfolio.</li>
-</ol>
-<p>Challenge:</p>
+<h2 id="requirements">Requirements</h2>
+<p>We will provide you with puser stories and a finished repository structure.  A starting point and en ending point.  Your task is to go from point A to point B along the straightest and most organized path you can.</p>
+<h3 id="user-stories-in-no-particular-order">User stories (in no particular order):</h3>
 <ul>
-<li>Refactor you tictactoe steps into a production-style repo. Take a look a <a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">this demo repo</a> for inspiration.</li>
+<li>A human can:<ul>
+<li>know when the game is over</li>
+<li>see two empty boards</li>
+<li>know who won</li>
+<li>place a guess against the machine</li>
+<li>know if their guess was a hit or a miss</li>
+<li>place ships on their board</li>
+<li>know when a single ship is sunk</li>
+<li>hide ships and begin game</li>
 </ul>
+</li>
+<li>The machine can:<ul>
+<li>place ships randomly on their board</li>
+<li>fire randomly against the human</li>
+<li><em>challenges:</em><ul>
+<li>place ships strategically</li>
+<li>fire strategically</li>
+<li>know if it hit or missed</li>
+<li>mock the human</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="finished-repository">Finished Repository</h3>
+<p>When you are finished you should have a beautifully organized repository with version tags that communicates your intentions, implementation, and how to use your application.  The finished directory structure will look like this:</p>
+<pre><code>Battle Ship Version Finished
+&#x251C;&#x2500;&#x2500; README.md
+|    * Overview of your project
+|    * Link to live gh-pages demo
+|    * How to play the game
+|    * How to run the tests
+|    * How the project is structured
+&#x251C;&#x2500;&#x2500; index.html
+&#x251C;&#x2500;&#x2500; /tests
+|   &#x251C;&#x2500;&#x2500; testing.html
+|   &#x251C;&#x2500;&#x2500; tests-logic-1.js
+|   &#x251C;&#x2500;&#x2500; tests-logic-...js
+|   &#x251C;&#x2500;&#x2500; tests-logic-x.js
+|   &#x2514;&#x2500;&#x2500; tinytest.js
+&#x251C;&#x2500;&#x2500; /public
+|   &#x251C;&#x2500;&#x2500; /js
+|   |    &#x251C;&#x2500;&#x2500; /version-1
+|   |    |   &#x251C;&#x2500;&#x2500; event-listeners.js
+|   |    |   &#x2514;&#x2500;&#x2500; logic.js
+|   |    &#x2514;&#x2500;&#x2500;/version-...
+|   |        &#x251C;&#x2500;&#x2500; event-listeners.js
+|   |        &#x2514;&#x2500;&#x2500; logic.js
+|   &#x2514;&#x2500;&#x2500; /styles
+|       &#x2514;&#x2500;&#x2500; styles.css
+&#x251C;&#x2500;&#x2500;  specs.md
+|       * Complete specs for your JS, organized by version
+&#x251C;&#x2500;&#x2500; dev-planning.md
+|       * This wil be just like the README&apos;s from last project
+&#x2514;&#x2500;&#x2500; ux-flow-chart
+        * How a user interacts with your application over time
+</code></pre><p>(You can see two examples here of well-organized repositories here - <a href="https://github.com/radovandelic/cleancalc" target="_blank">Cleancalc</a>, <a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">Tictactoe</a>. Both are great, but neither is exactly like yours should be.)</p>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p>Tictactoe Videos:</p>
+<p>Agile Development:</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=cElzTD_x1xw" target="_blank">Part 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=U-4T7y_Hho4" target="_blank">Part 2</a></li>
-<li><a href="https://www.youtube.com/watch?v=rlWXR9-4Mo4" target="_blank">Part 3</a></li>
-<li><a href="https://www.youtube.com/watch?v=2mrhvwVi5iY" target="_blank">Part 4</a></li>
-<li><a href="https://www.youtube.com/watch?v=sX59uU9l0cs" target="_blank">Part 5</a></li>
-<li><a href="https://www.youtube.com/watch?v=yN52jB3XOBQ" target="_blank">Part 6</a></li>
-<li><a href="https://github.com/elewa-academy/Fundamentals/blob/master/07-code-specs-refactoring/winner.js" target="_blank">winner.js</a></li>
+<li><a href="https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/" target="_blank">12 Points</a></li>
+<li><a href="http://agilemanifesto.org" target="_blank">Agile Manifesto</a></li>
 </ul>
-<p>Interacting with Code:</p>
+<p>Flow Charting:</p>
 <ul>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md" target="_blank">Writing Clean Code</a></li>
-<li><a href="https://www.gcflearnfree.org/computerbasics/understanding-applications/1/" target="_blank">What is an App?</a></li>
-<li><a href="https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code" target="_blank">What is Refactoring?</a>. This answer connects refactoring to testing.  We&apos;ll explore this relationship in the next series of projects.</li>
-<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/navigating-codebase.md" target="_blank">Navigating Codebase</a></li>
-<li><a href="https://blog.codinghorror.com/when-understanding-means-rewriting/" target="_blank">When Understanding Means Rewriting</a></li>
-<li><a href="https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/" target="_blank">Novice &amp; Experts Reading Code</a></li>
-<li><a href="http://blog.teamtreehouse.com/the-secret-to-learning-code" target="_blank">Reverse Engineering</a></li>
+<li><a href="https://uxplanet.org/ux-glossary-task-flows-user-flows-flowcharts-and-some-new-ish-stuff-2321044d837d" target="_blank">Overview &amp; Vocab</a></li>
+<li><a href="https://www.startuprocket.com/articles/how-to-create-a-user-experience-flow-chart-ux-flow-chart" target="_blank">Guide</a></li>
 </ul>
-<p><a href="https://github.com/elewa-academy/Fundamentals/tree/master/5-code-specs-refactoring" target="_blank">Specs &amp; Refactoring Repo</a></p>
+<p>Presenting your work:</p>
+<ul>
+<li><a href="https://semver.org" target="_blank">Semantic Versioning</a></li>
+<li><a href="https://githowto.com/tagging_versions" target="_blank">Git Tags</a></li>
+<li><a href="https://help.github.com/articles/creating-releases/" target="_blank">Releases on GitHub</a></li>
+<li><a href="https://github.com/radovandelic/cleancalc" target="_blank">A Perfect Cleancalc Repo</a></li>
+<li><a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">A Perfect Tictactoe Repo</a></li>
+</ul>
 <p><a href="#index">TOP</a></p>
 <hr>
-<h2 id="extra-practice">Extra Practice</h2>
-<p>Explore the projects on <a href="http://microjs.com/#" target="_blank">microjs.com</a>.  Open the ones that interest you and try to replicate them using the method from this project.</p>
+<h2 id="challenge">Challenge</h2>
+<p>A user can save their game:</p>
+<ul>
+<li><a href="https://github.com/florian/cookie.js" target="_blank">cookie.js</a></li>
+<li><a href="https://github.com/fend25/strg.js" target="_blank">strg.js</a></li>
+<li><a href="https://developer.chrome.com/apps/storage" target="_blank">Local Storage</a></li>
+</ul>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -693,14 +776,10 @@
 
             
                 
-                <a href="../05-codewars-gallery/" class="navigation navigation-prev " aria-label="Previous page: 5. The Notional Machine">
+                <a href="../13-human-centered-design/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 13. Human-Centered Design">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="../07-de-bug-off/" class="navigation navigation-next " aria-label="Next page: 7. (De)bug-off">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -709,7 +788,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"6. Code Specs & Refactoring","level":"1.4.2","depth":2,"next":{"title":"7. (De)bug-off","level":"1.4.3","depth":2,"path":"07-de-bug-off/README.md","ref":"./07-de-bug-off/README.md","articles":[]},"previous":{"title":"5. The Notional Machine","level":"1.4.1","depth":2,"path":"05-codewars-gallery/README.md","ref":"./05-codewars-gallery/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"06-code-specs-refactoring/README.md","mtime":"2018-03-29T06:33:05.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-05T10:33:13.969Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"14. All Together","level":"1.6","depth":1,"next":{"title":"Wiki","level":"1.7","depth":1,"url":"https://github.com/elewa-academy/General-Resources/wiki","ref":"https://github.com/elewa-academy/General-Resources/wiki","articles":[]},"previous":{"title":"13. Human-Centered Design","level":"1.5.5","depth":2,"path":"13-human-centered-design/README.md","ref":"./13-human-centered-design/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"14-all-together/README.md","mtime":"2018-03-10T09:57:40.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-05T10:33:13.969Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

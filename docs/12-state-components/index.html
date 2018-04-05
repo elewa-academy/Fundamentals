@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>12. Human-Centered Design · GitBook</title>
+        <title>12. State & Components · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,10 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../13-all-together/" />
+    <link rel="next" href="../13-human-centered-design/" />
     
     
-    <link rel="prev" href="../11-state-components/" />
+    <link rel="prev" href="../11-javascript-30/" />
     
 
     </head>
@@ -450,12 +450,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../11-state-components/">
+        <li class="chapter " data-level="1.5.3" data-path="../11-javascript-30/">
             
-                <a href="../11-state-components/">
+                <a href="../11-javascript-30/">
             
                     
-                    11. State & Components
+                    11. JavaScript 30
             
                 </a>
             
@@ -468,7 +468,20 @@
                 <a href="./">
             
                     
-                    12. Human-Centered Design
+                    12. State & Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../13-human-centered-design/">
+            
+                <a href="../13-human-centered-design/">
+            
+                    
+                    13. Human-Centered Design
             
                 </a>
             
@@ -481,12 +494,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../13-all-together/">
+        <li class="chapter " data-level="1.6" data-path="../14-all-together/">
             
-                <a href="../13-all-together/">
+                <a href="../14-all-together/">
             
                     
-                    13. All Together
+                    14. All Together
             
                 </a>
             
@@ -570,7 +583,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >12. Human-Centered Design</a>
+        <a href=".." >12. State & Components</a>
     </h1>
 </div>
 
@@ -585,98 +598,144 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="human-centered-design">Human-Centered Design</h1>
-<p>Computers run your code, developers maintain it, and humans use it.  This project focuses on the humans who use it.</p>
-<p>You will learn about <em>Design Thinking</em> &amp; <em>User Empathy</em> by designing a home page for one of your fellow classmates at a time.  The goal is not to learn new tools, not to build an impressive site, the goal is to understand your partner&apos;s needs.  The portfolio you build should represent them honestly and effectively to employers and other developers.</p>
+                                <h1 id="portfolio-facelift-state--components">Portfolio FaceLift: State &amp; Components</h1>
+<p>Don&apos;t waste your time working on two projects at once - learning from one, and maintaining your portfolio with the other.  In Portfolio FaceLift you&apos;ll kill two birds with one stone by rebuilding your portfolio from scratch using an omega-clean State-Based Architecture.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
-<li><a href="#specifications">Specifications</a></li>
+<li><a href="#requirements">Requirements</a></li>
 <li><a href="#resources">Resources</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>User Empathy (end users &amp; future developers)</li>
-<li>Design Process</li>
-<li>Conceptual Integrity</li>
+<li>DOM Manipulations</li>
+<li>jQuery</li>
+<li>UI Components</li>
+<li>App = Data + User Interactions</li>
+<li>State = Truth</li>
+<li>CRUD</li>
+<li>State-Based Architecture</li>
 </ul>
+<h3 id="ui-components">UI Components</h3>
+<p>Components are &quot;chunks&quot; of your website that are structurally the same, but with different information connected to them. Your project boxes are a perfect example: they have identical html/css configuration but a different title, image, and hyperlinks.</p>
+<p>We will take this concept to the next level by writing a jQuery method that takes a repo name &amp; image url as arguments and appends a new project component to the end of a &quot;projects&quot; div.</p>
+<h3 id="app--data--user-interactions">App = Data + User Interactions</h3>
+<p>An <em>application</em> is (roughly):</p>
+<blockquote>
+<p>Code that defines &amp; enables user interactions with stored data. </p>
+</blockquote>
+<p>Pretty straight forward after all!  In this project you will be exploring how to build your application to implement clean behavior-flow &amp; protect your data&apos;s integrity using the </p>
+<h3 id="state--truth">State = Truth</h3>
+<p>Your new portfolio will have <em>state</em> (data).  This will be either an object that keeps track of what is currently displayed on your portfolio (ie. the repo name &amp; image url for each featured project).  </p>
+<p>The state should be the final source of truth in your application. There should never be a mismatch between what&apos;s displayed on the screen and what&apos;s stored in your portfolio&apos;s <em>state</em>.  </p>
+<h3 id="create-read-update-delete">Create, Read, Update, Delete</h3>
+<p>These are the elementary operations for accessing and using data.  Your portfolio will allow a user to:</p>
+<ul>
+<li>Create new featured projects</li>
+<li>View all featured projects</li>
+<li>Update the image for a featured project</li>
+<li>Delete a featured project from the DOM</li>
+</ul>
+<h3 id="state-based-architecture">State-Based Architecture</h3>
+<p>Your new portfolio&apos;s architecture is designed to protect the State, and to make sure that the user is always seeing on the screen an accurate representation of what&apos;s stored in State.</p>
+<p>Three simple but <em>sooper</em> important aspect of this design are:</p>
+<ol>
+<li>Only the JS logic can modify the State, triggered by user events</li>
+<li>DOM methods have &quot;Read-Only Access&quot; to the State</li>
+<li>There will be only one DOM method that renders from state, and it will re-render the entire &quot;projects&quot; div every time it is called.  </li>
+</ol>
+<p>These three features together will ensure that the State is only modified when &amp; how it&apos;s supposed to be, that everything in state makes it to the DOM, and that there is never any out-of-date information hanging around in the DOM.</p>
+<p><br></p>
+<p><img src="state-based-architecture.png" alt=""></p>
 <p><a href="#index">TOP</a></p>
 <hr>
-<h2 id="specifications">Specifications</h2>
-<p>This project is a variation of the classic exercise in design thinking:  <a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a>.  You will pair up with one other person and design a portfolio/cv to fit their needs.</p>
-<p>There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find <a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">a template here</a>.</p>
-<p>Final Repo Specs:  </p>
-<ul>
+<h2 id="requirements">Requirements</h2>
+<ol>
+<li>Learn some jQuery on FreeCodeCamp, using W3 Schools as a reference.</li>
+<li>Refactor 2-3 of your Organizing Development projects to have a little more interactivity:<ul>
+<li>Develop on a new branch</li>
+<li>Update the README</li>
+<li>Update the gh-pages demo</li>
+</ul>
+</li>
+<li>Plan and develop a new portfolio for your home page:<ul>
+<li>Repo Specs:<ul>
+<li>Branches:<ol>
+<li>Move your old portfolio to a new branch</li>
+<li>Develop your new portfolio on a new branch</li>
+<li>Merge your new portfolio to Master when it&apos;s finished</li>
+</ol>
+</li>
 <li>README<ul>
-<li>Full project description</li>
-<li>Index linking to Portfolio Folder README&apos;s</li>
-<li>Notes </li>
+<li>About this project</li>
+<li>Present your development planning like before</li>
+<li>Learning notes</li>
 </ul>
 </li>
-<li>Portfolio Folders (3+ of them)<ul>
-<li>README - <a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">From this template</a></li>
-<li>Dev Schedule</li>
-<li>Diagrams, wireframes, ...</li>
-<li>/src<ul>
-<li>The finished code for their portfolio</li>
+<li>Document your code and functionality</li>
+<li>Tests for any pure JS, don&apos;t worry about the jQuery</li>
+<li>Behavioral Specs. A user can ...<ul>
+<li>Change the image for any given project box</li>
+<li>Choose between a couple style options for the whole site</li>
+<li>Add new project components to the portfolio by providing:<ul>
+<li>A valid repo name (ie. one you actually have)</li>
+<li>A valid image url</li>
+</ul>
+</li>
+<li>Delete a project component</li>
+<li>See a pre-selected set of projects on window.onload</li>
+<li>Change the image for an existing project component</li>
 </ul>
 </li>
 </ul>
 </li>
+<li>Your source code will have ...<ul>
+<li>A state object containing the info for each project you want displayed on load -&gt; {0: {repo: name, image: url}}. This will have only properties, no methods.</li>
+<li>A file for all user input handlers</li>
+<li>A file for all pure JS logic</li>
+<li>A file for all jQuery that writes to the DOM</li>
+<li>A folder for test cases and test library</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Challenges: A user can ...</p>
+<ul>
+<li>See your existing repositories via the GitHub API</li>
+<li>Filter that list by API-supported criteria</li>
+<li>Star, fork, clone, or watch a project from your portfolio</li>
+<li>Validate repo names when a user tries to create a new component</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p><a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">Interview Template</a></p>
-<p>There are a lot of resources here.  You should watch/read a minimum of 3 from each section.</p>
-<p>Empathy for Developers:</p>
+<p>The DOM:</p>
 <ul>
-<li><a href="https://codingwithempathy.com/2016/05/03/empathy-an-essential-skill-in-software-development/" target="_blank">What is Empathy?</a></li>
-<li><a href="https://medium.com/old-code-new-tricks/software-development-on-the-empathy-spectrum-f77596faeabc" target="_blank">Empathy can be Learned</a></li>
-<li><a href="http://danielwestheide.com/blog/2017/01/16/the-empathic-programmer.html" target="_blank">Inclusion</a></li>
-<li><a href="http://www.ustream.tv/recorded/86154111" target="_blank">Applying Empathy to Software</a>. Longish video, but very worth while.</li>
-<li><a href="https://blog.fogcreek.com/soft-skills-for-hardcore-developers-interview-with-ed-finkler/" target="_blank">Become 10x (interview)</a></li>
-<li><a href="https://www.infoq.com/news/2015/06/empathy-development" target="_blank">EDD - Empathy Driven Development</a></li>
-<li><a href="https://thenewstack.io/empathy-secret-sauce-good-software-development/" target="_blank">Integrating Empathy 1</a></li>
-<li><a href="https://simpleprogrammer.com/empathy-software-developers/" target="_blank">Integrating Empathy 2</a></li>
-<li><a href="https://truefit.io/blog/how-to-instill-empathy-in-the-software-development-process" target="_blank">Some Practical Tips</a></li>
+<li><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">W3 Schools</a></li>
 </ul>
-<p>Design Thinking:</p>
+<p>jQuery:</p>
 <ul>
-<li><a href="https://www.ted.com/talks/david_kelley_how_to_build_your_creative_confidence" target="_blank">Creative Confidence (TED)</a></li>
-<li><a href="https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing" target="_blank">First Step: Noticing (TED)</a></li>
-<li><a href="https://www.youtube.com/watch?v=Q80wUnju5YA" target="_blank">Design Thinking (TED)</a></li>
-<li><a href="https://www.youtube.com/watch?v=ZBxZC9I6xyk" target="_blank">Collaboration &amp; Innovation (TED)</a></li>
-<li><a href="https://www.youtube.com/watch?v=TPXrheqhTCs" target="_blank">Visualize It (TED)</a></li>
-<li><a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a></li>
-<li><a href="https://www.tedxvenlo.com/news/guido-stompff-design-thinking/" target="_blank">The Coffee Filter Challenge</a></li>
-<li>Process Guides:<ul>
-<li><a href="https://dschool-old.stanford.edu/sandbox/groups/k12/wiki/c739e/attachments/ade8c/An_Intro_to_DT_Slides_07_10_09.pdf?sessionID=8cbdfc6129ceb041dbad2247ffc9d0112fd0ebce" target="_blank">Design is a Process</a></li>
-<li><a href="https://dschool-old.stanford.edu/sandbox/groups/designresources/wiki/36873/attachments/74b3d/ModeGuideBOOTCAMP2010L.pdf" target="_blank">Explanatory</a></li>
+<li><a href="https://www.w3schools.com/jquery/default.asp" target="_blank">W3 Schools</a></li>
+<li><a href="https://www.freecodecamp.org/challenges/learn-how-script-tags-and-document-ready-work" target="_blank">FreeCodeCamp</a></li>
+<li>From jQuery:<ul>
+<li><a href="https://learn.jquery.com" target="_blank">Learn jQuery</a></li>
+<li><a href="http://api.jquery.com" target="_blank">The Docs</a></li>
 </ul>
 </li>
 </ul>
-<p>Design Thinking for Software Development:</p>
+<p>Programming Paradigm:</p>
 <ul>
-<li><a href="https://www.khomp.com/en/design-thinking-in-software-development/" target="_blank">Design Thinking Process</a></li>
-<li><a href="https://techeries.com/9-software-development-tips-successfully-incorporate-design-thinking-projects/" target="_blank">9 Tips</a></li>
-<li><a href="http://blogs.infor.com/insights/2017/11/outside-the-code-development-with-design-thinking.html" target="_blank">Design Thinking vs. Agile</a></li>
-<li><a href="https://www.artefactgroup.com/articles/post-agile-a-design-thinking-approach-to-software-development/" target="_blank">Waterfall vs Agile vs DT</a></li>
-<li><a href="http://ptgmedia.pearsoncmg.com/images/9780321965516/samplepages/0321965515.pdf" target="_blank">Ultimate Guide to UI/UX Design</a></li>
-<li><a href="http://www.ibmbigdatahub.com/blog/dynamic-duo-big-data-and-design-thinking" target="_blank">Big Data &amp; DT</a></li>
-<li><a href="https://www.youtube.com/watch?v=FtUS1W3HymA" target="_blank">Longer, Detailed Talk</a></li>
-<li><a href="https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775" target="_blank">Beware the User!</a></li>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/04-event-driven-programming.md" target="_blank">Event-Driven Programming</a></li>
 </ul>
-<p>Conceptual Integrity:</p>
+<p>GitHub API Challenge:</p>
 <ul>
-<li>Three Definitions: <a href="http://www.safnet.com/writing/tech/2011/11/mythical-man-month-conceptual-integrity.html" target="_blank">OG</a>, <a href="http://cseweb.ucsd.edu/~wgg/CSE131B/Design/node6.html" target="_blank">CSEWeb</a>, <a href="https://dzone.com/articles/lean-tools-conceptual-0" target="_blank">DZone</a></li>
-<li><a href="http://ceng.cankaya.edu.tr/~myilmaz/2013/11/124/" target="_blank">The Summarians Got It</a></li>
-<li><a href="http://www.dcs.warwick.ac.uk/oldmodelling/hi/theses/allan/chapter5.pdf" target="_blank">Chapter in a Book</a></li>
-</ul>
-<p>One Step Further:</p>
-<ul>
-<li><a href="https://www.fastcompany.com/3019082/coding-is-an-art-software-people-should-learn-art-thinking" target="_blank">Art Thinking &amp; Software</a></li>
+<li><a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">Tutorial &amp; Example</a></li>
+<li><a href="http://yonaba.github.io/2012/08/14/List-your-GitHub-projects-using-JavaScript-and-jQuery.md.html" target="_blank">Short Tutorial</a></li>
+<li><a href="https://codepen.io/bvasko/pen/gJxKk" target="_blank">Another Example</a></li>
+<li><a href="https://nihal111.github.io/2017/07/05/github-jquery.html" target="_blank">Make it Prettier </a></li>
+<li><a href="https://gist.github.com/jasonrudolph/6065289" target="_blank">Neat API Searches</a></li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
@@ -709,12 +768,12 @@
 
             
                 
-                <a href="../11-state-components/" class="navigation navigation-prev " aria-label="Previous page: 11. State & Components">
+                <a href="../11-javascript-30/" class="navigation navigation-prev " aria-label="Previous page: 11. JavaScript 30">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../13-all-together/" class="navigation navigation-next " aria-label="Next page: 13. All Together">
+                <a href="../13-human-centered-design/" class="navigation navigation-next " aria-label="Next page: 13. Human-Centered Design">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -725,7 +784,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"12. Human-Centered Design","level":"1.5.4","depth":2,"next":{"title":"13. All Together","level":"1.6","depth":1,"path":"13-all-together/README.md","ref":"./13-all-together/README.md","articles":[]},"previous":{"title":"11. State & Components","level":"1.5.3","depth":2,"path":"11-state-components/README.md","ref":"./11-state-components/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"12-human-centered-design/README.md","mtime":"2018-03-30T20:10:19.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-05T10:28:32.522Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"12. State & Components","level":"1.5.4","depth":2,"next":{"title":"13. Human-Centered Design","level":"1.5.5","depth":2,"path":"13-human-centered-design/README.md","ref":"./13-human-centered-design/README.md","articles":[]},"previous":{"title":"11. JavaScript 30","level":"1.5.3","depth":2,"path":"11-javascript-30/README.md","ref":"./11-javascript-30/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"12-state-components/README.md","mtime":"2018-03-29T11:56:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-05T10:33:13.969Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
