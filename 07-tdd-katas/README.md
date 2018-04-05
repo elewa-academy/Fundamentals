@@ -62,7 +62,9 @@ This project focuses entirely on TDD, we will discuss BDD later on in the Testin
     2. List each test case and what you did to pass it
     3. Include your passing code as a snippet
     4. Describe & include your refactored code as a snippet
-3. Build a gallery page to feature your Katas and put it up on your portfolio.
+3. Request code reviews for each finished TDD repo.
+
+A usual, build a gallery page to feature your Katas and put it up on your portfolio.
 
 
 Challenge:
