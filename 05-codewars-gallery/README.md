@@ -79,7 +79,7 @@ So stick to it!  These exercises aren't very glamorous but they will set you up 
 
 The Process:
 1. Choose an interesting code wars challenge
-2. Fork the template repo
+2. Copy the template repo
 3. Add it to your portfolio
 4. Fill out every blank in the template
 5. Request a code review for your newly complete repository
