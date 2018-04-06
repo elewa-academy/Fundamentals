@@ -102,10 +102,11 @@ __Accepting a Challenge:__
 3. Write and categorize your fix:
     * xyz-fix.js:
       1. Link to the challenge issue
-      2. Buggy code, commented out
-      3. Your fix
-      4. Test cases you used
-      5. Description of the bug and how you fixed it
+      2. Link to pythontutor demo
+      3. Buggy code, commented out
+      4. Your fix
+      5. Test cases you used
+      6. Description of the bug and how you fixed it
     * Place the fix in an existing or new category directory
 4. Send a pull request:
     * Name it after the challenge you accepted
