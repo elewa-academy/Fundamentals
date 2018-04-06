@@ -19,7 +19,7 @@ rm -rf _book
 # cd ..
 # commit recent build
 git add .
-git commit -m 'publishing: $!'
+git commit -m 'publishing: $1'
 # publish changes
 git push elewa master
 
