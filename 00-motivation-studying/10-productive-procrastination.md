@@ -2,7 +2,7 @@
 
 Here is a list of channels, blogs, and websites that will never waste your time:
 
-
+* [Philip Guo](http://www.pgbovine.net/overview.htm)
 * [CodingHorror (Blog)](https://blog.codinghorror.com)
 * [FunFunFunction (YouTube)](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [SimpleProgrammer (Blog)](https://simpleprogrammer.com)
