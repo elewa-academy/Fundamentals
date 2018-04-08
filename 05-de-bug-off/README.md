@@ -29,6 +29,9 @@ Not only is this game fun, but it's educational! By the time you've been playing
 
 * De-Bugging
 * Categorizing Bugs
+  * Logic
+  * Syntax
+  * And more!
 * De-Bugging Tools
 * Issues
 * Branching
@@ -154,7 +157,9 @@ GitHub:
 
 Debugging:
 * [What is a Bug?](https://medium.com/northcoders/understanding-bugs-and-errors-in-javascript-675ebb0a109a)
+* [MDN Guide](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript)
 * [Debugging for Beginners](https://www.creativebloq.com/javascript/javascript-debugging-beginners-3122820)
+* [Common Bugs - Rollbar](https://rollbar.com/blog/top-10-javascript-errors/)
 * [Common Bugs - Dummies](http://www.dummies.com/web-design-development/javascript/10-common-javascript-bugs-and-how-to-avoid-them/)
 * [Common Bugs - W3Schools](https://www.w3schools.com/js/js_mistakes.asp)
 * [Rithmschool Exercises](https://www.rithmschool.com/courses/intermediate-javascript/javascript-debugging-exercises)

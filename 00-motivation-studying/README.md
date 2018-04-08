@@ -22,6 +22,7 @@ So teach yourself how to learn, how to code, and how to manage source code. It'l
 * Mindful Learning
 * Categorizing New Concepts
 * Source vs Runtime
+* Developer vs User Interactions
 * Git & Github
 * Coding Every Day
 
