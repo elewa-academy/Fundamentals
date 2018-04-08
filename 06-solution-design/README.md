@@ -1,31 +1,19 @@
-# Codewars Gallery
+> Depricated to the cover page of the [Solution Design GitBook](https://elewa-academy.github.io/Solution-Design/)
+
+# Solution Design
 
 > “ First, solve the problem. Then, write the code. ”  - _John Johnson_
 
-In this project you will send you deep into [problem solving and thinking with code](http://elewa.education/2018/01/22/thinking-computer-thoughts/).  Rather than doing as many exercises as possible, you'll be doing an in-depth study of at least 10 exercises.  Pick katas that interest you, this will help you power through.  
+In this project you will send you deep into [problem solving and thinking with code](http://elewa.education/2018/01/22/thinking-computer-thoughts/).  Rather than solving as many challenges as possible, you'll be doing an in-depth study of fewer challenges.  Pick katas that interest you, this will help you power through.  
 
 Along the way you'll learn about reading code, testing, using pseudocode, analyzing problem solving strategies, the JavaScript runtime execution, and much more.   
 
-To guid you through this process we've created a template repository for you to fork - once for each exercise.  For each repo you fork and each Kata you complete, you will have to:
-* Code you favorite solution
-* Explain your solution: strategy & language features
-* Write test cases, at least 10
-* Write 2+ more solutions in pseudocde
-* Analyze the solution of 3+ other Codewar Ninjas
-* Write specs for you function
-* Walk through your solution with 2+ different inputs
-  * Pay special attention to this task
-* Notes what you learned, what was hard, and what's next
-* (you can do these in whatever order works best for you)
-
-
-If this looks like a lot, that's because it is.  Studying fewer problems in greater depth (and from many different angles) will lead to better _skill transfer_, better self-knowledge, and more dexterity when dealing directly with sourcecode.  
+If this sounds like a lot, that's because it is.  Studying fewer problems in greater depth (and from many different angles) will lead to better _skill transfer_, better self-knowledge, and more dexterity when dealing directly with sourcecode.  
 
 Don't forget to build a gallery page for your Kata Repos and to feature it on your portfolio!
 
 ### Index
 * [Learning Objectives](#learning-objectives)
-* [JS Notional Machine](#js-notional-machine)
 * [Specifications](#specifications)
 * [Resources](#resources)
 
@@ -34,41 +22,17 @@ Don't forget to build a gallery page for your Kata Repos and to feature it on yo
 
 ## Learning Objectives
 
-* [Threshold Concepts](http://blogs.lse.ac.uk/education/2012/10/11/threshold-concepts/)
+* [Threshold Concepts](http://blogs.lse.ac.uk/education/2012/10/11/threshold-concepts/) in Programming:
   * Notional machine
   * Problem solving strategies
+  * Translating strategies to code
   * Reading code
 * Understand testing
 * Using pseudocode
 * Handling repositories
 * Writing about code
-* Navigating GitHub & source code
-
-
-[TOP](#index)
-
----
-
-## [JS Notional Machine](http://www.computacional.com.br/arquivos/Artigos%20CS%20Unplugged%20-%20Desplugado/SORVA%20-%20Notional%20Machines%20and%20Introductory%20Programming%20Education.pdf)
-
-
-The __notional machine__ is a [mental model](https://www.youtube.com/watch?v=5K_sxBUGx8A) your brain builds to understand what JavaScript does during program execution.  These notional machines don't need to be precise down to the physical chips, instead they need to accurately describe what is relevant to the task at hand. At the beginning this list includes:
-* How JS steps through a file
-* Source code vs. runtime application
-* Variable initialization & reassignment
-* Functions: 
-  * Definition vs. Execution
-  * Are Objects _and_ executable procedures
-  * Scope vs. Context
-* Execution contexts ("Frames" in pythontutor)
- 
-Your brain will construct an understanding of how JS works whether or not you intentionally guide it, it's what brains do.  As great as this sounds it is really very dangerous.  JavaScript is complicated and it is very easy to come up with explanations that work for simple Codewars but are not accurate.  You won't notice at first, but as soon as you try to move on you will find it nearly impossible to understand what's going on.  Unlearning and relearning how JavaScript executes is very difficult and will take a lot of time.
-
-To avoid this danger we provide you with the tools you need to intentionally build a correct N.M. from the beginning.  The two most important are:
-1. Using pseudocode to draft your solutions before coding them. (Solution Process in the README)
-2. Carefully stepping through your finished solutions with concrete examples. (/step-throughs)
-
-So stick to it!  These exercises aren't very glamorous but they will set you up for long-term success.
+* Navigating GitHub & Source Code
+* Code Reviews
 
 
 [TOP](#index)
@@ -78,11 +42,9 @@ So stick to it!  These exercises aren't very glamorous but they will set you up 
 ## Specifications
 
 The Process:
-1. Choose an interesting code wars challenge
-2. Copy the template repo
-3. Add it to your portfolio
-4. Fill out every blank in the template
-5. Request a code review for your newly complete repository
+0. Add a Solution Design Gallery to your portfolio
+1. Choose an interesting CodeWars Kata and use it to follow the [Solution Design Guide](https://elewa-academy.github.io/Solution-Design/) GitBook. Each Kata you complete will add another repository to your Solution Design Gallery
+
 
 This project never ends!  Set a goal to add 3+ Kata Repos to your gallery each week.
 
@@ -97,24 +59,23 @@ Whether you're struggling with 7 Kyu challenges or writing 1 Kyu challenges, com
 ## Resources
 
 Kata Repositories:
-* [Template Repo](https://github.com/elewa-academy/exercise-template-repo).  You will need to fork and complete this repo for every kata you do.  These repos & live tests are what you will feature in your Codewar Gallery.
-* [Demo Codewar Repo](https://github.com/elewa-student/String-Reverser).  You can use this as a reference for how to complete your repos.
+* [Solution Design Process Guide](https://elewa-academy.github.io/Solution-Design/).  This GitBook will guide you through each step of the project, including instructions for how to complete the template repo.
+* [Template Repo](https://github.com/elewa-academy/solution-design-template).  You will need to clone and complete this repo for every kata you do.  These repos & live tests are what you will feature in your Solution Design Gallery.
 
 
-More Problem Solving Resources: 
+
+Problem Solving Resources: 
 * [Writing Clean Code](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md)
 * [Code Specs](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/specs.md)
-* [Testing 101](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/testing-101.md)
+* [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
 * [Using Unit Tests](https://www.youtube.com/watch?v=Eu35xM76kKY&list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr)
 * [Using Conditional Checks](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/conditionalChecks)
-* [Simpleprogrammer's tips](https://simpleprogrammer.com/solving-problems-breaking-it-down/)
 * [List of Strategies](https://www.une.edu.au/about-une/academic-schools/bcss/news-and-events/psychology-community-activities/over-fifty-problem-solving-strategies-explained)
-* [Constraint-Based Problem Solving](https://github.com/elewa-academy/General-Resources/blob/master/key-resources/problem-solving.md).  What is it, and how to apply it to programming.
 
 
 
 Visualizing JavaScript Execution:
-* [JavaScript Tutor](http://pythontutor.com/javascript)
+* [PythonTutor/JavaScript](http://pythontutor.com/javascript)
 * [Chrome Debugger](https://developer.dynamsoft.com/dwt/kb/2873)
 
 Kata Recommendations:
