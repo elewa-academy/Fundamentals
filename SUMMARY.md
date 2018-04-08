@@ -20,7 +20,7 @@
   * [4. Showcasing Your Work](./04-pr-repo-gallery/README.md)
 * [B. Using Code](./sections/b-using-code.md)
   * [5. (De)bug-off](./05-de-bug-off/README.md)
-  * [6. The Notional Machine](./06-codewars-gallery/README.md)
+  * [6. Solution Design](./06-solution-design/README.md)
     * [Problem Solving](https://github.com/elewa-academy/General-Resources/blob/master/key-resources/problem-solving.md)
     * [English to JS](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/english2js)
     * [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
