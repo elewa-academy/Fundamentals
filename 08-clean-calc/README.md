@@ -91,7 +91,7 @@ This project has several steps to it
 ## Resources
 
 __Cleancalc video series__:
-* [Part 1](https://www.youtube.com/watch?v=RXTTYVPPHNo&t=24s)
+* [Part 1](https://www.youtube.com/watch?v=RXTTYVPPHNo)
 * [Part 2](https://www.youtube.com/watch?v=WjbQZZpKdd4)
 * [Part 3](https://www.youtube.com/watch?v=cjFEm_Drpnw)
 * [Part 4](https://www.youtube.com/watch?v=7VjtfihfwuE)
@@ -122,6 +122,8 @@ __Process.argv__:
 
 __DOM__:
 * [FreeCodeCamp](https://www.freecodecamp.org/).  Complete the jQuery exercises if you haven't yet.
+* [w3 Event Listeners](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+* [Building an Addition UI](https://www.youtube.com/watch?v=e57ReoUn6kM)
 
 
 
