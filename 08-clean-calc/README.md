@@ -99,6 +99,7 @@ __Cleancalc video series__:
 * [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/) 
 
 __Separation of Concerns__:
+* [3 Layer Cleancalc](https://gist.github.com/colevandersWands/3e34dd6587c3639b17de9d46041f0096)
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
 * [DevIQ article](http://deviq.com/separation-of-concerns/)
 * [Stackexchange Question](https://softwareengineering.stackexchange.com/questions/32581/how-do-you-explain-separation-of-concerns-to-others)
