@@ -96,10 +96,11 @@ __Cleancalc video series__:
 * [Part 3](https://www.youtube.com/watch?v=cjFEm_Drpnw)
 * [Part 4](https://www.youtube.com/watch?v=7VjtfihfwuE)
 * [Part 5](https://www.youtube.com/watch?v=XgUvVRj2Nao)
-* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/) 
+* [Code to study](https://github.com/elewa-academy/Fundamentals/tree/master/)
+* [3 Layer Cleancalc](https://gist.github.com/colevandersWands/3e34dd6587c3639b17de9d46041f0096)
+ 
 
 __Separation of Concerns__:
-* [3 Layer Cleancalc](https://gist.github.com/colevandersWands/3e34dd6587c3639b17de9d46041f0096)
 * [Outstanding video](https://www.youtube.com/watch?v=WDNvqxZBI_U)
 * [DevIQ article](http://deviq.com/separation-of-concerns/)
 * [Stackexchange Question](https://softwareengineering.stackexchange.com/questions/32581/how-do-you-explain-separation-of-concerns-to-others)
@@ -116,6 +117,7 @@ __JavaScript Objects__:
 * [Video Walk-Through](https://www.youtube.com/watch?v=f-aKxXt8Y0A)
 * [Code from video](https://github.com/elewa-academy/Fundamentals/tree/master/09-clean-calc/object-video-code)
 * [Progressive code samples](https://github.com/elewa-academy/General-Resources/tree/master/javascript/using-js/objects)
+* [Context Examples](https://gist.github.com/colevandersWands/cc8097b59102042a878bdc9b6df89012)
 
 __Process.argv__:
 * [Stackabuse Article](http://stackabuse.com/command-line-arguments-in-node-js/)
