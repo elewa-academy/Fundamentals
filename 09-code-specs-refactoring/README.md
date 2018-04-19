@@ -35,11 +35,12 @@ Take your time on this project, the better you understand these two points the e
 0. Fork+clone [this repository](https://github.com/elewa-academy/studying-with-specs/tree/master) and clear the README so you can use it for notes. 
 1. Follow the instructions in the README on our account (since you cleared it on your clone).  We recommend filling out all of the files in place on your cloned copy.  You must reuse our HTML (exactly as it is, no changes allowed). You will be rewriting the JS file for each folder. Once you have replicated each version you can move on to the next step: improving the application's architecture.
 2. The code provided does not have proper separation of concerns like you learned about in CleanCalc (UI/logic separation).  Refactor TicTacToe6 into the 3-layered handler/logic architecture you learned in cleancalc. 
-3. Create an empty repository on your account and build it into full repo with 8+ version releases (7 for the versions provided, and 1+ for your refactor into logic/handler architecture). Be sure to have a full & polished repository with documentation, tests, and a live demo.  The simplest way to do this will be to create a new directory on your computer, and for each version in TicTacToe:
+3. Add some logic to see who won.
+4. Create an empty repository on your account and build it into full repo with 8+ version releases (7 for the versions provided, and 1+ for your refactor into logic/handler architecture). Be sure to have a full & polished repository with documentation, tests, and a live demo.  The simplest way to do this will be to create a new directory on your computer, and for each version in TicTacToe:
   1. Copy paste everything for that version (original code, specs, your code, html, ..) into the new repository.
   2. Add, commit, tag. Push to your repository
   3. Delete everything, and repeat.
-4. Finishing touches: Add some tests for the logic, put a live demo, link the code & demo to your portfolio, fill out the readme, ... Make it complete and pretty.
+5. Finishing touches: Add some tests for the logic, put a live demo, link the code & demo to your portfolio, fill out the readme, ... Make it complete and pretty.
 
 [TOP](#index)
 
