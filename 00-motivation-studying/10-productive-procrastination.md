@@ -11,7 +11,7 @@ Here is a list of channels, blogs, and websites that will never waste your time:
 * [Thomas Frank (YouTube)](https://www.youtube.com/user/electrickeye91)
 * [Being a Developer (Links)](https://github.com/elewa-academy/April-Precourse/blob/master/docs_src/0-being-a-developer.md)
 * FreeCodeCamp: [YouTube](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ), [Blog](https://medium.freecodecamp.org)
-
+* [WTF JS?](http://wtfjs.com/)
 
 ___
 ___
