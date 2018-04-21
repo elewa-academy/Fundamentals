@@ -29,7 +29,7 @@
   * [8. Code Specs & Refactoring](./08-code-specs-refactoring/README.md) 
   * [9. TDD Katas](./09-tdd-katas/README.md)
   * [10. Organizing Development](./10-organizing-development/README.md)
-  * [11. Human-Centered Design](./11-human-centered-design/README.md)
+* [11. Human-Centered Development](./11-human-centered-development/README.md)
 * [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
 * [Repo](https://github.com/elewa-academy/Fundamentals/tree/master)
 * [Home](https://elewa-academy.github.io)
