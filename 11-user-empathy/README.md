@@ -1,4 +1,4 @@
-# Human-Centered Design
+# User Empathy
 
 Computers run your code, developers maintain it, and humans use it.  This project focuses on the humans who use it.
 
