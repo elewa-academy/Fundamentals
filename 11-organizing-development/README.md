@@ -94,6 +94,11 @@ Design Thinking for Software Developers:
 * [Short Article](https://medium.com/@tigranbs/design-thinking-for-software-developers-bbd2f863c6f7)
 * [Long Article](https://medium.com/d-principles/design-thinking-methods-practice-in-agile-software-development-3e6e59df0c9b)
 
+Conceptual Integrity:
+* Three Definitions: [OG](http://www.safnet.com/writing/tech/2011/11/mythical-man-month-conceptual-integrity.html), [CSEWeb](http://cseweb.ucsd.edu/~wgg/CSE131B/Design/node6.html), [DZone](https://dzone.com/articles/lean-tools-conceptual-0)
+* [The Summarians Got It](http://ceng.cankaya.edu.tr/~myilmaz/2013/11/124/)
+* [Chapter in a Book](http://www.dcs.warwick.ac.uk/oldmodelling/hi/theses/allan/chapter5.pdf)
+
 
 DOM & Effects:
 * [You Don't Need jQuery](https://github.com/nefe/You-Dont-Need-jQuery)

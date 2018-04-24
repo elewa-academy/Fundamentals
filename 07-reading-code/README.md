@@ -36,6 +36,7 @@ Follow [this template](https://github.com/elewa-academy/reading-code-template/bl
 
 * [Template](https://github.com/elewa-academy/reading-code-template/blob/master/reading-code-template.md)
 
+
 * [Writing Readable Code](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md)
 * [When Understanding Means Re-Writing](https://blog.codinghorror.com/when-understanding-means-rewriting/)
 * [Demonstrating Intent](https://codingwithempathy.com/2016/10/18/capturing-intent_making-sense-of-code/)

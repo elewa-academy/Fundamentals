@@ -89,6 +89,7 @@ Lists of Katas:
 TDD:
 * [Three Rules of TDD](http://www.tddfellow.com/blog/2017/02/03/learning-test-driven-development-with-javascript-laws-of-tdd/) 
 * [Pure Functions, Easy Testing](https://github.com/foundersandcoders/ws-pure-functions-easy-testing)
+  * [Gist example](https://gist.github.com/colevandersWands/d6e7a46c5872d309e3de4377c2c9c216)
 * [Why Unit Tests?](https://www.youtube.com/watch?v=Eu35xM76kKY)
 * [Simplest Passing Functions](https://github.com/elewa-academy/General-Resources/tree/master/programming-resources/simplestPassingFuncs)
 * [This Takes Perseverance](https://www.youtube.com/watch?v=ib2Pt9_zciA)
