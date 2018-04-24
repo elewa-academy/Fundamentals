@@ -163,6 +163,7 @@ Debugging:
 * [Common Bugs - Rollbar](https://rollbar.com/blog/top-10-javascript-errors/)
 * [Common Bugs - Dummies](http://www.dummies.com/web-design-development/javascript/10-common-javascript-bugs-and-how-to-avoid-them/)
 * [Common Bugs - W3Schools](https://www.w3schools.com/js/js_mistakes.asp)
+* [Pre-Bugging](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/prebugging-error-handling.md)
 * [Rithmschool Exercises](https://www.rithmschool.com/courses/intermediate-javascript/javascript-debugging-exercises)
 * [DevMountain Exercises](https://github.com/DevMountain/debugging-exercises)
 
