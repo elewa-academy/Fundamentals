@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>11. User Empathy · GitBook</title>
+        <title>9. Code Specs & Refactoring · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -61,8 +61,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="../10-tdd-katas/" />
     
-    <link rel="prev" href="../10-organizing-development/" />
+    
+    <link rel="prev" href="../08-clean-calc/" />
     
 
     </head>
@@ -375,50 +377,18 @@
             
 
             
-            <ul class="articles">
-                
+        </li>
     
-        <li class="chapter " data-level="1.4.2.1" >
+        <li class="chapter " data-level="1.4.3" data-path="../07-reading-code/">
             
-                <a target="_blank" href="https://github.com/elewa-academy/General-Resources/blob/master/key-resources/problem-solving.md">
+                <a href="../07-reading-code/">
             
                     
-                    Problem Solving
+                    7. Reading Code
             
                 </a>
             
 
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2.2" >
-            
-                <a target="_blank" href="https://simpleprogrammer.com/solving-problems-breaking-it-down/">
-            
-                    
-                    Simpleprogrammer's tips
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2.3" >
-            
-                <a target="_blank" href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/testing-101.md">
-            
-                    
-                    Testing 101
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -441,12 +411,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../07-clean-calc/">
+        <li class="chapter " data-level="1.5.1" data-path="../08-clean-calc/">
             
-                <a href="../07-clean-calc/">
+                <a href="../08-clean-calc/">
             
                     
-                    7. Separation of Concerns
+                    8. Separation of Concerns
             
                 </a>
             
@@ -454,12 +424,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.2" data-path="../08-code-specs-refactoring/">
+        <li class="chapter active" data-level="1.5.2" data-path="./">
             
-                <a href="../08-code-specs-refactoring/">
+                <a href="./">
             
                     
-                    8. Code Specs & Refactoring
+                    9. Code Specs & Refactoring
             
                 </a>
             
@@ -467,12 +437,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.3" data-path="../09-tdd-katas/">
+        <li class="chapter " data-level="1.5.3" data-path="../10-tdd-katas/">
             
-                <a href="../09-tdd-katas/">
+                <a href="../10-tdd-katas/">
             
                     
-                    9. TDD Katas
+                    10. TDD Katas
             
                 </a>
             
@@ -480,12 +450,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../10-organizing-development/">
+        <li class="chapter " data-level="1.5.4" data-path="../11-organizing-development/">
             
-                <a href="../10-organizing-development/">
+                <a href="../11-organizing-development/">
             
                     
-                    10. Organizing Development
+                    11. Organizing Development
             
                 </a>
             
@@ -498,12 +468,12 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.6" data-path="./">
+        <li class="chapter " data-level="1.6" data-path="../12-user-empathy/">
             
-                <a href="./">
+                <a href="../12-user-empathy/">
             
                     
-                    11. User Empathy
+                    12. User Empathy
             
                 </a>
             
@@ -587,7 +557,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >11. User Empathy</a>
+        <a href=".." >9. Code Specs & Refactoring</a>
     </h1>
 </div>
 
@@ -602,100 +572,81 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="user-empathy">User Empathy</h1>
-<p>Computers run your code, developers maintain it, and humans use it.  This project focuses on the humans who use it.</p>
-<p>You will learn about <em>Design Thinking</em> &amp; <em>User Empathy</em> by designing a home page for one of your fellow classmates at a time.  The goal is not to learn new tools, not to build an impressive site, the goal is to understand your partner&apos;s needs.  The portfolio you build should represent them honestly and effectively to employers and other developers.</p>
+                                <h1 id="code-specs--refactoring">Code Specs &amp; Refactoring</h1>
+<p>With this project you won&apos;t be building anything new.  Instead you&apos;ll be studying and replicating a project we already wrote.  There are two main reasons for doing this:</p>
+<ol>
+<li><em>Learning to effectively read source code, and to understand it at a high level</em>.<br>This skill is necessary for reading documentation, collaborating, testing, learning new libraries, debugging, ... basically everything.  Without this skill you will always be struggling uphill.</li>
+<li><em>To understand the practical relationship between implementation and behavior</em>.<br>Each time you study and replicate a step in our code, your implementation will not be identical to ours.  You might use different DOM accessors or structure your control flow differently.  But no matter how you implement your functions, your application will have the same behavior and specifications as ours.  This is called <strong>refactoring</strong>.</li>
+</ol>
+<p>Take your time on this project, the better you understand these two points the easier the next project will be.</p>
 <h3 id="index">Index</h3>
 <ul>
 <li><a href="#learning-objectives">Learning Objectives</a></li>
 <li><a href="#specifications">Specifications</a></li>
 <li><a href="#resources">Resources</a></li>
+<li><a href="#extra-practice">Extra Practice</a></li>
 </ul>
 <hr>
 <h2 id="learning-objectives">Learning Objectives</h2>
 <ul>
-<li>User Empathy (end users &amp; future developers)</li>
-<li>Design Process</li>
-<li>Conceptual Integrity</li>
+<li>Application = User Interactions + Data.  <ul>
+<li>&quot;Code&quot; isn&apos;t anywhere in that definition.</li>
+</ul>
+</li>
+<li>An application is it&apos;s behavior, not it&apos;s implementation</li>
+<li>Using specs to study and replicate an application</li>
+<li>Refactoring: Changing the source without breaking the behavior</li>
 </ul>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="specifications">Specifications</h2>
-<p>This project is a variation of the classic exercise in design thinking:  <a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a>.  You will pair up with one other person and design a portfolio/cv to fit their needs.</p>
-<p>There is a very specific process you should follow. The process is the project - not the finished portfolio!  You can find <a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">a template here</a>.</p>
-<p>Final Repo Specs:  </p>
-<ul>
-<li>README<ul>
-<li>Full project description</li>
-<li>Index linking to Portfolio Folder README&apos;s</li>
-<li>Notes </li>
-</ul>
+<ol>
+<li>Fork+clone <a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">this repository</a> and clear the README so you can use it for notes. </li>
+<li>Follow the instructions in the README on our account (since you cleared it on your clone).  We recommend filling out all of the files in place on your cloned copy.  You must reuse our HTML (exactly as it is, no changes allowed). You will be rewriting the JS file for each folder. Once you have replicated each version you can move on to the next step: improving the application&apos;s architecture.</li>
+<li>The code provided does not have proper separation of concerns like you learned about in CleanCalc (UI/logic separation).  Refactor TicTacToe6 into the 3-layered handler/logic architecture you learned in cleancalc. </li>
+<li>Add some logic to see who won.</li>
+<li>Create an empty repository on your account and build it into full repo with 8+ version releases (7 for the versions provided, and 1+ for your refactor into logic/handler architecture). Be sure to have a full &amp; polished repository with documentation, tests, and a live demo.  The simplest way to do this will be to create a new directory on your computer, and for each version in TicTacToe:<ol>
+<li>Copy paste everything for that version (original code, specs, your code, html, ..) into the new repository.</li>
+<li>Add, commit, tag. Push to your repository</li>
+<li>Delete everything, and repeat.</li>
+</ol>
 </li>
-<li>Portfolio Folders (3+ of them)<ul>
-<li>README - <a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">From this template</a></li>
-<li>Dev Schedule</li>
-<li>Diagrams, wireframes, ...</li>
-<li>/src<ul>
-<li>The finished code for their portfolio</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+<li>Finishing touches: Add some tests for the logic, put a live demo, link the code &amp; demo to your portfolio, fill out the readme, ... Make it complete and pretty.</li>
+</ol>
 <p><a href="#index">TOP</a></p>
 <hr>
 <h2 id="resources">Resources</h2>
-<p><a href="https://github.com/elewa-academy/design-cycle-template" target="_blank">Interview Template</a></p>
-<p>There are a lot of resources here.  You should watch/read a minimum of 3 from each section.</p>
-<p>Empathy for Developers:</p>
+<p><a href="https://github.com/elewa-academy/studying-with-specs/tree/master" target="_blank">Template Repository</a></p>
+<p>Tictactoe Videos:</p>
 <ul>
-<li><a href="https://codingwithempathy.com/2016/05/03/empathy-an-essential-skill-in-software-development/" target="_blank">What is Empathy?</a></li>
-<li><a href="https://medium.com/old-code-new-tricks/software-development-on-the-empathy-spectrum-f77596faeabc" target="_blank">Empathy can be Learned</a></li>
-<li><a href="http://danielwestheide.com/blog/2017/01/16/the-empathic-programmer.html" target="_blank">Inclusion</a></li>
-<li><a href="http://www.ustream.tv/recorded/86154111" target="_blank">Applying Empathy to Software</a>. Longish video, but very worth while.</li>
-<li><a href="https://blog.fogcreek.com/soft-skills-for-hardcore-developers-interview-with-ed-finkler/" target="_blank">Become 10x (interview)</a></li>
-<li><a href="https://www.infoq.com/news/2015/06/empathy-development" target="_blank">EDD - Empathy Driven Development</a></li>
-<li><a href="https://thenewstack.io/empathy-secret-sauce-good-software-development/" target="_blank">Integrating Empathy 1</a></li>
-<li><a href="https://simpleprogrammer.com/empathy-software-developers/" target="_blank">Integrating Empathy 2</a></li>
-<li><a href="https://truefit.io/blog/how-to-instill-empathy-in-the-software-development-process" target="_blank">Some Practical Tips</a></li>
+<li><a href="https://www.youtube.com/watch?v=cElzTD_x1xw" target="_blank">Part 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=U-4T7y_Hho4" target="_blank">Part 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=rlWXR9-4Mo4" target="_blank">Part 3</a></li>
+<li><a href="https://www.youtube.com/watch?v=2mrhvwVi5iY" target="_blank">Part 4</a></li>
+<li><a href="https://www.youtube.com/watch?v=sX59uU9l0cs" target="_blank">Part 5</a></li>
+<li><a href="https://www.youtube.com/watch?v=yN52jB3XOBQ" target="_blank">Part 6</a></li>
+<li><a href="https://github.com/elewa-academy/Fundamentals/blob/master/07-code-specs-refactoring/winner.js" target="_blank">winner.js</a></li>
 </ul>
-<p>Design Thinking:</p>
+<p>Demo Repositories:</p>
 <ul>
-<li><a href="https://www.ted.com/talks/david_kelley_how_to_build_your_creative_confidence" target="_blank">Creative Confidence (TED)</a></li>
-<li><a href="https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing" target="_blank">First Step: Noticing (TED)</a></li>
-<li><a href="https://www.youtube.com/watch?v=Q80wUnju5YA" target="_blank">Design Thinking (TED)</a></li>
-<li><a href="https://www.youtube.com/watch?v=ZBxZC9I6xyk" target="_blank">Collaboration &amp; Innovation (TED)</a></li>
-<li><a href="https://www.youtube.com/watch?v=TPXrheqhTCs" target="_blank">Visualize It (TED)</a></li>
-<li><a href="https://medium.com/@erio/bringing-design-thinking-into-the-workplace-the-wallet-design-challenge-544c727d3752" target="_blank">The Wallet Challenge</a></li>
-<li><a href="https://www.tedxvenlo.com/news/guido-stompff-design-thinking/" target="_blank">The Coffee Filter Challenge</a></li>
-<li>Process Guides:<ul>
-<li><a href="https://dschool-old.stanford.edu/sandbox/groups/k12/wiki/c739e/attachments/ade8c/An_Intro_to_DT_Slides_07_10_09.pdf?sessionID=8cbdfc6129ceb041dbad2247ffc9d0112fd0ebce" target="_blank">Design is a Process</a></li>
-<li><a href="https://dschool-old.stanford.edu/sandbox/groups/designresources/wiki/36873/attachments/74b3d/ModeGuideBOOTCAMP2010L.pdf" target="_blank">Explanatory</a></li>
+<li>(Not exactly the same project, but good examples of clean repos)</li>
+<li><a href="https://github.com/elewa-student/tic-tac-toe/tree/master" target="_blank">TicTacToe Repo</a></li>
+<li><a href="https://github.com/radovandelic/cleancalc" target="_blank">CleanCalc Repo</a></li>
 </ul>
-</li>
-</ul>
-<p>Design Thinking for Software Development:</p>
+<p>Interacting with Code:</p>
 <ul>
-<li><a href="https://www.khomp.com/en/design-thinking-in-software-development/" target="_blank">Design Thinking Process</a></li>
-<li><a href="https://techeries.com/9-software-development-tips-successfully-incorporate-design-thinking-projects/" target="_blank">9 Tips</a></li>
-<li><a href="http://blogs.infor.com/insights/2017/11/outside-the-code-development-with-design-thinking.html" target="_blank">Design Thinking vs. Agile</a></li>
-<li><a href="https://www.artefactgroup.com/articles/post-agile-a-design-thinking-approach-to-software-development/" target="_blank">Waterfall vs Agile vs DT</a></li>
-<li><a href="http://ptgmedia.pearsoncmg.com/images/9780321965516/samplepages/0321965515.pdf" target="_blank">Ultimate Guide to UI/UX Design</a></li>
-<li><a href="http://www.ibmbigdatahub.com/blog/dynamic-duo-big-data-and-design-thinking" target="_blank">Big Data &amp; DT</a></li>
-<li><a href="https://www.youtube.com/watch?v=FtUS1W3HymA" target="_blank">Longer, Detailed Talk</a></li>
-<li><a href="https://medium.com/@blakeross/mr-fart-s-favorite-colors-3177a406c775" target="_blank">Beware the User!</a></li>
-</ul>
-<p>Conceptual Integrity:</p>
-<ul>
-<li>Three Definitions: <a href="http://www.safnet.com/writing/tech/2011/11/mythical-man-month-conceptual-integrity.html" target="_blank">OG</a>, <a href="http://cseweb.ucsd.edu/~wgg/CSE131B/Design/node6.html" target="_blank">CSEWeb</a>, <a href="https://dzone.com/articles/lean-tools-conceptual-0" target="_blank">DZone</a></li>
-<li><a href="http://ceng.cankaya.edu.tr/~myilmaz/2013/11/124/" target="_blank">The Summarians Got It</a></li>
-<li><a href="http://www.dcs.warwick.ac.uk/oldmodelling/hi/theses/allan/chapter5.pdf" target="_blank">Chapter in a Book</a></li>
-</ul>
-<p>One Step Further:</p>
-<ul>
-<li><a href="https://www.fastcompany.com/3019082/coding-is-an-art-software-people-should-learn-art-thinking" target="_blank">Art Thinking &amp; Software</a></li>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md" target="_blank">Writing Clean Code</a></li>
+<li><a href="https://www.gcflearnfree.org/computerbasics/understanding-applications/1/" target="_blank">What is an App?</a></li>
+<li><a href="https://stackoverflow.com/questions/1025844/what-is-refactoring-and-what-is-only-modifying-code" target="_blank">What is Refactoring?</a>. This answer connects refactoring to testing.  We&apos;ll explore this relationship in the next series of projects.</li>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/navigating-codebase.md" target="_blank">Navigating Codebase</a></li>
+<li><a href="https://blog.codinghorror.com/when-understanding-means-rewriting/" target="_blank">When Understanding Means Rewriting</a></li>
+<li><a href="https://simpleprogrammer.com/what-makes-code-readable-not-what-you-think/" target="_blank">Novice &amp; Experts Reading Code</a></li>
+<li><a href="http://blog.teamtreehouse.com/the-secret-to-learning-code" target="_blank">Reverse Engineering</a></li>
 </ul>
 <p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="extra-practice">Extra Practice</h2>
+<p>Explore the projects on <a href="http://microjs.com/#" target="_blank">microjs.com</a>.  Open the ones that interest you and try to replicate them using the method from this project.</p>
 <hr>
 <hr>
 <h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
@@ -726,10 +677,14 @@
 
             
                 
-                <a href="../10-organizing-development/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 10. Organizing Development">
+                <a href="../08-clean-calc/" class="navigation navigation-prev " aria-label="Previous page: 8. Separation of Concerns">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="../10-tdd-katas/" class="navigation navigation-next " aria-label="Next page: 10. TDD Katas">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -738,7 +693,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"11. User Empathy","level":"1.6","depth":1,"next":{"title":"Wiki","level":"1.7","depth":1,"url":"https://github.com/elewa-academy/General-Resources/wiki","ref":"https://github.com/elewa-academy/General-Resources/wiki","articles":[]},"previous":{"title":"10. Organizing Development","level":"1.5.4","depth":2,"path":"10-organizing-development/README.md","ref":"./10-organizing-development/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"11-user-empathy/README.md","mtime":"2018-04-21T17:40:53.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-21T17:41:00.708Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"9. Code Specs & Refactoring","level":"1.5.2","depth":2,"next":{"title":"10. TDD Katas","level":"1.5.3","depth":2,"path":"10-tdd-katas/README.md","ref":"./10-tdd-katas/README.md","articles":[]},"previous":{"title":"8. Separation of Concerns","level":"1.5.1","depth":2,"path":"08-clean-calc/README.md","ref":"./08-clean-calc/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"09-code-specs-refactoring/README.md","mtime":"2018-04-19T15:20:13.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-24T06:02:54.238Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
