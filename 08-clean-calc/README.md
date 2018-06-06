@@ -56,7 +56,7 @@ This project has several steps to it
 3. Reuse your calc object in a basic browser app.  The event handlers will take the user's input, pass it through the calc object, and write the results to the DOM.  
     * Your three layers:
     a. UI - the browser
-    b. Middleware - event listeners & DOM methods
+    b. Handler - event listeners & DOM methods
     c. Logic - Cleancalc Object
     * Each event listener will only call the calc object once, and will only ever call the operate() method:
         ```js
@@ -69,7 +69,7 @@ This project has several steps to it
     * Your project should have this structure:
         * index.html
         * /public
-          * middleware.js
+          * hanlder.js
           * cleancalc.js
 4. Make a repo for this project and put it on your portfolio. 
     * Gh-pages demo
