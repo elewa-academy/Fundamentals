@@ -36,6 +36,7 @@ Follow [this template](https://github.com/elewa-academy/reading-code-template/bl
 
 * [Template](https://github.com/elewa-academy/reading-code-template/blob/master/reading-code-template.md)
 
+* links to good code to read
 
 * [Writing Readable Code](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/clean-code.md)
 * [When Understanding Means Re-Writing](https://blog.codinghorror.com/when-understanding-means-rewriting/)
@@ -45,6 +46,7 @@ Follow [this template](https://github.com/elewa-academy/reading-code-template/bl
 * [Code Specs](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/specs.md)
 * [Navigating Codebase](https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/navigating-codebase.md)
 * [Writing Readable Code](https://www.youtube.com/watch?v=SPlS4kW0UbE)
+
 
 [TOP](#index)
 

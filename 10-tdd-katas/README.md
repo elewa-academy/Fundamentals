@@ -78,6 +78,9 @@ Challenge:
 
 
 Lists of Katas:
+* Great:
+  * [ES6 Katas](http://es6katas.org)
+  * 
 * Easier:
   * [CodeWars](https://www.codewars.com/)
   * [Exercism](https://github.com/exercism/javascript)

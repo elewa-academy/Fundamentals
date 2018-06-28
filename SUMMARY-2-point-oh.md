@@ -15,21 +15,52 @@
   * [(Productive Procrastination)](./00-motivation-studying/10-productive-procrastination.md)
 * [A. The Big Picture](./sections/a-the-big-picture.md)
   * [1. Coding is Not About Code](./01-coding-is-not-about-code/README.md)
-  * [2. Managing Projects](./02-all-my-friends/README.md)
-  * [3. The Buddy System](./03-the-buddy-system/README.md)
   * [4. Showcasing Your Work](./04-pr-repo-gallery/README.md)
+    * (combine) internet/browser/editor project (basic html/css, how they pair, from precourse)
+    * no longer "showcasing" (see portfolio template)
+    * rename it "the internet?"
+    * build a basic interactive site that illustrates the internet?
+  * [2. Managing Projects](./02-all-my-friends/README.md)
+  * [3. The Buddy System](./03-the-buddy-system/README.md) - remove code reviews
 * [B. Using Code](./sections/b-using-code.md)
+  * javascript checklist
+  * step-throughs
+    move notional machine in here
+  * pure code wars gallery (create a simple write-up template)
+    * pseudocodize yours and others
+  * [7. Reading Code](./07-reading-code/README.md)  
+    provide a list of them
+    codepens?
+    gists?
+    exersism// solutions?
+    pseudo-code
   * [5. (De)bug-off](./05-de-bug-off/README.md)
-  * [6. Solution Design](https://elewa-academy.github.io/Solution-Design/)
-  * [7. Reading Code](./07-reading-code/README.md)
+    generalize to code challenges
 * [C. Development 101](./sections/c-development-101.md)
+  * [6. Solution Design](https://elewa-academy.github.io/Solution-Design/)
   * [8. Separation of Concerns](./08-clean-calc/README.md)  
+  * code reviews - review each other's above projects
+    * apps = data + interaction
   * [9. Code Specs & Refactoring](./09-code-specs-refactoring/README.md) 
+  * [pretty repos]()
+    * repoizing project 9. separated into new project 
+    * add in pretty diagram for branching and tagging
+    * include successful screen prints
   * [10. TDD Katas](./10-tdd-katas/README.md)
-  * [11. Organizing Development](./11-organizing-development/README.md)
+  * simpler organizing development - i plan the whole thing, they fill in bits
+    * they build all the bits and fit them together
+      organizing development, but specifically for static pages?
+        it's coming up with the user stories that's too much
+          this is hard and not part of a developer's job
+        provide the user stories
+          but do have them do the tree and the tasks
+        and pieces that need to touch each other
+        model after practical javascript
 * [12. User Empathy](./12-user-empathy/README.md)
-* [Previous: Precourse](https://elewa-academy.github.io/Precourse/)
-* [Next: Modular Design](https://elewa-academy.github.io/Modular-Design/)
+    * just the wallet project
+    * move to the berry beginning?
+    * use this as a get-to-know game
+    * introduce your partner to class via their wallet
 * [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
 * [Repo](https://github.com/elewa-academy/Fundamentals/tree/master)
 * [Home](https://elewa-academy.github.io)
