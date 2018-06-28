@@ -6,7 +6,7 @@ This project is designed to illustrate one of, if not __the most__, fundamental 
 
 "Separation of concerns" means that each file, each piece of code, has one simple and well defined purpose.  In this project you will be exploring the separation of UI framework, input handling, and application logic.  You will build a basic calculator object then use that same object to take arguments from the terminal and the browser.  The concerns are:
 * UI - command line, HTML
-* Middleware - process.argv, event listeners
+* Handler - process.argv, event listeners
 * Logic - the cleancalc object
 
 It is very important that you build your calc object with exactly the property names, arguments, and return values specified.  Doing this is called "developing to an interface".  If you do this correctly you will be able to replace anyone's cleancalc object with yours and your application will continue working.  The magic of software design!
@@ -46,17 +46,17 @@ To see how well you did, go to the "cleancalc" channel on Slack to share objects
 
 This project has several steps to it
 
-1. Build an object to match [these specs](https://github.com/elewa-academy/Fundamentals/blob/master/3-cleancalc/cleancalc-series/1-cleancalc.js). 
+1. Build an object to match [these specs](https://github.com/elewa-academy/Fundamentals/blob/master/08-clean-calc/clean-calc-series/1-cleancalc.js). 
 2. Write a JS file to take command line arguments and pass them into your calculator. 
     * Your three layers are:
-        a. UI - the terminal
-        b. Middleware - process.argsv & console.log
-        c. Logic - Cleancalc Object
+        1. UI - the terminal
+        2. Handler - process.argsv & console.log
+        3. Logic - Cleancalc Object
     * You will write a single JS file that takes in command line args, passes them through the calc Object, and prints the result to the console.
 3. Reuse your calc object in a basic browser app.  The event handlers will take the user's input, pass it through the calc object, and write the results to the DOM.  
     * Your three layers:
     a. UI - the browser
-    b. Middleware - event listeners & DOM methods
+    b. Handler - event listeners & DOM methods
     c. Logic - Cleancalc Object
     * Each event listener will only call the calc object once, and will only ever call the operate() method:
         ```js
@@ -69,7 +69,7 @@ This project has several steps to it
     * Your project should have this structure:
         * index.html
         * /public
-          * middleware.js
+          * hanlder.js
           * cleancalc.js
 4. Make a repo for this project and put it on your portfolio. 
     * Gh-pages demo
