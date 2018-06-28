@@ -450,9 +450,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5.4" data-path="../11-organizing-development/">
+        <li class="chapter " data-level="1.5.4" data-path="../11-organizing-development/README.md">
             
-                <a href="../11-organizing-development/">
+                <span>
             
                     
                     11. Organizing Development
@@ -483,6 +483,32 @@
     
         <li class="chapter " data-level="1.7" >
             
+                <a target="_blank" href="https://elewa-academy.github.io/Precourse/">
+            
+                    
+                    Previous: Precourse
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <a target="_blank" href="https://elewa-academy.github.io/Modular-Design/">
+            
+                    
+                    Next: Modular Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
                 <a target="_blank" href="https://github.com/elewa-academy/General-Resources/wiki">
             
                     
@@ -494,7 +520,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.8" >
+        <li class="chapter " data-level="1.10" >
             
                 <a target="_blank" href="https://github.com/elewa-academy/Fundamentals/tree/master">
             
@@ -507,7 +533,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" >
+        <li class="chapter " data-level="1.11" >
             
                 <a target="_blank" href="https://elewa-academy.github.io">
             
@@ -580,7 +606,7 @@
 <p>&quot;Separation of concerns&quot; means that each file, each piece of code, has one simple and well defined purpose.  In this project you will be exploring the separation of UI framework, input handling, and application logic.  You will build a basic calculator object then use that same object to take arguments from the terminal and the browser.  The concerns are:</p>
 <ul>
 <li>UI - command line, HTML</li>
-<li>Middleware - process.argv, event listeners</li>
+<li>Handler - process.argv, event listeners</li>
 <li>Logic - the cleancalc object</li>
 </ul>
 <p>It is very important that you build your calc object with exactly the property names, arguments, and return values specified.  Doing this is called &quot;developing to an interface&quot;.  If you do this correctly you will be able to replace anyone&apos;s cleancalc object with yours and your application will continue working.  The magic of software design!</p>
@@ -610,19 +636,21 @@
 <h2 id="specifications">Specifications</h2>
 <p>This project has several steps to it</p>
 <ol>
-<li>Build an object to match <a href="https://github.com/elewa-academy/Fundamentals/blob/master/3-cleancalc/cleancalc-series/1-cleancalc.js" target="_blank">these specs</a>. </li>
+<li>Build an object to match <a href="https://github.com/elewa-academy/Fundamentals/blob/master/08-clean-calc/clean-calc-series/1-cleancalc.js" target="_blank">these specs</a>. </li>
 <li>Write a JS file to take command line arguments and pass them into your calculator. <ul>
-<li>Your three layers are:
-  a. UI - the terminal
-  b. Middleware - process.argsv &amp; console.log
-  c. Logic - Cleancalc Object</li>
+<li>Your three layers are:<ol>
+<li>UI - the terminal</li>
+<li>Handler - process.argsv &amp; console.log</li>
+<li>Logic - Cleancalc Object</li>
+</ol>
+</li>
 <li>You will write a single JS file that takes in command line args, passes them through the calc Object, and prints the result to the console.</li>
 </ul>
 </li>
 <li>Reuse your calc object in a basic browser app.  The event handlers will take the user&apos;s input, pass it through the calc object, and write the results to the DOM.  <ul>
 <li>Your three layers:
 a. UI - the browser
-b. Middleware - event listeners &amp; DOM methods
+b. Handler - event listeners &amp; DOM methods
 c. Logic - Cleancalc Object</li>
 <li>Each event listener will only call the calc object once, and will only ever call the operate() method:<pre><code class="lang-js">      ...
       <span class="hljs-comment">// get user input from the DOM</span>
@@ -634,7 +662,7 @@ c. Logic - Cleancalc Object</li>
 <li>Your project should have this structure:<ul>
 <li>index.html</li>
 <li>/public<ul>
-<li>middleware.js</li>
+<li>hanlder.js</li>
 <li>cleancalc.js</li>
 </ul>
 </li>
@@ -756,7 +784,7 @@ c. Logic - Cleancalc Object</li>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"8. Separation of Concerns","level":"1.5.1","depth":2,"next":{"title":"9. Code Specs & Refactoring","level":"1.5.2","depth":2,"path":"09-code-specs-refactoring/README.md","ref":"./09-code-specs-refactoring/README.md","articles":[]},"previous":{"title":"C. Development 101","level":"1.5","depth":1,"path":"sections/c-development-101.md","ref":"./sections/c-development-101.md","articles":[{"title":"8. Separation of Concerns","level":"1.5.1","depth":2,"path":"08-clean-calc/README.md","ref":"./08-clean-calc/README.md","articles":[]},{"title":"9. Code Specs & Refactoring","level":"1.5.2","depth":2,"path":"09-code-specs-refactoring/README.md","ref":"./09-code-specs-refactoring/README.md","articles":[]},{"title":"10. TDD Katas","level":"1.5.3","depth":2,"path":"10-tdd-katas/README.md","ref":"./10-tdd-katas/README.md","articles":[]},{"title":"11. Organizing Development","level":"1.5.4","depth":2,"path":"11-organizing-development/README.md","ref":"./11-organizing-development/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08-clean-calc/README.md","mtime":"2018-04-16T13:44:43.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-24T08:45:58.780Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"8. Separation of Concerns","level":"1.5.1","depth":2,"next":{"title":"9. Code Specs & Refactoring","level":"1.5.2","depth":2,"path":"09-code-specs-refactoring/README.md","ref":"./09-code-specs-refactoring/README.md","articles":[]},"previous":{"title":"C. Development 101","level":"1.5","depth":1,"path":"sections/c-development-101.md","ref":"./sections/c-development-101.md","articles":[{"title":"8. Separation of Concerns","level":"1.5.1","depth":2,"path":"08-clean-calc/README.md","ref":"./08-clean-calc/README.md","articles":[]},{"title":"9. Code Specs & Refactoring","level":"1.5.2","depth":2,"path":"09-code-specs-refactoring/README.md","ref":"./09-code-specs-refactoring/README.md","articles":[]},{"title":"10. TDD Katas","level":"1.5.3","depth":2,"path":"10-tdd-katas/README.md","ref":"./10-tdd-katas/README.md","articles":[]},{"title":"11. Organizing Development","level":"1.5.4","depth":2,"path":"11-organizing-development/README.md","ref":"./11-organizing-development/README.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["collapsible-chapters"],"pluginsConfig":{"collapsible-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"08-clean-calc/README.md","mtime":"2018-06-28T17:04:30.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-06-28T17:04:39.071Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
