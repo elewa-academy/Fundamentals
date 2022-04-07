@@ -1,7 +1,7 @@
 # The Buddy System
 
 
-We advocate a less sever form of Pair Programming: the Buddy System.  In the Buddy System you will pair up with at least one other person to complete each of the course projects.  Try buddying up with someone different every couple projects, especially if they're at a different level than you or have different strengths than you.  When you've finished the project you were working on together, give each other a code review and your contract has ended.
+We advocate a less severe form of Pair Programming: the Buddy System.  In the Buddy System you will pair up with at least one other person to complete each of the course projects.  Try buddying up with someone different every couple projects, especially if they're at a different level than you or have different strengths than you.  When you've finished the project you were working on together, give each other a code review and your contract has ended.
 
 Pair Programming is a well-defined dynamic with set roles and procedures.  These roles work for some people, and can be very productive if both developers are more experienced.  But we've found that in the initial phases of learning it can be a lot to follow these rules __and__ figure out how everything works at the same time.  
 
